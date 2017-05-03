@@ -485,8 +485,7 @@
   <HelpKINode Title="IContext.Halt method" Url="html/M_NRules_RuleModel_IContext_Halt.htm" />
   <HelpKINode Title="IContext.Insert method" Url="html/M_NRules_RuleModel_IContext_Insert.htm" />
   <HelpKINode Title="IContext.InsertAll method" Url="html/M_NRules_RuleModel_IContext_InsertAll.htm" />
-  <HelpKINode Title="IContext.Resove(Of TService) method" Url="html/M_NRules_RuleModel_IContext_Resove__1.htm" />
-  <HelpKINode Title="IContext.Resove&lt;TService&gt; method" Url="html/M_NRules_RuleModel_IContext_Resove__1.htm" />
+  <HelpKINode Title="IContext.Resolve method" Url="html/Overload_NRules_RuleModel_IContext_Resolve.htm" />
   <HelpKINode Title="IContext.Retract method" Url="html/M_NRules_RuleModel_IContext_Retract.htm" />
   <HelpKINode Title="IContext.RetractAll method" Url="html/M_NRules_RuleModel_IContext_RetractAll.htm" />
   <HelpKINode Title="IContext.Rule property" Url="html/P_NRules_RuleModel_IContext_Rule.htm" />
@@ -1095,11 +1094,12 @@
   </HelpKINode>
   <HelpKINode Title="RepeatabilityAttribute.RepeatabilityAttribute constructor" Url="html/M_NRules_Fluent_Dsl_RepeatabilityAttribute__ctor.htm" />
   <HelpKINode Title="Repeatable enumeration member" Url="html/T_NRules_RuleModel_RuleRepeatability.htm" />
-  <HelpKINode Title="Resolve method" Url="html/M_NRules_Extensibility_IDependencyResolver_Resolve.htm" />
+  <HelpKINode Title="Resolve method">
+    <HelpKINode Title="IContext.Resolve Method " Url="html/Overload_NRules_RuleModel_IContext_Resolve.htm" />
+    <HelpKINode Title="IDependencyResolver.Resolve Method " Url="html/M_NRules_Extensibility_IDependencyResolver_Resolve.htm" />
+  </HelpKINode>
   <HelpKINode Title="Resolve(Of TDependency) method" Url="html/M_NRules_Fluent_Dsl_IDependencyExpression_Resolve__1.htm" />
   <HelpKINode Title="Resolve&lt;TDependency&gt; method" Url="html/M_NRules_Fluent_Dsl_IDependencyExpression_Resolve__1.htm" />
-  <HelpKINode Title="Resove(Of TService) method" Url="html/M_NRules_RuleModel_IContext_Resove__1.htm" />
-  <HelpKINode Title="Resove&lt;TService&gt; method" Url="html/M_NRules_RuleModel_IContext_Resove__1.htm" />
   <HelpKINode Title="ResultType property" Url="html/P_NRules_RuleModel_PatternSourceElement_ResultType.htm" />
   <HelpKINode Title="Retract method">
     <HelpKINode Title="IContext.Retract Method " Url="html/M_NRules_RuleModel_IContext_Retract.htm" />

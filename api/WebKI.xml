@@ -3,7 +3,7 @@
   <HelpKINode Title="Action method" Url="html/M_NRules_RuleModel_Builders_ActionGroupBuilder_Action.htm" />
   <HelpKINode Title="Action property">
     <HelpKINode Title="ActionErrorEventArgs.Action Property " Url="html/P_NRules_Diagnostics_ActionErrorEventArgs_Action.htm" />
-    <HelpKINode Title="AggregationResult.Action Property " Url="html/P_NRules_RuleModel_AggregationResult_Action.htm" />
+    <HelpKINode Title="AggregationResult.Action Property " Url="html/P_NRules_Aggregators_AggregationResult_Action.htm" />
   </HelpKINode>
   <HelpKINode Title="ActionElement class">
     <HelpKINode Title="ActionElement Class" Url="html/T_NRules_RuleModel_ActionElement.htm" />
@@ -11,8 +11,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_ActionElement.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ActionElement.htm" />
   </HelpKINode>
-  <HelpKINode Title="ActionElement.Expression property" Url="html/P_NRules_RuleModel_ActionElement_Expression.htm" />
-  <HelpKINode Title="ActionElement.References property" Url="html/P_NRules_RuleModel_ActionElement_References.htm" />
   <HelpKINode Title="ActionErrorEventArgs class">
     <HelpKINode Title="ActionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
     <HelpKINode Title="about ActionErrorEventArgs class" Url="html/T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
@@ -50,12 +48,12 @@
   <HelpKINode Title="Activator property" Url="html/P_NRules_Fluent_RuleRepository_Activator.htm" />
   <HelpKINode Title="Adapter enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="Add method">
-    <HelpKINode Title="IAggregator.Add Method " Url="html/M_NRules_RuleModel_IAggregator_Add.htm" />
+    <HelpKINode Title="IAggregator.Add Method " Url="html/M_NRules_Aggregators_IAggregator_Add.htm" />
     <HelpKINode Title="IRuleSet.Add Method " Url="html/M_NRules_RuleModel_IRuleSet_Add.htm" />
     <HelpKINode Title="RuleSet.Add Method " Url="html/M_NRules_RuleModel_RuleSet_Add.htm" />
   </HelpKINode>
-  <HelpKINode Title="Added enumeration member" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
-  <HelpKINode Title="Added method" Url="html/M_NRules_RuleModel_AggregationResult_Added.htm" />
+  <HelpKINode Title="Added enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
+  <HelpKINode Title="Added method" Url="html/M_NRules_Aggregators_AggregationResult_Added.htm" />
   <HelpKINode Title="Agenda property">
     <HelpKINode Title="ISession.Agenda Property " Url="html/P_NRules_ISession_Agenda.htm" />
     <HelpKINode Title="Session.Agenda Property " Url="html/P_NRules_Session_Agenda.htm" />
@@ -70,7 +68,7 @@
   <HelpKINode Title="AgendaEventArgs.Rule property" Url="html/P_NRules_Diagnostics_AgendaEventArgs_Rule.htm" />
   <HelpKINode Title="Aggregate enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="Aggregate method" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Aggregate.htm" />
-  <HelpKINode Title="Aggregate property" Url="html/P_NRules_RuleModel_AggregationResult_Aggregate.htm" />
+  <HelpKINode Title="Aggregate property" Url="html/P_NRules_Aggregators_AggregationResult_Aggregate.htm" />
   <HelpKINode Title="AggregateBuilder class">
     <HelpKINode Title="AggregateBuilder Class" Url="html/T_NRules_RuleModel_Builders_AggregateBuilder.htm" />
     <HelpKINode Title="about AggregateBuilder class" Url="html/T_NRules_RuleModel_Builders_AggregateBuilder.htm" />
@@ -78,44 +76,43 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_AggregateBuilder.htm" />
   </HelpKINode>
   <HelpKINode Title="AggregateBuilder.Aggregator method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Aggregator.htm" />
-  <HelpKINode Title="AggregateBuilder.AggregatorFactory method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_AggregatorFactory.htm" />
-  <HelpKINode Title="AggregateBuilder.CollectionOf method" Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_CollectionOf.htm" />
-  <HelpKINode Title="AggregateBuilder.Flatten(Of TSource, TResult) method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten__2.htm" />
-  <HelpKINode Title="AggregateBuilder.Flatten&lt;TSource, TResult&gt; method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten__2.htm" />
-  <HelpKINode Title="AggregateBuilder.GroupBy(Of TSource, TKey, TElement) method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy__3.htm" />
-  <HelpKINode Title="AggregateBuilder.GroupBy&lt;TSource, TKey, TElement&gt; method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy__3.htm" />
+  <HelpKINode Title="AggregateBuilder.Collect method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Collect.htm" />
+  <HelpKINode Title="AggregateBuilder.Flatten method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten.htm" />
+  <HelpKINode Title="AggregateBuilder.GroupBy method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy.htm" />
   <HelpKINode Title="AggregateBuilder.Pattern method" Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_Pattern.htm" />
-  <HelpKINode Title="AggregateBuilder.Project(Of TSource, TResult) method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project__2.htm" />
-  <HelpKINode Title="AggregateBuilder.Project&lt;TSource, TResult&gt; method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project__2.htm" />
+  <HelpKINode Title="AggregateBuilder.Project method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project.htm" />
+  <HelpKINode Title="AggregateBuilder.SourceBuilder property" Url="html/P_NRules_RuleModel_Builders_AggregateBuilder_SourceBuilder.htm" />
   <HelpKINode Title="AggregateElement class">
     <HelpKINode Title="AggregateElement Class" Url="html/T_NRules_RuleModel_AggregateElement.htm" />
     <HelpKINode Title="about AggregateElement class" Url="html/T_NRules_RuleModel_AggregateElement.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_NRules_RuleModel_AggregateElement.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_AggregateElement.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_AggregateElement.htm" />
   </HelpKINode>
-  <HelpKINode Title="AggregateElement.AggregatorFactory property" Url="html/P_NRules_RuleModel_AggregateElement_AggregatorFactory.htm" />
+  <HelpKINode Title="AggregateElement.CollectName field" Url="html/F_NRules_RuleModel_AggregateElement_CollectName.htm" />
   <HelpKINode Title="AggregateElement.ExpressionMap property" Url="html/P_NRules_RuleModel_AggregateElement_ExpressionMap.htm" />
+  <HelpKINode Title="AggregateElement.FlattenName field" Url="html/F_NRules_RuleModel_AggregateElement_FlattenName.htm" />
+  <HelpKINode Title="AggregateElement.GroupByName field" Url="html/F_NRules_RuleModel_AggregateElement_GroupByName.htm" />
   <HelpKINode Title="AggregateElement.Name property" Url="html/P_NRules_RuleModel_AggregateElement_Name.htm" />
+  <HelpKINode Title="AggregateElement.ProjectName field" Url="html/F_NRules_RuleModel_AggregateElement_ProjectName.htm" />
   <HelpKINode Title="AggregateElement.Source property" Url="html/P_NRules_RuleModel_AggregateElement_Source.htm" />
-  <HelpKINode Title="Aggregates property" Url="html/P_NRules_RuleModel_IAggregator_Aggregates.htm" />
-  <HelpKINode Title="AggregationAction enumeration" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
+  <HelpKINode Title="Aggregates property" Url="html/P_NRules_Aggregators_IAggregator_Aggregates.htm" />
+  <HelpKINode Title="AggregationAction enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
   <HelpKINode Title="AggregationResult structure">
-    <HelpKINode Title="AggregationResult Structure" Url="html/T_NRules_RuleModel_AggregationResult.htm" />
-    <HelpKINode Title="about AggregationResult structure" Url="html/T_NRules_RuleModel_AggregationResult.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_NRules_RuleModel_AggregationResult.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_AggregationResult.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_AggregationResult.htm" />
+    <HelpKINode Title="AggregationResult Structure" Url="html/T_NRules_Aggregators_AggregationResult.htm" />
+    <HelpKINode Title="about AggregationResult structure" Url="html/T_NRules_Aggregators_AggregationResult.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_NRules_Aggregators_AggregationResult.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Aggregators_AggregationResult.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Aggregators_AggregationResult.htm" />
   </HelpKINode>
-  <HelpKINode Title="AggregationResult.Action property" Url="html/P_NRules_RuleModel_AggregationResult_Action.htm" />
-  <HelpKINode Title="AggregationResult.Added method" Url="html/M_NRules_RuleModel_AggregationResult_Added.htm" />
-  <HelpKINode Title="AggregationResult.Aggregate property" Url="html/P_NRules_RuleModel_AggregationResult_Aggregate.htm" />
-  <HelpKINode Title="AggregationResult.Empty field" Url="html/F_NRules_RuleModel_AggregationResult_Empty.htm" />
-  <HelpKINode Title="AggregationResult.Modified method" Url="html/M_NRules_RuleModel_AggregationResult_Modified.htm" />
-  <HelpKINode Title="AggregationResult.None method" Url="html/M_NRules_RuleModel_AggregationResult_None.htm" />
-  <HelpKINode Title="AggregationResult.Removed method" Url="html/M_NRules_RuleModel_AggregationResult_Removed.htm" />
+  <HelpKINode Title="AggregationResult.Action property" Url="html/P_NRules_Aggregators_AggregationResult_Action.htm" />
+  <HelpKINode Title="AggregationResult.Added method" Url="html/M_NRules_Aggregators_AggregationResult_Added.htm" />
+  <HelpKINode Title="AggregationResult.Aggregate property" Url="html/P_NRules_Aggregators_AggregationResult_Aggregate.htm" />
+  <HelpKINode Title="AggregationResult.Empty field" Url="html/F_NRules_Aggregators_AggregationResult_Empty.htm" />
+  <HelpKINode Title="AggregationResult.Modified method" Url="html/M_NRules_Aggregators_AggregationResult_Modified.htm" />
+  <HelpKINode Title="AggregationResult.None method" Url="html/M_NRules_Aggregators_AggregationResult_None.htm" />
+  <HelpKINode Title="AggregationResult.Removed method" Url="html/M_NRules_Aggregators_AggregationResult_Removed.htm" />
   <HelpKINode Title="Aggregator method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Aggregator.htm" />
-  <HelpKINode Title="AggregatorFactory method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_AggregatorFactory.htm" />
-  <HelpKINode Title="AggregatorFactory property" Url="html/P_NRules_RuleModel_AggregateElement_AggregatorFactory.htm" />
   <HelpKINode Title="All method" Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_All.htm" />
   <HelpKINode Title="AlphaMemory enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="And enumeration member" Url="html/T_NRules_RuleModel_Builders_GroupType.htm" />
@@ -137,15 +134,37 @@
   </HelpKINode>
   <HelpKINode Title="BasePattern method" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm" />
   <HelpKINode Title="BasePattern property" Url="html/P_NRules_RuleModel_ForAllElement_BasePattern.htm" />
+  <HelpKINode Title="BasePatternBuilder property" Url="html/P_NRules_RuleModel_Builders_ForAllBuilder_BasePatternBuilder.htm" />
   <HelpKINode Title="BetaMemory enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
+  <HelpKINode Title="Binding enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
+  <HelpKINode Title="Binding method" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Binding.htm" />
+  <HelpKINode Title="BindingBuilder class">
+    <HelpKINode Title="BindingBuilder Class" Url="html/T_NRules_RuleModel_Builders_BindingBuilder.htm" />
+    <HelpKINode Title="about BindingBuilder class" Url="html/T_NRules_RuleModel_Builders_BindingBuilder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_Builders_BindingBuilder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_BindingBuilder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BindingBuilder.BindingExpression method" Url="html/M_NRules_RuleModel_Builders_BindingBuilder_BindingExpression.htm" />
+  <HelpKINode Title="BindingElement class">
+    <HelpKINode Title="BindingElement Class" Url="html/T_NRules_RuleModel_BindingElement.htm" />
+    <HelpKINode Title="about BindingElement class" Url="html/T_NRules_RuleModel_BindingElement.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_BindingElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_BindingElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BindingElement.Expression property" Url="html/P_NRules_RuleModel_BindingElement_Expression.htm" />
+  <HelpKINode Title="BindingElement.References property" Url="html/P_NRules_RuleModel_BindingElement_References.htm" />
+  <HelpKINode Title="BindingExpression method" Url="html/M_NRules_RuleModel_Builders_BindingBuilder_BindingExpression.htm" />
   <HelpKINode Title="Build method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Build.htm" />
   <HelpKINode Title="Builder property">
     <HelpKINode Title="IQuery(TSource).Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_1_Builder.htm" />
     <HelpKINode Title="IQuery.Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_Builder.htm" />
   </HelpKINode>
+  <HelpKINode Title="Calculate(Of TResult) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
+  <HelpKINode Title="Calculate&lt;TResult&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
   <HelpKINode Title="ChildElements property" Url="html/P_NRules_RuleModel_GroupElement_ChildElements.htm" />
   <HelpKINode Title="Clear method" Url="html/M_NRules_IAgenda_Clear.htm" />
   <HelpKINode Title="ClrType field" Url="html/F_NRules_Fluent_RuleProperties_ClrType.htm" />
+  <HelpKINode Title="Collect method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Collect.htm" />
   <HelpKINode Title="Collect(Of TSource) method">
     <HelpKINode Title="IQueryBuilder.Collect(TSource) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Collect__1.htm" />
     <HelpKINode Title="QueryExtensions.Collect(TSource) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Collect__1.htm" />
@@ -154,8 +173,9 @@
     <HelpKINode Title="IQueryBuilder.Collect(TSource) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Collect__1.htm" />
     <HelpKINode Title="QueryExtensions.Collect(TSource) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Collect__1.htm" />
   </HelpKINode>
-  <HelpKINode Title="CollectionOf method" Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_CollectionOf.htm" />
+  <HelpKINode Title="CollectName field" Url="html/F_NRules_RuleModel_AggregateElement_CollectName.htm" />
   <HelpKINode Title="Compile method">
+    <HelpKINode Title="IAggregatorFactory.Compile Method " Url="html/M_NRules_Aggregators_IAggregatorFactory_Compile.htm" />
     <HelpKINode Title="RuleCompiler.Compile Method " Url="html/Overload_NRules_RuleCompiler_Compile.htm" />
     <HelpKINode Title="RuleRepositoryExtensions.Compile Method " Url="html/M_NRules_RuleRepositoryExtensions_Compile.htm" />
   </HelpKINode>
@@ -167,8 +187,6 @@
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_ConditionElement.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ConditionElement.htm" />
   </HelpKINode>
-  <HelpKINode Title="ConditionElement.Expression property" Url="html/P_NRules_RuleModel_ConditionElement_Expression.htm" />
-  <HelpKINode Title="ConditionElement.References property" Url="html/P_NRules_RuleModel_ConditionElement_References.htm" />
   <HelpKINode Title="ConditionErrorEventArgs class">
     <HelpKINode Title="ConditionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
     <HelpKINode Title="about ConditionErrorEventArgs class" Url="html/T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
@@ -190,13 +208,16 @@
     <HelpKINode Title="about ContextExtensions class" Url="html/T_NRules_Fluent_Dsl_ContextExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Dsl_ContextExtensions.htm" />
   </HelpKINode>
+  <HelpKINode Title="ContextExtensions.Resolve(Of TService) method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Resolve__1.htm" />
+  <HelpKINode Title="ContextExtensions.Resolve&lt;TService&gt; method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Resolve__1.htm" />
   <HelpKINode Title="ContextExtensions.Update(Of T) method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Update__1.htm" />
   <HelpKINode Title="ContextExtensions.Update&lt;T&gt; method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Update__1.htm" />
   <HelpKINode Title="Count property">
     <HelpKINode Title="ExpressionMap.Count Property " Url="html/P_NRules_RuleModel_ExpressionMap_Count.htm" />
+    <HelpKINode Title="ITuple.Count Property " Url="html/P_NRules_RuleModel_ITuple_Count.htm" />
     <HelpKINode Title="PropertyMap.Count Property " Url="html/P_NRules_RuleModel_PropertyMap_Count.htm" />
   </HelpKINode>
-  <HelpKINode Title="Create method" Url="html/M_NRules_RuleModel_IAggregatorFactory_Create.htm" />
+  <HelpKINode Title="Create method" Url="html/M_NRules_Aggregators_IAggregatorFactory_Create.htm" />
   <HelpKINode Title="CreateSession method" Url="html/M_NRules_ISessionFactory_CreateSession.htm" />
   <HelpKINode Title="Declaration class">
     <HelpKINode Title="Declaration Class" Url="html/T_NRules_RuleModel_Declaration.htm" />
@@ -211,6 +232,7 @@
     <HelpKINode Title="PatternElement.Declaration Property " Url="html/P_NRules_RuleModel_PatternElement_Declaration.htm" />
   </HelpKINode>
   <HelpKINode Title="Declaration.Equals method" Url="html/Overload_NRules_RuleModel_Declaration_Equals.htm" />
+  <HelpKINode Title="Declaration.FullName property" Url="html/P_NRules_RuleModel_Declaration_FullName.htm" />
   <HelpKINode Title="Declaration.GetHashCode method" Url="html/M_NRules_RuleModel_Declaration_GetHashCode.htm" />
   <HelpKINode Title="Declaration.Name property" Url="html/P_NRules_RuleModel_Declaration_Name.htm" />
   <HelpKINode Title="Declaration.Target property" Url="html/P_NRules_RuleModel_Declaration_Target.htm" />
@@ -277,7 +299,7 @@
   <HelpKINode Title="Details property" Url="html/P_NRules_Diagnostics_NodeInfo_Details.htm" />
   <HelpKINode Title="Do method" Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Do.htm" />
   <HelpKINode Title="Dummy enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
-  <HelpKINode Title="Empty field" Url="html/F_NRules_RuleModel_AggregationResult_Empty.htm" />
+  <HelpKINode Title="Empty field" Url="html/F_NRules_Aggregators_AggregationResult_Empty.htm" />
   <HelpKINode Title="Equals method" Url="html/Overload_NRules_RuleModel_Declaration_Equals.htm" />
   <HelpKINode Title="ErrorEventArgs class">
     <HelpKINode Title="ErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ErrorEventArgs.htm" />
@@ -305,6 +327,7 @@
   </HelpKINode>
   <HelpKINode Title="ExistsBuilder.Group method" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Group.htm" />
   <HelpKINode Title="ExistsBuilder.Pattern method" Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Pattern.htm" />
+  <HelpKINode Title="ExistsBuilder.SourceBuilder property" Url="html/P_NRules_RuleModel_Builders_ExistsBuilder_SourceBuilder.htm" />
   <HelpKINode Title="ExistsElement class">
     <HelpKINode Title="ExistsElement Class" Url="html/T_NRules_RuleModel_ExistsElement.htm" />
     <HelpKINode Title="about ExistsElement class" Url="html/T_NRules_RuleModel_ExistsElement.htm" />
@@ -313,11 +336,18 @@
   </HelpKINode>
   <HelpKINode Title="ExistsElement.Source property" Url="html/P_NRules_RuleModel_ExistsElement_Source.htm" />
   <HelpKINode Title="Expression property">
-    <HelpKINode Title="ActionElement.Expression Property " Url="html/P_NRules_RuleModel_ActionElement_Expression.htm" />
-    <HelpKINode Title="ConditionElement.Expression Property " Url="html/P_NRules_RuleModel_ConditionElement_Expression.htm" />
-    <HelpKINode Title="NamedExpression.Expression Property " Url="html/P_NRules_RuleModel_NamedExpression_Expression.htm" />
+    <HelpKINode Title="BindingElement.Expression Property " Url="html/P_NRules_RuleModel_BindingElement_Expression.htm" />
+    <HelpKINode Title="ExpressionElement.Expression Property " Url="html/P_NRules_RuleModel_ExpressionElement_Expression.htm" />
     <HelpKINode Title="RuleExpressionEvaluationException.Expression Property " Url="html/P_NRules_RuleExpressionEvaluationException_Expression.htm" />
   </HelpKINode>
+  <HelpKINode Title="ExpressionElement class">
+    <HelpKINode Title="ExpressionElement Class" Url="html/T_NRules_RuleModel_ExpressionElement.htm" />
+    <HelpKINode Title="about ExpressionElement class" Url="html/T_NRules_RuleModel_ExpressionElement.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_ExpressionElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ExpressionElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExpressionElement.Expression property" Url="html/P_NRules_RuleModel_ExpressionElement_Expression.htm" />
+  <HelpKINode Title="ExpressionElement.References property" Url="html/P_NRules_RuleModel_ExpressionElement_References.htm" />
   <HelpKINode Title="ExpressionMap class">
     <HelpKINode Title="ExpressionMap Class" Url="html/T_NRules_RuleModel_ExpressionMap.htm" />
     <HelpKINode Title="about ExpressionMap class" Url="html/T_NRules_RuleModel_ExpressionMap.htm" />
@@ -345,6 +375,7 @@
     <HelpKINode Title="ConditionErrorEventArgs.Facts Property " Url="html/P_NRules_Diagnostics_ConditionErrorEventArgs_Facts.htm" />
     <HelpKINode Title="IActivation.Facts Property " Url="html/P_NRules_IActivation_Facts.htm" />
     <HelpKINode Title="IContext.Facts Property " Url="html/P_NRules_RuleModel_IContext_Facts.htm" />
+    <HelpKINode Title="ITuple.Facts Property " Url="html/P_NRules_RuleModel_ITuple_Facts.htm" />
   </HelpKINode>
   <HelpKINode Title="FactUpdatedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_FactUpdatedEvent.htm" />
   <HelpKINode Title="FactUpdatingEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_FactUpdatingEvent.htm" />
@@ -354,8 +385,8 @@
     <HelpKINode Title="ISession.Fire Method " Url="html/Overload_NRules_ISession_Fire.htm" />
     <HelpKINode Title="Session.Fire Method " Url="html/Overload_NRules_Session_Fire.htm" />
   </HelpKINode>
-  <HelpKINode Title="Flatten(Of TSource, TResult) method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten__2.htm" />
-  <HelpKINode Title="Flatten&lt;TSource, TResult&gt; method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten__2.htm" />
+  <HelpKINode Title="Flatten method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten.htm" />
+  <HelpKINode Title="FlattenName field" Url="html/F_NRules_RuleModel_AggregateElement_FlattenName.htm" />
   <HelpKINode Title="ForAll method">
     <HelpKINode Title="GroupBuilder.ForAll Method " Url="html/M_NRules_RuleModel_Builders_GroupBuilder_ForAll.htm" />
     <HelpKINode Title="NotBuilder.ForAll Method " Url="html/M_NRules_RuleModel_Builders_NotBuilder_ForAll.htm" />
@@ -367,7 +398,9 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_ForAllBuilder.htm" />
   </HelpKINode>
   <HelpKINode Title="ForAllBuilder.BasePattern method" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm" />
+  <HelpKINode Title="ForAllBuilder.BasePatternBuilder property" Url="html/P_NRules_RuleModel_Builders_ForAllBuilder_BasePatternBuilder.htm" />
   <HelpKINode Title="ForAllBuilder.Pattern method" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_Pattern.htm" />
+  <HelpKINode Title="ForAllBuilder.PatternBuilders property" Url="html/P_NRules_RuleModel_Builders_ForAllBuilder_PatternBuilders.htm" />
   <HelpKINode Title="ForAllElement class">
     <HelpKINode Title="ForAllElement Class" Url="html/T_NRules_RuleModel_ForAllElement.htm" />
     <HelpKINode Title="about ForAllElement class" Url="html/T_NRules_RuleModel_ForAllElement.htm" />
@@ -377,6 +410,7 @@
   <HelpKINode Title="ForAllElement.BasePattern property" Url="html/P_NRules_RuleModel_ForAllElement_BasePattern.htm" />
   <HelpKINode Title="ForAllElement.Patterns property" Url="html/P_NRules_RuleModel_ForAllElement_Patterns.htm" />
   <HelpKINode Title="From method" Url="html/Overload_NRules_Fluent_IRuleLoadSpec_From.htm" />
+  <HelpKINode Title="FullName property" Url="html/P_NRules_RuleModel_Declaration_FullName.htm" />
   <HelpKINode Title="GetEnumerator method">
     <HelpKINode Title="ExpressionMap.GetEnumerator Method " Url="html/M_NRules_RuleModel_ExpressionMap_GetEnumerator.htm" />
     <HelpKINode Title="PropertyMap.GetEnumerator Method " Url="html/M_NRules_RuleModel_PropertyMap_GetEnumerator.htm" />
@@ -410,17 +444,16 @@
   <HelpKINode Title="GroupBuilder.Exists method" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Exists.htm" />
   <HelpKINode Title="GroupBuilder.ForAll method" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_ForAll.htm" />
   <HelpKINode Title="GroupBuilder.Group method" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Group.htm" />
+  <HelpKINode Title="GroupBuilder.NestedBuilders property" Url="html/P_NRules_RuleModel_Builders_GroupBuilder_NestedBuilders.htm" />
   <HelpKINode Title="GroupBuilder.Not method" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Not.htm" />
   <HelpKINode Title="GroupBuilder.Pattern method" Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Pattern.htm" />
-  <HelpKINode Title="GroupBy method" Url="html/Overload_NRules_Fluent_Dsl_QueryExtensions_GroupBy.htm" />
-  <HelpKINode Title="GroupBy(Of TSource, TKey, TElement) method">
-    <HelpKINode Title="AggregateBuilder.GroupBy(TSource, TKey, TElement) Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy__3.htm" />
-    <HelpKINode Title="IQueryBuilder.GroupBy(TSource, TKey, TElement) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_GroupBy__3.htm" />
+  <HelpKINode Title="GroupBy method">
+    <HelpKINode Title="AggregateBuilder.GroupBy Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy.htm" />
+    <HelpKINode Title="QueryExtensions.GroupBy Method " Url="html/Overload_NRules_Fluent_Dsl_QueryExtensions_GroupBy.htm" />
   </HelpKINode>
-  <HelpKINode Title="GroupBy&lt;TSource, TKey, TElement&gt; method">
-    <HelpKINode Title="AggregateBuilder.GroupBy(TSource, TKey, TElement) Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy__3.htm" />
-    <HelpKINode Title="IQueryBuilder.GroupBy(TSource, TKey, TElement) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_GroupBy__3.htm" />
-  </HelpKINode>
+  <HelpKINode Title="GroupBy(Of TSource, TKey, TElement) method" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_GroupBy__3.htm" />
+  <HelpKINode Title="GroupBy&lt;TSource, TKey, TElement&gt; method" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_GroupBy__3.htm" />
+  <HelpKINode Title="GroupByName field" Url="html/F_NRules_RuleModel_AggregateElement_GroupByName.htm" />
   <HelpKINode Title="GroupElement class">
     <HelpKINode Title="GroupElement Class" Url="html/T_NRules_RuleModel_GroupElement.htm" />
     <HelpKINode Title="about GroupElement class" Url="html/T_NRules_RuleModel_GroupElement.htm" />
@@ -430,6 +463,7 @@
   <HelpKINode Title="GroupElement.ChildElements property" Url="html/P_NRules_RuleModel_GroupElement_ChildElements.htm" />
   <HelpKINode Title="GroupType enumeration" Url="html/T_NRules_RuleModel_Builders_GroupType.htm" />
   <HelpKINode Title="Halt method" Url="html/M_NRules_RuleModel_IContext_Halt.htm" />
+  <HelpKINode Title="Having method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Having.htm" />
   <HelpKINode Title="IActionInterceptor interface">
     <HelpKINode Title="IActionInterceptor Interface" Url="html/T_NRules_Extensibility_IActionInterceptor.htm" />
     <HelpKINode Title="about IActionInterceptor interface" Url="html/T_NRules_Extensibility_IActionInterceptor.htm" />
@@ -459,22 +493,29 @@
   <HelpKINode Title="IAgenda.Clear method" Url="html/M_NRules_IAgenda_Clear.htm" />
   <HelpKINode Title="IAgenda.IsEmpty method" Url="html/M_NRules_IAgenda_IsEmpty.htm" />
   <HelpKINode Title="IAgenda.Peek method" Url="html/M_NRules_IAgenda_Peek.htm" />
+  <HelpKINode Title="IAggregateExpression interface">
+    <HelpKINode Title="IAggregateExpression Interface" Url="html/T_NRules_Aggregators_IAggregateExpression.htm" />
+    <HelpKINode Title="about IAggregateExpression interface" Url="html/T_NRules_Aggregators_IAggregateExpression.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Aggregators_IAggregateExpression.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAggregateExpression.Invoke method" Url="html/M_NRules_Aggregators_IAggregateExpression_Invoke.htm" />
   <HelpKINode Title="IAggregator interface">
-    <HelpKINode Title="IAggregator Interface" Url="html/T_NRules_RuleModel_IAggregator.htm" />
-    <HelpKINode Title="about IAggregator interface" Url="html/T_NRules_RuleModel_IAggregator.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_IAggregator.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_IAggregator.htm" />
+    <HelpKINode Title="IAggregator Interface" Url="html/T_NRules_Aggregators_IAggregator.htm" />
+    <HelpKINode Title="about IAggregator interface" Url="html/T_NRules_Aggregators_IAggregator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Aggregators_IAggregator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Aggregators_IAggregator.htm" />
   </HelpKINode>
-  <HelpKINode Title="IAggregator.Add method" Url="html/M_NRules_RuleModel_IAggregator_Add.htm" />
-  <HelpKINode Title="IAggregator.Aggregates property" Url="html/P_NRules_RuleModel_IAggregator_Aggregates.htm" />
-  <HelpKINode Title="IAggregator.Modify method" Url="html/M_NRules_RuleModel_IAggregator_Modify.htm" />
-  <HelpKINode Title="IAggregator.Remove method" Url="html/M_NRules_RuleModel_IAggregator_Remove.htm" />
+  <HelpKINode Title="IAggregator.Add method" Url="html/M_NRules_Aggregators_IAggregator_Add.htm" />
+  <HelpKINode Title="IAggregator.Aggregates property" Url="html/P_NRules_Aggregators_IAggregator_Aggregates.htm" />
+  <HelpKINode Title="IAggregator.Modify method" Url="html/M_NRules_Aggregators_IAggregator_Modify.htm" />
+  <HelpKINode Title="IAggregator.Remove method" Url="html/M_NRules_Aggregators_IAggregator_Remove.htm" />
   <HelpKINode Title="IAggregatorFactory interface">
-    <HelpKINode Title="IAggregatorFactory Interface" Url="html/T_NRules_RuleModel_IAggregatorFactory.htm" />
-    <HelpKINode Title="about IAggregatorFactory interface" Url="html/T_NRules_RuleModel_IAggregatorFactory.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_IAggregatorFactory.htm" />
+    <HelpKINode Title="IAggregatorFactory Interface" Url="html/T_NRules_Aggregators_IAggregatorFactory.htm" />
+    <HelpKINode Title="about IAggregatorFactory interface" Url="html/T_NRules_Aggregators_IAggregatorFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Aggregators_IAggregatorFactory.htm" />
   </HelpKINode>
-  <HelpKINode Title="IAggregatorFactory.Create method" Url="html/M_NRules_RuleModel_IAggregatorFactory_Create.htm" />
+  <HelpKINode Title="IAggregatorFactory.Compile method" Url="html/M_NRules_Aggregators_IAggregatorFactory_Compile.htm" />
+  <HelpKINode Title="IAggregatorFactory.Create method" Url="html/M_NRules_Aggregators_IAggregatorFactory_Create.htm" />
   <HelpKINode Title="IContext interface">
     <HelpKINode Title="IContext Interface" Url="html/T_NRules_RuleModel_IContext.htm" />
     <HelpKINode Title="about IContext interface" Url="html/T_NRules_RuleModel_IContext.htm" />
@@ -485,7 +526,7 @@
   <HelpKINode Title="IContext.Halt method" Url="html/M_NRules_RuleModel_IContext_Halt.htm" />
   <HelpKINode Title="IContext.Insert method" Url="html/M_NRules_RuleModel_IContext_Insert.htm" />
   <HelpKINode Title="IContext.InsertAll method" Url="html/M_NRules_RuleModel_IContext_InsertAll.htm" />
-  <HelpKINode Title="IContext.Resolve method" Url="html/Overload_NRules_RuleModel_IContext_Resolve.htm" />
+  <HelpKINode Title="IContext.Resolve method" Url="html/M_NRules_RuleModel_IContext_Resolve.htm" />
   <HelpKINode Title="IContext.Retract method" Url="html/M_NRules_RuleModel_IContext_Retract.htm" />
   <HelpKINode Title="IContext.RetractAll method" Url="html/M_NRules_RuleModel_IContext_RetractAll.htm" />
   <HelpKINode Title="IContext.Rule property" Url="html/P_NRules_RuleModel_IContext_Rule.htm" />
@@ -556,8 +597,11 @@
   </HelpKINode>
   <HelpKINode Title="ILeftHandSideExpression.All method" Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_All.htm" />
   <HelpKINode Title="ILeftHandSideExpression.And method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_And.htm" />
+  <HelpKINode Title="ILeftHandSideExpression.Calculate(Of TResult) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
+  <HelpKINode Title="ILeftHandSideExpression.Calculate&lt;TResult&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
   <HelpKINode Title="ILeftHandSideExpression.Exists(Of TFact) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1.htm" />
   <HelpKINode Title="ILeftHandSideExpression.Exists&lt;TFact&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1.htm" />
+  <HelpKINode Title="ILeftHandSideExpression.Having method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Having.htm" />
   <HelpKINode Title="ILeftHandSideExpression.Match method" Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_Match.htm" />
   <HelpKINode Title="ILeftHandSideExpression.Not(Of TFact) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1.htm" />
   <HelpKINode Title="ILeftHandSideExpression.Not&lt;TFact&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1.htm" />
@@ -575,7 +619,10 @@
     <HelpKINode Title="Session.InsertAll Method " Url="html/M_NRules_Session_InsertAll.htm" />
   </HelpKINode>
   <HelpKINode Title="Intercept method" Url="html/M_NRules_Extensibility_IActionInterceptor_Intercept.htm" />
-  <HelpKINode Title="Invoke method" Url="html/M_NRules_Extensibility_IActionInvocation_Invoke.htm" />
+  <HelpKINode Title="Invoke method">
+    <HelpKINode Title="IActionInvocation.Invoke Method " Url="html/M_NRules_Extensibility_IActionInvocation_Invoke.htm" />
+    <HelpKINode Title="IAggregateExpression.Invoke Method " Url="html/M_NRules_Aggregators_IAggregateExpression_Invoke.htm" />
+  </HelpKINode>
   <HelpKINode Title="IPatternContainerBuilder interface">
     <HelpKINode Title="IPatternContainerBuilder Interface" Url="html/T_NRules_RuleModel_Builders_IPatternContainerBuilder.htm" />
     <HelpKINode Title="about IPatternContainerBuilder interface" Url="html/T_NRules_RuleModel_Builders_IPatternContainerBuilder.htm" />
@@ -749,6 +796,13 @@
     <HelpKINode Title="PropertyMap.Item Property " Url="html/P_NRules_RuleModel_PropertyMap_Item.htm" />
   </HelpKINode>
   <HelpKINode Title="Items property" Url="html/P_NRules_Diagnostics_NodeInfo_Items.htm" />
+  <HelpKINode Title="ITuple interface">
+    <HelpKINode Title="ITuple Interface" Url="html/T_NRules_RuleModel_ITuple.htm" />
+    <HelpKINode Title="about ITuple interface" Url="html/T_NRules_RuleModel_ITuple.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ITuple.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITuple.Count property" Url="html/P_NRules_RuleModel_ITuple_Count.htm" />
+  <HelpKINode Title="ITuple.Facts property" Url="html/P_NRules_RuleModel_ITuple_Facts.htm" />
   <HelpKINode Title="Join enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="LeftHandSide method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_LeftHandSide.htm" />
   <HelpKINode Title="LeftHandSide property" Url="html/P_NRules_RuleModel_IRuleDefinition_LeftHandSide.htm" />
@@ -775,9 +829,9 @@
     <HelpKINode Title="RuleDefinitionException.Message Property " Url="html/P_NRules_Fluent_RuleDefinitionException_Message.htm" />
     <HelpKINode Title="RuleExpressionEvaluationException.Message Property " Url="html/P_NRules_RuleExpressionEvaluationException_Message.htm" />
   </HelpKINode>
-  <HelpKINode Title="Modified enumeration member" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
-  <HelpKINode Title="Modified method" Url="html/M_NRules_RuleModel_AggregationResult_Modified.htm" />
-  <HelpKINode Title="Modify method" Url="html/M_NRules_RuleModel_IAggregator_Modify.htm" />
+  <HelpKINode Title="Modified enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
+  <HelpKINode Title="Modified method" Url="html/M_NRules_Aggregators_AggregationResult_Modified.htm" />
+  <HelpKINode Title="Modify method" Url="html/M_NRules_Aggregators_IAggregator_Modify.htm" />
   <HelpKINode Title="Name method">
     <HelpKINode Title="Rule.Name Method " Url="html/M_NRules_Fluent_Dsl_Rule_Name.htm" />
     <HelpKINode Title="RuleBuilder.Name Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Name.htm" />
@@ -788,7 +842,7 @@
     <HelpKINode Title="IRuleDefinition.Name Property " Url="html/P_NRules_RuleModel_IRuleDefinition_Name.htm" />
     <HelpKINode Title="IRuleMetadata.Name Property " Url="html/P_NRules_Fluent_IRuleMetadata_Name.htm" />
     <HelpKINode Title="IRuleSet.Name Property " Url="html/P_NRules_RuleModel_IRuleSet_Name.htm" />
-    <HelpKINode Title="NamedExpression.Name Property " Url="html/P_NRules_RuleModel_NamedExpression_Name.htm" />
+    <HelpKINode Title="NamedExpressionElement.Name Property " Url="html/P_NRules_RuleModel_NamedExpressionElement_Name.htm" />
     <HelpKINode Title="RuleMetadata.Name Property " Url="html/P_NRules_Fluent_RuleMetadata_Name.htm" />
     <HelpKINode Title="RuleProperty.Name Property " Url="html/P_NRules_RuleModel_RuleProperty_Name.htm" />
     <HelpKINode Title="RuleSet.Name Property " Url="html/P_NRules_RuleModel_RuleSet_Name.htm" />
@@ -801,14 +855,14 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Dsl_NameAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="NameAttribute.NameAttribute constructor" Url="html/M_NRules_Fluent_Dsl_NameAttribute__ctor.htm" />
-  <HelpKINode Title="NamedExpression class">
-    <HelpKINode Title="NamedExpression Class" Url="html/T_NRules_RuleModel_NamedExpression.htm" />
-    <HelpKINode Title="about NamedExpression class" Url="html/T_NRules_RuleModel_NamedExpression.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_NamedExpression.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_NamedExpression.htm" />
+  <HelpKINode Title="NamedExpressionElement class">
+    <HelpKINode Title="NamedExpressionElement Class" Url="html/T_NRules_RuleModel_NamedExpressionElement.htm" />
+    <HelpKINode Title="about NamedExpressionElement class" Url="html/T_NRules_RuleModel_NamedExpressionElement.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_NamedExpressionElement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_NamedExpressionElement.htm" />
   </HelpKINode>
-  <HelpKINode Title="NamedExpression.Expression property" Url="html/P_NRules_RuleModel_NamedExpression_Expression.htm" />
-  <HelpKINode Title="NamedExpression.Name property" Url="html/P_NRules_RuleModel_NamedExpression_Name.htm" />
+  <HelpKINode Title="NamedExpressionElement.Name property" Url="html/P_NRules_RuleModel_NamedExpressionElement_Name.htm" />
+  <HelpKINode Title="NestedBuilders property" Url="html/P_NRules_RuleModel_Builders_GroupBuilder_NestedBuilders.htm" />
   <HelpKINode Title="NestedTypes method">
     <HelpKINode Title="IRuleLoadSpec.NestedTypes Method " Url="html/M_NRules_Fluent_IRuleLoadSpec_NestedTypes.htm" />
     <HelpKINode Title="IRuleTypeScanner.NestedTypes Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_NestedTypes.htm" />
@@ -828,8 +882,8 @@
   <HelpKINode Title="Nodes property" Url="html/P_NRules_Diagnostics_SessionSnapshot_Nodes.htm" />
   <HelpKINode Title="NodeType enumeration" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="NodeType property" Url="html/P_NRules_Diagnostics_NodeInfo_NodeType.htm" />
-  <HelpKINode Title="None enumeration member" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
-  <HelpKINode Title="None method" Url="html/M_NRules_RuleModel_AggregationResult_None.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
+  <HelpKINode Title="None method" Url="html/M_NRules_Aggregators_AggregationResult_None.htm" />
   <HelpKINode Title="NonRepeatable enumeration member" Url="html/T_NRules_RuleModel_RuleRepeatability.htm" />
   <HelpKINode Title="Not enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="Not method" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Not.htm" />
@@ -844,6 +898,7 @@
   <HelpKINode Title="NotBuilder.ForAll method" Url="html/M_NRules_RuleModel_Builders_NotBuilder_ForAll.htm" />
   <HelpKINode Title="NotBuilder.Group method" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Group.htm" />
   <HelpKINode Title="NotBuilder.Pattern method" Url="html/Overload_NRules_RuleModel_Builders_NotBuilder_Pattern.htm" />
+  <HelpKINode Title="NotBuilder.SourceBuilder property" Url="html/P_NRules_RuleModel_Builders_NotBuilder_SourceBuilder.htm" />
   <HelpKINode Title="NotElement class">
     <HelpKINode Title="NotElement Class" Url="html/T_NRules_RuleModel_NotElement.htm" />
     <HelpKINode Title="about NotElement class" Url="html/T_NRules_RuleModel_NotElement.htm" />
@@ -852,6 +907,12 @@
   </HelpKINode>
   <HelpKINode Title="NotElement.Source property" Url="html/P_NRules_RuleModel_NotElement_Source.htm" />
   <HelpKINode Title="NRules namespace" Url="html/N_NRules.htm" />
+  <HelpKINode Title="NRules.Aggregators namespace" Url="html/N_NRules_Aggregators.htm" />
+  <HelpKINode Title="NRules.Aggregators.AggregationAction enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
+  <HelpKINode Title="NRules.Aggregators.AggregationResult structure" Url="html/T_NRules_Aggregators_AggregationResult.htm" />
+  <HelpKINode Title="NRules.Aggregators.IAggregateExpression interface" Url="html/T_NRules_Aggregators_IAggregateExpression.htm" />
+  <HelpKINode Title="NRules.Aggregators.IAggregator interface" Url="html/T_NRules_Aggregators_IAggregator.htm" />
+  <HelpKINode Title="NRules.Aggregators.IAggregatorFactory interface" Url="html/T_NRules_Aggregators_IAggregatorFactory.htm" />
   <HelpKINode Title="NRules.Diagnostics namespace" Url="html/N_NRules_Diagnostics.htm" />
   <HelpKINode Title="NRules.Diagnostics.ActionErrorEventArgs class" Url="html/T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.AgendaEventArgs class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm" />
@@ -912,12 +973,12 @@
   <HelpKINode Title="NRules.RuleModel.ActionElement class" Url="html/T_NRules_RuleModel_ActionElement.htm" />
   <HelpKINode Title="NRules.RuleModel.ActionGroupElement class" Url="html/T_NRules_RuleModel_ActionGroupElement.htm" />
   <HelpKINode Title="NRules.RuleModel.AggregateElement class" Url="html/T_NRules_RuleModel_AggregateElement.htm" />
-  <HelpKINode Title="NRules.RuleModel.AggregationAction enumeration" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
-  <HelpKINode Title="NRules.RuleModel.AggregationResult structure" Url="html/T_NRules_RuleModel_AggregationResult.htm" />
   <HelpKINode Title="NRules.RuleModel.AndElement class" Url="html/T_NRules_RuleModel_AndElement.htm" />
+  <HelpKINode Title="NRules.RuleModel.BindingElement class" Url="html/T_NRules_RuleModel_BindingElement.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders namespace" Url="html/N_NRules_RuleModel_Builders.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.ActionGroupBuilder class" Url="html/T_NRules_RuleModel_Builders_ActionGroupBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.AggregateBuilder class" Url="html/T_NRules_RuleModel_Builders_AggregateBuilder.htm" />
+  <HelpKINode Title="NRules.RuleModel.Builders.BindingBuilder class" Url="html/T_NRules_RuleModel_Builders_BindingBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.DependencyGroupBuilder class" Url="html/T_NRules_RuleModel_Builders_DependencyGroupBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.ExistsBuilder class" Url="html/T_NRules_RuleModel_Builders_ExistsBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.ForAllBuilder class" Url="html/T_NRules_RuleModel_Builders_ForAllBuilder.htm" />
@@ -926,8 +987,11 @@
   <HelpKINode Title="NRules.RuleModel.Builders.IPatternContainerBuilder interface" Url="html/T_NRules_RuleModel_Builders_IPatternContainerBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.NotBuilder class" Url="html/T_NRules_RuleModel_Builders_NotBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.PatternBuilder class" Url="html/T_NRules_RuleModel_Builders_PatternBuilder.htm" />
+  <HelpKINode Title="NRules.RuleModel.Builders.PatternSourceElementBuilder class" Url="html/T_NRules_RuleModel_Builders_PatternSourceElementBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.RuleBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.RuleElementBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleElementBuilder.htm" />
+  <HelpKINode Title="NRules.RuleModel.Builders.RuleLeftElementBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleLeftElementBuilder.htm" />
+  <HelpKINode Title="NRules.RuleModel.Builders.RuleRightElementBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleRightElementBuilder.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.RuleTransformation class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation.htm" />
   <HelpKINode Title="NRules.RuleModel.Builders.RuleTransformation.Context class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation_Context.htm" />
   <HelpKINode Title="NRules.RuleModel.ConditionElement class" Url="html/T_NRules_RuleModel_ConditionElement.htm" />
@@ -936,18 +1000,18 @@
   <HelpKINode Title="NRules.RuleModel.DependencyElement class" Url="html/T_NRules_RuleModel_DependencyElement.htm" />
   <HelpKINode Title="NRules.RuleModel.DependencyGroupElement class" Url="html/T_NRules_RuleModel_DependencyGroupElement.htm" />
   <HelpKINode Title="NRules.RuleModel.ExistsElement class" Url="html/T_NRules_RuleModel_ExistsElement.htm" />
+  <HelpKINode Title="NRules.RuleModel.ExpressionElement class" Url="html/T_NRules_RuleModel_ExpressionElement.htm" />
   <HelpKINode Title="NRules.RuleModel.ExpressionMap class" Url="html/T_NRules_RuleModel_ExpressionMap.htm" />
   <HelpKINode Title="NRules.RuleModel.ForAllElement class" Url="html/T_NRules_RuleModel_ForAllElement.htm" />
   <HelpKINode Title="NRules.RuleModel.GroupElement class" Url="html/T_NRules_RuleModel_GroupElement.htm" />
-  <HelpKINode Title="NRules.RuleModel.IAggregator interface" Url="html/T_NRules_RuleModel_IAggregator.htm" />
-  <HelpKINode Title="NRules.RuleModel.IAggregatorFactory interface" Url="html/T_NRules_RuleModel_IAggregatorFactory.htm" />
   <HelpKINode Title="NRules.RuleModel.IContext interface" Url="html/T_NRules_RuleModel_IContext.htm" />
   <HelpKINode Title="NRules.RuleModel.IFact interface" Url="html/T_NRules_RuleModel_IFact.htm" />
   <HelpKINode Title="NRules.RuleModel.IFactMatch interface" Url="html/T_NRules_RuleModel_IFactMatch.htm" />
   <HelpKINode Title="NRules.RuleModel.IRuleDefinition interface" Url="html/T_NRules_RuleModel_IRuleDefinition.htm" />
   <HelpKINode Title="NRules.RuleModel.IRuleRepository interface" Url="html/T_NRules_RuleModel_IRuleRepository.htm" />
   <HelpKINode Title="NRules.RuleModel.IRuleSet interface" Url="html/T_NRules_RuleModel_IRuleSet.htm" />
-  <HelpKINode Title="NRules.RuleModel.NamedExpression class" Url="html/T_NRules_RuleModel_NamedExpression.htm" />
+  <HelpKINode Title="NRules.RuleModel.ITuple interface" Url="html/T_NRules_RuleModel_ITuple.htm" />
+  <HelpKINode Title="NRules.RuleModel.NamedExpressionElement class" Url="html/T_NRules_RuleModel_NamedExpressionElement.htm" />
   <HelpKINode Title="NRules.RuleModel.NotElement class" Url="html/T_NRules_RuleModel_NotElement.htm" />
   <HelpKINode Title="NRules.RuleModel.OrElement class" Url="html/T_NRules_RuleModel_OrElement.htm" />
   <HelpKINode Title="NRules.RuleModel.PatternElement class" Url="html/T_NRules_RuleModel_PatternElement.htm" />
@@ -987,8 +1051,11 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_PatternBuilder.htm" />
   </HelpKINode>
   <HelpKINode Title="PatternBuilder.Aggregate method" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Aggregate.htm" />
+  <HelpKINode Title="PatternBuilder.Binding method" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Binding.htm" />
   <HelpKINode Title="PatternBuilder.Condition method" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Condition.htm" />
   <HelpKINode Title="PatternBuilder.Declaration property" Url="html/P_NRules_RuleModel_Builders_PatternBuilder_Declaration.htm" />
+  <HelpKINode Title="PatternBuilder.SourceBuilder property" Url="html/P_NRules_RuleModel_Builders_PatternBuilder_SourceBuilder.htm" />
+  <HelpKINode Title="PatternBuilders property" Url="html/P_NRules_RuleModel_Builders_ForAllBuilder_PatternBuilders.htm" />
   <HelpKINode Title="PatternElement class">
     <HelpKINode Title="PatternElement Class" Url="html/T_NRules_RuleModel_PatternElement.htm" />
     <HelpKINode Title="about PatternElement class" Url="html/T_NRules_RuleModel_PatternElement.htm" />
@@ -1007,6 +1074,12 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_PatternSourceElement.htm" />
   </HelpKINode>
   <HelpKINode Title="PatternSourceElement.ResultType property" Url="html/P_NRules_RuleModel_PatternSourceElement_ResultType.htm" />
+  <HelpKINode Title="PatternSourceElementBuilder class">
+    <HelpKINode Title="PatternSourceElementBuilder Class" Url="html/T_NRules_RuleModel_Builders_PatternSourceElementBuilder.htm" />
+    <HelpKINode Title="about PatternSourceElementBuilder class" Url="html/T_NRules_RuleModel_Builders_PatternSourceElementBuilder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_Builders_PatternSourceElementBuilder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_PatternSourceElementBuilder.htm" />
+  </HelpKINode>
   <HelpKINode Title="Peek method" Url="html/M_NRules_IAgenda_Peek.htm" />
   <HelpKINode Title="Priority method">
     <HelpKINode Title="Rule.Priority Method " Url="html/M_NRules_Fluent_Dsl_Rule_Priority.htm" />
@@ -1029,8 +1102,8 @@
     <HelpKINode Title="IRuleTypeScanner.PrivateTypes Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_PrivateTypes.htm" />
     <HelpKINode Title="RuleTypeScanner.PrivateTypes Method " Url="html/M_NRules_Fluent_RuleTypeScanner_PrivateTypes.htm" />
   </HelpKINode>
-  <HelpKINode Title="Project(Of TSource, TResult) method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project__2.htm" />
-  <HelpKINode Title="Project&lt;TSource, TResult&gt; method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project__2.htm" />
+  <HelpKINode Title="Project method" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project.htm" />
+  <HelpKINode Title="ProjectName field" Url="html/F_NRules_RuleModel_AggregateElement_ProjectName.htm" />
   <HelpKINode Title="Properties method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Properties.htm" />
   <HelpKINode Title="Properties property" Url="html/P_NRules_RuleModel_IRuleDefinition_Properties.htm" />
   <HelpKINode Title="Property method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Property.htm" />
@@ -1074,12 +1147,12 @@
   <HelpKINode Title="QueryExtensions.Where(Of TSource) method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Where__1.htm" />
   <HelpKINode Title="QueryExtensions.Where&lt;TSource&gt; method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Where__1.htm" />
   <HelpKINode Title="References property">
-    <HelpKINode Title="ActionElement.References Property " Url="html/P_NRules_RuleModel_ActionElement_References.htm" />
-    <HelpKINode Title="ConditionElement.References Property " Url="html/P_NRules_RuleModel_ConditionElement_References.htm" />
+    <HelpKINode Title="BindingElement.References Property " Url="html/P_NRules_RuleModel_BindingElement_References.htm" />
+    <HelpKINode Title="ExpressionElement.References Property " Url="html/P_NRules_RuleModel_ExpressionElement_References.htm" />
   </HelpKINode>
-  <HelpKINode Title="Remove method" Url="html/M_NRules_RuleModel_IAggregator_Remove.htm" />
-  <HelpKINode Title="Removed enumeration member" Url="html/T_NRules_RuleModel_AggregationAction.htm" />
-  <HelpKINode Title="Removed method" Url="html/M_NRules_RuleModel_AggregationResult_Removed.htm" />
+  <HelpKINode Title="Remove method" Url="html/M_NRules_Aggregators_IAggregator_Remove.htm" />
+  <HelpKINode Title="Removed enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
+  <HelpKINode Title="Removed method" Url="html/M_NRules_Aggregators_AggregationResult_Removed.htm" />
   <HelpKINode Title="Repeatability method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Repeatability.htm" />
   <HelpKINode Title="Repeatability property">
     <HelpKINode Title="IRuleDefinition.Repeatability Property " Url="html/P_NRules_RuleModel_IRuleDefinition_Repeatability.htm" />
@@ -1095,11 +1168,13 @@
   <HelpKINode Title="RepeatabilityAttribute.RepeatabilityAttribute constructor" Url="html/M_NRules_Fluent_Dsl_RepeatabilityAttribute__ctor.htm" />
   <HelpKINode Title="Repeatable enumeration member" Url="html/T_NRules_RuleModel_RuleRepeatability.htm" />
   <HelpKINode Title="Resolve method">
-    <HelpKINode Title="IContext.Resolve Method " Url="html/Overload_NRules_RuleModel_IContext_Resolve.htm" />
+    <HelpKINode Title="IContext.Resolve Method " Url="html/M_NRules_RuleModel_IContext_Resolve.htm" />
     <HelpKINode Title="IDependencyResolver.Resolve Method " Url="html/M_NRules_Extensibility_IDependencyResolver_Resolve.htm" />
   </HelpKINode>
   <HelpKINode Title="Resolve(Of TDependency) method" Url="html/M_NRules_Fluent_Dsl_IDependencyExpression_Resolve__1.htm" />
+  <HelpKINode Title="Resolve(Of TService) method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Resolve__1.htm" />
   <HelpKINode Title="Resolve&lt;TDependency&gt; method" Url="html/M_NRules_Fluent_Dsl_IDependencyExpression_Resolve__1.htm" />
+  <HelpKINode Title="Resolve&lt;TService&gt; method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Resolve__1.htm" />
   <HelpKINode Title="ResultType property" Url="html/P_NRules_RuleModel_PatternSourceElement_ResultType.htm" />
   <HelpKINode Title="Retract method">
     <HelpKINode Title="IContext.Retract Method " Url="html/M_NRules_RuleModel_IContext_Retract.htm" />
@@ -1251,11 +1326,13 @@
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitActionGroup method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitActionGroup.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitAggregate method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAggregate.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitAnd method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAnd.htm" />
+  <HelpKINode Title="RuleElementVisitor(Of TContext).VisitBinding method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitBinding.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitCondition method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitCondition.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitDependency method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependency.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitDependencyGroup method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependencyGroup.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitExists method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitExists.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitForAll method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitForAll.htm" />
+  <HelpKINode Title="RuleElementVisitor(Of TContext).VisitNamedExpression method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNamedExpression.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitNot method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNot.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitOr method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitOr.htm" />
   <HelpKINode Title="RuleElementVisitor(Of TContext).VisitPattern method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitPattern.htm" />
@@ -1271,11 +1348,13 @@
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitActionGroup method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitActionGroup.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitAggregate method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAggregate.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitAnd method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAnd.htm" />
+  <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitBinding method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitBinding.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitCondition method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitCondition.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitDependency method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependency.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitDependencyGroup method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependencyGroup.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitExists method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitExists.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitForAll method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitForAll.htm" />
+  <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitNamedExpression method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNamedExpression.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitNot method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNot.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitOr method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitOr.htm" />
   <HelpKINode Title="RuleElementVisitor&lt;TContext&gt;.VisitPattern method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitPattern.htm" />
@@ -1307,6 +1386,12 @@
     <HelpKINode Title="about RuleLeftElement class" Url="html/T_NRules_RuleModel_RuleLeftElement.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_RuleLeftElement.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_RuleLeftElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuleLeftElementBuilder class">
+    <HelpKINode Title="RuleLeftElementBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleLeftElementBuilder.htm" />
+    <HelpKINode Title="about RuleLeftElementBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleLeftElementBuilder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleLeftElementBuilder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_RuleLeftElementBuilder.htm" />
   </HelpKINode>
   <HelpKINode Title="RuleMetadata class">
     <HelpKINode Title="RuleMetadata Class" Url="html/T_NRules_Fluent_RuleMetadata.htm" />
@@ -1373,6 +1458,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_RuleRightElement.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_RuleRightElement.htm" />
   </HelpKINode>
+  <HelpKINode Title="RuleRightElementBuilder class">
+    <HelpKINode Title="RuleRightElementBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleRightElementBuilder.htm" />
+    <HelpKINode Title="about RuleRightElementBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleRightElementBuilder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleRightElementBuilder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_Builders_RuleRightElementBuilder.htm" />
+  </HelpKINode>
   <HelpKINode Title="Rules property">
     <HelpKINode Title="IRuleSet.Rules Property " Url="html/P_NRules_RuleModel_IRuleSet_Rules.htm" />
     <HelpKINode Title="RuleSet.Rules Property " Url="html/P_NRules_RuleModel_RuleSet_Rules.htm" />
@@ -1406,6 +1497,7 @@
   <HelpKINode Title="RuleTransformation.VisitActionGroup method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitActionGroup.htm" />
   <HelpKINode Title="RuleTransformation.VisitAggregate method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAggregate.htm" />
   <HelpKINode Title="RuleTransformation.VisitAnd method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAnd.htm" />
+  <HelpKINode Title="RuleTransformation.VisitBinding method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitBinding.htm" />
   <HelpKINode Title="RuleTransformation.VisitCondition method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitCondition.htm" />
   <HelpKINode Title="RuleTransformation.VisitExists method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitExists.htm" />
   <HelpKINode Title="RuleTransformation.VisitForAll method" Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitForAll.htm" />
@@ -1491,6 +1583,12 @@
     <HelpKINode Title="LinkInfo.Source Property " Url="html/P_NRules_Diagnostics_LinkInfo_Source.htm" />
     <HelpKINode Title="NotElement.Source Property " Url="html/P_NRules_RuleModel_NotElement_Source.htm" />
     <HelpKINode Title="PatternElement.Source Property " Url="html/P_NRules_RuleModel_PatternElement_Source.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SourceBuilder property">
+    <HelpKINode Title="AggregateBuilder.SourceBuilder Property " Url="html/P_NRules_RuleModel_Builders_AggregateBuilder_SourceBuilder.htm" />
+    <HelpKINode Title="ExistsBuilder.SourceBuilder Property " Url="html/P_NRules_RuleModel_Builders_ExistsBuilder_SourceBuilder.htm" />
+    <HelpKINode Title="NotBuilder.SourceBuilder Property " Url="html/P_NRules_RuleModel_Builders_NotBuilder_SourceBuilder.htm" />
+    <HelpKINode Title="PatternBuilder.SourceBuilder Property " Url="html/P_NRules_RuleModel_Builders_PatternBuilder_SourceBuilder.htm" />
   </HelpKINode>
   <HelpKINode Title="Tag method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Tag.htm" />
   <HelpKINode Title="TagAttribute class">
@@ -1587,6 +1685,10 @@
     <HelpKINode Title="RuleElementVisitor(TContext).VisitAnd Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAnd.htm" />
     <HelpKINode Title="RuleTransformation.VisitAnd Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAnd.htm" />
   </HelpKINode>
+  <HelpKINode Title="VisitBinding method">
+    <HelpKINode Title="RuleElementVisitor(TContext).VisitBinding Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitBinding.htm" />
+    <HelpKINode Title="RuleTransformation.VisitBinding Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitBinding.htm" />
+  </HelpKINode>
   <HelpKINode Title="VisitCondition method">
     <HelpKINode Title="RuleElementVisitor(TContext).VisitCondition Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitCondition.htm" />
     <HelpKINode Title="RuleTransformation.VisitCondition Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitCondition.htm" />
@@ -1601,6 +1703,7 @@
     <HelpKINode Title="RuleElementVisitor(TContext).VisitForAll Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitForAll.htm" />
     <HelpKINode Title="RuleTransformation.VisitForAll Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitForAll.htm" />
   </HelpKINode>
+  <HelpKINode Title="VisitNamedExpression method" Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNamedExpression.htm" />
   <HelpKINode Title="VisitNot method">
     <HelpKINode Title="RuleElementVisitor(TContext).VisitNot Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitNot.htm" />
     <HelpKINode Title="RuleTransformation.VisitNot Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitNot.htm" />

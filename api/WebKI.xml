@@ -161,7 +161,7 @@
   <HelpKINode Title="Builder property">
     <HelpKINode Title="IQuery(TSource).Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_1_Builder.htm" />
     <HelpKINode Title="IQuery.Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_Builder.htm" />
-    <HelpKINode Title="QueryExpression(TSource).Builder Property " Url="html/P_NRules_Fluent_Expressions_QueryExpression_1_Builder.htm" />
+    <HelpKINode Title="QueryExpression(TSource).Builder Property " Url="html/P_NRules_Fluent_Dsl_QueryExpression_1_Builder.htm" />
   </HelpKINode>
   <HelpKINode Title="Calculate(Of TResult) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
   <HelpKINode Title="Calculate&lt;TResult&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Calculate__1.htm" />
@@ -954,13 +954,12 @@
   <HelpKINode Title="NRules.Fluent.Dsl.IRightHandSideExpression interface" Url="html/T_NRules_Fluent_Dsl_IRightHandSideExpression.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.NameAttribute class" Url="html/T_NRules_Fluent_Dsl_NameAttribute.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.PriorityAttribute class" Url="html/T_NRules_Fluent_Dsl_PriorityAttribute.htm" />
+  <HelpKINode Title="NRules.Fluent.Dsl.QueryExpression(Of TSource) class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+  <HelpKINode Title="NRules.Fluent.Dsl.QueryExpression&lt;TSource&gt; class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.QueryExtensions class" Url="html/T_NRules_Fluent_Dsl_QueryExtensions.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.RepeatabilityAttribute class" Url="html/T_NRules_Fluent_Dsl_RepeatabilityAttribute.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.Rule class" Url="html/T_NRules_Fluent_Dsl_Rule.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl.TagAttribute class" Url="html/T_NRules_Fluent_Dsl_TagAttribute.htm" />
-  <HelpKINode Title="NRules.Fluent.Expressions namespace" Url="html/N_NRules_Fluent_Expressions.htm" />
-  <HelpKINode Title="NRules.Fluent.Expressions.QueryExpression(Of TSource) class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-  <HelpKINode Title="NRules.Fluent.Expressions.QueryExpression&lt;TSource&gt; class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
   <HelpKINode Title="NRules.Fluent.IRuleActivator interface" Url="html/T_NRules_Fluent_IRuleActivator.htm" />
   <HelpKINode Title="NRules.Fluent.IRuleLoadSpec interface" Url="html/T_NRules_Fluent_IRuleLoadSpec.htm" />
   <HelpKINode Title="NRules.Fluent.IRuleMetadata interface" Url="html/T_NRules_Fluent_IRuleMetadata.htm" />
@@ -1145,23 +1144,23 @@
   </HelpKINode>
   <HelpKINode Title="Query&lt;TResult&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1.htm" />
   <HelpKINode Title="QueryExpression(Of TSource) class">
-    <HelpKINode Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="about QueryExpression(Of TSource) class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="constructor" Url="html/M_NRules_Fluent_Expressions_QueryExpression_1__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
+    <HelpKINode Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="about QueryExpression(Of TSource) class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Fluent_Dsl_QueryExpression_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
   </HelpKINode>
-  <HelpKINode Title="QueryExpression(Of TSource).Builder property" Url="html/P_NRules_Fluent_Expressions_QueryExpression_1_Builder.htm" />
-  <HelpKINode Title="QueryExpression(Of TSource).QueryExpression constructor" Url="html/M_NRules_Fluent_Expressions_QueryExpression_1__ctor.htm" />
+  <HelpKINode Title="QueryExpression(Of TSource).Builder property" Url="html/P_NRules_Fluent_Dsl_QueryExpression_1_Builder.htm" />
+  <HelpKINode Title="QueryExpression(Of TSource).QueryExpression constructor" Url="html/M_NRules_Fluent_Dsl_QueryExpression_1__ctor.htm" />
   <HelpKINode Title="QueryExpression&lt;TSource&gt; class">
-    <HelpKINode Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="about QueryExpression&lt;TSource&gt; class" Url="html/T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="constructor" Url="html/M_NRules_Fluent_Expressions_QueryExpression_1__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Expressions_QueryExpression_1.htm" />
+    <HelpKINode Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="about QueryExpression&lt;TSource&gt; class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Fluent_Dsl_QueryExpression_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
   </HelpKINode>
-  <HelpKINode Title="QueryExpression&lt;TSource&gt;.Builder property" Url="html/P_NRules_Fluent_Expressions_QueryExpression_1_Builder.htm" />
-  <HelpKINode Title="QueryExpression&lt;TSource&gt;.QueryExpression constructor" Url="html/M_NRules_Fluent_Expressions_QueryExpression_1__ctor.htm" />
+  <HelpKINode Title="QueryExpression&lt;TSource&gt;.Builder property" Url="html/P_NRules_Fluent_Dsl_QueryExpression_1_Builder.htm" />
+  <HelpKINode Title="QueryExpression&lt;TSource&gt;.QueryExpression constructor" Url="html/M_NRules_Fluent_Dsl_QueryExpression_1__ctor.htm" />
   <HelpKINode Title="QueryExtensions class">
     <HelpKINode Title="QueryExtensions Class" Url="html/T_NRules_Fluent_Dsl_QueryExtensions.htm" />
     <HelpKINode Title="about QueryExtensions class" Url="html/T_NRules_Fluent_Dsl_QueryExtensions.htm" />

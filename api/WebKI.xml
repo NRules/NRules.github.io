@@ -15,10 +15,12 @@
   <HelpKINode Title="ActionErrorEventArgs class">
     <HelpKINode Title="ActionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
     <HelpKINode Title="about ActionErrorEventArgs class" Url="html/T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_ActionErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ActionErrorEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="ActionErrorEventArgs.Action property" Url="html/P_NRules_Diagnostics_ActionErrorEventArgs_Action.htm" />
+  <HelpKINode Title="ActionErrorEventArgs.ActionErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_ActionErrorEventArgs__ctor.htm" />
   <HelpKINode Title="ActionErrorEventArgs.Facts property" Url="html/P_NRules_Diagnostics_ActionErrorEventArgs_Facts.htm" />
   <HelpKINode Title="ActionErrorEventArgs.Rule property" Url="html/P_NRules_Diagnostics_ActionErrorEventArgs_Rule.htm" />
   <HelpKINode Title="ActionFailedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_ActionFailedEvent.htm" />
@@ -71,18 +73,22 @@
   <HelpKINode Title="AgendaErrorEventArgs class">
     <HelpKINode Title="AgendaErrorEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaErrorEventArgs.htm" />
     <HelpKINode Title="about AgendaErrorEventArgs class" Url="html/T_NRules_Diagnostics_AgendaErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_AgendaErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_AgendaErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_AgendaErrorEventArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="AgendaErrorEventArgs.AgendaErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_AgendaErrorEventArgs__ctor.htm" />
   <HelpKINode Title="AgendaErrorEventArgs.Expression property" Url="html/P_NRules_Diagnostics_AgendaErrorEventArgs_Expression.htm" />
   <HelpKINode Title="AgendaErrorEventArgs.Facts property" Url="html/P_NRules_Diagnostics_AgendaErrorEventArgs_Facts.htm" />
   <HelpKINode Title="AgendaErrorEventArgs.Rule property" Url="html/P_NRules_Diagnostics_AgendaErrorEventArgs_Rule.htm" />
   <HelpKINode Title="AgendaEventArgs class">
     <HelpKINode Title="AgendaEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm" />
     <HelpKINode Title="about AgendaEventArgs class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_AgendaEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_AgendaEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_AgendaEventArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="AgendaEventArgs.AgendaEventArgs constructor" Url="html/M_NRules_Diagnostics_AgendaEventArgs__ctor.htm" />
   <HelpKINode Title="AgendaEventArgs.Facts property" Url="html/P_NRules_Diagnostics_AgendaEventArgs_Facts.htm" />
   <HelpKINode Title="AgendaEventArgs.Rule property" Url="html/P_NRules_Diagnostics_AgendaEventArgs_Rule.htm" />
   <HelpKINode Title="AgendaExpressionEvaluationException class">
@@ -135,9 +141,11 @@
   <HelpKINode Title="AggregateErrorEventArgs class">
     <HelpKINode Title="AggregateErrorEventArgs Class" Url="html/T_NRules_Diagnostics_AggregateErrorEventArgs.htm" />
     <HelpKINode Title="about AggregateErrorEventArgs class" Url="html/T_NRules_Diagnostics_AggregateErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_AggregateErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_AggregateErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_AggregateErrorEventArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="AggregateErrorEventArgs.AggregateErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_AggregateErrorEventArgs__ctor.htm" />
   <HelpKINode Title="AggregateErrorEventArgs.Expression property" Url="html/P_NRules_Diagnostics_AggregateErrorEventArgs_Expression.htm" />
   <HelpKINode Title="AggregateErrorEventArgs.Facts property" Url="html/P_NRules_Diagnostics_AggregateErrorEventArgs_Facts.htm" />
   <HelpKINode Title="AggregateFailedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_AggregateFailedEvent.htm" />
@@ -208,9 +216,11 @@
   <HelpKINode Title="BindingErrorEventArgs class">
     <HelpKINode Title="BindingErrorEventArgs Class" Url="html/T_NRules_Diagnostics_BindingErrorEventArgs.htm" />
     <HelpKINode Title="about BindingErrorEventArgs class" Url="html/T_NRules_Diagnostics_BindingErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_BindingErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_BindingErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_BindingErrorEventArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="BindingErrorEventArgs.BindingErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_BindingErrorEventArgs__ctor.htm" />
   <HelpKINode Title="BindingErrorEventArgs.Expression property" Url="html/P_NRules_Diagnostics_BindingErrorEventArgs_Expression.htm" />
   <HelpKINode Title="BindingErrorEventArgs.Facts property" Url="html/P_NRules_Diagnostics_BindingErrorEventArgs_Facts.htm" />
   <HelpKINode Title="BindingExpression method" Url="html/M_NRules_RuleModel_Builders_BindingBuilder_BindingExpression.htm" />
@@ -250,10 +260,12 @@
   <HelpKINode Title="ConditionErrorEventArgs class">
     <HelpKINode Title="ConditionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
     <HelpKINode Title="about ConditionErrorEventArgs class" Url="html/T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_ConditionErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ConditionErrorEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="ConditionErrorEventArgs.Condition property" Url="html/P_NRules_Diagnostics_ConditionErrorEventArgs_Condition.htm" />
+  <HelpKINode Title="ConditionErrorEventArgs.ConditionErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_ConditionErrorEventArgs__ctor.htm" />
   <HelpKINode Title="ConditionErrorEventArgs.Facts property" Url="html/P_NRules_Diagnostics_ConditionErrorEventArgs_Facts.htm" />
   <HelpKINode Title="ConditionFailedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_ConditionFailedEvent.htm" />
   <HelpKINode Title="Conditions property">
@@ -365,9 +377,11 @@
   <HelpKINode Title="ErrorEventArgs class">
     <HelpKINode Title="ErrorEventArgs Class" Url="html/T_NRules_Diagnostics_ErrorEventArgs.htm" />
     <HelpKINode Title="about ErrorEventArgs class" Url="html/T_NRules_Diagnostics_ErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_ErrorEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ErrorEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ErrorEventArgs.htm" />
   </HelpKINode>
+  <HelpKINode Title="ErrorEventArgs.ErrorEventArgs constructor" Url="html/M_NRules_Diagnostics_ErrorEventArgs__ctor.htm" />
   <HelpKINode Title="ErrorEventArgs.Exception property" Url="html/P_NRules_Diagnostics_ErrorEventArgs_Exception.htm" />
   <HelpKINode Title="ErrorEventArgs.IsHandled property" Url="html/P_NRules_Diagnostics_ErrorEventArgs_IsHandled.htm" />
   <HelpKINode Title="Events property">
@@ -1416,6 +1430,7 @@
   <HelpKINode Title="RuleActivationException.Message property" Url="html/P_NRules_Fluent_RuleActivationException_Message.htm" />
   <HelpKINode Title="RuleActivationException.RuleActivationException constructor" Url="html/M_NRules_Fluent_RuleActivationException__ctor.htm" />
   <HelpKINode Title="RuleActivationException.RuleType property" Url="html/P_NRules_Fluent_RuleActivationException_RuleType.htm" />
+  <HelpKINode Title="RuleActivationException.RuleTypeName property" Url="html/P_NRules_Fluent_RuleActivationException_RuleTypeName.htm" />
   <HelpKINode Title="RuleBuilder class">
     <HelpKINode Title="RuleBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleBuilder.htm" />
     <HelpKINode Title="about RuleBuilder class" Url="html/T_NRules_RuleModel_Builders_RuleBuilder.htm" />
@@ -1479,6 +1494,7 @@
   <HelpKINode Title="RuleDefinitionException.Message property" Url="html/P_NRules_Fluent_RuleDefinitionException_Message.htm" />
   <HelpKINode Title="RuleDefinitionException.RuleDefinitionException constructor" Url="html/M_NRules_Fluent_RuleDefinitionException__ctor.htm" />
   <HelpKINode Title="RuleDefinitionException.RuleType property" Url="html/P_NRules_Fluent_RuleDefinitionException_RuleType.htm" />
+  <HelpKINode Title="RuleDefinitionException.RuleTypeName property" Url="html/P_NRules_Fluent_RuleDefinitionException_RuleTypeName.htm" />
   <HelpKINode Title="RuleElement class">
     <HelpKINode Title="RuleElement Class" Url="html/T_NRules_RuleModel_RuleElement.htm" />
     <HelpKINode Title="about RuleElement class" Url="html/T_NRules_RuleModel_RuleElement.htm" />
@@ -1699,6 +1715,10 @@
     <HelpKINode Title="RuleActivationException.RuleType Property " Url="html/P_NRules_Fluent_RuleActivationException_RuleType.htm" />
     <HelpKINode Title="RuleDefinitionException.RuleType Property " Url="html/P_NRules_Fluent_RuleDefinitionException_RuleType.htm" />
     <HelpKINode Title="RuleMetadata.RuleType Property " Url="html/P_NRules_Fluent_RuleMetadata_RuleType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RuleTypeName property">
+    <HelpKINode Title="RuleActivationException.RuleTypeName Property " Url="html/P_NRules_Fluent_RuleActivationException_RuleTypeName.htm" />
+    <HelpKINode Title="RuleDefinitionException.RuleTypeName Property " Url="html/P_NRules_Fluent_RuleDefinitionException_RuleTypeName.htm" />
   </HelpKINode>
   <HelpKINode Title="RuleTypeScanner class">
     <HelpKINode Title="RuleTypeScanner Class" Url="html/T_NRules_Fluent_RuleTypeScanner.htm" />
@@ -1933,9 +1953,11 @@
   <HelpKINode Title="WorkingMemoryEventArgs class">
     <HelpKINode Title="WorkingMemoryEventArgs Class" Url="html/T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
     <HelpKINode Title="about WorkingMemoryEventArgs class" Url="html/T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_WorkingMemoryEventArgs__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="WorkingMemoryEventArgs.Fact property" Url="html/P_NRules_Diagnostics_WorkingMemoryEventArgs_Fact.htm" />
+  <HelpKINode Title="WorkingMemoryEventArgs.WorkingMemoryEventArgs constructor" Url="html/M_NRules_Diagnostics_WorkingMemoryEventArgs__ctor.htm" />
   <HelpKINode Title="Yield method" Url="html/Overload_NRules_Fluent_Dsl_IRightHandSideExpression_Yield.htm" />
 </HelpKI>

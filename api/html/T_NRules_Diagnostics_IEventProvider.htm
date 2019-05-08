@@ -4,12 +4,9 @@
     <strong>Namespace:</strong> 
    <a href="N_NRules_Diagnostics.htm">NRules.Diagnostics</a><br />
     <strong>Assembly:</strong>
-   NRules (in NRules.dll) Version: 0.8.4<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">IEventProvider</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACA");</script></div><p>The <span class="selflink">IEventProvider</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
+   NRules (in NRules.dll) Version: 0.9.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">IEventProvider</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACA");</script></div><p>The <span class="selflink">IEventProvider</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_ActionFailedEvent.htm">ActionFailedEvent</a></td><td><div class="summary">
-            Raised when action execution threw an exception.
-            Gives observer of the event control over handling of the exception.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_ActivationCreatedEvent.htm">ActivationCreatedEvent</a></td><td><div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_ActivationCreatedEvent.htm">ActivationCreatedEvent</a></td><td><div class="summary">
             Raised when a new rule activation is created.
             A new activation is created when a new set of facts (tuple) matches a rule.
             The activation is placed on the agenda and becomes a candidate for firing.
@@ -23,17 +20,11 @@
             An activation is updated when a previously matching set of facts (tuple) is updated 
             and it still matches the rule.
             The activation is updated in the agenda and remains a candidate for firing.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_AgendaFilterFailedEvent.htm">AgendaFilterFailedEvent</a></td><td><div class="summary">
-            Raised when agenda filter execution threw an exception.
-            Gives observer of the event control over handling of the exception.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_AggregateFailedEvent.htm">AggregateFailedEvent</a></td><td><div class="summary">
-            Raised when aggregate expression evaluation threw an exception.
-            Gives observer of the event control over handling of the exception.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_BindingFailedEvent.htm">BindingFailedEvent</a></td><td><div class="summary">
-            Raised when binding expression evaluation threw an exception.
-            Gives observer of the event control over handling of the exception.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_ConditionFailedEvent.htm">ConditionFailedEvent</a></td><td><div class="summary">
-            Raised when condition evaluation threw an exception.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_AgendaExpressionEvaluatedEvent.htm">AgendaExpressionEvaluatedEvent</a></td><td><div class="summary">
+            Raised when agenda expression is evaluated.
+            This event is raised on both, successful expression evaluations, and on exceptions.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_AgendaExpressionFailedEvent.htm">AgendaExpressionFailedEvent</a></td><td><div class="summary">
+            Raised when agenda expression evaluation threw an exception.
             Gives observer of the event control over handling of the exception.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_FactInsertedEvent.htm">FactInsertedEvent</a></td><td><div class="summary">
             Raised after a new fact is inserted into working memory.
@@ -47,6 +38,18 @@
             Raised after an existing fact is updated in the working memory.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_FactUpdatingEvent.htm">FactUpdatingEvent</a></td><td><div class="summary">
             Raised before an existing fact is updated in the working memory.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_LhsExpressionEvaluatedEvent.htm">LhsExpressionEvaluatedEvent</a></td><td><div class="summary">
+            Raised when left-hand side expression is evaluated.
+            This event is raised on both, successful expression evaluations, and on exceptions.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_LhsExpressionFailedEvent.htm">LhsExpressionFailedEvent</a></td><td><div class="summary">
+            Raised when left-hand side expression evaluation threw an exception.
+            Gives observer of the event control over handling of the exception.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_RhsExpressionEvaluatedEvent.htm">RhsExpressionEvaluatedEvent</a></td><td><div class="summary">
+            Raised when right-hand side expression is evaluated.
+            This event is raised on both, successful expression evaluations, and on exceptions.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_RhsExpressionFailedEvent.htm">RhsExpressionFailedEvent</a></td><td><div class="summary">
+            Raised when right-hand side expression evaluation threw an exception.
+            Gives observer of the event control over handling of the exception.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_RuleFiredEvent.htm">RuleFiredEvent</a></td><td><div class="summary">
             Raised after a rule has fired and all its actions executed.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_NRules_Diagnostics_IEventProvider_RuleFiringEvent.htm">RuleFiringEvent</a></td><td><div class="summary">

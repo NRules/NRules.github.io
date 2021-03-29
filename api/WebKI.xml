@@ -39,7 +39,6 @@
   <HelpKINode Title="ActionInterceptor property">
     <HelpKINode Title="ISession.ActionInterceptor Property " Url="html/P_NRules_ISession_ActionInterceptor.htm" />
     <HelpKINode Title="ISessionFactory.ActionInterceptor Property " Url="html/P_NRules_ISessionFactory_ActionInterceptor.htm" />
-    <HelpKINode Title="Session.ActionInterceptor Property " Url="html/P_NRules_Session_ActionInterceptor.htm" />
   </HelpKINode>
   <HelpKINode Title="Actions property" Url="html/P_NRules_RuleModel_ActionGroupElement_Actions.htm" />
   <HelpKINode Title="ActionTrigger enumeration" Url="html/T_NRules_RuleModel_ActionTrigger.htm" />
@@ -69,10 +68,7 @@
   <HelpKINode Title="Added enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
   <HelpKINode Title="Added method" Url="html/M_NRules_Aggregators_AggregationResult_Added.htm" />
   <HelpKINode Title="AddFilter method" Url="html/Overload_NRules_IAgenda_AddFilter.htm" />
-  <HelpKINode Title="Agenda property">
-    <HelpKINode Title="ISession.Agenda Property " Url="html/P_NRules_ISession_Agenda.htm" />
-    <HelpKINode Title="Session.Agenda Property " Url="html/P_NRules_Session_Agenda.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Agenda property" Url="html/P_NRules_ISession_Agenda.htm" />
   <HelpKINode Title="AgendaContext class">
     <HelpKINode Title="AgendaContext Class" Url="html/T_NRules_AgendaFilters_AgendaContext.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_AgendaFilters_AgendaContext.htm" />
@@ -225,10 +221,7 @@
     <HelpKINode Title="IRuleTypeScanner.AssemblyOf Method " Url="html/Overload_NRules_Fluent_IRuleTypeScanner_AssemblyOf.htm" />
     <HelpKINode Title="RuleTypeScanner.AssemblyOf Method " Url="html/Overload_NRules_Fluent_RuleTypeScanner_AssemblyOf.htm" />
   </HelpKINode>
-  <HelpKINode Title="AutoPropagateLinkedFacts property">
-    <HelpKINode Title="ISession.AutoPropagateLinkedFacts Property " Url="html/P_NRules_ISession_AutoPropagateLinkedFacts.htm" />
-    <HelpKINode Title="Session.AutoPropagateLinkedFacts Property " Url="html/P_NRules_Session_AutoPropagateLinkedFacts.htm" />
-  </HelpKINode>
+  <HelpKINode Title="AutoPropagateLinkedFacts property" Url="html/P_NRules_ISession_AutoPropagateLinkedFacts.htm" />
   <HelpKINode Title="BasePattern method" Url="html/Overload_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm" />
   <HelpKINode Title="BasePattern property" Url="html/P_NRules_RuleModel_ForAllElement_BasePattern.htm" />
   <HelpKINode Title="BatchOptions enumeration" Url="html/T_NRules_BatchOptions.htm" />
@@ -285,6 +278,8 @@
     <HelpKINode Title="RuleCompiler.Compile Method " Url="html/Overload_NRules_RuleCompiler_Compile.htm" />
     <HelpKINode Title="RuleRepositoryExtensions.Compile Method " Url="html/Overload_NRules_RuleRepositoryExtensions_Compile.htm" />
   </HelpKINode>
+  <HelpKINode Title="Compile(Of TDelegate) method" Url="html/M_NRules_Extensibility_IExpressionCompiler_Compile__1.htm" />
+  <HelpKINode Title="Compile&lt;TDelegate&gt; method" Url="html/M_NRules_Extensibility_IExpressionCompiler_Compile__1.htm" />
   <HelpKINode Title="Condition method">
     <HelpKINode Title="Element.Condition Method " Url="html/M_NRules_RuleModel_Builders_Element_Condition.htm" />
     <HelpKINode Title="PatternBuilder.Condition Method " Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Condition.htm" />
@@ -295,7 +290,6 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ConditionElement.htm" />
   </HelpKINode>
   <HelpKINode Title="ConditionName field" Url="html/F_NRules_RuleModel_PatternElement_ConditionName.htm" />
-  <HelpKINode Title="Conditions property" Url="html/P_NRules_Diagnostics_NodeInfo_Conditions.htm" />
   <HelpKINode Title="Context class">
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleTransformation_Context.htm" />
   </HelpKINode>
@@ -381,7 +375,6 @@
   <HelpKINode Title="DependencyResolver property">
     <HelpKINode Title="ISession.DependencyResolver Property " Url="html/P_NRules_ISession_DependencyResolver.htm" />
     <HelpKINode Title="ISessionFactory.DependencyResolver Property " Url="html/P_NRules_ISessionFactory_DependencyResolver.htm" />
-    <HelpKINode Title="Session.DependencyResolver Property " Url="html/P_NRules_Session_DependencyResolver.htm" />
   </HelpKINode>
   <HelpKINode Title="Descending enumeration member" Url="html/T_NRules_RuleModel_SortDirection.htm" />
   <HelpKINode Title="Description method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Description.htm" />
@@ -397,7 +390,17 @@
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_Fluent_Dsl_DescriptionAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="DescriptionAttribute.DescriptionAttribute constructor" Url="html/M_NRules_Fluent_Dsl_DescriptionAttribute__ctor.htm" />
-  <HelpKINode Title="Details property" Url="html/P_NRules_Diagnostics_NodeInfo_Details.htm" />
+  <HelpKINode Title="DgmlWriter class">
+    <HelpKINode Title="DgmlWriter Class" Url="html/T_NRules_Diagnostics_Dgml_DgmlWriter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_Dgml_DgmlWriter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DgmlWriter.DgmlWriter constructor" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter__ctor.htm" />
+  <HelpKINode Title="DgmlWriter.GetContents method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_GetContents.htm" />
+  <HelpKINode Title="DgmlWriter.SetMetricsProvider method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetMetricsProvider.htm" />
+  <HelpKINode Title="DgmlWriter.SetRuleFilter method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetRuleFilter.htm" />
+  <HelpKINode Title="DgmlWriter.WriteAllText method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_WriteAllText.htm" />
+  <HelpKINode Title="DgmlWriter.WriteXml method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_WriteXml.htm" />
   <HelpKINode Title="Do method" Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Do.htm" />
   <HelpKINode Title="Dummy enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="Element class">
@@ -425,6 +428,7 @@
   <HelpKINode Title="Element.Pattern method" Url="html/Overload_NRules_RuleModel_Builders_Element_Pattern.htm" />
   <HelpKINode Title="Element.Project method" Url="html/Overload_NRules_RuleModel_Builders_Element_Project.htm" />
   <HelpKINode Title="Element.RuleDefinition method" Url="html/Overload_NRules_RuleModel_Builders_Element_RuleDefinition.htm" />
+  <HelpKINode Title="ElementCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_ElementCount.htm" />
   <HelpKINode Title="ElementSelectorName field" Url="html/F_NRules_RuleModel_AggregateElement_ElementSelectorName.htm" />
   <HelpKINode Title="ElementType enumeration" Url="html/T_NRules_RuleModel_ElementType.htm" />
   <HelpKINode Title="ElementType property">
@@ -450,7 +454,6 @@
   <HelpKINode Title="Events property">
     <HelpKINode Title="ISession.Events Property " Url="html/P_NRules_ISession_Events.htm" />
     <HelpKINode Title="ISessionFactory.Events Property " Url="html/P_NRules_ISessionFactory_Events.htm" />
-    <HelpKINode Title="Session.Events Property " Url="html/P_NRules_Session_Events.htm" />
   </HelpKINode>
   <HelpKINode Title="Exception property">
     <HelpKINode Title="ExpressionEventArgs.Exception Property " Url="html/P_NRules_Diagnostics_ExpressionEventArgs_Exception.htm" />
@@ -498,6 +501,7 @@
   <HelpKINode Title="ExpressionCollection.GetEnumerator method" Url="html/M_NRules_RuleModel_ExpressionCollection_GetEnumerator.htm" />
   <HelpKINode Title="ExpressionCollection.IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_NRules_RuleModel_ExpressionCollection_System_Collections_IEnumerable_GetEnumerator.htm" />
   <HelpKINode Title="ExpressionCollection.Item property" Url="html/P_NRules_RuleModel_ExpressionCollection_Item.htm" />
+  <HelpKINode Title="ExpressionCompiler property" Url="html/P_NRules_RuleCompiler_ExpressionCompiler.htm" />
   <HelpKINode Title="ExpressionElement class">
     <HelpKINode Title="ExpressionElement Class" Url="html/T_NRules_RuleModel_ExpressionElement.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_RuleModel_ExpressionElement.htm" />
@@ -517,8 +521,8 @@
   <HelpKINode Title="ExpressionEventArgs.Result property" Url="html/P_NRules_Diagnostics_ExpressionEventArgs_Result.htm" />
   <HelpKINode Title="Expressions property">
     <HelpKINode Title="AggregateElement.Expressions Property " Url="html/P_NRules_RuleModel_AggregateElement_Expressions.htm" />
-    <HelpKINode Title="NodeInfo.Expressions Property " Url="html/P_NRules_Diagnostics_NodeInfo_Expressions.htm" />
     <HelpKINode Title="PatternElement.Expressions Property " Url="html/P_NRules_RuleModel_PatternElement_Expressions.htm" />
+    <HelpKINode Title="ReteNode.Expressions Property " Url="html/P_NRules_Diagnostics_ReteNode_Expressions.htm" />
   </HelpKINode>
   <HelpKINode Title="Fact property" Url="html/P_NRules_Diagnostics_WorkingMemoryEventArgs_Fact.htm" />
   <HelpKINode Title="FactCount property" Url="html/P_NRules_ILinkedFactSet_FactCount.htm" />
@@ -581,12 +585,10 @@
     <HelpKINode Title="AggregateExpressionExtensions.Find Method " Url="html/M_NRules_Aggregators_AggregateExpressionExtensions_Find.htm" />
     <HelpKINode Title="ExpressionCollection.Find Method " Url="html/M_NRules_RuleModel_ExpressionCollection_Find.htm" />
   </HelpKINode>
+  <HelpKINode Title="FindByNodeId method" Url="html/M_NRules_Diagnostics_IMetricsProvider_FindByNodeId.htm" />
   <HelpKINode Title="FindSingle method" Url="html/M_NRules_Aggregators_AggregateExpressionExtensions_FindSingle.htm" />
   <HelpKINode Title="FindSingleOrDefault method" Url="html/M_NRules_RuleModel_ExpressionCollection_FindSingleOrDefault.htm" />
-  <HelpKINode Title="Fire method">
-    <HelpKINode Title="ISession.Fire Method " Url="html/Overload_NRules_ISession_Fire.htm" />
-    <HelpKINode Title="Session.Fire Method " Url="html/Overload_NRules_Session_Fire.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Fire method" Url="html/Overload_NRules_ISession_Fire.htm" />
   <HelpKINode Title="Flatten method">
     <HelpKINode Title="AggregateBuilder.Flatten Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten.htm" />
     <HelpKINode Title="Element.Flatten Method " Url="html/M_NRules_RuleModel_Builders_Element_Flatten.htm" />
@@ -618,19 +620,15 @@
   <HelpKINode Title="From(Of TSource) method" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_From__1.htm" />
   <HelpKINode Title="From&lt;TFact&gt; method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_From__1.htm" />
   <HelpKINode Title="From&lt;TSource&gt; method" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_From__1.htm" />
+  <HelpKINode Title="GetAll method" Url="html/M_NRules_Diagnostics_IMetricsProvider_GetAll.htm" />
+  <HelpKINode Title="GetContents method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_GetContents.htm" />
   <HelpKINode Title="GetEnumerator method">
     <HelpKINode Title="ExpressionCollection.GetEnumerator Method " Url="html/M_NRules_RuleModel_ExpressionCollection_GetEnumerator.htm" />
     <HelpKINode Title="PropertyMap.GetEnumerator Method " Url="html/M_NRules_RuleModel_PropertyMap_GetEnumerator.htm" />
   </HelpKINode>
   <HelpKINode Title="GetHashCode method" Url="html/M_NRules_RuleModel_Declaration_GetHashCode.htm" />
-  <HelpKINode Title="GetLinked method">
-    <HelpKINode Title="IContext.GetLinked Method " Url="html/M_NRules_RuleModel_IContext_GetLinked.htm" />
-    <HelpKINode Title="Session.GetLinked Method " Url="html/M_NRules_Session_GetLinked.htm" />
-  </HelpKINode>
-  <HelpKINode Title="GetLinkedKeys method">
-    <HelpKINode Title="IContext.GetLinkedKeys Method " Url="html/M_NRules_RuleModel_IContext_GetLinkedKeys.htm" />
-    <HelpKINode Title="Session.GetLinkedKeys Method " Url="html/M_NRules_Session_GetLinkedKeys.htm" />
-  </HelpKINode>
+  <HelpKINode Title="GetLinked method" Url="html/M_NRules_RuleModel_IContext_GetLinked.htm" />
+  <HelpKINode Title="GetLinkedKeys method" Url="html/M_NRules_RuleModel_IContext_GetLinkedKeys.htm" />
   <HelpKINode Title="GetObjectData method">
     <HelpKINode Title="AgendaExpressionEvaluationException.GetObjectData Method " Url="html/M_NRules_AgendaExpressionEvaluationException_GetObjectData.htm" />
     <HelpKINode Title="RuleActivationException.GetObjectData Method " Url="html/M_NRules_Fluent_RuleActivationException_GetObjectData.htm" />
@@ -645,7 +643,7 @@
     <HelpKINode Title="RuleRepository.GetRuleSets Method " Url="html/M_NRules_Fluent_RuleRepository_GetRuleSets.htm" />
   </HelpKINode>
   <HelpKINode Title="GetRuleTypes method" Url="html/M_NRules_Fluent_RuleTypeScanner_GetRuleTypes.htm" />
-  <HelpKINode Title="GetSnapshot method" Url="html/M_NRules_Diagnostics_ISessionSnapshotProvider_GetSnapshot.htm" />
+  <HelpKINode Title="GetSchema method" Url="html/M_NRules_Diagnostics_ISessionSchemaProvider_GetSchema.htm" />
   <HelpKINode Title="Group method">
     <HelpKINode Title="Element.Group Method " Url="html/M_NRules_RuleModel_Builders_Element_Group.htm" />
     <HelpKINode Title="ExistsBuilder.Group Method " Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Group.htm" />
@@ -766,6 +764,7 @@
   <HelpKINode Title="IContext.UpdateAll method" Url="html/M_NRules_RuleModel_IContext_UpdateAll.htm" />
   <HelpKINode Title="IContext.UpdateAllLinked method" Url="html/M_NRules_RuleModel_IContext_UpdateAllLinked.htm" />
   <HelpKINode Title="IContext.UpdateLinked method" Url="html/M_NRules_RuleModel_IContext_UpdateLinked.htm" />
+  <HelpKINode Title="Id property" Url="html/P_NRules_Diagnostics_ReteNode_Id.htm" />
   <HelpKINode Title="IDependencyExpression interface">
     <HelpKINode Title="IDependencyExpression Interface" Url="html/T_NRules_Fluent_Dsl_IDependencyExpression.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_NRules_Fluent_Dsl_IDependencyExpression.htm" />
@@ -802,6 +801,12 @@
   <HelpKINode Title="IEventProvider.RhsExpressionFailedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_RhsExpressionFailedEvent.htm" />
   <HelpKINode Title="IEventProvider.RuleFiredEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_RuleFiredEvent.htm" />
   <HelpKINode Title="IEventProvider.RuleFiringEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_RuleFiringEvent.htm" />
+  <HelpKINode Title="IExpressionCompiler interface">
+    <HelpKINode Title="IExpressionCompiler Interface" Url="html/T_NRules_Extensibility_IExpressionCompiler.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Extensibility_IExpressionCompiler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExpressionCompiler.Compile(Of TDelegate) method" Url="html/M_NRules_Extensibility_IExpressionCompiler_Compile__1.htm" />
+  <HelpKINode Title="IExpressionCompiler.Compile&lt;TDelegate&gt; method" Url="html/M_NRules_Extensibility_IExpressionCompiler_Compile__1.htm" />
   <HelpKINode Title="IFact interface">
     <HelpKINode Title="IFact Interface" Url="html/T_NRules_RuleModel_IFact.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_IFact.htm" />
@@ -868,20 +873,45 @@
   <HelpKINode Title="IMatch.Facts property" Url="html/P_NRules_RuleModel_IMatch_Facts.htm" />
   <HelpKINode Title="IMatch.Rule property" Url="html/P_NRules_RuleModel_IMatch_Rule.htm" />
   <HelpKINode Title="IMatch.Trigger property" Url="html/P_NRules_RuleModel_IMatch_Trigger.htm" />
+  <HelpKINode Title="IMetricsProvider interface">
+    <HelpKINode Title="IMetricsProvider Interface" Url="html/T_NRules_Diagnostics_IMetricsProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_IMetricsProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMetricsProvider.FindByNodeId method" Url="html/M_NRules_Diagnostics_IMetricsProvider_FindByNodeId.htm" />
+  <HelpKINode Title="IMetricsProvider.GetAll method" Url="html/M_NRules_Diagnostics_IMetricsProvider_GetAll.htm" />
+  <HelpKINode Title="IMetricsProvider.Reset method" Url="html/M_NRules_Diagnostics_IMetricsProvider_Reset.htm" />
   <HelpKINode Title="Imports property" Url="html/P_NRules_RuleModel_RuleElement_Imports.htm" />
+  <HelpKINode Title="INodeMetrics interface">
+    <HelpKINode Title="INodeMetrics Interface" Url="html/T_NRules_Diagnostics_INodeMetrics.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_INodeMetrics.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_INodeMetrics.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INodeMetrics.ElementCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_ElementCount.htm" />
+  <HelpKINode Title="INodeMetrics.InsertDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertDurationMilliseconds.htm" />
+  <HelpKINode Title="INodeMetrics.InsertInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertInputCount.htm" />
+  <HelpKINode Title="INodeMetrics.InsertOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertOutputCount.htm" />
+  <HelpKINode Title="INodeMetrics.NodeId property" Url="html/P_NRules_Diagnostics_INodeMetrics_NodeId.htm" />
+  <HelpKINode Title="INodeMetrics.Reset method" Url="html/M_NRules_Diagnostics_INodeMetrics_Reset.htm" />
+  <HelpKINode Title="INodeMetrics.RetractDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractDurationMilliseconds.htm" />
+  <HelpKINode Title="INodeMetrics.RetractInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractInputCount.htm" />
+  <HelpKINode Title="INodeMetrics.RetractOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractOutputCount.htm" />
+  <HelpKINode Title="INodeMetrics.UpdateDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateDurationMilliseconds.htm" />
+  <HelpKINode Title="INodeMetrics.UpdateInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateInputCount.htm" />
+  <HelpKINode Title="INodeMetrics.UpdateOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateOutputCount.htm" />
   <HelpKINode Title="Insert enumeration member" Url="html/T_NRules_LinkedFactAction.htm" />
   <HelpKINode Title="Insert method">
     <HelpKINode Title="IContext.Insert Method " Url="html/M_NRules_RuleModel_IContext_Insert.htm" />
     <HelpKINode Title="ISession.Insert Method " Url="html/M_NRules_ISession_Insert.htm" />
-    <HelpKINode Title="Session.Insert Method " Url="html/M_NRules_Session_Insert.htm" />
   </HelpKINode>
   <HelpKINode Title="InsertAll method">
     <HelpKINode Title="IContext.InsertAll Method " Url="html/M_NRules_RuleModel_IContext_InsertAll.htm" />
     <HelpKINode Title="ISession.InsertAll Method " Url="html/M_NRules_ISession_InsertAll.htm" />
-    <HelpKINode Title="Session.InsertAll Method " Url="html/M_NRules_Session_InsertAll.htm" />
   </HelpKINode>
   <HelpKINode Title="InsertAllLinked method" Url="html/M_NRules_RuleModel_IContext_InsertAllLinked.htm" />
+  <HelpKINode Title="InsertDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertDurationMilliseconds.htm" />
+  <HelpKINode Title="InsertInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertInputCount.htm" />
   <HelpKINode Title="InsertLinked method" Url="html/M_NRules_RuleModel_IContext_InsertLinked.htm" />
+  <HelpKINode Title="InsertOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_InsertOutputCount.htm" />
   <HelpKINode Title="Intercept method" Url="html/M_NRules_Extensibility_IActionInterceptor_Intercept.htm" />
   <HelpKINode Title="Invoke method">
     <HelpKINode Title="IActionInvocation.Invoke Method " Url="html/M_NRules_Extensibility_IActionInvocation_Invoke.htm" />
@@ -1029,6 +1059,7 @@
   <HelpKINode Title="ISession.Fire method" Url="html/Overload_NRules_ISession_Fire.htm" />
   <HelpKINode Title="ISession.Insert method" Url="html/M_NRules_ISession_Insert.htm" />
   <HelpKINode Title="ISession.InsertAll method" Url="html/M_NRules_ISession_InsertAll.htm" />
+  <HelpKINode Title="ISession.Metrics property" Url="html/P_NRules_ISession_Metrics.htm" />
   <HelpKINode Title="ISession.PropagateLinked method" Url="html/M_NRules_ISession_PropagateLinked.htm" />
   <HelpKINode Title="ISession.Query(Of TFact) method" Url="html/M_NRules_ISession_Query__1.htm" />
   <HelpKINode Title="ISession.Query&lt;TFact&gt; method" Url="html/M_NRules_ISession_Query__1.htm" />
@@ -1051,12 +1082,11 @@
   <HelpKINode Title="ISessionFactory.CreateSession method" Url="html/Overload_NRules_ISessionFactory_CreateSession.htm" />
   <HelpKINode Title="ISessionFactory.DependencyResolver property" Url="html/P_NRules_ISessionFactory_DependencyResolver.htm" />
   <HelpKINode Title="ISessionFactory.Events property" Url="html/P_NRules_ISessionFactory_Events.htm" />
-  <HelpKINode Title="ISessionSnapshotProvider interface">
-    <HelpKINode Title="ISessionSnapshotProvider Interface" Url="html/T_NRules_Diagnostics_ISessionSnapshotProvider.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ISessionSnapshotProvider.htm" />
+  <HelpKINode Title="ISessionSchemaProvider interface">
+    <HelpKINode Title="ISessionSchemaProvider Interface" Url="html/T_NRules_Diagnostics_ISessionSchemaProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ISessionSchemaProvider.htm" />
   </HelpKINode>
-  <HelpKINode Title="ISessionSnapshotProvider.GetSnapshot explicitly implemented method" Url="html/M_NRules_Session_NRules_Diagnostics_ISessionSnapshotProvider_GetSnapshot.htm" />
-  <HelpKINode Title="ISessionSnapshotProvider.GetSnapshot method" Url="html/M_NRules_Diagnostics_ISessionSnapshotProvider_GetSnapshot.htm" />
+  <HelpKINode Title="ISessionSchemaProvider.GetSchema method" Url="html/M_NRules_Diagnostics_ISessionSchemaProvider_GetSchema.htm" />
   <HelpKINode Title="IsHandled property">
     <HelpKINode Title="AgendaExpressionErrorEventArgs.IsHandled Property " Url="html/P_NRules_Diagnostics_AgendaExpressionErrorEventArgs_IsHandled.htm" />
     <HelpKINode Title="IRecoverableError.IsHandled Property " Url="html/P_NRules_Diagnostics_IRecoverableError_IsHandled.htm" />
@@ -1065,11 +1095,16 @@
   </HelpKINode>
   <HelpKINode Title="IsRuleType method" Url="html/M_NRules_Fluent_RuleTypeScanner_IsRuleType.htm" />
   <HelpKINode Title="IsTagged method" Url="html/M_NRules_Fluent_RuleMetadataExtensions_IsTagged.htm" />
+  <HelpKINode Title="IStatefulAgendaFilter interface">
+    <HelpKINode Title="IStatefulAgendaFilter Interface" Url="html/T_NRules_AgendaFilters_IStatefulAgendaFilter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_AgendaFilters_IStatefulAgendaFilter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IStatefulAgendaFilter.Remove method" Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Remove.htm" />
+  <HelpKINode Title="IStatefulAgendaFilter.Select method" Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Select.htm" />
   <HelpKINode Title="Item property">
     <HelpKINode Title="ExpressionCollection.Item Property " Url="html/P_NRules_RuleModel_ExpressionCollection_Item.htm" />
     <HelpKINode Title="PropertyMap.Item Property " Url="html/P_NRules_RuleModel_PropertyMap_Item.htm" />
   </HelpKINode>
-  <HelpKINode Title="Items property" Url="html/P_NRules_Diagnostics_NodeInfo_Items.htm" />
   <HelpKINode Title="ITuple interface">
     <HelpKINode Title="ITuple Interface" Url="html/T_NRules_RuleModel_ITuple.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_NRules_RuleModel_ITuple.htm" />
@@ -1106,14 +1141,7 @@
   <HelpKINode Title="LhsExpressionFailedEvent event" Url="html/E_NRules_Diagnostics_IEventProvider_LhsExpressionFailedEvent.htm" />
   <HelpKINode Title="Linked enumeration member" Url="html/T_NRules_RuleModel_FactSourceType.htm" />
   <HelpKINode Title="LinkedFactAction enumeration" Url="html/T_NRules_LinkedFactAction.htm" />
-  <HelpKINode Title="LinkInfo class">
-    <HelpKINode Title="LinkInfo Class" Url="html/T_NRules_Diagnostics_LinkInfo.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_LinkInfo.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_LinkInfo.htm" />
-  </HelpKINode>
-  <HelpKINode Title="LinkInfo.Source property" Url="html/P_NRules_Diagnostics_LinkInfo_Source.htm" />
-  <HelpKINode Title="LinkInfo.Target property" Url="html/P_NRules_Diagnostics_LinkInfo_Target.htm" />
-  <HelpKINode Title="Links property" Url="html/P_NRules_Diagnostics_SessionSnapshot_Links.htm" />
+  <HelpKINode Title="Links property" Url="html/P_NRules_Diagnostics_ReteGraph_Links.htm" />
   <HelpKINode Title="Load method" Url="html/M_NRules_Fluent_RuleRepository_Load.htm" />
   <HelpKINode Title="Match method">
     <HelpKINode Title="ILeftHandSideExpression.Match Method " Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_Match.htm" />
@@ -1136,6 +1164,7 @@
     <HelpKINode Title="RuleExpressionEvaluationException.Message Property " Url="html/P_NRules_RuleExpressionEvaluationException_Message.htm" />
     <HelpKINode Title="RuleRhsExpressionEvaluationException.Message Property " Url="html/P_NRules_RuleRhsExpressionEvaluationException_Message.htm" />
   </HelpKINode>
+  <HelpKINode Title="Metrics property" Url="html/P_NRules_ISession_Metrics.htm" />
   <HelpKINode Title="Modified enumeration member" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
   <HelpKINode Title="Modified method" Url="html/M_NRules_Aggregators_AggregationResult_Modified.htm" />
   <HelpKINode Title="Modify method" Url="html/M_NRules_Aggregators_IAggregator_Modify.htm" />
@@ -1175,19 +1204,10 @@
     <HelpKINode Title="IRuleTypeScanner.NestedTypes Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_NestedTypes.htm" />
     <HelpKINode Title="RuleTypeScanner.NestedTypes Method " Url="html/M_NRules_Fluent_RuleTypeScanner_NestedTypes.htm" />
   </HelpKINode>
-  <HelpKINode Title="NodeInfo class">
-    <HelpKINode Title="NodeInfo Class" Url="html/T_NRules_Diagnostics_NodeInfo.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_NodeInfo.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_NodeInfo.htm" />
-  </HelpKINode>
-  <HelpKINode Title="NodeInfo.Conditions property" Url="html/P_NRules_Diagnostics_NodeInfo_Conditions.htm" />
-  <HelpKINode Title="NodeInfo.Details property" Url="html/P_NRules_Diagnostics_NodeInfo_Details.htm" />
-  <HelpKINode Title="NodeInfo.Expressions property" Url="html/P_NRules_Diagnostics_NodeInfo_Expressions.htm" />
-  <HelpKINode Title="NodeInfo.Items property" Url="html/P_NRules_Diagnostics_NodeInfo_Items.htm" />
-  <HelpKINode Title="NodeInfo.NodeType property" Url="html/P_NRules_Diagnostics_NodeInfo_NodeType.htm" />
-  <HelpKINode Title="Nodes property" Url="html/P_NRules_Diagnostics_SessionSnapshot_Nodes.htm" />
+  <HelpKINode Title="NodeId property" Url="html/P_NRules_Diagnostics_INodeMetrics_NodeId.htm" />
+  <HelpKINode Title="Nodes property" Url="html/P_NRules_Diagnostics_ReteGraph_Nodes.htm" />
   <HelpKINode Title="NodeType enumeration" Url="html/T_NRules_Diagnostics_NodeType.htm" />
-  <HelpKINode Title="NodeType property" Url="html/P_NRules_Diagnostics_NodeInfo_NodeType.htm" />
+  <HelpKINode Title="NodeType property" Url="html/P_NRules_Diagnostics_ReteNode_NodeType.htm" />
   <HelpKINode Title="None enumeration member">
     <HelpKINode Title="ActionTrigger Enumeration" Url="html/T_NRules_RuleModel_ActionTrigger.htm" />
     <HelpKINode Title="AggregationAction Enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
@@ -1226,6 +1246,7 @@
   <HelpKINode Title="NRules.AgendaFilters namespace" Url="html/N_NRules_AgendaFilters.htm" />
   <HelpKINode Title="NRules.AgendaFilters.AgendaContext class" Url="html/T_NRules_AgendaFilters_AgendaContext.htm" />
   <HelpKINode Title="NRules.AgendaFilters.IAgendaFilter interface" Url="html/T_NRules_AgendaFilters_IAgendaFilter.htm" />
+  <HelpKINode Title="NRules.AgendaFilters.IStatefulAgendaFilter interface" Url="html/T_NRules_AgendaFilters_IStatefulAgendaFilter.htm" />
   <HelpKINode Title="NRules.Aggregators namespace" Url="html/N_NRules_Aggregators.htm" />
   <HelpKINode Title="NRules.Aggregators.AggregateExpressionExtensions class" Url="html/T_NRules_Aggregators_AggregateExpressionExtensions.htm" />
   <HelpKINode Title="NRules.Aggregators.AggregationAction enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
@@ -1240,23 +1261,28 @@
   <HelpKINode Title="NRules.Diagnostics.AgendaEventArgs class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.AgendaExpressionErrorEventArgs class" Url="html/T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.AgendaExpressionEventArgs class" Url="html/T_NRules_Diagnostics_AgendaExpressionEventArgs.htm" />
+  <HelpKINode Title="NRules.Diagnostics.Dgml namespace" Url="html/N_NRules_Diagnostics_Dgml.htm" />
+  <HelpKINode Title="NRules.Diagnostics.Dgml.DgmlWriter class" Url="html/T_NRules_Diagnostics_Dgml_DgmlWriter.htm" />
   <HelpKINode Title="NRules.Diagnostics.ExpressionEventArgs class" Url="html/T_NRules_Diagnostics_ExpressionEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.IEventProvider interface" Url="html/T_NRules_Diagnostics_IEventProvider.htm" />
+  <HelpKINode Title="NRules.Diagnostics.IMetricsProvider interface" Url="html/T_NRules_Diagnostics_IMetricsProvider.htm" />
+  <HelpKINode Title="NRules.Diagnostics.INodeMetrics interface" Url="html/T_NRules_Diagnostics_INodeMetrics.htm" />
   <HelpKINode Title="NRules.Diagnostics.IRecoverableError interface" Url="html/T_NRules_Diagnostics_IRecoverableError.htm" />
-  <HelpKINode Title="NRules.Diagnostics.ISessionSnapshotProvider interface" Url="html/T_NRules_Diagnostics_ISessionSnapshotProvider.htm" />
+  <HelpKINode Title="NRules.Diagnostics.ISessionSchemaProvider interface" Url="html/T_NRules_Diagnostics_ISessionSchemaProvider.htm" />
   <HelpKINode Title="NRules.Diagnostics.LhsExpressionErrorEventArgs class" Url="html/T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.LhsExpressionEventArgs class" Url="html/T_NRules_Diagnostics_LhsExpressionEventArgs.htm" />
-  <HelpKINode Title="NRules.Diagnostics.LinkInfo class" Url="html/T_NRules_Diagnostics_LinkInfo.htm" />
-  <HelpKINode Title="NRules.Diagnostics.NodeInfo class" Url="html/T_NRules_Diagnostics_NodeInfo.htm" />
   <HelpKINode Title="NRules.Diagnostics.NodeType enumeration" Url="html/T_NRules_Diagnostics_NodeType.htm" />
+  <HelpKINode Title="NRules.Diagnostics.ReteGraph class" Url="html/T_NRules_Diagnostics_ReteGraph.htm" />
+  <HelpKINode Title="NRules.Diagnostics.ReteLink class" Url="html/T_NRules_Diagnostics_ReteLink.htm" />
+  <HelpKINode Title="NRules.Diagnostics.ReteNode class" Url="html/T_NRules_Diagnostics_ReteNode.htm" />
   <HelpKINode Title="NRules.Diagnostics.RhsExpressionErrorEventArgs class" Url="html/T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm" />
   <HelpKINode Title="NRules.Diagnostics.RhsExpressionEventArgs class" Url="html/T_NRules_Diagnostics_RhsExpressionEventArgs.htm" />
-  <HelpKINode Title="NRules.Diagnostics.SessionSnapshot class" Url="html/T_NRules_Diagnostics_SessionSnapshot.htm" />
   <HelpKINode Title="NRules.Diagnostics.WorkingMemoryEventArgs class" Url="html/T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
   <HelpKINode Title="NRules.Extensibility namespace" Url="html/N_NRules_Extensibility.htm" />
   <HelpKINode Title="NRules.Extensibility.IActionInterceptor interface" Url="html/T_NRules_Extensibility_IActionInterceptor.htm" />
   <HelpKINode Title="NRules.Extensibility.IActionInvocation interface" Url="html/T_NRules_Extensibility_IActionInvocation.htm" />
   <HelpKINode Title="NRules.Extensibility.IDependencyResolver interface" Url="html/T_NRules_Extensibility_IDependencyResolver.htm" />
+  <HelpKINode Title="NRules.Extensibility.IExpressionCompiler interface" Url="html/T_NRules_Extensibility_IExpressionCompiler.htm" />
   <HelpKINode Title="NRules.Extensibility.IResolutionContext interface" Url="html/T_NRules_Extensibility_IResolutionContext.htm" />
   <HelpKINode Title="NRules.Fluent namespace" Url="html/N_NRules_Fluent.htm" />
   <HelpKINode Title="NRules.Fluent.Dsl namespace" Url="html/N_NRules_Fluent_Dsl.htm" />
@@ -1371,7 +1397,6 @@
   <HelpKINode Title="NRules.RuleModel.SortDirection enumeration" Url="html/T_NRules_RuleModel_SortDirection.htm" />
   <HelpKINode Title="NRules.RuleRepositoryExtensions class" Url="html/T_NRules_RuleRepositoryExtensions.htm" />
   <HelpKINode Title="NRules.RuleRhsExpressionEvaluationException class" Url="html/T_NRules_RuleRhsExpressionEvaluationException.htm" />
-  <HelpKINode Title="NRules.Session class" Url="html/T_NRules_Session.htm" />
   <HelpKINode Title="OnChange method" Url="html/M_NRules_Fluent_Dsl_IFilterExpression_OnChange.htm" />
   <HelpKINode Title="Or enumeration member">
     <HelpKINode Title="ElementType Enumeration" Url="html/T_NRules_RuleModel_ElementType.htm" />
@@ -1396,6 +1421,7 @@
   </HelpKINode>
   <HelpKINode Title="OrElement.ElementType property" Url="html/P_NRules_RuleModel_OrElement_ElementType.htm" />
   <HelpKINode Title="OrGroup method" Url="html/Overload_NRules_RuleModel_Builders_Element_OrGroup.htm" />
+  <HelpKINode Title="OutputType property" Url="html/P_NRules_Diagnostics_ReteNode_OutputType.htm" />
   <HelpKINode Title="Pattern enumeration member" Url="html/T_NRules_RuleModel_ElementType.htm" />
   <HelpKINode Title="Pattern method">
     <HelpKINode Title="AggregateBuilder.Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_Pattern.htm" />
@@ -1457,12 +1483,12 @@
     <HelpKINode Title="Element.Project Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Project.htm" />
   </HelpKINode>
   <HelpKINode Title="ProjectName field" Url="html/F_NRules_RuleModel_AggregateElement_ProjectName.htm" />
-  <HelpKINode Title="PropagateLinked method">
-    <HelpKINode Title="ISession.PropagateLinked Method " Url="html/M_NRules_ISession_PropagateLinked.htm" />
-    <HelpKINode Title="Session.PropagateLinked Method " Url="html/M_NRules_Session_PropagateLinked.htm" />
-  </HelpKINode>
+  <HelpKINode Title="PropagateLinked method" Url="html/M_NRules_ISession_PropagateLinked.htm" />
   <HelpKINode Title="Properties method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Properties.htm" />
-  <HelpKINode Title="Properties property" Url="html/P_NRules_RuleModel_IRuleDefinition_Properties.htm" />
+  <HelpKINode Title="Properties property">
+    <HelpKINode Title="IRuleDefinition.Properties Property " Url="html/P_NRules_RuleModel_IRuleDefinition_Properties.htm" />
+    <HelpKINode Title="ReteNode.Properties Property " Url="html/P_NRules_Diagnostics_ReteNode_Properties.htm" />
+  </HelpKINode>
   <HelpKINode Title="Property method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Property.htm" />
   <HelpKINode Title="PropertyMap class">
     <HelpKINode Title="PropertyMap Class" Url="html/T_NRules_RuleModel_PropertyMap.htm" />
@@ -1476,15 +1502,9 @@
   <HelpKINode Title="PropertyMap.Item property" Url="html/P_NRules_RuleModel_PropertyMap_Item.htm" />
   <HelpKINode Title="PropertyMap.PropertyMap constructor" Url="html/M_NRules_RuleModel_PropertyMap__ctor.htm" />
   <HelpKINode Title="PropertyMap.TryGetProperty method" Url="html/M_NRules_RuleModel_PropertyMap_TryGetProperty.htm" />
-  <HelpKINode Title="Query(Of TFact) method">
-    <HelpKINode Title="ISession.Query(TFact) Method " Url="html/M_NRules_ISession_Query__1.htm" />
-    <HelpKINode Title="Session.Query(TFact) Method " Url="html/M_NRules_Session_Query__1.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Query(Of TFact) method" Url="html/M_NRules_ISession_Query__1.htm" />
   <HelpKINode Title="Query(Of TResult) method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1.htm" />
-  <HelpKINode Title="Query&lt;TFact&gt; method">
-    <HelpKINode Title="ISession.Query(TFact) Method " Url="html/M_NRules_ISession_Query__1.htm" />
-    <HelpKINode Title="Session.Query(TFact) Method " Url="html/M_NRules_Session_Query__1.htm" />
-  </HelpKINode>
+  <HelpKINode Title="Query&lt;TFact&gt; method" Url="html/M_NRules_ISession_Query__1.htm" />
   <HelpKINode Title="Query&lt;TResult&gt; method" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1.htm" />
   <HelpKINode Title="QueryExpression(Of TSource) class">
     <HelpKINode Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
@@ -1527,12 +1547,12 @@
   <HelpKINode Title="QueryExtensions.ThenByDescending&lt;TSource, TKey&gt; method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ThenByDescending__2.htm" />
   <HelpKINode Title="QueryExtensions.Where(Of TSource) method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Where__1.htm" />
   <HelpKINode Title="QueryExtensions.Where&lt;TSource&gt; method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Where__1.htm" />
-  <HelpKINode Title="QueueInsertLinked method" Url="html/M_NRules_Session_QueueInsertLinked.htm" />
-  <HelpKINode Title="QueueRetractLinked method" Url="html/Overload_NRules_Session_QueueRetractLinked.htm" />
-  <HelpKINode Title="QueueUpdateLinked method" Url="html/M_NRules_Session_QueueUpdateLinked.htm" />
   <HelpKINode Title="Reactivated enumeration member" Url="html/T_NRules_RuleModel_ActionTrigger.htm" />
   <HelpKINode Title="RegisterFactory method" Url="html/M_NRules_Aggregators_AggregatorRegistry_RegisterFactory.htm" />
-  <HelpKINode Title="Remove method" Url="html/M_NRules_Aggregators_IAggregator_Remove.htm" />
+  <HelpKINode Title="Remove method">
+    <HelpKINode Title="IAggregator.Remove Method " Url="html/M_NRules_Aggregators_IAggregator_Remove.htm" />
+    <HelpKINode Title="IStatefulAgendaFilter.Remove Method " Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Remove.htm" />
+  </HelpKINode>
   <HelpKINode Title="Removed enumeration member">
     <HelpKINode Title="AggregationAction Enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
     <HelpKINode Title="MatchTrigger Enumeration" Url="html/T_NRules_RuleModel_MatchTrigger.htm" />
@@ -1551,6 +1571,10 @@
   </HelpKINode>
   <HelpKINode Title="RepeatabilityAttribute.RepeatabilityAttribute constructor" Url="html/M_NRules_Fluent_Dsl_RepeatabilityAttribute__ctor.htm" />
   <HelpKINode Title="Repeatable enumeration member" Url="html/T_NRules_RuleModel_RuleRepeatability.htm" />
+  <HelpKINode Title="Reset method">
+    <HelpKINode Title="IMetricsProvider.Reset Method " Url="html/M_NRules_Diagnostics_IMetricsProvider_Reset.htm" />
+    <HelpKINode Title="INodeMetrics.Reset Method " Url="html/M_NRules_Diagnostics_INodeMetrics_Reset.htm" />
+  </HelpKINode>
   <HelpKINode Title="Resolve method">
     <HelpKINode Title="IContext.Resolve Method " Url="html/M_NRules_RuleModel_IContext_Resolve.htm" />
     <HelpKINode Title="IDependencyResolver.Resolve Method " Url="html/M_NRules_Extensibility_IDependencyResolver_Resolve.htm" />
@@ -1568,19 +1592,47 @@
     <HelpKINode Title="AggregateElement.ResultType Property " Url="html/P_NRules_RuleModel_AggregateElement_ResultType.htm" />
     <HelpKINode Title="BindingElement.ResultType Property " Url="html/P_NRules_RuleModel_BindingElement_ResultType.htm" />
   </HelpKINode>
+  <HelpKINode Title="ReteGraph class">
+    <HelpKINode Title="ReteGraph Class" Url="html/T_NRules_Diagnostics_ReteGraph.htm" />
+    <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_ReteGraph__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ReteGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ReteGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReteGraph.Links property" Url="html/P_NRules_Diagnostics_ReteGraph_Links.htm" />
+  <HelpKINode Title="ReteGraph.Nodes property" Url="html/P_NRules_Diagnostics_ReteGraph_Nodes.htm" />
+  <HelpKINode Title="ReteGraph.ReteGraph constructor" Url="html/M_NRules_Diagnostics_ReteGraph__ctor.htm" />
+  <HelpKINode Title="ReteLink class">
+    <HelpKINode Title="ReteLink Class" Url="html/T_NRules_Diagnostics_ReteLink.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ReteLink.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ReteLink.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReteLink.Source property" Url="html/P_NRules_Diagnostics_ReteLink_Source.htm" />
+  <HelpKINode Title="ReteLink.Target property" Url="html/P_NRules_Diagnostics_ReteLink_Target.htm" />
+  <HelpKINode Title="ReteNode class">
+    <HelpKINode Title="ReteNode Class" Url="html/T_NRules_Diagnostics_ReteNode.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_ReteNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_ReteNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReteNode.Expressions property" Url="html/P_NRules_Diagnostics_ReteNode_Expressions.htm" />
+  <HelpKINode Title="ReteNode.Id property" Url="html/P_NRules_Diagnostics_ReteNode_Id.htm" />
+  <HelpKINode Title="ReteNode.NodeType property" Url="html/P_NRules_Diagnostics_ReteNode_NodeType.htm" />
+  <HelpKINode Title="ReteNode.OutputType property" Url="html/P_NRules_Diagnostics_ReteNode_OutputType.htm" />
+  <HelpKINode Title="ReteNode.Properties property" Url="html/P_NRules_Diagnostics_ReteNode_Properties.htm" />
+  <HelpKINode Title="ReteNode.Rules property" Url="html/P_NRules_Diagnostics_ReteNode_Rules.htm" />
   <HelpKINode Title="Retract enumeration member" Url="html/T_NRules_LinkedFactAction.htm" />
   <HelpKINode Title="Retract method">
     <HelpKINode Title="IContext.Retract Method " Url="html/M_NRules_RuleModel_IContext_Retract.htm" />
     <HelpKINode Title="ISession.Retract Method " Url="html/M_NRules_ISession_Retract.htm" />
-    <HelpKINode Title="Session.Retract Method " Url="html/M_NRules_Session_Retract.htm" />
   </HelpKINode>
   <HelpKINode Title="RetractAll method">
     <HelpKINode Title="IContext.RetractAll Method " Url="html/M_NRules_RuleModel_IContext_RetractAll.htm" />
     <HelpKINode Title="ISession.RetractAll Method " Url="html/M_NRules_ISession_RetractAll.htm" />
-    <HelpKINode Title="Session.RetractAll Method " Url="html/M_NRules_Session_RetractAll.htm" />
   </HelpKINode>
   <HelpKINode Title="RetractAllLinked method" Url="html/M_NRules_RuleModel_IContext_RetractAllLinked.htm" />
+  <HelpKINode Title="RetractDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractDurationMilliseconds.htm" />
+  <HelpKINode Title="RetractInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractInputCount.htm" />
   <HelpKINode Title="RetractLinked method" Url="html/M_NRules_RuleModel_IContext_RetractLinked.htm" />
+  <HelpKINode Title="RetractOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_RetractOutputCount.htm" />
   <HelpKINode Title="RhsExpressionErrorEventArgs class">
     <HelpKINode Title="RhsExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm" />
     <HelpKINode Title="constructor" Url="html/M_NRules_Diagnostics_RhsExpressionErrorEventArgs__ctor.htm" />
@@ -1675,6 +1727,7 @@
   </HelpKINode>
   <HelpKINode Title="RuleCompiler.AggregatorRegistry property" Url="html/P_NRules_RuleCompiler_AggregatorRegistry.htm" />
   <HelpKINode Title="RuleCompiler.Compile method" Url="html/Overload_NRules_RuleCompiler_Compile.htm" />
+  <HelpKINode Title="RuleCompiler.ExpressionCompiler property" Url="html/P_NRules_RuleCompiler_ExpressionCompiler.htm" />
   <HelpKINode Title="RuleCompiler.RuleCompiler constructor" Url="html/M_NRules_RuleCompiler__ctor.htm" />
   <HelpKINode Title="RuleDefinition method" Url="html/Overload_NRules_RuleModel_Builders_Element_RuleDefinition.htm" />
   <HelpKINode Title="RuleDefinitionException class">
@@ -1860,6 +1913,7 @@
   <HelpKINode Title="Rules property">
     <HelpKINode Title="IRuleSet.Rules Property " Url="html/P_NRules_RuleModel_IRuleSet_Rules.htm" />
     <HelpKINode Title="LhsExpressionEventArgs.Rules Property " Url="html/P_NRules_Diagnostics_LhsExpressionEventArgs_Rules.htm" />
+    <HelpKINode Title="ReteNode.Rules Property " Url="html/P_NRules_Diagnostics_ReteNode_Rules.htm" />
     <HelpKINode Title="RuleSet.Rules Property " Url="html/P_NRules_RuleModel_RuleSet_Rules.htm" />
   </HelpKINode>
   <HelpKINode Title="RuleSet class">
@@ -1923,6 +1977,7 @@
   <HelpKINode Title="RuleTypeScanner.PrivateTypes method" Url="html/M_NRules_Fluent_RuleTypeScanner_PrivateTypes.htm" />
   <HelpKINode Title="RuleTypeScanner.RuleTypeScanner constructor" Url="html/M_NRules_Fluent_RuleTypeScanner__ctor.htm" />
   <HelpKINode Title="RuleTypeScanner.Type method" Url="html/M_NRules_Fluent_RuleTypeScanner_Type.htm" />
+  <HelpKINode Title="Select method" Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Select.htm" />
   <HelpKINode Title="Select(Of TSource, TResult) method">
     <HelpKINode Title="IQueryBuilder.Select(TSource, TResult) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Select__2.htm" />
     <HelpKINode Title="QueryExtensions.Select(TSource, TResult) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Select__2.htm" />
@@ -1942,46 +1997,9 @@
   </HelpKINode>
   <HelpKINode Title="SelectorName field" Url="html/F_NRules_RuleModel_AggregateElement_SelectorName.htm" />
   <HelpKINode Title="ServiceType property" Url="html/P_NRules_RuleModel_DependencyElement_ServiceType.htm" />
-  <HelpKINode Title="Session class">
-    <HelpKINode Title="Session Class" Url="html/T_NRules_Session.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Session.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Session.htm" />
-  </HelpKINode>
   <HelpKINode Title="Session property" Url="html/P_NRules_Extensibility_IResolutionContext_Session.htm" />
-  <HelpKINode Title="Session.ActionInterceptor property" Url="html/P_NRules_Session_ActionInterceptor.htm" />
-  <HelpKINode Title="Session.Agenda property" Url="html/P_NRules_Session_Agenda.htm" />
-  <HelpKINode Title="Session.AutoPropagateLinkedFacts property" Url="html/P_NRules_Session_AutoPropagateLinkedFacts.htm" />
-  <HelpKINode Title="Session.DependencyResolver property" Url="html/P_NRules_Session_DependencyResolver.htm" />
-  <HelpKINode Title="Session.Events property" Url="html/P_NRules_Session_Events.htm" />
-  <HelpKINode Title="Session.Fire method" Url="html/Overload_NRules_Session_Fire.htm" />
-  <HelpKINode Title="Session.GetLinked method" Url="html/M_NRules_Session_GetLinked.htm" />
-  <HelpKINode Title="Session.GetLinkedKeys method" Url="html/M_NRules_Session_GetLinkedKeys.htm" />
-  <HelpKINode Title="Session.Insert method" Url="html/M_NRules_Session_Insert.htm" />
-  <HelpKINode Title="Session.InsertAll method" Url="html/M_NRules_Session_InsertAll.htm" />
-  <HelpKINode Title="Session.ISessionSnapshotProvider.GetSnapshot explicitly implemented method" Url="html/M_NRules_Session_NRules_Diagnostics_ISessionSnapshotProvider_GetSnapshot.htm" />
-  <HelpKINode Title="Session.PropagateLinked method" Url="html/M_NRules_Session_PropagateLinked.htm" />
-  <HelpKINode Title="Session.Query(Of TFact) method" Url="html/M_NRules_Session_Query__1.htm" />
-  <HelpKINode Title="Session.Query&lt;TFact&gt; method" Url="html/M_NRules_Session_Query__1.htm" />
-  <HelpKINode Title="Session.QueueInsertLinked method" Url="html/M_NRules_Session_QueueInsertLinked.htm" />
-  <HelpKINode Title="Session.QueueRetractLinked method" Url="html/Overload_NRules_Session_QueueRetractLinked.htm" />
-  <HelpKINode Title="Session.QueueUpdateLinked method" Url="html/M_NRules_Session_QueueUpdateLinked.htm" />
-  <HelpKINode Title="Session.Retract method" Url="html/M_NRules_Session_Retract.htm" />
-  <HelpKINode Title="Session.RetractAll method" Url="html/M_NRules_Session_RetractAll.htm" />
-  <HelpKINode Title="Session.TryInsert method" Url="html/M_NRules_Session_TryInsert.htm" />
-  <HelpKINode Title="Session.TryInsertAll method" Url="html/Overload_NRules_Session_TryInsertAll.htm" />
-  <HelpKINode Title="Session.TryRetract method" Url="html/M_NRules_Session_TryRetract.htm" />
-  <HelpKINode Title="Session.TryRetractAll method" Url="html/Overload_NRules_Session_TryRetractAll.htm" />
-  <HelpKINode Title="Session.TryUpdate method" Url="html/M_NRules_Session_TryUpdate.htm" />
-  <HelpKINode Title="Session.TryUpdateAll method" Url="html/Overload_NRules_Session_TryUpdateAll.htm" />
-  <HelpKINode Title="Session.Update method" Url="html/M_NRules_Session_Update.htm" />
-  <HelpKINode Title="Session.UpdateAll method" Url="html/M_NRules_Session_UpdateAll.htm" />
-  <HelpKINode Title="SessionSnapshot class">
-    <HelpKINode Title="SessionSnapshot Class" Url="html/T_NRules_Diagnostics_SessionSnapshot.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_NRules_Diagnostics_SessionSnapshot.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_NRules_Diagnostics_SessionSnapshot.htm" />
-  </HelpKINode>
-  <HelpKINode Title="SessionSnapshot.Links property" Url="html/P_NRules_Diagnostics_SessionSnapshot_Links.htm" />
-  <HelpKINode Title="SessionSnapshot.Nodes property" Url="html/P_NRules_Diagnostics_SessionSnapshot_Nodes.htm" />
+  <HelpKINode Title="SetMetricsProvider method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetMetricsProvider.htm" />
+  <HelpKINode Title="SetRuleFilter method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetRuleFilter.htm" />
   <HelpKINode Title="SkipFailed enumeration member" Url="html/T_NRules_BatchOptions.htm" />
   <HelpKINode Title="SortDirection enumeration" Url="html/T_NRules_RuleModel_SortDirection.htm" />
   <HelpKINode Title="Source property">
@@ -1989,9 +2007,9 @@
     <HelpKINode Title="AggregationResult.Source Property " Url="html/P_NRules_Aggregators_AggregationResult_Source.htm" />
     <HelpKINode Title="ExistsElement.Source Property " Url="html/P_NRules_RuleModel_ExistsElement_Source.htm" />
     <HelpKINode Title="IFact.Source Property " Url="html/P_NRules_RuleModel_IFact_Source.htm" />
-    <HelpKINode Title="LinkInfo.Source Property " Url="html/P_NRules_Diagnostics_LinkInfo_Source.htm" />
     <HelpKINode Title="NotElement.Source Property " Url="html/P_NRules_RuleModel_NotElement_Source.htm" />
     <HelpKINode Title="PatternElement.Source Property " Url="html/P_NRules_RuleModel_PatternElement_Source.htm" />
+    <HelpKINode Title="ReteLink.Source Property " Url="html/P_NRules_Diagnostics_ReteLink_Source.htm" />
   </HelpKINode>
   <HelpKINode Title="SourceType property" Url="html/P_NRules_RuleModel_IFactSource_SourceType.htm" />
   <HelpKINode Title="Tag method" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Tag.htm" />
@@ -2010,7 +2028,7 @@
   </HelpKINode>
   <HelpKINode Title="Target property">
     <HelpKINode Title="Declaration.Target Property " Url="html/P_NRules_RuleModel_Declaration_Target.htm" />
-    <HelpKINode Title="LinkInfo.Target Property " Url="html/P_NRules_Diagnostics_LinkInfo_Target.htm" />
+    <HelpKINode Title="ReteLink.Target Property " Url="html/P_NRules_Diagnostics_ReteLink_Target.htm" />
   </HelpKINode>
   <HelpKINode Title="Then method" Url="html/M_NRules_Fluent_Dsl_Rule_Then.htm" />
   <HelpKINode Title="ThenBy(Of TSource, TKey) method" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ThenBy__2.htm" />
@@ -2030,30 +2048,18 @@
   <HelpKINode Title="TryInsert method">
     <HelpKINode Title="IContext.TryInsert Method " Url="html/M_NRules_RuleModel_IContext_TryInsert.htm" />
     <HelpKINode Title="ISession.TryInsert Method " Url="html/M_NRules_ISession_TryInsert.htm" />
-    <HelpKINode Title="Session.TryInsert Method " Url="html/M_NRules_Session_TryInsert.htm" />
   </HelpKINode>
-  <HelpKINode Title="TryInsertAll method">
-    <HelpKINode Title="ISession.TryInsertAll Method " Url="html/Overload_NRules_ISession_TryInsertAll.htm" />
-    <HelpKINode Title="Session.TryInsertAll Method " Url="html/Overload_NRules_Session_TryInsertAll.htm" />
-  </HelpKINode>
+  <HelpKINode Title="TryInsertAll method" Url="html/Overload_NRules_ISession_TryInsertAll.htm" />
   <HelpKINode Title="TryRetract method">
     <HelpKINode Title="IContext.TryRetract Method " Url="html/M_NRules_RuleModel_IContext_TryRetract.htm" />
     <HelpKINode Title="ISession.TryRetract Method " Url="html/M_NRules_ISession_TryRetract.htm" />
-    <HelpKINode Title="Session.TryRetract Method " Url="html/M_NRules_Session_TryRetract.htm" />
   </HelpKINode>
-  <HelpKINode Title="TryRetractAll method">
-    <HelpKINode Title="ISession.TryRetractAll Method " Url="html/Overload_NRules_ISession_TryRetractAll.htm" />
-    <HelpKINode Title="Session.TryRetractAll Method " Url="html/Overload_NRules_Session_TryRetractAll.htm" />
-  </HelpKINode>
+  <HelpKINode Title="TryRetractAll method" Url="html/Overload_NRules_ISession_TryRetractAll.htm" />
   <HelpKINode Title="TryUpdate method">
     <HelpKINode Title="IContext.TryUpdate Method " Url="html/M_NRules_RuleModel_IContext_TryUpdate.htm" />
     <HelpKINode Title="ISession.TryUpdate Method " Url="html/M_NRules_ISession_TryUpdate.htm" />
-    <HelpKINode Title="Session.TryUpdate Method " Url="html/M_NRules_Session_TryUpdate.htm" />
   </HelpKINode>
-  <HelpKINode Title="TryUpdateAll method">
-    <HelpKINode Title="ISession.TryUpdateAll Method " Url="html/Overload_NRules_ISession_TryUpdateAll.htm" />
-    <HelpKINode Title="Session.TryUpdateAll Method " Url="html/Overload_NRules_Session_TryUpdateAll.htm" />
-  </HelpKINode>
+  <HelpKINode Title="TryUpdateAll method" Url="html/Overload_NRules_ISession_TryUpdateAll.htm" />
   <HelpKINode Title="Type enumeration member" Url="html/T_NRules_Diagnostics_NodeType.htm" />
   <HelpKINode Title="Type method">
     <HelpKINode Title="IRuleTypeScanner.Type Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_Type.htm" />
@@ -2068,18 +2074,19 @@
   <HelpKINode Title="Update method">
     <HelpKINode Title="IContext.Update Method " Url="html/M_NRules_RuleModel_IContext_Update.htm" />
     <HelpKINode Title="ISession.Update Method " Url="html/M_NRules_ISession_Update.htm" />
-    <HelpKINode Title="Session.Update Method " Url="html/M_NRules_Session_Update.htm" />
   </HelpKINode>
   <HelpKINode Title="Update(Of T) method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Update__1.htm" />
   <HelpKINode Title="Update&lt;T&gt; method" Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Update__1.htm" />
   <HelpKINode Title="UpdateAll method">
     <HelpKINode Title="IContext.UpdateAll Method " Url="html/M_NRules_RuleModel_IContext_UpdateAll.htm" />
     <HelpKINode Title="ISession.UpdateAll Method " Url="html/M_NRules_ISession_UpdateAll.htm" />
-    <HelpKINode Title="Session.UpdateAll Method " Url="html/M_NRules_Session_UpdateAll.htm" />
   </HelpKINode>
   <HelpKINode Title="UpdateAllLinked method" Url="html/M_NRules_RuleModel_IContext_UpdateAllLinked.htm" />
   <HelpKINode Title="Updated enumeration member" Url="html/T_NRules_RuleModel_MatchTrigger.htm" />
+  <HelpKINode Title="UpdateDurationMilliseconds property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateDurationMilliseconds.htm" />
+  <HelpKINode Title="UpdateInputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateInputCount.htm" />
   <HelpKINode Title="UpdateLinked method" Url="html/M_NRules_RuleModel_IContext_UpdateLinked.htm" />
+  <HelpKINode Title="UpdateOutputCount property" Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateOutputCount.htm" />
   <HelpKINode Title="Value property">
     <HelpKINode Title="IFact.Value Property " Url="html/P_NRules_RuleModel_IFact_Value.htm" />
     <HelpKINode Title="RuleProperty.Value Property " Url="html/P_NRules_RuleModel_RuleProperty_Value.htm" />
@@ -2156,5 +2163,7 @@
   </HelpKINode>
   <HelpKINode Title="WorkingMemoryEventArgs.Fact property" Url="html/P_NRules_Diagnostics_WorkingMemoryEventArgs_Fact.htm" />
   <HelpKINode Title="WorkingMemoryEventArgs.WorkingMemoryEventArgs constructor" Url="html/M_NRules_Diagnostics_WorkingMemoryEventArgs__ctor.htm" />
+  <HelpKINode Title="WriteAllText method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_WriteAllText.htm" />
+  <HelpKINode Title="WriteXml method" Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_WriteXml.htm" />
   <HelpKINode Title="Yield method" Url="html/Overload_NRules_Fluent_Dsl_IRightHandSideExpression_Yield.htm" />
 </HelpKI>

@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="c77091f8-0346-4314-99c4-f83338f75802" Title="Namespaces" Url="html/R_Project_NRules.htm">
-    <HelpTOCNode Id="089521dd-052b-40ac-a311-2576680377a7" Title="NRules" Url="html/N_NRules.htm">
-      <HelpTOCNode Id="8e2e20fd-8f4d-428a-9d9c-4f589428b15a" Title="Activation Class" Url="html/T_NRules_Activation.htm">
-        <HelpTOCNode Id="275a9986-7777-4c56-bc4c-aed4b636212c" Title="Activation Properties" Url="html/Properties_T_NRules_Activation.htm">
+  <HelpTOCNode Id="f8713692-0f80-4210-a241-6cac7fc05e2b" Title="Namespaces" Url="html/R_Project_NRules.htm">
+    <HelpTOCNode Id="33586024-8760-4a78-b47a-29da54dd0265" Title="NRules" Url="html/N_NRules.htm">
+      <HelpTOCNode Id="2b420046-33e5-4a61-bf1f-0f048d9101f8" Title="Activation Class" Url="html/T_NRules_Activation.htm">
+        <HelpTOCNode Id="25d3efe8-0940-4bd1-a51a-bb6a68c0c4f5" Title="Activation Properties" Url="html/Properties_T_NRules_Activation.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_Activation_Facts.htm" />
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_Activation_Rule.htm" />
           <HelpTOCNode Title="Trigger Property " Url="html/P_NRules_Activation_Trigger.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Activation Methods" Url="html/Methods_T_NRules_Activation.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2c1c86e9-2aa1-48ba-b5c8-4f39b64cda9b" Title="AgendaExpressionEvaluationException Class" Url="html/T_NRules_AgendaExpressionEvaluationException.htm">
+      <HelpTOCNode Id="642565e9-9ab8-4087-8bad-aff51b34e747" Title="AgendaExpressionEvaluationException Class" Url="html/T_NRules_AgendaExpressionEvaluationException.htm">
         <HelpTOCNode Title="AgendaExpressionEvaluationException Constructor " Url="html/M_NRules_AgendaExpressionEvaluationException__ctor.htm" />
-        <HelpTOCNode Id="2c531a76-a17c-480e-82bb-afc94cf3ccc2" Title="AgendaExpressionEvaluationException Properties" Url="html/Properties_T_NRules_AgendaExpressionEvaluationException.htm">
+        <HelpTOCNode Id="fb9e60a2-5bff-4ae4-ae68-05b0da65347b" Title="AgendaExpressionEvaluationException Properties" Url="html/Properties_T_NRules_AgendaExpressionEvaluationException.htm">
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_AgendaExpressionEvaluationException_Message.htm" />
           <HelpTOCNode Title="RuleName Property " Url="html/P_NRules_AgendaExpressionEvaluationException_RuleName.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="971242f6-2f7b-4fa6-9ed5-480a1f1e1f48" Title="AgendaExpressionEvaluationException Methods" Url="html/Methods_T_NRules_AgendaExpressionEvaluationException.htm">
+        <HelpTOCNode Id="01494c17-971c-4e2c-b3f1-2c2c9941a022" Title="AgendaExpressionEvaluationException Methods" Url="html/Methods_T_NRules_AgendaExpressionEvaluationException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_AgendaExpressionEvaluationException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AgendaExpressionEvaluationException Events" Url="html/Events_T_NRules_AgendaExpressionEvaluationException.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="BatchOptions Enumeration" Url="html/T_NRules_BatchOptions.htm" />
-      <HelpTOCNode Id="33021afc-d1d5-4193-827d-3369d566374f" Title="IAgenda Interface" Url="html/T_NRules_IAgenda.htm">
-        <HelpTOCNode Id="40bbdd27-0ac9-4b75-9448-d0ff1c15854a" Title="IAgenda Properties" Url="html/Properties_T_NRules_IAgenda.htm">
+      <HelpTOCNode Id="087e7a78-f46e-4f11-8ffa-81e59f623693" Title="IAgenda Interface" Url="html/T_NRules_IAgenda.htm">
+        <HelpTOCNode Id="bd680ebe-75e1-4cc8-9e59-b500c50fe090" Title="IAgenda Properties" Url="html/Properties_T_NRules_IAgenda.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_NRules_IAgenda_IsEmpty.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="fc9101fe-dfeb-4a3a-8955-05514acf4b52" Title="IAgenda Methods" Url="html/Methods_T_NRules_IAgenda.htm">
-          <HelpTOCNode Id="1d3f23c9-9114-4978-ac24-93046941f179" Title="AddFilter Method " Url="html/Overload_NRules_IAgenda_AddFilter.htm">
+        <HelpTOCNode Id="67be44ba-b2c3-4dd3-bf3c-878da2c4ce5d" Title="IAgenda Methods" Url="html/Methods_T_NRules_IAgenda.htm">
+          <HelpTOCNode Id="fbc3b6c7-f7a7-4fcd-9999-fcb52b4aaafc" Title="AddFilter Method " Url="html/Overload_NRules_IAgenda_AddFilter.htm">
             <HelpTOCNode Title="AddFilter Method (IAgendaFilter)" Url="html/M_NRules_IAgenda_AddFilter.htm" />
             <HelpTOCNode Title="AddFilter Method (IRuleDefinition, IAgendaFilter)" Url="html/M_NRules_IAgenda_AddFilter_1.htm" />
           </HelpTOCNode>
@@ -36,26 +36,26 @@
           <HelpTOCNode Title="Peek Method " Url="html/M_NRules_IAgenda_Peek.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="38d9d7c3-9cae-4183-9695-89ba6d6d30d7" Title="IFactResult Interface" Url="html/T_NRules_IFactResult.htm">
-        <HelpTOCNode Id="3fb95540-8314-4e81-a57b-407446e78af9" Title="IFactResult Properties" Url="html/Properties_T_NRules_IFactResult.htm">
+      <HelpTOCNode Id="2ff92797-9c0d-4cb1-8a27-87bf6df7342e" Title="IFactResult Interface" Url="html/T_NRules_IFactResult.htm">
+        <HelpTOCNode Id="f71fe2d9-65c1-4ef9-a74b-e1e9d68f0c25" Title="IFactResult Properties" Url="html/Properties_T_NRules_IFactResult.htm">
           <HelpTOCNode Title="Failed Property " Url="html/P_NRules_IFactResult_Failed.htm" />
           <HelpTOCNode Title="FailedCount Property " Url="html/P_NRules_IFactResult_FailedCount.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f266739f-3391-4167-b506-d72ca088ea31" Title="ILinkedFactSet Interface" Url="html/T_NRules_ILinkedFactSet.htm">
-        <HelpTOCNode Id="0ceec485-7dce-40b2-88cb-5660e6834288" Title="ILinkedFactSet Properties" Url="html/Properties_T_NRules_ILinkedFactSet.htm">
+      <HelpTOCNode Id="5854e3be-89d3-49d3-88cc-df4d7f5bc861" Title="ILinkedFactSet Interface" Url="html/T_NRules_ILinkedFactSet.htm">
+        <HelpTOCNode Id="936e8c79-9662-45d6-92ea-7367e5ec43de" Title="ILinkedFactSet Properties" Url="html/Properties_T_NRules_ILinkedFactSet.htm">
           <HelpTOCNode Title="Action Property " Url="html/P_NRules_ILinkedFactSet_Action.htm" />
           <HelpTOCNode Title="FactCount Property " Url="html/P_NRules_ILinkedFactSet_FactCount.htm" />
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_ILinkedFactSet_Facts.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="995d575b-7a9e-4e79-b385-7dbe5c48b35a" Title="ILinkedFactSource Interface" Url="html/T_NRules_ILinkedFactSource.htm">
-        <HelpTOCNode Id="d71e6d89-e0bf-4652-a097-0c880c3fae5c" Title="ILinkedFactSource Properties" Url="html/Properties_T_NRules_ILinkedFactSource.htm">
+      <HelpTOCNode Id="bb958768-cec4-4b18-a507-48eb8f7c8edc" Title="ILinkedFactSource Interface" Url="html/T_NRules_ILinkedFactSource.htm">
+        <HelpTOCNode Id="90673ecc-e97d-45d4-ba28-ca614a27260e" Title="ILinkedFactSource Properties" Url="html/Properties_T_NRules_ILinkedFactSource.htm">
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_ILinkedFactSource_Rule.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="719cb5d7-e5b0-40c9-889c-f917b2113de9" Title="ISession Interface" Url="html/T_NRules_ISession.htm">
-        <HelpTOCNode Id="5faa825b-77b4-4220-a140-e2ca19b344e7" Title="ISession Properties" Url="html/Properties_T_NRules_ISession.htm">
+      <HelpTOCNode Id="17905102-902f-4c37-965b-d4123b4dd9bf" Title="ISession Interface" Url="html/T_NRules_ISession.htm">
+        <HelpTOCNode Id="1d5ee29a-ca4b-4ccc-a7a8-f143a0943ec0" Title="ISession Properties" Url="html/Properties_T_NRules_ISession.htm">
           <HelpTOCNode Title="ActionInterceptor Property " Url="html/P_NRules_ISession_ActionInterceptor.htm" />
           <HelpTOCNode Title="Agenda Property " Url="html/P_NRules_ISession_Agenda.htm" />
           <HelpTOCNode Title="AutoPropagateLinkedFacts Property " Url="html/P_NRules_ISession_AutoPropagateLinkedFacts.htm" />
@@ -63,8 +63,8 @@
           <HelpTOCNode Title="Events Property " Url="html/P_NRules_ISession_Events.htm" />
           <HelpTOCNode Title="Metrics Property " Url="html/P_NRules_ISession_Metrics.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d8470042-56c8-48ab-9d92-af5befdb7c70" Title="ISession Methods" Url="html/Methods_T_NRules_ISession.htm">
-          <HelpTOCNode Id="c8eec1e4-06ce-4c99-876d-c93d544f4963" Title="Fire Method " Url="html/Overload_NRules_ISession_Fire.htm">
+        <HelpTOCNode Id="6151ef0f-e3ac-47a4-a0f4-712ba2eacab5" Title="ISession Methods" Url="html/Methods_T_NRules_ISession.htm">
+          <HelpTOCNode Id="57fdb9f2-0d7d-4424-8949-1a9cca058720" Title="Fire Method " Url="html/Overload_NRules_ISession_Fire.htm">
             <HelpTOCNode Title="Fire Method " Url="html/M_NRules_ISession_Fire.htm" />
             <HelpTOCNode Title="Fire Method (Int32)" Url="html/M_NRules_ISession_Fire_1.htm" />
             <HelpTOCNode Title="Fire Method (CancellationToken)" Url="html/M_NRules_ISession_Fire_3.htm" />
@@ -77,17 +77,17 @@
           <HelpTOCNode Title="Retract Method " Url="html/M_NRules_ISession_Retract.htm" />
           <HelpTOCNode Title="RetractAll Method " Url="html/M_NRules_ISession_RetractAll.htm" />
           <HelpTOCNode Title="TryInsert Method " Url="html/M_NRules_ISession_TryInsert.htm" />
-          <HelpTOCNode Id="a29b9e92-1224-4b64-a07c-c72b13006e21" Title="TryInsertAll Method " Url="html/Overload_NRules_ISession_TryInsertAll.htm">
+          <HelpTOCNode Id="b6c10252-fdcd-47fa-a631-9bcfd1dbe39f" Title="TryInsertAll Method " Url="html/Overload_NRules_ISession_TryInsertAll.htm">
             <HelpTOCNode Title="TryInsertAll Method (IEnumerable(Object))" Url="html/M_NRules_ISession_TryInsertAll.htm" />
             <HelpTOCNode Title="TryInsertAll Method (IEnumerable(Object), BatchOptions)" Url="html/M_NRules_ISession_TryInsertAll_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TryRetract Method " Url="html/M_NRules_ISession_TryRetract.htm" />
-          <HelpTOCNode Id="f76c0565-b757-4865-9557-c9951bcd6c52" Title="TryRetractAll Method " Url="html/Overload_NRules_ISession_TryRetractAll.htm">
+          <HelpTOCNode Id="0bf97ef1-5787-430d-b82a-ffdc53dc0dd3" Title="TryRetractAll Method " Url="html/Overload_NRules_ISession_TryRetractAll.htm">
             <HelpTOCNode Title="TryRetractAll Method (IEnumerable(Object))" Url="html/M_NRules_ISession_TryRetractAll.htm" />
             <HelpTOCNode Title="TryRetractAll Method (IEnumerable(Object), BatchOptions)" Url="html/M_NRules_ISession_TryRetractAll_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TryUpdate Method " Url="html/M_NRules_ISession_TryUpdate.htm" />
-          <HelpTOCNode Id="6d002976-0940-42c2-b23d-e5a41a61854b" Title="TryUpdateAll Method " Url="html/Overload_NRules_ISession_TryUpdateAll.htm">
+          <HelpTOCNode Id="3f082f0d-7ecc-4e90-9e70-f229efacf5fc" Title="TryUpdateAll Method " Url="html/Overload_NRules_ISession_TryUpdateAll.htm">
             <HelpTOCNode Title="TryUpdateAll Method (IEnumerable(Object))" Url="html/M_NRules_ISession_TryUpdateAll.htm" />
             <HelpTOCNode Title="TryUpdateAll Method (IEnumerable(Object), BatchOptions)" Url="html/M_NRules_ISession_TryUpdateAll_1.htm" />
           </HelpTOCNode>
@@ -95,39 +95,42 @@
           <HelpTOCNode Title="UpdateAll Method " Url="html/M_NRules_ISession_UpdateAll.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bc8cc2fa-6035-4886-9b32-8ad977769cf7" Title="ISessionFactory Interface" Url="html/T_NRules_ISessionFactory.htm">
-        <HelpTOCNode Id="73b4889b-dada-422e-9a78-cf2ecff349eb" Title="ISessionFactory Properties" Url="html/Properties_T_NRules_ISessionFactory.htm">
+      <HelpTOCNode Id="104dba30-7300-48a2-b575-eedbf1c03245" Title="ISessionFactory Interface" Url="html/T_NRules_ISessionFactory.htm">
+        <HelpTOCNode Id="879b9ff7-eca1-4e57-96e9-a054df14b4bf" Title="ISessionFactory Properties" Url="html/Properties_T_NRules_ISessionFactory.htm">
           <HelpTOCNode Title="ActionInterceptor Property " Url="html/P_NRules_ISessionFactory_ActionInterceptor.htm" />
           <HelpTOCNode Title="DependencyResolver Property " Url="html/P_NRules_ISessionFactory_DependencyResolver.htm" />
           <HelpTOCNode Title="Events Property " Url="html/P_NRules_ISessionFactory_Events.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e3a1d7c0-1833-4e68-a15f-52585260b965" Title="ISessionFactory Methods" Url="html/Methods_T_NRules_ISessionFactory.htm">
-          <HelpTOCNode Id="c83ed0db-464c-418a-bcd3-37f63b103cbd" Title="CreateSession Method " Url="html/Overload_NRules_ISessionFactory_CreateSession.htm">
+        <HelpTOCNode Id="cefb490b-cc24-4662-8172-c9b2d23aa87f" Title="ISessionFactory Methods" Url="html/Methods_T_NRules_ISessionFactory.htm">
+          <HelpTOCNode Id="e3244867-beb5-4386-b087-66a4d66ba1d5" Title="CreateSession Method " Url="html/Overload_NRules_ISessionFactory_CreateSession.htm">
             <HelpTOCNode Title="CreateSession Method " Url="html/M_NRules_ISessionFactory_CreateSession.htm" />
             <HelpTOCNode Title="CreateSession Method (Action(ISession))" Url="html/M_NRules_ISessionFactory_CreateSession_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="LinkedFactAction Enumeration" Url="html/T_NRules_LinkedFactAction.htm" />
-      <HelpTOCNode Id="5f195de2-d6da-4933-888a-0f5b73bf0990" Title="RuleCompilationException Class" Url="html/T_NRules_RuleCompilationException.htm">
+      <HelpTOCNode Id="dc9caffa-577c-4494-acfd-e74a42613957" Title="RuleCompilationException Class" Url="html/T_NRules_RuleCompilationException.htm">
         <HelpTOCNode Title="RuleCompilationException Constructor " Url="html/M_NRules_RuleCompilationException__ctor.htm" />
-        <HelpTOCNode Id="2a296341-ed38-491a-a6a4-6e7a6af48a59" Title="RuleCompilationException Properties" Url="html/Properties_T_NRules_RuleCompilationException.htm">
+        <HelpTOCNode Id="8730b9fe-9f0f-43cc-b084-135a7de90aa3" Title="RuleCompilationException Properties" Url="html/Properties_T_NRules_RuleCompilationException.htm">
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_RuleCompilationException_Message.htm" />
           <HelpTOCNode Title="RuleName Property " Url="html/P_NRules_RuleCompilationException_RuleName.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6338ecff-c752-4899-b811-c69bdf5868bf" Title="RuleCompilationException Methods" Url="html/Methods_T_NRules_RuleCompilationException.htm">
+        <HelpTOCNode Id="5c0424f7-e04f-4164-9f0e-a37d7899fdd2" Title="RuleCompilationException Methods" Url="html/Methods_T_NRules_RuleCompilationException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_RuleCompilationException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleCompilationException Events" Url="html/Events_T_NRules_RuleCompilationException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e9f585af-5dbd-4b5b-912e-dd29c8370c40" Title="RuleCompiler Class" Url="html/T_NRules_RuleCompiler.htm">
-        <HelpTOCNode Title="RuleCompiler Constructor " Url="html/M_NRules_RuleCompiler__ctor.htm" />
-        <HelpTOCNode Id="b13ab716-2318-4001-8f36-99ea80df5e74" Title="RuleCompiler Properties" Url="html/Properties_T_NRules_RuleCompiler.htm">
+      <HelpTOCNode Id="c2ae9d4c-c537-4bb6-a452-4e1a7f50957f" Title="RuleCompiler Class" Url="html/T_NRules_RuleCompiler.htm">
+        <HelpTOCNode Id="a7e97856-b82c-4964-b764-b7fb5e1696aa" Title="RuleCompiler Constructor " Url="html/Overload_NRules_RuleCompiler__ctor.htm">
+          <HelpTOCNode Title="RuleCompiler Constructor " Url="html/M_NRules_RuleCompiler__ctor.htm" />
+          <HelpTOCNode Title="RuleCompiler Constructor (RuleCompilerOptions)" Url="html/M_NRules_RuleCompiler__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4fdf6064-d9b2-47fc-bd05-680c3ccd6d98" Title="RuleCompiler Properties" Url="html/Properties_T_NRules_RuleCompiler.htm">
           <HelpTOCNode Title="AggregatorRegistry Property " Url="html/P_NRules_RuleCompiler_AggregatorRegistry.htm" />
           <HelpTOCNode Title="ExpressionCompiler Property " Url="html/P_NRules_RuleCompiler_ExpressionCompiler.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3747d8ef-ef9b-4a43-98d0-f31e78bd5485" Title="RuleCompiler Methods" Url="html/Methods_T_NRules_RuleCompiler.htm">
-          <HelpTOCNode Id="46abb9e2-7ae8-4221-9691-0e0af289a5b4" Title="Compile Method " Url="html/Overload_NRules_RuleCompiler_Compile.htm">
+        <HelpTOCNode Id="d42e86ff-e10b-4b39-aee3-222a9e3af931" Title="RuleCompiler Methods" Url="html/Methods_T_NRules_RuleCompiler.htm">
+          <HelpTOCNode Id="18df1c73-f168-4d1e-bcf0-e94a3f3fb76c" Title="Compile Method " Url="html/Overload_NRules_RuleCompiler_Compile.htm">
             <HelpTOCNode Title="Compile Method (IEnumerable(IRuleDefinition))" Url="html/M_NRules_RuleCompiler_Compile.htm" />
             <HelpTOCNode Title="Compile Method (IEnumerable(IRuleSet))" Url="html/M_NRules_RuleCompiler_Compile_2.htm" />
             <HelpTOCNode Title="Compile Method (IEnumerable(IRuleDefinition), CancellationToken)" Url="html/M_NRules_RuleCompiler_Compile_1.htm" />
@@ -135,150 +138,158 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d1b32a23-2670-4f85-a031-5624175431f7" Title="RuleExecutionException Class" Url="html/T_NRules_RuleExecutionException.htm">
+      <HelpTOCNode Id="2d9aad1b-e5da-4b9f-96de-bac02d7cd65c" Title="RuleCompilerOptions Class" Url="html/T_NRules_RuleCompilerOptions.htm">
+        <HelpTOCNode Title="RuleCompilerOptions Constructor " Url="html/M_NRules_RuleCompilerOptions__ctor.htm" />
+        <HelpTOCNode Id="448234e8-bbbe-494a-91a3-f3d65eb1bb6b" Title="RuleCompilerOptions Properties" Url="html/Properties_T_NRules_RuleCompilerOptions.htm">
+          <HelpTOCNode Title="UnsupportedExpressionHandling Property " Url="html/P_NRules_RuleCompilerOptions_UnsupportedExpressionHandling.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RuleCompilerOptions Methods" Url="html/Methods_T_NRules_RuleCompilerOptions.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RuleCompilerUnsupportedExpressionsHandling Enumeration" Url="html/T_NRules_RuleCompilerUnsupportedExpressionsHandling.htm" />
+      <HelpTOCNode Id="97d448ab-2dd4-462c-bd8c-e9c48f63bcb3" Title="RuleExecutionException Class" Url="html/T_NRules_RuleExecutionException.htm">
         <HelpTOCNode Title="RuleExecutionException Constructor " Url="html/M_NRules_RuleExecutionException__ctor.htm" />
         <HelpTOCNode Title="RuleExecutionException Properties" Url="html/Properties_T_NRules_RuleExecutionException.htm" />
         <HelpTOCNode Title="RuleExecutionException Methods" Url="html/Methods_T_NRules_RuleExecutionException.htm" />
         <HelpTOCNode Title="RuleExecutionException Events" Url="html/Events_T_NRules_RuleExecutionException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3f981049-8489-4c66-aac5-8641dd12498a" Title="RuleExpressionEvaluationException Class" Url="html/T_NRules_RuleExpressionEvaluationException.htm">
+      <HelpTOCNode Id="78de7884-2dd8-4b97-b3f2-300a73137caa" Title="RuleExpressionEvaluationException Class" Url="html/T_NRules_RuleExpressionEvaluationException.htm">
         <HelpTOCNode Title="RuleExpressionEvaluationException Constructor " Url="html/M_NRules_RuleExpressionEvaluationException__ctor.htm" />
-        <HelpTOCNode Id="77eb7015-e9c3-41ba-ba56-d593329c4831" Title="RuleExpressionEvaluationException Properties" Url="html/Properties_T_NRules_RuleExpressionEvaluationException.htm">
+        <HelpTOCNode Id="9f2df519-4670-4f78-8c76-c89041eb0c61" Title="RuleExpressionEvaluationException Properties" Url="html/Properties_T_NRules_RuleExpressionEvaluationException.htm">
           <HelpTOCNode Title="Expression Property " Url="html/P_NRules_RuleExpressionEvaluationException_Expression.htm" />
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_RuleExpressionEvaluationException_Message.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ad22358f-4b22-4cb0-8cb8-6df2b81250df" Title="RuleExpressionEvaluationException Methods" Url="html/Methods_T_NRules_RuleExpressionEvaluationException.htm">
+        <HelpTOCNode Id="a0ed77f6-987c-41b7-81b3-1322131193cc" Title="RuleExpressionEvaluationException Methods" Url="html/Methods_T_NRules_RuleExpressionEvaluationException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_RuleExpressionEvaluationException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleExpressionEvaluationException Events" Url="html/Events_T_NRules_RuleExpressionEvaluationException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="413cbae0-f37e-4841-a5c6-7137c9eb5f7e" Title="RuleLhsExpressionEvaluationException Class" Url="html/T_NRules_RuleLhsExpressionEvaluationException.htm">
+      <HelpTOCNode Id="938060ff-4798-49dc-a6f3-101496e683fa" Title="RuleLhsExpressionEvaluationException Class" Url="html/T_NRules_RuleLhsExpressionEvaluationException.htm">
         <HelpTOCNode Title="RuleLhsExpressionEvaluationException Constructor " Url="html/M_NRules_RuleLhsExpressionEvaluationException__ctor.htm" />
         <HelpTOCNode Title="RuleLhsExpressionEvaluationException Properties" Url="html/Properties_T_NRules_RuleLhsExpressionEvaluationException.htm" />
         <HelpTOCNode Title="RuleLhsExpressionEvaluationException Methods" Url="html/Methods_T_NRules_RuleLhsExpressionEvaluationException.htm" />
         <HelpTOCNode Title="RuleLhsExpressionEvaluationException Events" Url="html/Events_T_NRules_RuleLhsExpressionEvaluationException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="850e1179-bc2c-4883-917f-ac422b838816" Title="RuleRepositoryExtensions Class" Url="html/T_NRules_RuleRepositoryExtensions.htm">
-        <HelpTOCNode Id="eb626b3f-5883-42db-bdd4-48bb6ab4a6c9" Title="RuleRepositoryExtensions Methods" Url="html/Methods_T_NRules_RuleRepositoryExtensions.htm">
-          <HelpTOCNode Id="f3755ece-6921-4ec0-a9c6-a52f3f68afee" Title="Compile Method " Url="html/Overload_NRules_RuleRepositoryExtensions_Compile.htm">
+      <HelpTOCNode Id="73f09979-d4c5-44a3-be54-ba54cf2872f8" Title="RuleRepositoryExtensions Class" Url="html/T_NRules_RuleRepositoryExtensions.htm">
+        <HelpTOCNode Id="76ff903c-a60b-4bc0-b920-2f49857edf10" Title="RuleRepositoryExtensions Methods" Url="html/Methods_T_NRules_RuleRepositoryExtensions.htm">
+          <HelpTOCNode Id="0a67eeb9-39c8-46f0-9a78-9a3e09d08fb4" Title="Compile Method " Url="html/Overload_NRules_RuleRepositoryExtensions_Compile.htm">
             <HelpTOCNode Title="Compile Method (IRuleRepository)" Url="html/M_NRules_RuleRepositoryExtensions_Compile.htm" />
             <HelpTOCNode Title="Compile Method (IRuleRepository, CancellationToken)" Url="html/M_NRules_RuleRepositoryExtensions_Compile_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GetRules Method " Url="html/M_NRules_RuleRepositoryExtensions_GetRules.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c763f48e-d195-4cc8-8c6d-a09ec84d78ec" Title="RuleRhsExpressionEvaluationException Class" Url="html/T_NRules_RuleRhsExpressionEvaluationException.htm">
+      <HelpTOCNode Id="99ed850b-6b3d-4a5f-a956-a65543e408a9" Title="RuleRhsExpressionEvaluationException Class" Url="html/T_NRules_RuleRhsExpressionEvaluationException.htm">
         <HelpTOCNode Title="RuleRhsExpressionEvaluationException Constructor " Url="html/M_NRules_RuleRhsExpressionEvaluationException__ctor.htm" />
-        <HelpTOCNode Id="24b2fa6b-8b89-4f8c-9c4e-ab24ace967b2" Title="RuleRhsExpressionEvaluationException Properties" Url="html/Properties_T_NRules_RuleRhsExpressionEvaluationException.htm">
+        <HelpTOCNode Id="d6f7035a-5f4b-4a5d-ada7-6d6207f70cbc" Title="RuleRhsExpressionEvaluationException Properties" Url="html/Properties_T_NRules_RuleRhsExpressionEvaluationException.htm">
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_RuleRhsExpressionEvaluationException_Message.htm" />
           <HelpTOCNode Title="RuleName Property " Url="html/P_NRules_RuleRhsExpressionEvaluationException_RuleName.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c8bc857c-850f-47ec-8d58-2c90d3e2296d" Title="RuleRhsExpressionEvaluationException Methods" Url="html/Methods_T_NRules_RuleRhsExpressionEvaluationException.htm">
+        <HelpTOCNode Id="367b6da6-0281-45e4-98b4-1919378785ce" Title="RuleRhsExpressionEvaluationException Methods" Url="html/Methods_T_NRules_RuleRhsExpressionEvaluationException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_RuleRhsExpressionEvaluationException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleRhsExpressionEvaluationException Events" Url="html/Events_T_NRules_RuleRhsExpressionEvaluationException.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="af891385-1d24-465a-b8e1-3c4e1b66684a" Title="NRules.AgendaFilters" Url="html/N_NRules_AgendaFilters.htm">
-      <HelpTOCNode Id="43bde7ef-39ba-4ec0-b3dd-e1800c521b12" Title="AgendaContext Class" Url="html/T_NRules_AgendaFilters_AgendaContext.htm">
+    <HelpTOCNode Id="42078bc9-9d76-4e99-a425-c1c90912a17e" Title="NRules.AgendaFilters" Url="html/N_NRules_AgendaFilters.htm">
+      <HelpTOCNode Id="849e8197-4797-4738-8f1b-a1c348d1e0f2" Title="AgendaContext Class" Url="html/T_NRules_AgendaFilters_AgendaContext.htm">
         <HelpTOCNode Title="AgendaContext Methods" Url="html/Methods_T_NRules_AgendaFilters_AgendaContext.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0e8be635-da5a-4e94-9aac-21a57c4705c0" Title="IAgendaFilter Interface" Url="html/T_NRules_AgendaFilters_IAgendaFilter.htm">
-        <HelpTOCNode Id="92f28ca1-7eb6-46d0-80af-b6392af217a7" Title="IAgendaFilter Methods" Url="html/Methods_T_NRules_AgendaFilters_IAgendaFilter.htm">
+      <HelpTOCNode Id="e32cb047-3c24-45ab-9a7b-0db9f1d66621" Title="IAgendaFilter Interface" Url="html/T_NRules_AgendaFilters_IAgendaFilter.htm">
+        <HelpTOCNode Id="f97b3be0-4f1f-40d2-b6bf-385e40767a73" Title="IAgendaFilter Methods" Url="html/Methods_T_NRules_AgendaFilters_IAgendaFilter.htm">
           <HelpTOCNode Title="Accept Method " Url="html/M_NRules_AgendaFilters_IAgendaFilter_Accept.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9b3f09b0-c9c6-4f5a-9b16-59e6cdbe9a84" Title="IStatefulAgendaFilter Interface" Url="html/T_NRules_AgendaFilters_IStatefulAgendaFilter.htm">
-        <HelpTOCNode Id="a6acab53-d8f9-4362-af54-e4da434fe2d8" Title="IStatefulAgendaFilter Methods" Url="html/Methods_T_NRules_AgendaFilters_IStatefulAgendaFilter.htm">
+      <HelpTOCNode Id="e1c2d1a8-6da3-49f4-834f-5821bcb8a197" Title="IStatefulAgendaFilter Interface" Url="html/T_NRules_AgendaFilters_IStatefulAgendaFilter.htm">
+        <HelpTOCNode Id="7cdd0213-05ac-45ca-b159-b0e9f480876d" Title="IStatefulAgendaFilter Methods" Url="html/Methods_T_NRules_AgendaFilters_IStatefulAgendaFilter.htm">
           <HelpTOCNode Title="Remove Method " Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Remove.htm" />
           <HelpTOCNode Title="Select Method " Url="html/M_NRules_AgendaFilters_IStatefulAgendaFilter_Select.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3daa3683-5914-409f-a492-5e9372507f3a" Title="NRules.Aggregators" Url="html/N_NRules_Aggregators.htm">
-      <HelpTOCNode Id="6a7a6d26-0064-472c-b854-ecfd490bc8a7" Title="AggregateExpressionExtensions Class" Url="html/T_NRules_Aggregators_AggregateExpressionExtensions.htm">
-        <HelpTOCNode Id="20d1f8f5-830f-4876-9e9a-430ac82dbe73" Title="AggregateExpressionExtensions Methods" Url="html/Methods_T_NRules_Aggregators_AggregateExpressionExtensions.htm">
+    <HelpTOCNode Id="3cf8eae1-5ebf-42c4-9f70-e5aa161cee4a" Title="NRules.Aggregators" Url="html/N_NRules_Aggregators.htm">
+      <HelpTOCNode Id="2869aa52-e40d-4275-9353-bd04b915ca57" Title="AggregateExpressionExtensions Class" Url="html/T_NRules_Aggregators_AggregateExpressionExtensions.htm">
+        <HelpTOCNode Id="87467e49-242e-42b2-b509-ea864dd9ec59" Title="AggregateExpressionExtensions Methods" Url="html/Methods_T_NRules_Aggregators_AggregateExpressionExtensions.htm">
           <HelpTOCNode Title="Find Method " Url="html/M_NRules_Aggregators_AggregateExpressionExtensions_Find.htm" />
           <HelpTOCNode Title="FindSingle Method " Url="html/M_NRules_Aggregators_AggregateExpressionExtensions_FindSingle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="AggregationAction Enumeration" Url="html/T_NRules_Aggregators_AggregationAction.htm" />
-      <HelpTOCNode Id="e77b52c9-340e-496d-bb11-32d8b869cd12" Title="AggregationContext Class" Url="html/T_NRules_Aggregators_AggregationContext.htm">
+      <HelpTOCNode Id="b99b4ab8-382a-436d-baa7-f887398d6b77" Title="AggregationContext Class" Url="html/T_NRules_Aggregators_AggregationContext.htm">
         <HelpTOCNode Title="AggregationContext Methods" Url="html/Methods_T_NRules_Aggregators_AggregationContext.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a4ebf977-f748-4765-b145-e619d82e52d0" Title="AggregationResult Class" Url="html/T_NRules_Aggregators_AggregationResult.htm">
-        <HelpTOCNode Id="cf1313d8-dfeb-4bf0-b725-cc1059b8eb75" Title="AggregationResult Properties" Url="html/Properties_T_NRules_Aggregators_AggregationResult.htm">
+      <HelpTOCNode Id="28a88eef-f3f9-4749-9bca-ce3ae7e1e1ef" Title="AggregationResult Class" Url="html/T_NRules_Aggregators_AggregationResult.htm">
+        <HelpTOCNode Id="66b156ee-a220-46cc-8cdb-1d93e318c2e9" Title="AggregationResult Properties" Url="html/Properties_T_NRules_Aggregators_AggregationResult.htm">
           <HelpTOCNode Title="Action Property " Url="html/P_NRules_Aggregators_AggregationResult_Action.htm" />
           <HelpTOCNode Title="Aggregate Property " Url="html/P_NRules_Aggregators_AggregationResult_Aggregate.htm" />
           <HelpTOCNode Title="Previous Property " Url="html/P_NRules_Aggregators_AggregationResult_Previous.htm" />
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_Aggregators_AggregationResult_Source.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a2b3de85-7c22-4110-a934-539df78af7ee" Title="AggregationResult Methods" Url="html/Methods_T_NRules_Aggregators_AggregationResult.htm">
+        <HelpTOCNode Id="25ad5181-8b27-4d27-9912-74b374a899c3" Title="AggregationResult Methods" Url="html/Methods_T_NRules_Aggregators_AggregationResult.htm">
           <HelpTOCNode Title="Added Method " Url="html/M_NRules_Aggregators_AggregationResult_Added.htm" />
           <HelpTOCNode Title="Modified Method " Url="html/M_NRules_Aggregators_AggregationResult_Modified.htm" />
           <HelpTOCNode Title="None Method " Url="html/M_NRules_Aggregators_AggregationResult_None.htm" />
           <HelpTOCNode Title="Removed Method " Url="html/M_NRules_Aggregators_AggregationResult_Removed.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="54ddfaed-5add-49ee-beea-aab27e39c56b" Title="AggregationResult Fields" Url="html/Fields_T_NRules_Aggregators_AggregationResult.htm">
+        <HelpTOCNode Id="3694a5c8-7d10-4656-924c-44954948a920" Title="AggregationResult Fields" Url="html/Fields_T_NRules_Aggregators_AggregationResult.htm">
           <HelpTOCNode Title="Empty Field" Url="html/F_NRules_Aggregators_AggregationResult_Empty.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="aa77d063-05fa-4a50-a109-d3b558d9ad3f" Title="AggregatorRegistry Class" Url="html/T_NRules_Aggregators_AggregatorRegistry.htm">
-        <HelpTOCNode Id="d1641f00-d4bc-40e4-bbea-d8ebd1488833" Title="AggregatorRegistry Methods" Url="html/Methods_T_NRules_Aggregators_AggregatorRegistry.htm">
+      <HelpTOCNode Id="c5457929-f9b5-4743-bdcf-0a133ffd71d8" Title="AggregatorRegistry Class" Url="html/T_NRules_Aggregators_AggregatorRegistry.htm">
+        <HelpTOCNode Id="19887550-1d2d-4e93-96b5-df9b853c564b" Title="AggregatorRegistry Methods" Url="html/Methods_T_NRules_Aggregators_AggregatorRegistry.htm">
           <HelpTOCNode Title="RegisterFactory Method " Url="html/M_NRules_Aggregators_AggregatorRegistry_RegisterFactory.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="89e58105-0358-4ced-b4eb-d40530f1f277" Title="IAggregateExpression Interface" Url="html/T_NRules_Aggregators_IAggregateExpression.htm">
-        <HelpTOCNode Id="dc17ae86-146c-4b12-9c63-394c111016ac" Title="IAggregateExpression Properties" Url="html/Properties_T_NRules_Aggregators_IAggregateExpression.htm">
+      <HelpTOCNode Id="1ff0ef06-69af-461f-9995-24549aa17989" Title="IAggregateExpression Interface" Url="html/T_NRules_Aggregators_IAggregateExpression.htm">
+        <HelpTOCNode Id="ea83b8b6-1e72-499a-9440-59249452b0bf" Title="IAggregateExpression Properties" Url="html/Properties_T_NRules_Aggregators_IAggregateExpression.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_Aggregators_IAggregateExpression_Name.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f04ecd80-b9a7-4927-9d25-ef857d64eb65" Title="IAggregateExpression Methods" Url="html/Methods_T_NRules_Aggregators_IAggregateExpression.htm">
+        <HelpTOCNode Id="2d8135f2-28b6-4bfc-8041-7f615428adcc" Title="IAggregateExpression Methods" Url="html/Methods_T_NRules_Aggregators_IAggregateExpression.htm">
           <HelpTOCNode Title="Invoke Method " Url="html/M_NRules_Aggregators_IAggregateExpression_Invoke.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1e02c9da-832e-4ee5-be0d-7a31a864e353" Title="IAggregator Interface" Url="html/T_NRules_Aggregators_IAggregator.htm">
-        <HelpTOCNode Id="f1549305-5f70-424f-8c40-cdff342cb205" Title="IAggregator Methods" Url="html/Methods_T_NRules_Aggregators_IAggregator.htm">
+      <HelpTOCNode Id="f1b30cad-52e2-43bb-968a-28b27e98132e" Title="IAggregator Interface" Url="html/T_NRules_Aggregators_IAggregator.htm">
+        <HelpTOCNode Id="0135b35d-69fd-4aad-9857-16d8d5fe02af" Title="IAggregator Methods" Url="html/Methods_T_NRules_Aggregators_IAggregator.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_NRules_Aggregators_IAggregator_Add.htm" />
           <HelpTOCNode Title="Modify Method " Url="html/M_NRules_Aggregators_IAggregator_Modify.htm" />
           <HelpTOCNode Title="Remove Method " Url="html/M_NRules_Aggregators_IAggregator_Remove.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="297377a9-47ec-4aa5-8aa8-06e6ebd82d5b" Title="IAggregatorFactory Interface" Url="html/T_NRules_Aggregators_IAggregatorFactory.htm">
-        <HelpTOCNode Id="cc6ef503-dde7-4c71-bb5d-ef8849d2c69b" Title="IAggregatorFactory Methods" Url="html/Methods_T_NRules_Aggregators_IAggregatorFactory.htm">
+      <HelpTOCNode Id="9db584d9-9459-4c98-a518-9459b7308142" Title="IAggregatorFactory Interface" Url="html/T_NRules_Aggregators_IAggregatorFactory.htm">
+        <HelpTOCNode Id="f3c79c39-0ee5-472c-a4f0-ed64976a1293" Title="IAggregatorFactory Methods" Url="html/Methods_T_NRules_Aggregators_IAggregatorFactory.htm">
           <HelpTOCNode Title="Compile Method " Url="html/M_NRules_Aggregators_IAggregatorFactory_Compile.htm" />
           <HelpTOCNode Title="Create Method " Url="html/M_NRules_Aggregators_IAggregatorFactory_Create.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="761d2d9a-6cdf-4736-9ddb-b70ed5b6d5b1" Title="NRules.Diagnostics" Url="html/N_NRules_Diagnostics.htm">
-      <HelpTOCNode Id="54c8e5a7-2fce-41f4-a634-3ac2dccff8fe" Title="AgendaEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm">
+    <HelpTOCNode Id="06a44d8c-8626-434a-8e4b-ed4546c0396e" Title="NRules.Diagnostics" Url="html/N_NRules_Diagnostics.htm">
+      <HelpTOCNode Id="08d4c6cf-0dea-4414-a328-0c8de8ac4efa" Title="AgendaEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaEventArgs.htm">
         <HelpTOCNode Title="AgendaEventArgs Constructor " Url="html/M_NRules_Diagnostics_AgendaEventArgs__ctor.htm" />
-        <HelpTOCNode Id="83e884fd-49a6-458b-876a-8a2e5f0dac63" Title="AgendaEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaEventArgs.htm">
+        <HelpTOCNode Id="369fdf47-36f3-4e67-a83e-ac7cdea13ac9" Title="AgendaEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaEventArgs.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_Diagnostics_AgendaEventArgs_Facts.htm" />
           <HelpTOCNode Title="Match Property " Url="html/P_NRules_Diagnostics_AgendaEventArgs_Match.htm" />
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_Diagnostics_AgendaEventArgs_Rule.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AgendaEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_AgendaEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="36455b9d-af76-4283-a04d-eb1632968f46" Title="AgendaExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm">
+      <HelpTOCNode Id="9c7b077d-be07-4786-b734-6fabccc6b685" Title="AgendaExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm">
         <HelpTOCNode Title="AgendaExpressionErrorEventArgs Constructor " Url="html/M_NRules_Diagnostics_AgendaExpressionErrorEventArgs__ctor.htm" />
-        <HelpTOCNode Id="93a4982a-60c0-425c-be92-ecf51d45781b" Title="AgendaExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm">
+        <HelpTOCNode Id="7729b9e5-4571-4331-a11e-ffc473a39065" Title="AgendaExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm">
           <HelpTOCNode Title="IsHandled Property " Url="html/P_NRules_Diagnostics_AgendaExpressionErrorEventArgs_IsHandled.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AgendaExpressionErrorEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_AgendaExpressionErrorEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2268574a-1e67-4d04-9153-948e785f87e7" Title="AgendaExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaExpressionEventArgs.htm">
+      <HelpTOCNode Id="1d549ea5-2719-4e13-b57b-7f980dc8cb4c" Title="AgendaExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_AgendaExpressionEventArgs.htm">
         <HelpTOCNode Title="AgendaExpressionEventArgs Constructor " Url="html/M_NRules_Diagnostics_AgendaExpressionEventArgs__ctor.htm" />
-        <HelpTOCNode Id="9ec56340-2cd9-48ce-9047-6950277e1bb7" Title="AgendaExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaExpressionEventArgs.htm">
+        <HelpTOCNode Id="183c986b-46ba-4147-82c1-02a8db4c5868" Title="AgendaExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_AgendaExpressionEventArgs.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_Diagnostics_AgendaExpressionEventArgs_Facts.htm" />
           <HelpTOCNode Title="Match Property " Url="html/P_NRules_Diagnostics_AgendaExpressionEventArgs_Match.htm" />
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_Diagnostics_AgendaExpressionEventArgs_Rule.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AgendaExpressionEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_AgendaExpressionEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d4cb5872-f1fe-47f1-bc9f-d12eb2d4457b" Title="ExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_ExpressionEventArgs.htm">
+      <HelpTOCNode Id="905a6be9-8181-4d92-bd03-e14e32840226" Title="ExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_ExpressionEventArgs.htm">
         <HelpTOCNode Title="ExpressionEventArgs Constructor " Url="html/M_NRules_Diagnostics_ExpressionEventArgs__ctor.htm" />
-        <HelpTOCNode Id="3f116910-0010-416c-a72c-2688239ae77d" Title="ExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_ExpressionEventArgs.htm">
+        <HelpTOCNode Id="27d3270d-e93d-4815-a291-5e0a4ffc5495" Title="ExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_ExpressionEventArgs.htm">
           <HelpTOCNode Title="Arguments Property " Url="html/P_NRules_Diagnostics_ExpressionEventArgs_Arguments.htm" />
           <HelpTOCNode Title="Exception Property " Url="html/P_NRules_Diagnostics_ExpressionEventArgs_Exception.htm" />
           <HelpTOCNode Title="Expression Property " Url="html/P_NRules_Diagnostics_ExpressionEventArgs_Expression.htm" />
@@ -286,8 +297,8 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ExpressionEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_ExpressionEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c9479160-c472-4cb6-afd6-2447b0f4bb46" Title="IEventProvider Interface" Url="html/T_NRules_Diagnostics_IEventProvider.htm">
-        <HelpTOCNode Id="0f8e5dbb-0d74-4c52-a05e-3e1479f6deef" Title="IEventProvider Events" Url="html/Events_T_NRules_Diagnostics_IEventProvider.htm">
+      <HelpTOCNode Id="523b2878-501d-47ca-b8bf-6c4e24d869d3" Title="IEventProvider Interface" Url="html/T_NRules_Diagnostics_IEventProvider.htm">
+        <HelpTOCNode Id="75a27a45-5de2-4e1b-ba3f-75cb8a4c5c22" Title="IEventProvider Events" Url="html/Events_T_NRules_Diagnostics_IEventProvider.htm">
           <HelpTOCNode Title="ActivationCreatedEvent Event" Url="html/E_NRules_Diagnostics_IEventProvider_ActivationCreatedEvent.htm" />
           <HelpTOCNode Title="ActivationDeletedEvent Event" Url="html/E_NRules_Diagnostics_IEventProvider_ActivationDeletedEvent.htm" />
           <HelpTOCNode Title="ActivationUpdatedEvent Event" Url="html/E_NRules_Diagnostics_IEventProvider_ActivationUpdatedEvent.htm" />
@@ -307,15 +318,15 @@
           <HelpTOCNode Title="RuleFiringEvent Event" Url="html/E_NRules_Diagnostics_IEventProvider_RuleFiringEvent.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6c55aa92-7b58-4acd-919a-19e4589dd3dc" Title="IMetricsProvider Interface" Url="html/T_NRules_Diagnostics_IMetricsProvider.htm">
-        <HelpTOCNode Id="08950471-ee62-44fb-acd4-90d1fba4aca0" Title="IMetricsProvider Methods" Url="html/Methods_T_NRules_Diagnostics_IMetricsProvider.htm">
+      <HelpTOCNode Id="7e00d4a9-d751-4af7-ba07-292b70deabc0" Title="IMetricsProvider Interface" Url="html/T_NRules_Diagnostics_IMetricsProvider.htm">
+        <HelpTOCNode Id="d1169431-608a-46aa-8ad2-1ac3bda13c03" Title="IMetricsProvider Methods" Url="html/Methods_T_NRules_Diagnostics_IMetricsProvider.htm">
           <HelpTOCNode Title="FindByNodeId Method " Url="html/M_NRules_Diagnostics_IMetricsProvider_FindByNodeId.htm" />
           <HelpTOCNode Title="GetAll Method " Url="html/M_NRules_Diagnostics_IMetricsProvider_GetAll.htm" />
           <HelpTOCNode Title="Reset Method " Url="html/M_NRules_Diagnostics_IMetricsProvider_Reset.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0e0900c7-c14a-41d9-9bbc-8037f620f6ee" Title="INodeMetrics Interface" Url="html/T_NRules_Diagnostics_INodeMetrics.htm">
-        <HelpTOCNode Id="af63d47b-f69a-4cf9-ab08-0a5056b96977" Title="INodeMetrics Properties" Url="html/Properties_T_NRules_Diagnostics_INodeMetrics.htm">
+      <HelpTOCNode Id="e88a2db2-e747-4cac-b97d-b6b664dd89f5" Title="INodeMetrics Interface" Url="html/T_NRules_Diagnostics_INodeMetrics.htm">
+        <HelpTOCNode Id="234302f1-e88a-426a-bdd0-56a14d4d9252" Title="INodeMetrics Properties" Url="html/Properties_T_NRules_Diagnostics_INodeMetrics.htm">
           <HelpTOCNode Title="ElementCount Property " Url="html/P_NRules_Diagnostics_INodeMetrics_ElementCount.htm" />
           <HelpTOCNode Title="InsertDurationMilliseconds Property " Url="html/P_NRules_Diagnostics_INodeMetrics_InsertDurationMilliseconds.htm" />
           <HelpTOCNode Title="InsertInputCount Property " Url="html/P_NRules_Diagnostics_INodeMetrics_InsertInputCount.htm" />
@@ -328,54 +339,54 @@
           <HelpTOCNode Title="UpdateInputCount Property " Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateInputCount.htm" />
           <HelpTOCNode Title="UpdateOutputCount Property " Url="html/P_NRules_Diagnostics_INodeMetrics_UpdateOutputCount.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="4bb855b1-1875-4ece-8939-4f55c9ec8a1d" Title="INodeMetrics Methods" Url="html/Methods_T_NRules_Diagnostics_INodeMetrics.htm">
+        <HelpTOCNode Id="1a770e0f-ba8b-4b13-888d-961600679fc3" Title="INodeMetrics Methods" Url="html/Methods_T_NRules_Diagnostics_INodeMetrics.htm">
           <HelpTOCNode Title="Reset Method " Url="html/M_NRules_Diagnostics_INodeMetrics_Reset.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d63171f2-177f-4631-857e-08ff2bcf8836" Title="IRecoverableError Interface" Url="html/T_NRules_Diagnostics_IRecoverableError.htm">
-        <HelpTOCNode Id="066c2e58-76cc-4ee5-bdb3-23a4672c3943" Title="IRecoverableError Properties" Url="html/Properties_T_NRules_Diagnostics_IRecoverableError.htm">
+      <HelpTOCNode Id="7ad417a1-2fc5-468c-95e1-fa7fda250f40" Title="IRecoverableError Interface" Url="html/T_NRules_Diagnostics_IRecoverableError.htm">
+        <HelpTOCNode Id="4a49220b-b648-4940-b459-110a305f23be" Title="IRecoverableError Properties" Url="html/Properties_T_NRules_Diagnostics_IRecoverableError.htm">
           <HelpTOCNode Title="Exception Property " Url="html/P_NRules_Diagnostics_IRecoverableError_Exception.htm" />
           <HelpTOCNode Title="IsHandled Property " Url="html/P_NRules_Diagnostics_IRecoverableError_IsHandled.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="776926f3-d2a4-4b7f-9bde-4d35055f933b" Title="ISessionSchemaProvider Interface" Url="html/T_NRules_Diagnostics_ISessionSchemaProvider.htm">
-        <HelpTOCNode Id="336d13c1-eaab-4580-9e03-e9b6ab59a879" Title="ISessionSchemaProvider Methods" Url="html/Methods_T_NRules_Diagnostics_ISessionSchemaProvider.htm">
+      <HelpTOCNode Id="c45b66eb-66ae-44b6-8728-231523eba38f" Title="ISessionSchemaProvider Interface" Url="html/T_NRules_Diagnostics_ISessionSchemaProvider.htm">
+        <HelpTOCNode Id="dc0e7706-c649-4e12-9b3a-c66591c1ef5c" Title="ISessionSchemaProvider Methods" Url="html/Methods_T_NRules_Diagnostics_ISessionSchemaProvider.htm">
           <HelpTOCNode Title="GetSchema Method " Url="html/M_NRules_Diagnostics_ISessionSchemaProvider_GetSchema.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a12502bb-d85c-4997-be92-06cac54bf5c5" Title="LhsExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm">
+      <HelpTOCNode Id="d89b9c16-c03c-4f39-9fb4-a27d96a15a18" Title="LhsExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm">
         <HelpTOCNode Title="LhsExpressionErrorEventArgs Constructor " Url="html/M_NRules_Diagnostics_LhsExpressionErrorEventArgs__ctor.htm" />
-        <HelpTOCNode Id="07e4ced4-d512-4f3d-9eb9-99360368f2d3" Title="LhsExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm">
+        <HelpTOCNode Id="660d5c37-f37f-4782-b393-ceb2e3fb9415" Title="LhsExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm">
           <HelpTOCNode Title="IsHandled Property " Url="html/P_NRules_Diagnostics_LhsExpressionErrorEventArgs_IsHandled.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="LhsExpressionErrorEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_LhsExpressionErrorEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="612a2c5e-3bd0-4f45-853f-e4b826b12317" Title="LhsExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_LhsExpressionEventArgs.htm">
+      <HelpTOCNode Id="f312401d-37c4-4f30-848a-dffd194bdfc2" Title="LhsExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_LhsExpressionEventArgs.htm">
         <HelpTOCNode Title="LhsExpressionEventArgs Constructor " Url="html/M_NRules_Diagnostics_LhsExpressionEventArgs__ctor.htm" />
-        <HelpTOCNode Id="25cd1326-83d1-4d5a-bc0a-f70974f79c4a" Title="LhsExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_LhsExpressionEventArgs.htm">
+        <HelpTOCNode Id="f48943e0-6b9c-4799-a43b-76194519b077" Title="LhsExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_LhsExpressionEventArgs.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_Diagnostics_LhsExpressionEventArgs_Facts.htm" />
           <HelpTOCNode Title="Rules Property " Url="html/P_NRules_Diagnostics_LhsExpressionEventArgs_Rules.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="LhsExpressionEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_LhsExpressionEventArgs.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="NodeType Enumeration" Url="html/T_NRules_Diagnostics_NodeType.htm" />
-      <HelpTOCNode Id="7ca48bf9-35e0-4df3-876f-dae26964b8a0" Title="ReteGraph Class" Url="html/T_NRules_Diagnostics_ReteGraph.htm">
+      <HelpTOCNode Id="f2157b88-4c12-473e-9b72-9ed2c45ad3be" Title="ReteGraph Class" Url="html/T_NRules_Diagnostics_ReteGraph.htm">
         <HelpTOCNode Title="ReteGraph Constructor " Url="html/M_NRules_Diagnostics_ReteGraph__ctor.htm" />
-        <HelpTOCNode Id="8be99547-9569-43c9-a15a-2de0909e60ef" Title="ReteGraph Properties" Url="html/Properties_T_NRules_Diagnostics_ReteGraph.htm">
+        <HelpTOCNode Id="9828b517-ccbd-45ea-b969-0d934ab06dc3" Title="ReteGraph Properties" Url="html/Properties_T_NRules_Diagnostics_ReteGraph.htm">
           <HelpTOCNode Title="Links Property " Url="html/P_NRules_Diagnostics_ReteGraph_Links.htm" />
           <HelpTOCNode Title="Nodes Property " Url="html/P_NRules_Diagnostics_ReteGraph_Nodes.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ReteGraph Methods" Url="html/Methods_T_NRules_Diagnostics_ReteGraph.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3551120f-9a51-4664-9afb-946c9cd1623c" Title="ReteLink Class" Url="html/T_NRules_Diagnostics_ReteLink.htm">
-        <HelpTOCNode Id="a7e74b33-44ae-4b5e-bf96-c2c5af5c1dbe" Title="ReteLink Properties" Url="html/Properties_T_NRules_Diagnostics_ReteLink.htm">
+      <HelpTOCNode Id="8b754136-7f2e-4d2c-80fa-5b95ecb1b882" Title="ReteLink Class" Url="html/T_NRules_Diagnostics_ReteLink.htm">
+        <HelpTOCNode Id="dfc0d60a-147b-4899-8c7a-f96dc7cf2ac6" Title="ReteLink Properties" Url="html/Properties_T_NRules_Diagnostics_ReteLink.htm">
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_Diagnostics_ReteLink_Source.htm" />
           <HelpTOCNode Title="Target Property " Url="html/P_NRules_Diagnostics_ReteLink_Target.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ReteLink Methods" Url="html/Methods_T_NRules_Diagnostics_ReteLink.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4020deb8-29de-4e2e-a872-67afc1733730" Title="ReteNode Class" Url="html/T_NRules_Diagnostics_ReteNode.htm">
-        <HelpTOCNode Id="2e05f623-524c-469d-b70a-d4e1f6c3d92f" Title="ReteNode Properties" Url="html/Properties_T_NRules_Diagnostics_ReteNode.htm">
+      <HelpTOCNode Id="1fe476bc-a785-4e94-b215-920a37c4b9b4" Title="ReteNode Class" Url="html/T_NRules_Diagnostics_ReteNode.htm">
+        <HelpTOCNode Id="2fbd4cc8-49d7-4e16-8cb6-75ef75fb337e" Title="ReteNode Properties" Url="html/Properties_T_NRules_Diagnostics_ReteNode.htm">
           <HelpTOCNode Title="Expressions Property " Url="html/P_NRules_Diagnostics_ReteNode_Expressions.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_NRules_Diagnostics_ReteNode_Id.htm" />
           <HelpTOCNode Title="NodeType Property " Url="html/P_NRules_Diagnostics_ReteNode_NodeType.htm" />
@@ -385,32 +396,32 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ReteNode Methods" Url="html/Methods_T_NRules_Diagnostics_ReteNode.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="497e6096-7035-490c-9f9a-612359647cfb" Title="RhsExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm">
+      <HelpTOCNode Id="fe9cb05d-abd5-4df4-bc0b-24fc8d3f6069" Title="RhsExpressionErrorEventArgs Class" Url="html/T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm">
         <HelpTOCNode Title="RhsExpressionErrorEventArgs Constructor " Url="html/M_NRules_Diagnostics_RhsExpressionErrorEventArgs__ctor.htm" />
-        <HelpTOCNode Id="4002d435-aafa-4b9b-834a-7c2e5bd19e12" Title="RhsExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm">
+        <HelpTOCNode Id="4925c3e6-d2a3-4adc-9bfc-b28b59342bda" Title="RhsExpressionErrorEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm">
           <HelpTOCNode Title="IsHandled Property " Url="html/P_NRules_Diagnostics_RhsExpressionErrorEventArgs_IsHandled.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RhsExpressionErrorEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_RhsExpressionErrorEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="648ae8d6-67bb-4bf4-80d5-175b051fa597" Title="RhsExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_RhsExpressionEventArgs.htm">
+      <HelpTOCNode Id="913b1bc8-82a4-4d4b-98f4-41298acbd768" Title="RhsExpressionEventArgs Class" Url="html/T_NRules_Diagnostics_RhsExpressionEventArgs.htm">
         <HelpTOCNode Title="RhsExpressionEventArgs Constructor " Url="html/M_NRules_Diagnostics_RhsExpressionEventArgs__ctor.htm" />
-        <HelpTOCNode Id="e1323816-686a-4300-8669-5647f5099845" Title="RhsExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_RhsExpressionEventArgs.htm">
+        <HelpTOCNode Id="48997348-e3b0-487d-a268-f37fbd564675" Title="RhsExpressionEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_RhsExpressionEventArgs.htm">
           <HelpTOCNode Title="Match Property " Url="html/P_NRules_Diagnostics_RhsExpressionEventArgs_Match.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RhsExpressionEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_RhsExpressionEventArgs.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="06236ac5-e7e1-4252-9eb6-f9a70b4608f9" Title="WorkingMemoryEventArgs Class" Url="html/T_NRules_Diagnostics_WorkingMemoryEventArgs.htm">
+      <HelpTOCNode Id="c2cc925f-6fe4-45cb-b4b8-ce39481c4737" Title="WorkingMemoryEventArgs Class" Url="html/T_NRules_Diagnostics_WorkingMemoryEventArgs.htm">
         <HelpTOCNode Title="WorkingMemoryEventArgs Constructor " Url="html/M_NRules_Diagnostics_WorkingMemoryEventArgs__ctor.htm" />
-        <HelpTOCNode Id="935262c0-5509-44b0-b890-36014bff0921" Title="WorkingMemoryEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_WorkingMemoryEventArgs.htm">
+        <HelpTOCNode Id="1381e9eb-59d9-4325-a527-3030971895a7" Title="WorkingMemoryEventArgs Properties" Url="html/Properties_T_NRules_Diagnostics_WorkingMemoryEventArgs.htm">
           <HelpTOCNode Title="Fact Property " Url="html/P_NRules_Diagnostics_WorkingMemoryEventArgs_Fact.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="WorkingMemoryEventArgs Methods" Url="html/Methods_T_NRules_Diagnostics_WorkingMemoryEventArgs.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b2466835-65f7-4964-8493-11c87e6c9cc5" Title="NRules.Diagnostics.Dgml" Url="html/N_NRules_Diagnostics_Dgml.htm">
-      <HelpTOCNode Id="4f03e93a-3f33-4221-b90f-88e40031d5d7" Title="DgmlWriter Class" Url="html/T_NRules_Diagnostics_Dgml_DgmlWriter.htm">
+    <HelpTOCNode Id="19c4245f-25a1-410e-a2ba-fb21451b9832" Title="NRules.Diagnostics.Dgml" Url="html/N_NRules_Diagnostics_Dgml.htm">
+      <HelpTOCNode Id="390120e2-2261-4c7d-8ec4-f2a4e71647cd" Title="DgmlWriter Class" Url="html/T_NRules_Diagnostics_Dgml_DgmlWriter.htm">
         <HelpTOCNode Title="DgmlWriter Constructor " Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter__ctor.htm" />
-        <HelpTOCNode Id="b2bf873c-8b2c-4097-9475-4b0fd998d985" Title="DgmlWriter Methods" Url="html/Methods_T_NRules_Diagnostics_Dgml_DgmlWriter.htm">
+        <HelpTOCNode Id="161e6e83-bd6a-44b0-a4fa-2f7e115bdceb" Title="DgmlWriter Methods" Url="html/Methods_T_NRules_Diagnostics_Dgml_DgmlWriter.htm">
           <HelpTOCNode Title="GetContents Method " Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_GetContents.htm" />
           <HelpTOCNode Title="SetMetricsProvider Method " Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetMetricsProvider.htm" />
           <HelpTOCNode Title="SetRuleFilter Method " Url="html/M_NRules_Diagnostics_Dgml_DgmlWriter_SetRuleFilter.htm" />
@@ -419,47 +430,47 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e055b168-5923-4c37-95c9-022ff8f338f2" Title="NRules.Extensibility" Url="html/N_NRules_Extensibility.htm">
-      <HelpTOCNode Id="1f3d5a14-0c4e-4481-81c4-fe1a9a8b74e2" Title="IActionInterceptor Interface" Url="html/T_NRules_Extensibility_IActionInterceptor.htm">
-        <HelpTOCNode Id="38d5587a-2465-45ba-911e-b0e2fc0f075a" Title="IActionInterceptor Methods" Url="html/Methods_T_NRules_Extensibility_IActionInterceptor.htm">
+    <HelpTOCNode Id="2d1ccfdf-d025-4175-bd38-8e58e73af506" Title="NRules.Extensibility" Url="html/N_NRules_Extensibility.htm">
+      <HelpTOCNode Id="27eed781-e92c-46b1-aa94-6e7ea9a94568" Title="IActionInterceptor Interface" Url="html/T_NRules_Extensibility_IActionInterceptor.htm">
+        <HelpTOCNode Id="9d92f39a-dc7c-49b2-bcb1-9064483bdbae" Title="IActionInterceptor Methods" Url="html/Methods_T_NRules_Extensibility_IActionInterceptor.htm">
           <HelpTOCNode Title="Intercept Method " Url="html/M_NRules_Extensibility_IActionInterceptor_Intercept.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="321c6c93-a647-4b20-8b7b-555998b2e670" Title="IActionInvocation Interface" Url="html/T_NRules_Extensibility_IActionInvocation.htm">
-        <HelpTOCNode Id="ddcf1b56-e60a-4134-b534-3d0c454e72c0" Title="IActionInvocation Properties" Url="html/Properties_T_NRules_Extensibility_IActionInvocation.htm">
+      <HelpTOCNode Id="69b2a9ac-67e4-4a27-8c22-32329c3cf8a8" Title="IActionInvocation Interface" Url="html/T_NRules_Extensibility_IActionInvocation.htm">
+        <HelpTOCNode Id="8c656289-3135-409c-a6da-e8cdac4e7920" Title="IActionInvocation Properties" Url="html/Properties_T_NRules_Extensibility_IActionInvocation.htm">
           <HelpTOCNode Title="Arguments Property " Url="html/P_NRules_Extensibility_IActionInvocation_Arguments.htm" />
           <HelpTOCNode Title="Trigger Property " Url="html/P_NRules_Extensibility_IActionInvocation_Trigger.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="86da4ed3-c182-40c4-8083-e62fe490957f" Title="IActionInvocation Methods" Url="html/Methods_T_NRules_Extensibility_IActionInvocation.htm">
+        <HelpTOCNode Id="c94586d7-d1ba-4cc9-a1d7-0539df67a033" Title="IActionInvocation Methods" Url="html/Methods_T_NRules_Extensibility_IActionInvocation.htm">
           <HelpTOCNode Title="Invoke Method " Url="html/M_NRules_Extensibility_IActionInvocation_Invoke.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e8409fe4-61ca-4fca-ac37-3654465805c1" Title="IDependencyResolver Interface" Url="html/T_NRules_Extensibility_IDependencyResolver.htm">
-        <HelpTOCNode Id="f6584e41-b9aa-4041-ad73-57fc423f2c8a" Title="IDependencyResolver Methods" Url="html/Methods_T_NRules_Extensibility_IDependencyResolver.htm">
+      <HelpTOCNode Id="c648fe96-3246-4b39-b6d6-fd1735cdaf64" Title="IDependencyResolver Interface" Url="html/T_NRules_Extensibility_IDependencyResolver.htm">
+        <HelpTOCNode Id="ac196d55-e6d7-46bc-91eb-1bfc1c28c477" Title="IDependencyResolver Methods" Url="html/Methods_T_NRules_Extensibility_IDependencyResolver.htm">
           <HelpTOCNode Title="Resolve Method " Url="html/M_NRules_Extensibility_IDependencyResolver_Resolve.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="df92ba26-d744-4015-bbca-5b5d31a79c6b" Title="IExpressionCompiler Interface" Url="html/T_NRules_Extensibility_IExpressionCompiler.htm">
-        <HelpTOCNode Id="7941f8ad-c338-4299-a707-40e2730fa5d1" Title="IExpressionCompiler Methods" Url="html/Methods_T_NRules_Extensibility_IExpressionCompiler.htm">
+      <HelpTOCNode Id="e681f0dc-9cdc-4705-9ddf-c80d3f4f6a4d" Title="IExpressionCompiler Interface" Url="html/T_NRules_Extensibility_IExpressionCompiler.htm">
+        <HelpTOCNode Id="5c94c84e-4123-4c10-b192-06d4795ea47a" Title="IExpressionCompiler Methods" Url="html/Methods_T_NRules_Extensibility_IExpressionCompiler.htm">
           <HelpTOCNode Title="Compile(TDelegate) Method " Url="html/M_NRules_Extensibility_IExpressionCompiler_Compile__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="52d875ce-2607-4bdb-be3f-48929870b5f2" Title="IResolutionContext Interface" Url="html/T_NRules_Extensibility_IResolutionContext.htm">
-        <HelpTOCNode Id="271f1fbc-fd47-463a-8ac5-223afd00a2fd" Title="IResolutionContext Properties" Url="html/Properties_T_NRules_Extensibility_IResolutionContext.htm">
+      <HelpTOCNode Id="085aa0a4-db56-457c-a593-871e13159654" Title="IResolutionContext Interface" Url="html/T_NRules_Extensibility_IResolutionContext.htm">
+        <HelpTOCNode Id="d946c638-a71d-41e7-86eb-70f31ad3b3b8" Title="IResolutionContext Properties" Url="html/Properties_T_NRules_Extensibility_IResolutionContext.htm">
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_Extensibility_IResolutionContext_Rule.htm" />
           <HelpTOCNode Title="Session Property " Url="html/P_NRules_Extensibility_IResolutionContext_Session.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f77df370-ab9c-4206-bde0-0324328dec82" Title="NRules.Fluent" Url="html/N_NRules_Fluent.htm">
-      <HelpTOCNode Id="71fa1926-9948-4276-aab4-54bf58e22e8f" Title="IRuleActivator Interface" Url="html/T_NRules_Fluent_IRuleActivator.htm">
-        <HelpTOCNode Id="60504ed9-a111-4af2-ba7d-23b8b480012b" Title="IRuleActivator Methods" Url="html/Methods_T_NRules_Fluent_IRuleActivator.htm">
+    <HelpTOCNode Id="b082106d-c298-4c34-9019-07dd8940d205" Title="NRules.Fluent" Url="html/N_NRules_Fluent.htm">
+      <HelpTOCNode Id="2dd17f70-aab5-4c99-8a01-6f776ef548d7" Title="IRuleActivator Interface" Url="html/T_NRules_Fluent_IRuleActivator.htm">
+        <HelpTOCNode Id="bf6a40f5-ec26-4b93-9444-6570ef7d48f2" Title="IRuleActivator Methods" Url="html/Methods_T_NRules_Fluent_IRuleActivator.htm">
           <HelpTOCNode Title="Activate Method " Url="html/M_NRules_Fluent_IRuleActivator_Activate.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="89b577c5-5156-4500-a7a0-31b23631ffad" Title="IRuleLoadSpec Interface" Url="html/T_NRules_Fluent_IRuleLoadSpec.htm">
-        <HelpTOCNode Id="066b7fc4-2833-46a7-998f-518753af9a53" Title="IRuleLoadSpec Methods" Url="html/Methods_T_NRules_Fluent_IRuleLoadSpec.htm">
-          <HelpTOCNode Id="9527c4c1-38fb-4408-81ab-98000764314c" Title="From Method " Url="html/Overload_NRules_Fluent_IRuleLoadSpec_From.htm">
+      <HelpTOCNode Id="12908ae3-2da2-4581-ab52-41c80643dfba" Title="IRuleLoadSpec Interface" Url="html/T_NRules_Fluent_IRuleLoadSpec.htm">
+        <HelpTOCNode Id="cd2e92dc-2055-43c9-804e-ae9d35aa750d" Title="IRuleLoadSpec Methods" Url="html/Methods_T_NRules_Fluent_IRuleLoadSpec.htm">
+          <HelpTOCNode Id="29a388eb-fae8-4ce8-b454-dd21453af83e" Title="From Method " Url="html/Overload_NRules_Fluent_IRuleLoadSpec_From.htm">
             <HelpTOCNode Title="From Method (IEnumerable(Assembly))" Url="html/M_NRules_Fluent_IRuleLoadSpec_From_1.htm" />
             <HelpTOCNode Title="From Method (IEnumerable(Type))" Url="html/M_NRules_Fluent_IRuleLoadSpec_From_2.htm" />
             <HelpTOCNode Title="From Method (Assembly[])" Url="html/M_NRules_Fluent_IRuleLoadSpec_From_3.htm" />
@@ -472,8 +483,8 @@
           <HelpTOCNode Title="Where Method " Url="html/M_NRules_Fluent_IRuleLoadSpec_Where.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="761e5271-3134-4f1e-a798-b0da1c618691" Title="IRuleMetadata Interface" Url="html/T_NRules_Fluent_IRuleMetadata.htm">
-        <HelpTOCNode Id="2e086c38-4f4a-4071-969e-da9843358544" Title="IRuleMetadata Properties" Url="html/Properties_T_NRules_Fluent_IRuleMetadata.htm">
+      <HelpTOCNode Id="f58a597e-5896-4813-9d69-02011ea85225" Title="IRuleMetadata Interface" Url="html/T_NRules_Fluent_IRuleMetadata.htm">
+        <HelpTOCNode Id="55dc92f2-2608-4396-90c9-0eac1cdd126f" Title="IRuleMetadata Properties" Url="html/Properties_T_NRules_Fluent_IRuleMetadata.htm">
           <HelpTOCNode Title="Description Property " Url="html/P_NRules_Fluent_IRuleMetadata_Description.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_Fluent_IRuleMetadata_Name.htm" />
           <HelpTOCNode Title="RuleType Property " Url="html/P_NRules_Fluent_IRuleMetadata_RuleType.htm" />
@@ -481,10 +492,10 @@
         </HelpTOCNode>
         <HelpTOCNode Title="IRuleMetadata Methods" Url="html/Methods_T_NRules_Fluent_IRuleMetadata.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="607ecf2c-8f62-4858-8101-dd230b114a4e" Title="IRuleTypeScanner Interface" Url="html/T_NRules_Fluent_IRuleTypeScanner.htm">
-        <HelpTOCNode Id="97683e8a-130a-4185-9af2-b20382eae7f9" Title="IRuleTypeScanner Methods" Url="html/Methods_T_NRules_Fluent_IRuleTypeScanner.htm">
+      <HelpTOCNode Id="3bc0ff3e-625b-433a-82d9-c00667e28eb9" Title="IRuleTypeScanner Interface" Url="html/T_NRules_Fluent_IRuleTypeScanner.htm">
+        <HelpTOCNode Id="b3a1c80e-5d18-45d1-8256-c813245aa385" Title="IRuleTypeScanner Methods" Url="html/Methods_T_NRules_Fluent_IRuleTypeScanner.htm">
           <HelpTOCNode Title="Assembly Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_Assembly.htm" />
-          <HelpTOCNode Id="15d41e5a-7b4a-4941-9158-7e179426e7a5" Title="AssemblyOf Method " Url="html/Overload_NRules_Fluent_IRuleTypeScanner_AssemblyOf.htm">
+          <HelpTOCNode Id="2ef04b51-c81d-4b95-b36d-9fecbf6d7783" Title="AssemblyOf Method " Url="html/Overload_NRules_Fluent_IRuleTypeScanner_AssemblyOf.htm">
             <HelpTOCNode Title="AssemblyOf(T) Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_AssemblyOf__1.htm" />
             <HelpTOCNode Title="AssemblyOf Method (Type)" Url="html/M_NRules_Fluent_IRuleTypeScanner_AssemblyOf.htm" />
           </HelpTOCNode>
@@ -493,42 +504,42 @@
           <HelpTOCNode Title="Type Method " Url="html/M_NRules_Fluent_IRuleTypeScanner_Type.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="4597785d-cac5-4752-9807-a295df4d7fad" Title="RuleActivationException Class" Url="html/T_NRules_Fluent_RuleActivationException.htm">
+      <HelpTOCNode Id="d233d33e-842f-4731-9c16-d3de56f30960" Title="RuleActivationException Class" Url="html/T_NRules_Fluent_RuleActivationException.htm">
         <HelpTOCNode Title="RuleActivationException Constructor " Url="html/M_NRules_Fluent_RuleActivationException__ctor.htm" />
-        <HelpTOCNode Id="1dd78aa6-6575-49b4-9f34-d24091344143" Title="RuleActivationException Properties" Url="html/Properties_T_NRules_Fluent_RuleActivationException.htm">
+        <HelpTOCNode Id="21eb924f-af74-48e5-a5ee-413db0f94ecd" Title="RuleActivationException Properties" Url="html/Properties_T_NRules_Fluent_RuleActivationException.htm">
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_Fluent_RuleActivationException_Message.htm" />
           <HelpTOCNode Title="RuleType Property " Url="html/P_NRules_Fluent_RuleActivationException_RuleType.htm" />
           <HelpTOCNode Title="RuleTypeName Property " Url="html/P_NRules_Fluent_RuleActivationException_RuleTypeName.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ba145ea4-7d1e-43cf-818f-5983882a2ebb" Title="RuleActivationException Methods" Url="html/Methods_T_NRules_Fluent_RuleActivationException.htm">
+        <HelpTOCNode Id="36d46b1c-96c6-4078-ae7d-ff2c747b39d9" Title="RuleActivationException Methods" Url="html/Methods_T_NRules_Fluent_RuleActivationException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_Fluent_RuleActivationException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleActivationException Events" Url="html/Events_T_NRules_Fluent_RuleActivationException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0163f8a1-41bb-4800-be28-0ffde6556e67" Title="RuleDefinitionException Class" Url="html/T_NRules_Fluent_RuleDefinitionException.htm">
+      <HelpTOCNode Id="80d82ebe-1730-466e-b7b8-4675b6377b08" Title="RuleDefinitionException Class" Url="html/T_NRules_Fluent_RuleDefinitionException.htm">
         <HelpTOCNode Title="RuleDefinitionException Constructor " Url="html/M_NRules_Fluent_RuleDefinitionException__ctor.htm" />
-        <HelpTOCNode Id="4d34e553-6858-4437-814a-7d3d65a97466" Title="RuleDefinitionException Properties" Url="html/Properties_T_NRules_Fluent_RuleDefinitionException.htm">
+        <HelpTOCNode Id="25d228af-7d10-490a-84e7-b3bf641f2d69" Title="RuleDefinitionException Properties" Url="html/Properties_T_NRules_Fluent_RuleDefinitionException.htm">
           <HelpTOCNode Title="Message Property " Url="html/P_NRules_Fluent_RuleDefinitionException_Message.htm" />
           <HelpTOCNode Title="RuleType Property " Url="html/P_NRules_Fluent_RuleDefinitionException_RuleType.htm" />
           <HelpTOCNode Title="RuleTypeName Property " Url="html/P_NRules_Fluent_RuleDefinitionException_RuleTypeName.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8db57456-8618-4e92-b1d5-5129901e9606" Title="RuleDefinitionException Methods" Url="html/Methods_T_NRules_Fluent_RuleDefinitionException.htm">
+        <HelpTOCNode Id="ad0b773d-5af9-42fe-8644-3ba5f1ed19a0" Title="RuleDefinitionException Methods" Url="html/Methods_T_NRules_Fluent_RuleDefinitionException.htm">
           <HelpTOCNode Title="GetObjectData Method " Url="html/M_NRules_Fluent_RuleDefinitionException_GetObjectData.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleDefinitionException Events" Url="html/Events_T_NRules_Fluent_RuleDefinitionException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1e8e78ab-92fa-4e54-8433-88f0fd166113" Title="RuleDefinitionFactory Class" Url="html/T_NRules_Fluent_RuleDefinitionFactory.htm">
+      <HelpTOCNode Id="3d503832-b9a8-44e1-8e1b-2821ec7ba8e7" Title="RuleDefinitionFactory Class" Url="html/T_NRules_Fluent_RuleDefinitionFactory.htm">
         <HelpTOCNode Title="RuleDefinitionFactory Constructor " Url="html/M_NRules_Fluent_RuleDefinitionFactory__ctor.htm" />
-        <HelpTOCNode Id="156dc5c1-168c-4cd3-8bfe-b3eb77ae7e5f" Title="RuleDefinitionFactory Methods" Url="html/Methods_T_NRules_Fluent_RuleDefinitionFactory.htm">
-          <HelpTOCNode Id="9bdde9ed-af92-4b55-b234-5f0ab3d6d2f0" Title="Create Method " Url="html/Overload_NRules_Fluent_RuleDefinitionFactory_Create.htm">
+        <HelpTOCNode Id="bf6f3c67-89f3-4fce-bc59-7e426125a1c7" Title="RuleDefinitionFactory Methods" Url="html/Methods_T_NRules_Fluent_RuleDefinitionFactory.htm">
+          <HelpTOCNode Id="ff5aab46-2694-45bd-a026-8410d82f1af5" Title="Create Method " Url="html/Overload_NRules_Fluent_RuleDefinitionFactory_Create.htm">
             <HelpTOCNode Title="Create Method (Rule)" Url="html/M_NRules_Fluent_RuleDefinitionFactory_Create.htm" />
             <HelpTOCNode Title="Create Method (IEnumerable(Rule))" Url="html/M_NRules_Fluent_RuleDefinitionFactory_Create_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c9782b48-5b0c-4579-a092-d5d1c7407254" Title="RuleMetadata Class" Url="html/T_NRules_Fluent_RuleMetadata.htm">
+      <HelpTOCNode Id="1661eb74-8a0c-4807-b433-20673b6225b3" Title="RuleMetadata Class" Url="html/T_NRules_Fluent_RuleMetadata.htm">
         <HelpTOCNode Title="RuleMetadata Constructor " Url="html/M_NRules_Fluent_RuleMetadata__ctor.htm" />
-        <HelpTOCNode Id="6692aff8-bc98-4d8d-88f3-e154500419cd" Title="RuleMetadata Properties" Url="html/Properties_T_NRules_Fluent_RuleMetadata.htm">
+        <HelpTOCNode Id="0fe0c51d-34eb-4d87-ab5f-af4ae5fd0f64" Title="RuleMetadata Properties" Url="html/Properties_T_NRules_Fluent_RuleMetadata.htm">
           <HelpTOCNode Title="Description Property " Url="html/P_NRules_Fluent_RuleMetadata_Description.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_Fluent_RuleMetadata_Name.htm" />
           <HelpTOCNode Title="Priority Property " Url="html/P_NRules_Fluent_RuleMetadata_Priority.htm" />
@@ -538,32 +549,32 @@
         </HelpTOCNode>
         <HelpTOCNode Title="RuleMetadata Methods" Url="html/Methods_T_NRules_Fluent_RuleMetadata.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e9820e3a-15e4-4b11-b415-b86782847049" Title="RuleMetadataExtensions Class" Url="html/T_NRules_Fluent_RuleMetadataExtensions.htm">
-        <HelpTOCNode Id="7db85e95-54a7-477a-bda1-42c611f177b4" Title="RuleMetadataExtensions Methods" Url="html/Methods_T_NRules_Fluent_RuleMetadataExtensions.htm">
+      <HelpTOCNode Id="8d4d729d-0116-425e-aeac-ebac6badbfba" Title="RuleMetadataExtensions Class" Url="html/T_NRules_Fluent_RuleMetadataExtensions.htm">
+        <HelpTOCNode Id="cd054e43-194d-4438-8f02-43e2d44bc39c" Title="RuleMetadataExtensions Methods" Url="html/Methods_T_NRules_Fluent_RuleMetadataExtensions.htm">
           <HelpTOCNode Title="IsTagged Method " Url="html/M_NRules_Fluent_RuleMetadataExtensions_IsTagged.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="4d580818-58b4-4697-a97e-d542b0f81057" Title="RuleProperties Class" Url="html/T_NRules_Fluent_RuleProperties.htm">
-        <HelpTOCNode Id="66ff13cd-37bc-4ac7-a0a2-34e4626c7388" Title="RuleProperties Fields" Url="html/Fields_T_NRules_Fluent_RuleProperties.htm">
+      <HelpTOCNode Id="2092d6fc-2c3b-4280-bc75-2c01084de3dd" Title="RuleProperties Class" Url="html/T_NRules_Fluent_RuleProperties.htm">
+        <HelpTOCNode Id="28a84081-9014-49b9-82d1-30a158aa95e5" Title="RuleProperties Fields" Url="html/Fields_T_NRules_Fluent_RuleProperties.htm">
           <HelpTOCNode Title="ClrType Field" Url="html/F_NRules_Fluent_RuleProperties_ClrType.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bf782a5a-5d8d-4b01-b01d-e28203839aa4" Title="RuleRepository Class" Url="html/T_NRules_Fluent_RuleRepository.htm">
+      <HelpTOCNode Id="caf42131-65ef-4c3f-9d76-fd5947048351" Title="RuleRepository Class" Url="html/T_NRules_Fluent_RuleRepository.htm">
         <HelpTOCNode Title="RuleRepository Constructor " Url="html/M_NRules_Fluent_RuleRepository__ctor.htm" />
-        <HelpTOCNode Id="7538fbbc-efe1-498a-a40c-6c760c3213b8" Title="RuleRepository Properties" Url="html/Properties_T_NRules_Fluent_RuleRepository.htm">
+        <HelpTOCNode Id="060726cd-0791-4ff1-b88a-071ebd4e4caf" Title="RuleRepository Properties" Url="html/Properties_T_NRules_Fluent_RuleRepository.htm">
           <HelpTOCNode Title="Activator Property " Url="html/P_NRules_Fluent_RuleRepository_Activator.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="cca04d6b-2485-4d3b-a5f3-cc7b471e866a" Title="RuleRepository Methods" Url="html/Methods_T_NRules_Fluent_RuleRepository.htm">
+        <HelpTOCNode Id="e6812ad2-c8bc-4919-8042-621a8599e9fd" Title="RuleRepository Methods" Url="html/Methods_T_NRules_Fluent_RuleRepository.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_NRules_Fluent_RuleRepository_Add.htm" />
           <HelpTOCNode Title="GetRuleSets Method " Url="html/M_NRules_Fluent_RuleRepository_GetRuleSets.htm" />
           <HelpTOCNode Title="Load Method " Url="html/M_NRules_Fluent_RuleRepository_Load.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="76cdfc6b-5896-41df-ac64-bf8dd922cbd6" Title="RuleTypeScanner Class" Url="html/T_NRules_Fluent_RuleTypeScanner.htm">
+      <HelpTOCNode Id="67ba5e03-ab7b-4665-ba29-0b39879c1ae5" Title="RuleTypeScanner Class" Url="html/T_NRules_Fluent_RuleTypeScanner.htm">
         <HelpTOCNode Title="RuleTypeScanner Constructor " Url="html/M_NRules_Fluent_RuleTypeScanner__ctor.htm" />
-        <HelpTOCNode Id="160b5897-536a-4497-bd1a-2e5c79a10e64" Title="RuleTypeScanner Methods" Url="html/Methods_T_NRules_Fluent_RuleTypeScanner.htm">
+        <HelpTOCNode Id="fa8fcfb0-e828-49a9-804c-151457f43790" Title="RuleTypeScanner Methods" Url="html/Methods_T_NRules_Fluent_RuleTypeScanner.htm">
           <HelpTOCNode Title="Assembly Method " Url="html/M_NRules_Fluent_RuleTypeScanner_Assembly.htm" />
-          <HelpTOCNode Id="4666af45-a634-4571-a9f7-68f86af58cb1" Title="AssemblyOf Method " Url="html/Overload_NRules_Fluent_RuleTypeScanner_AssemblyOf.htm">
+          <HelpTOCNode Id="42a71afd-b482-4256-b60b-09589ebeedeb" Title="AssemblyOf Method " Url="html/Overload_NRules_Fluent_RuleTypeScanner_AssemblyOf.htm">
             <HelpTOCNode Title="AssemblyOf(T) Method " Url="html/M_NRules_Fluent_RuleTypeScanner_AssemblyOf__1.htm" />
             <HelpTOCNode Title="AssemblyOf Method (Type)" Url="html/M_NRules_Fluent_RuleTypeScanner_AssemblyOf.htm" />
           </HelpTOCNode>
@@ -575,36 +586,36 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7e6705f1-0845-4cb9-bd1a-df094ee65aeb" Title="NRules.Fluent.Dsl" Url="html/N_NRules_Fluent_Dsl.htm">
-      <HelpTOCNode Id="a9ee0ee1-111e-4721-b499-d94461525016" Title="ContextExtensions Class" Url="html/T_NRules_Fluent_Dsl_ContextExtensions.htm">
-        <HelpTOCNode Id="243fcb17-a988-4b94-bf7a-70fa89169bcd" Title="ContextExtensions Methods" Url="html/Methods_T_NRules_Fluent_Dsl_ContextExtensions.htm">
+    <HelpTOCNode Id="e390c7c2-1626-4377-a8b8-f9f66728bd2b" Title="NRules.Fluent.Dsl" Url="html/N_NRules_Fluent_Dsl.htm">
+      <HelpTOCNode Id="27a7135a-75cd-43e0-a204-0850a7628d15" Title="ContextExtensions Class" Url="html/T_NRules_Fluent_Dsl_ContextExtensions.htm">
+        <HelpTOCNode Id="277628d0-1b1e-4457-905c-b868dff7d23e" Title="ContextExtensions Methods" Url="html/Methods_T_NRules_Fluent_Dsl_ContextExtensions.htm">
           <HelpTOCNode Title="Resolve(TService) Method " Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Resolve__1.htm" />
           <HelpTOCNode Title="Update(T) Method " Url="html/M_NRules_Fluent_Dsl_ContextExtensions_Update__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e6f2d7cf-b10b-44fc-bab1-eaea56c53193" Title="DescriptionAttribute Class" Url="html/T_NRules_Fluent_Dsl_DescriptionAttribute.htm">
+      <HelpTOCNode Id="57e32a6b-2f49-471e-9080-fe981317db28" Title="DescriptionAttribute Class" Url="html/T_NRules_Fluent_Dsl_DescriptionAttribute.htm">
         <HelpTOCNode Title="DescriptionAttribute Constructor " Url="html/M_NRules_Fluent_Dsl_DescriptionAttribute__ctor.htm" />
         <HelpTOCNode Title="DescriptionAttribute Properties" Url="html/Properties_T_NRules_Fluent_Dsl_DescriptionAttribute.htm" />
         <HelpTOCNode Title="DescriptionAttribute Methods" Url="html/Methods_T_NRules_Fluent_Dsl_DescriptionAttribute.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="fb3b1757-33c5-4b0a-87bc-e65f638a5d64" Title="ICollectQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_ICollectQuery_1.htm">
+      <HelpTOCNode Id="16f035c9-abdd-42c3-b890-64e527082161" Title="ICollectQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_ICollectQuery_1.htm">
         <HelpTOCNode Title="ICollectQuery(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_ICollectQuery_1.htm" />
         <HelpTOCNode Title="ICollectQuery(TSource) Methods" Url="html/Methods_T_NRules_Fluent_Dsl_ICollectQuery_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="75b19676-37d2-4313-837d-12104a72c1d4" Title="IDependencyExpression Interface" Url="html/T_NRules_Fluent_Dsl_IDependencyExpression.htm">
-        <HelpTOCNode Id="ac231c0a-a1b6-4520-acd3-e76ebf14bebb" Title="IDependencyExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IDependencyExpression.htm">
+      <HelpTOCNode Id="46ab6727-09f8-4c1e-b934-215e13c68e8f" Title="IDependencyExpression Interface" Url="html/T_NRules_Fluent_Dsl_IDependencyExpression.htm">
+        <HelpTOCNode Id="3bac579b-1072-449d-9166-77741e195d13" Title="IDependencyExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IDependencyExpression.htm">
           <HelpTOCNode Title="Resolve(TDependency) Method " Url="html/M_NRules_Fluent_Dsl_IDependencyExpression_Resolve__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="325e640f-255c-402a-b872-b1bc4989d7d4" Title="IFilterExpression Interface" Url="html/T_NRules_Fluent_Dsl_IFilterExpression.htm">
-        <HelpTOCNode Id="aced61e5-d0f6-41a7-a639-70be667c9989" Title="IFilterExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IFilterExpression.htm">
+      <HelpTOCNode Id="9a43d49b-2b52-4aba-8bb1-2ac18f9963e7" Title="IFilterExpression Interface" Url="html/T_NRules_Fluent_Dsl_IFilterExpression.htm">
+        <HelpTOCNode Id="5c451ea7-878a-448c-8222-0769740a5c4f" Title="IFilterExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IFilterExpression.htm">
           <HelpTOCNode Title="OnChange Method " Url="html/M_NRules_Fluent_Dsl_IFilterExpression_OnChange.htm" />
           <HelpTOCNode Title="Where Method " Url="html/M_NRules_Fluent_Dsl_IFilterExpression_Where.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="715dde48-2be6-47d6-b48e-b35e76b85cdc" Title="ILeftHandSideExpression Interface" Url="html/T_NRules_Fluent_Dsl_ILeftHandSideExpression.htm">
-        <HelpTOCNode Id="cf74b683-9781-4659-bda1-44b2cdc79ed0" Title="ILeftHandSideExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_ILeftHandSideExpression.htm">
-          <HelpTOCNode Id="083188bd-bb88-4b0d-93ae-eeea46e18b84" Title="All Method " Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_All.htm">
+      <HelpTOCNode Id="723114f0-8744-4234-8b57-79f658812831" Title="ILeftHandSideExpression Interface" Url="html/T_NRules_Fluent_Dsl_ILeftHandSideExpression.htm">
+        <HelpTOCNode Id="80b52a69-d46b-4d9f-8c54-51e738d364a2" Title="ILeftHandSideExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_ILeftHandSideExpression.htm">
+          <HelpTOCNode Id="2f1d324c-8ab7-43df-bef0-cfa1734bd095" Title="All Method " Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_All.htm">
             <HelpTOCNode Title="All(TFact) Method (Expression(Func(TFact, Boolean)))" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_All__1.htm" />
             <HelpTOCNode Title="All(TFact) Method (Expression(Func(TFact, Boolean)), Expression(Func(TFact, Boolean))[])" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_1.htm" />
           </HelpTOCNode>
@@ -612,7 +623,7 @@
           <HelpTOCNode Title="Exists(TFact) Method " Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1.htm" />
           <HelpTOCNode Title="Having Method " Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Having.htm" />
           <HelpTOCNode Title="Let(TResult) Method " Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Let__1.htm" />
-          <HelpTOCNode Id="ca7666ad-c6a6-4a69-9236-33e1e0c4559a" Title="Match Method " Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_Match.htm">
+          <HelpTOCNode Id="c844a7c3-8408-49fb-aa41-0095b081e5f2" Title="Match Method " Url="html/Overload_NRules_Fluent_Dsl_ILeftHandSideExpression_Match.htm">
             <HelpTOCNode Title="Match(TFact) Method (Expression(Func(TFact, Boolean))[])" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Match__1_1.htm" />
             <HelpTOCNode Title="Match(TFact) Method (Expression(Func(TFact)), Expression(Func(TFact, Boolean))[])" Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Match__1.htm" />
           </HelpTOCNode>
@@ -621,25 +632,25 @@
           <HelpTOCNode Title="Query(TResult) Method " Url="html/M_NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="948deeb4-6519-4648-88f3-4fea8bb7ad69" Title="IOrderedQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_IOrderedQuery_1.htm">
+      <HelpTOCNode Id="411b8a11-efa3-4bea-87fc-a9f73255dab8" Title="IOrderedQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_IOrderedQuery_1.htm">
         <HelpTOCNode Title="IOrderedQuery(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_IOrderedQuery_1.htm" />
         <HelpTOCNode Title="IOrderedQuery(TSource) Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IOrderedQuery_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9bc99477-4e27-45d5-81eb-72d19a84f314" Title="IQuery Interface" Url="html/T_NRules_Fluent_Dsl_IQuery.htm">
-        <HelpTOCNode Id="a758a0f0-85b8-494c-8875-06d7e82015b3" Title="IQuery Properties" Url="html/Properties_T_NRules_Fluent_Dsl_IQuery.htm">
+      <HelpTOCNode Id="060199ea-713a-4496-b69b-799d73795ad7" Title="IQuery Interface" Url="html/T_NRules_Fluent_Dsl_IQuery.htm">
+        <HelpTOCNode Id="b6dae55f-d826-4aca-85c7-1454f4fd8b7f" Title="IQuery Properties" Url="html/Properties_T_NRules_Fluent_Dsl_IQuery.htm">
           <HelpTOCNode Title="Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_Builder.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="IQuery Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IQuery.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e53622de-5e52-4c03-9629-4e0ac0b1e0ff" Title="IQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_IQuery_1.htm">
-        <HelpTOCNode Id="6fdd82f6-ebfa-4fd7-bd77-e5df5b950d21" Title="IQuery(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_IQuery_1.htm">
+      <HelpTOCNode Id="350c391b-c59e-44d8-80ed-7e9fb224f915" Title="IQuery(TSource) Interface" Url="html/T_NRules_Fluent_Dsl_IQuery_1.htm">
+        <HelpTOCNode Id="11b5b066-7a51-4d36-814f-abf53388643f" Title="IQuery(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_IQuery_1.htm">
           <HelpTOCNode Title="Builder Property " Url="html/P_NRules_Fluent_Dsl_IQuery_1_Builder.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="IQuery(TSource) Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IQuery_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="52948681-5889-4fcd-9236-0640002bb05b" Title="IQueryBuilder Interface" Url="html/T_NRules_Fluent_Dsl_IQueryBuilder.htm">
-        <HelpTOCNode Id="893c3067-de3b-42b6-bbd7-394c2c98f1e9" Title="IQueryBuilder Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IQueryBuilder.htm">
-          <HelpTOCNode Id="da9b82e2-29fd-4b4b-9d83-1ea341be7cbd" Title="Aggregate Method " Url="html/Overload_NRules_Fluent_Dsl_IQueryBuilder_Aggregate.htm">
+      <HelpTOCNode Id="d0a5cc2d-4936-4e5e-8d67-ce5e0d361643" Title="IQueryBuilder Interface" Url="html/T_NRules_Fluent_Dsl_IQueryBuilder.htm">
+        <HelpTOCNode Id="c5ac75f1-edfc-4392-9cbb-c112981fc2cb" Title="IQueryBuilder Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IQueryBuilder.htm">
+          <HelpTOCNode Id="67556de2-92b2-4c9e-9a00-b3f582e1c53a" Title="Aggregate Method " Url="html/Overload_NRules_Fluent_Dsl_IQueryBuilder_Aggregate.htm">
             <HelpTOCNode Title="Aggregate(TSource, TResult) Method (String, IEnumerable(KeyValuePair(String, LambdaExpression)))" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Aggregate__2.htm" />
             <HelpTOCNode Title="Aggregate(TSource, TResult) Method (String, IEnumerable(KeyValuePair(String, LambdaExpression)), Type)" Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Aggregate__2_1.htm" />
           </HelpTOCNode>
@@ -650,42 +661,43 @@
           <HelpTOCNode Title="OrderBy(TSource, TKey) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_OrderBy__2.htm" />
           <HelpTOCNode Title="Select(TSource, TResult) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Select__2.htm" />
           <HelpTOCNode Title="SelectMany(TSource, TResult) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_SelectMany__2.htm" />
+          <HelpTOCNode Title="ToLookup(TSource, TKey, TElement) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_ToLookup__3.htm" />
           <HelpTOCNode Title="Where(TSource) Method " Url="html/M_NRules_Fluent_Dsl_IQueryBuilder_Where__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="06991c7d-fa71-49a5-91d0-3af4c62ee77b" Title="IRightHandSideExpression Interface" Url="html/T_NRules_Fluent_Dsl_IRightHandSideExpression.htm">
-        <HelpTOCNode Id="ce7389d7-5389-411c-bc8d-4bb5d79327e8" Title="IRightHandSideExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IRightHandSideExpression.htm">
+      <HelpTOCNode Id="1a346321-80a4-414e-8790-1eee512fb844" Title="IRightHandSideExpression Interface" Url="html/T_NRules_Fluent_Dsl_IRightHandSideExpression.htm">
+        <HelpTOCNode Id="50642284-6abc-4601-a951-85f49aa0fc2b" Title="IRightHandSideExpression Methods" Url="html/Methods_T_NRules_Fluent_Dsl_IRightHandSideExpression.htm">
           <HelpTOCNode Title="Action Method " Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Action.htm" />
           <HelpTOCNode Title="Do Method " Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Do.htm" />
           <HelpTOCNode Title="Undo Method " Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Undo.htm" />
-          <HelpTOCNode Id="dc70a8d1-5854-4c8d-95f4-6a3e02a74b3e" Title="Yield Method " Url="html/Overload_NRules_Fluent_Dsl_IRightHandSideExpression_Yield.htm">
+          <HelpTOCNode Id="a3b29855-ed7c-4216-8a07-519d07c2710e" Title="Yield Method " Url="html/Overload_NRules_Fluent_Dsl_IRightHandSideExpression_Yield.htm">
             <HelpTOCNode Title="Yield(TFact) Method (Expression(Func(IContext, TFact)))" Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Yield__1.htm" />
             <HelpTOCNode Title="Yield(TFact) Method (Expression(Func(IContext, TFact)), Expression(Func(IContext, TFact, TFact)))" Url="html/M_NRules_Fluent_Dsl_IRightHandSideExpression_Yield__1_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5a631a53-09a6-4ce2-84dd-bad2baf06315" Title="NameAttribute Class" Url="html/T_NRules_Fluent_Dsl_NameAttribute.htm">
+      <HelpTOCNode Id="8899b6c5-5574-4e9c-bffc-a81190182c00" Title="NameAttribute Class" Url="html/T_NRules_Fluent_Dsl_NameAttribute.htm">
         <HelpTOCNode Title="NameAttribute Constructor " Url="html/M_NRules_Fluent_Dsl_NameAttribute__ctor.htm" />
         <HelpTOCNode Title="NameAttribute Properties" Url="html/Properties_T_NRules_Fluent_Dsl_NameAttribute.htm" />
         <HelpTOCNode Title="NameAttribute Methods" Url="html/Methods_T_NRules_Fluent_Dsl_NameAttribute.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cce68339-44cc-43db-b673-9b78b29cc44e" Title="PriorityAttribute Class" Url="html/T_NRules_Fluent_Dsl_PriorityAttribute.htm">
+      <HelpTOCNode Id="ee91f942-b616-4cc1-ab02-ec5290758ec2" Title="PriorityAttribute Class" Url="html/T_NRules_Fluent_Dsl_PriorityAttribute.htm">
         <HelpTOCNode Title="PriorityAttribute Constructor " Url="html/M_NRules_Fluent_Dsl_PriorityAttribute__ctor.htm" />
         <HelpTOCNode Title="PriorityAttribute Properties" Url="html/Properties_T_NRules_Fluent_Dsl_PriorityAttribute.htm" />
         <HelpTOCNode Title="PriorityAttribute Methods" Url="html/Methods_T_NRules_Fluent_Dsl_PriorityAttribute.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="862bec52-4cd9-471f-b1dd-1caaff8282f4" Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm">
+      <HelpTOCNode Id="99d456f1-45ce-423e-bb58-5debd936dc11" Title="QueryExpression(TSource) Class" Url="html/T_NRules_Fluent_Dsl_QueryExpression_1.htm">
         <HelpTOCNode Title="QueryExpression(TSource) Constructor " Url="html/M_NRules_Fluent_Dsl_QueryExpression_1__ctor.htm" />
-        <HelpTOCNode Id="28f87f23-c527-47fb-8835-8363f2b6d58d" Title="QueryExpression(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_QueryExpression_1.htm">
+        <HelpTOCNode Id="f0cdc07a-8c30-45c2-a1c8-aff5bed0c557" Title="QueryExpression(TSource) Properties" Url="html/Properties_T_NRules_Fluent_Dsl_QueryExpression_1.htm">
           <HelpTOCNode Title="Builder Property " Url="html/P_NRules_Fluent_Dsl_QueryExpression_1_Builder.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="QueryExpression(TSource) Methods" Url="html/Methods_T_NRules_Fluent_Dsl_QueryExpression_1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3c4158f4-47e8-49b6-8131-1648612e4e8a" Title="QueryExtensions Class" Url="html/T_NRules_Fluent_Dsl_QueryExtensions.htm">
-        <HelpTOCNode Id="10053f64-b94d-449a-8c48-bde922c1cfdc" Title="QueryExtensions Methods" Url="html/Methods_T_NRules_Fluent_Dsl_QueryExtensions.htm">
+      <HelpTOCNode Id="2664fad5-4212-4c99-ae32-34f9f15e00d2" Title="QueryExtensions Class" Url="html/T_NRules_Fluent_Dsl_QueryExtensions.htm">
+        <HelpTOCNode Id="b06db159-7724-467d-826b-44188952c782" Title="QueryExtensions Methods" Url="html/Methods_T_NRules_Fluent_Dsl_QueryExtensions.htm">
           <HelpTOCNode Title="Collect(TSource) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Collect__1.htm" />
           <HelpTOCNode Title="From(TFact) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_From__1.htm" />
-          <HelpTOCNode Id="7424c413-8359-4ec4-905b-3b66cc72f87d" Title="GroupBy Method " Url="html/Overload_NRules_Fluent_Dsl_QueryExtensions_GroupBy.htm">
+          <HelpTOCNode Id="7e1f510a-2365-4536-bf39-8d52f9297cd7" Title="GroupBy Method " Url="html/Overload_NRules_Fluent_Dsl_QueryExtensions_GroupBy.htm">
             <HelpTOCNode Title="GroupBy(TSource, TKey) Method (IQuery(TSource), Expression(Func(TSource, TKey)))" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_GroupBy__2.htm" />
             <HelpTOCNode Title="GroupBy(TSource, TKey, TElement) Method (IQuery(TSource), Expression(Func(TSource, TKey)), Expression(Func(TSource, TElement)))" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_GroupBy__3.htm" />
           </HelpTOCNode>
@@ -696,17 +708,22 @@
           <HelpTOCNode Title="SelectMany(TSource, TResult) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_SelectMany__2.htm" />
           <HelpTOCNode Title="ThenBy(TSource, TKey) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ThenBy__2.htm" />
           <HelpTOCNode Title="ThenByDescending(TSource, TKey) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ThenByDescending__2.htm" />
+          <HelpTOCNode Id="97c701be-1a78-45e4-aee7-7cb5a00b25fd" Title="ToLookup Method " Url="html/Overload_NRules_Fluent_Dsl_QueryExtensions_ToLookup.htm">
+            <HelpTOCNode Title="ToLookup(TSource) Method (ICollectQuery(IEnumerable(TSource)))" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ToLookup__1.htm" />
+            <HelpTOCNode Title="ToLookup(TSource, TKey) Method (ICollectQuery(IEnumerable(TSource)), Expression(Func(TSource, TKey)))" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ToLookup__2.htm" />
+            <HelpTOCNode Title="ToLookup(TSource, TKey, TElement) Method (ICollectQuery(IEnumerable(TSource)), Expression(Func(TSource, TKey)), Expression(Func(TSource, TElement)))" Url="html/M_NRules_Fluent_Dsl_QueryExtensions_ToLookup__3.htm" />
+          </HelpTOCNode>
           <HelpTOCNode Title="Where(TSource) Method " Url="html/M_NRules_Fluent_Dsl_QueryExtensions_Where__1.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0972690f-d32d-4113-8038-664da2822fc5" Title="RepeatabilityAttribute Class" Url="html/T_NRules_Fluent_Dsl_RepeatabilityAttribute.htm">
+      <HelpTOCNode Id="0c20fd16-ead2-467b-b477-5eda0c65fd3d" Title="RepeatabilityAttribute Class" Url="html/T_NRules_Fluent_Dsl_RepeatabilityAttribute.htm">
         <HelpTOCNode Title="RepeatabilityAttribute Constructor " Url="html/M_NRules_Fluent_Dsl_RepeatabilityAttribute__ctor.htm" />
         <HelpTOCNode Title="RepeatabilityAttribute Properties" Url="html/Properties_T_NRules_Fluent_Dsl_RepeatabilityAttribute.htm" />
         <HelpTOCNode Title="RepeatabilityAttribute Methods" Url="html/Methods_T_NRules_Fluent_Dsl_RepeatabilityAttribute.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="633d7ce1-ef5f-4e0a-8b9b-9842e987bf78" Title="Rule Class" Url="html/T_NRules_Fluent_Dsl_Rule.htm">
+      <HelpTOCNode Id="8306407a-5985-41bd-8056-382c8d96da68" Title="Rule Class" Url="html/T_NRules_Fluent_Dsl_Rule.htm">
         <HelpTOCNode Title="Rule Constructor " Url="html/M_NRules_Fluent_Dsl_Rule__ctor.htm" />
-        <HelpTOCNode Id="022ac9f8-a1de-452d-b130-d84d74fa63bb" Title="Rule Methods" Url="html/Methods_T_NRules_Fluent_Dsl_Rule.htm">
+        <HelpTOCNode Id="0fac85bd-36f1-4ac8-85db-069fd83928b3" Title="Rule Methods" Url="html/Methods_T_NRules_Fluent_Dsl_Rule.htm">
           <HelpTOCNode Title="Define Method " Url="html/M_NRules_Fluent_Dsl_Rule_Define.htm" />
           <HelpTOCNode Title="Dependency Method " Url="html/M_NRules_Fluent_Dsl_Rule_Dependency.htm" />
           <HelpTOCNode Title="Filter Method " Url="html/M_NRules_Fluent_Dsl_Rule_Filter.htm" />
@@ -716,33 +733,62 @@
           <HelpTOCNode Title="When Method " Url="html/M_NRules_Fluent_Dsl_Rule_When.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c55b43d4-43f7-42df-9f6e-63af2d608e02" Title="TagAttribute Class" Url="html/T_NRules_Fluent_Dsl_TagAttribute.htm">
+      <HelpTOCNode Id="6939e374-e999-498c-a71d-34b2d0827d77" Title="TagAttribute Class" Url="html/T_NRules_Fluent_Dsl_TagAttribute.htm">
         <HelpTOCNode Title="TagAttribute Constructor " Url="html/M_NRules_Fluent_Dsl_TagAttribute__ctor.htm" />
         <HelpTOCNode Title="TagAttribute Properties" Url="html/Properties_T_NRules_Fluent_Dsl_TagAttribute.htm" />
         <HelpTOCNode Title="TagAttribute Methods" Url="html/Methods_T_NRules_Fluent_Dsl_TagAttribute.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="df2bc30e-d0fc-42cb-9b09-8c9c3bbe1e5a" Title="NRules.RuleModel" Url="html/N_NRules_RuleModel.htm">
-      <HelpTOCNode Id="8a246f4e-25d4-456e-8708-57524a13b3e3" Title="ActionElement Class" Url="html/T_NRules_RuleModel_ActionElement.htm">
-        <HelpTOCNode Id="faf13008-ba3b-4038-b84f-0248bda6f0aa" Title="ActionElement Properties" Url="html/Properties_T_NRules_RuleModel_ActionElement.htm">
+    <HelpTOCNode Id="98bc27e9-5ffd-476f-b036-f501f644d143" Title="NRules.Json" Url="html/N_NRules_Json.htm">
+      <HelpTOCNode Id="80124b4f-98a6-485e-b21e-fb0ddf01401e" Title="ITypeResolver Interface" Url="html/T_NRules_Json_ITypeResolver.htm">
+        <HelpTOCNode Id="200e25da-7744-46ef-8e7c-9d5635ad0c28" Title="ITypeResolver Methods" Url="html/Methods_T_NRules_Json_ITypeResolver.htm">
+          <HelpTOCNode Title="GetTypeFromName Method " Url="html/M_NRules_Json_ITypeResolver_GetTypeFromName.htm" />
+          <HelpTOCNode Title="GetTypeName Method " Url="html/M_NRules_Json_ITypeResolver_GetTypeName.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7452d3f-9c72-4653-a78b-9c98122c4566" Title="RuleSerializer Class" Url="html/T_NRules_Json_RuleSerializer.htm">
+        <HelpTOCNode Id="40cec9b5-6fc5-415e-8ddb-dc05e2701521" Title="RuleSerializer Methods" Url="html/Methods_T_NRules_Json_RuleSerializer.htm">
+          <HelpTOCNode Id="35903b33-2678-4111-89a3-4a8fafca2a11" Title="GetConverters Method " Url="html/Overload_NRules_Json_RuleSerializer_GetConverters.htm">
+            <HelpTOCNode Title="GetConverters Method " Url="html/M_NRules_Json_RuleSerializer_GetConverters.htm" />
+            <HelpTOCNode Title="GetConverters Method (ITypeResolver)" Url="html/M_NRules_Json_RuleSerializer_GetConverters_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="94fee845-1f7a-4b2c-b9b7-f1a3ddcf8607" Title="Setup Method " Url="html/Overload_NRules_Json_RuleSerializer_Setup.htm">
+            <HelpTOCNode Title="Setup Method (JsonSerializerOptions)" Url="html/M_NRules_Json_RuleSerializer_Setup.htm" />
+            <HelpTOCNode Title="Setup Method (JsonSerializerOptions, ITypeResolver)" Url="html/M_NRules_Json_RuleSerializer_Setup_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6c8af7c1-798b-46f4-9433-a22d2a84de3b" Title="TypeResolver Class" Url="html/T_NRules_Json_TypeResolver.htm">
+        <HelpTOCNode Title="TypeResolver Constructor " Url="html/M_NRules_Json_TypeResolver__ctor.htm" />
+        <HelpTOCNode Id="0c6bb4d0-a01b-46a8-b124-d73eac53be96" Title="TypeResolver Methods" Url="html/Methods_T_NRules_Json_TypeResolver.htm">
+          <HelpTOCNode Title="GetTypeFromName Method " Url="html/M_NRules_Json_TypeResolver_GetTypeFromName.htm" />
+          <HelpTOCNode Title="GetTypeName Method " Url="html/M_NRules_Json_TypeResolver_GetTypeName.htm" />
+          <HelpTOCNode Title="RegisterAlias Method " Url="html/M_NRules_Json_TypeResolver_RegisterAlias.htm" />
+          <HelpTOCNode Title="RegisterDefaultAliases Method " Url="html/M_NRules_Json_TypeResolver_RegisterDefaultAliases.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3f5d84b-7f2b-486a-9273-bd39456358bf" Title="NRules.RuleModel" Url="html/N_NRules_RuleModel.htm">
+      <HelpTOCNode Id="fb7ed316-4bab-46c9-be77-159fc81be739" Title="ActionElement Class" Url="html/T_NRules_RuleModel_ActionElement.htm">
+        <HelpTOCNode Id="0c39e537-0ccf-4a49-8993-d5f7403deab7" Title="ActionElement Properties" Url="html/Properties_T_NRules_RuleModel_ActionElement.htm">
           <HelpTOCNode Title="ActionTrigger Property " Url="html/P_NRules_RuleModel_ActionElement_ActionTrigger.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_ActionElement_ElementType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ActionElement Methods" Url="html/Methods_T_NRules_RuleModel_ActionElement.htm" />
-        <HelpTOCNode Id="79c9d046-5578-4e75-8984-604acdf904c1" Title="ActionElement Fields" Url="html/Fields_T_NRules_RuleModel_ActionElement.htm">
+        <HelpTOCNode Id="e89f0a5a-3f12-4fb1-a3da-8e5a4c4cdbf7" Title="ActionElement Fields" Url="html/Fields_T_NRules_RuleModel_ActionElement.htm">
           <HelpTOCNode Title="DefaultTrigger Field" Url="html/F_NRules_RuleModel_ActionElement_DefaultTrigger.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b3c6f9c3-b723-42fa-907c-b31df1f90ff7" Title="ActionGroupElement Class" Url="html/T_NRules_RuleModel_ActionGroupElement.htm">
-        <HelpTOCNode Id="4eafd63f-272b-4cab-82f3-d3d69c14fa66" Title="ActionGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_ActionGroupElement.htm">
+      <HelpTOCNode Id="4c327585-a041-402c-b16e-fb826709244f" Title="ActionGroupElement Class" Url="html/T_NRules_RuleModel_ActionGroupElement.htm">
+        <HelpTOCNode Id="4eec2a63-e063-4699-a231-890dcb45a743" Title="ActionGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_ActionGroupElement.htm">
           <HelpTOCNode Title="Actions Property " Url="html/P_NRules_RuleModel_ActionGroupElement_Actions.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_ActionGroupElement_ElementType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ActionGroupElement Methods" Url="html/Methods_T_NRules_RuleModel_ActionGroupElement.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ActionTrigger Enumeration" Url="html/T_NRules_RuleModel_ActionTrigger.htm" />
-      <HelpTOCNode Id="9a5ee522-5c7b-45b3-a5c7-036853663a11" Title="AggregateElement Class" Url="html/T_NRules_RuleModel_AggregateElement.htm">
-        <HelpTOCNode Id="e27be74f-dbc2-4724-ad0d-28e2826eaf7a" Title="AggregateElement Properties" Url="html/Properties_T_NRules_RuleModel_AggregateElement.htm">
+      <HelpTOCNode Id="d26579ed-d973-4d03-a5f2-c517a76b6a05" Title="AggregateElement Class" Url="html/T_NRules_RuleModel_AggregateElement.htm">
+        <HelpTOCNode Id="bcbc4c13-7668-476e-8728-1e3003060f68" Title="AggregateElement Properties" Url="html/Properties_T_NRules_RuleModel_AggregateElement.htm">
           <HelpTOCNode Title="CustomFactoryType Property " Url="html/P_NRules_RuleModel_AggregateElement_CustomFactoryType.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_AggregateElement_ElementType.htm" />
           <HelpTOCNode Title="Expressions Property " Url="html/P_NRules_RuleModel_AggregateElement_Expressions.htm" />
@@ -751,7 +797,7 @@
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_RuleModel_AggregateElement_Source.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AggregateElement Methods" Url="html/Methods_T_NRules_RuleModel_AggregateElement.htm" />
-        <HelpTOCNode Id="ea2d9129-ab3e-4986-b4de-0361b5a9f32c" Title="AggregateElement Fields" Url="html/Fields_T_NRules_RuleModel_AggregateElement.htm">
+        <HelpTOCNode Id="59fea143-7598-499b-9b70-dad15028e8d3" Title="AggregateElement Fields" Url="html/Fields_T_NRules_RuleModel_AggregateElement.htm">
           <HelpTOCNode Title="CollectName Field" Url="html/F_NRules_RuleModel_AggregateElement_CollectName.htm" />
           <HelpTOCNode Title="ElementSelectorName Field" Url="html/F_NRules_RuleModel_AggregateElement_ElementSelectorName.htm" />
           <HelpTOCNode Title="FlattenName Field" Url="html/F_NRules_RuleModel_AggregateElement_FlattenName.htm" />
@@ -763,121 +809,117 @@
           <HelpTOCNode Title="SelectorName Field" Url="html/F_NRules_RuleModel_AggregateElement_SelectorName.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="73ccca92-cbf4-49ce-8216-43daf44adf2b" Title="AndElement Class" Url="html/T_NRules_RuleModel_AndElement.htm">
-        <HelpTOCNode Id="88d25272-5128-45c5-9ac8-244044a4e710" Title="AndElement Properties" Url="html/Properties_T_NRules_RuleModel_AndElement.htm">
+      <HelpTOCNode Id="ee957888-ebcb-4a68-b4b1-81a49e9c58a5" Title="AndElement Class" Url="html/T_NRules_RuleModel_AndElement.htm">
+        <HelpTOCNode Id="bb7719c3-47de-4e9d-ab43-d71f09b84964" Title="AndElement Properties" Url="html/Properties_T_NRules_RuleModel_AndElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_AndElement_ElementType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="AndElement Methods" Url="html/Methods_T_NRules_RuleModel_AndElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2b963e05-def6-479e-90d0-4a974fef4595" Title="BindingElement Class" Url="html/T_NRules_RuleModel_BindingElement.htm">
-        <HelpTOCNode Id="a3509f6e-c116-4a0d-a1cb-7b2927eca46f" Title="BindingElement Properties" Url="html/Properties_T_NRules_RuleModel_BindingElement.htm">
+      <HelpTOCNode Id="146bdb77-852f-4fa7-a2ba-45856c073394" Title="BindingElement Class" Url="html/T_NRules_RuleModel_BindingElement.htm">
+        <HelpTOCNode Id="5b6d7974-063c-4bb8-9d89-73e7437c577e" Title="BindingElement Properties" Url="html/Properties_T_NRules_RuleModel_BindingElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_BindingElement_ElementType.htm" />
           <HelpTOCNode Title="ResultType Property " Url="html/P_NRules_RuleModel_BindingElement_ResultType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="BindingElement Methods" Url="html/Methods_T_NRules_RuleModel_BindingElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2c29e9e8-e9cc-4613-947c-035893777ec4" Title="ConditionElement Class" Url="html/T_NRules_RuleModel_ConditionElement.htm">
-        <HelpTOCNode Title="ConditionElement Properties" Url="html/Properties_T_NRules_RuleModel_ConditionElement.htm" />
-        <HelpTOCNode Title="ConditionElement Methods" Url="html/Methods_T_NRules_RuleModel_ConditionElement.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="b6b994d3-1cf5-4f69-99a6-120a8a43e1ba" Title="Declaration Class" Url="html/T_NRules_RuleModel_Declaration.htm">
-        <HelpTOCNode Id="e496032d-befe-4dcf-adf9-fcb83e3b4026" Title="Declaration Properties" Url="html/Properties_T_NRules_RuleModel_Declaration.htm">
+      <HelpTOCNode Id="089b6a4e-2c80-4694-958c-851eb68148ff" Title="Declaration Class" Url="html/T_NRules_RuleModel_Declaration.htm">
+        <HelpTOCNode Id="2d7752bc-f9bb-4e30-b5e7-396a28aa5bbd" Title="Declaration Properties" Url="html/Properties_T_NRules_RuleModel_Declaration.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_RuleModel_Declaration_Name.htm" />
           <HelpTOCNode Title="Target Property " Url="html/P_NRules_RuleModel_Declaration_Target.htm" />
           <HelpTOCNode Title="Type Property " Url="html/P_NRules_RuleModel_Declaration_Type.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f2ab34bf-c97d-4937-a9a5-fffddef66348" Title="Declaration Methods" Url="html/Methods_T_NRules_RuleModel_Declaration.htm">
-          <HelpTOCNode Id="075d37fc-f275-411e-9441-26ad95bd803f" Title="Equals Method " Url="html/Overload_NRules_RuleModel_Declaration_Equals.htm">
+        <HelpTOCNode Id="13486fea-6710-4a1b-a088-da5a12bb6617" Title="Declaration Methods" Url="html/Methods_T_NRules_RuleModel_Declaration.htm">
+          <HelpTOCNode Id="02e9e5bd-b5d5-4f3b-a7fe-9b542e20016a" Title="Equals Method " Url="html/Overload_NRules_RuleModel_Declaration_Equals.htm">
             <HelpTOCNode Title="Equals Method (Object)" Url="html/M_NRules_RuleModel_Declaration_Equals_1.htm" />
             <HelpTOCNode Title="Equals Method (Declaration)" Url="html/M_NRules_RuleModel_Declaration_Equals.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GetHashCode Method " Url="html/M_NRules_RuleModel_Declaration_GetHashCode.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="aadc9faf-a489-470c-8958-63935468a72a" Title="DeclarationExtensions Class" Url="html/T_NRules_RuleModel_DeclarationExtensions.htm">
-        <HelpTOCNode Id="5016d4e8-627c-4445-a9a5-6545a99ea91a" Title="DeclarationExtensions Methods" Url="html/Methods_T_NRules_RuleModel_DeclarationExtensions.htm">
+      <HelpTOCNode Id="dd54f9cc-7360-4aae-a0a6-9676a0bd1b4a" Title="DeclarationExtensions Class" Url="html/T_NRules_RuleModel_DeclarationExtensions.htm">
+        <HelpTOCNode Id="1f42e8d6-acd1-4c0c-946b-eda293f8c283" Title="DeclarationExtensions Methods" Url="html/Methods_T_NRules_RuleModel_DeclarationExtensions.htm">
           <HelpTOCNode Title="ToDeclaration Method " Url="html/M_NRules_RuleModel_DeclarationExtensions_ToDeclaration.htm" />
           <HelpTOCNode Title="ToParameterExpression Method " Url="html/M_NRules_RuleModel_DeclarationExtensions_ToParameterExpression.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="60cffe1c-3524-4c76-91f6-e426c309497d" Title="DependencyElement Class" Url="html/T_NRules_RuleModel_DependencyElement.htm">
-        <HelpTOCNode Id="cb8c1b03-a248-4151-8f42-6170826f039a" Title="DependencyElement Properties" Url="html/Properties_T_NRules_RuleModel_DependencyElement.htm">
+      <HelpTOCNode Id="1dc412b4-1810-4143-bff7-f24ef6aff01c" Title="DependencyElement Class" Url="html/T_NRules_RuleModel_DependencyElement.htm">
+        <HelpTOCNode Id="381ab03d-5aae-4b0c-b144-20defaa7b79c" Title="DependencyElement Properties" Url="html/Properties_T_NRules_RuleModel_DependencyElement.htm">
           <HelpTOCNode Title="Declaration Property " Url="html/P_NRules_RuleModel_DependencyElement_Declaration.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_DependencyElement_ElementType.htm" />
           <HelpTOCNode Title="ServiceType Property " Url="html/P_NRules_RuleModel_DependencyElement_ServiceType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="DependencyElement Methods" Url="html/Methods_T_NRules_RuleModel_DependencyElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ca1c861a-f5b5-4bf6-8fdb-35eef58c9af0" Title="DependencyGroupElement Class" Url="html/T_NRules_RuleModel_DependencyGroupElement.htm">
-        <HelpTOCNode Id="ab524dea-adc2-4a89-ac7a-0cf5f0efd32d" Title="DependencyGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_DependencyGroupElement.htm">
+      <HelpTOCNode Id="1cec53c9-3b2b-405a-8aa0-b8f11b6ef338" Title="DependencyGroupElement Class" Url="html/T_NRules_RuleModel_DependencyGroupElement.htm">
+        <HelpTOCNode Id="9c5de8da-4ab8-4929-b67c-4cc35c759312" Title="DependencyGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_DependencyGroupElement.htm">
           <HelpTOCNode Title="Dependencies Property " Url="html/P_NRules_RuleModel_DependencyGroupElement_Dependencies.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_DependencyGroupElement_ElementType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="DependencyGroupElement Methods" Url="html/Methods_T_NRules_RuleModel_DependencyGroupElement.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ElementType Enumeration" Url="html/T_NRules_RuleModel_ElementType.htm" />
-      <HelpTOCNode Id="f5e63d5e-e7fa-4867-af14-fcbed8e52102" Title="ExistsElement Class" Url="html/T_NRules_RuleModel_ExistsElement.htm">
-        <HelpTOCNode Id="c3d02e16-67a5-49f9-8552-cd2d456bd1d6" Title="ExistsElement Properties" Url="html/Properties_T_NRules_RuleModel_ExistsElement.htm">
+      <HelpTOCNode Id="807c76d8-6564-4d70-a33a-dd17e06d7903" Title="ExistsElement Class" Url="html/T_NRules_RuleModel_ExistsElement.htm">
+        <HelpTOCNode Id="4ff4229a-0571-4396-8525-ca7169b48c59" Title="ExistsElement Properties" Url="html/Properties_T_NRules_RuleModel_ExistsElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_ExistsElement_ElementType.htm" />
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_RuleModel_ExistsElement_Source.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ExistsElement Methods" Url="html/Methods_T_NRules_RuleModel_ExistsElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="07b21972-5964-4ca3-982a-1485b1434abe" Title="ExpressionCollection Class" Url="html/T_NRules_RuleModel_ExpressionCollection.htm">
-        <HelpTOCNode Id="80e6c82f-b13e-413e-9700-9f8b911924e2" Title="ExpressionCollection Properties" Url="html/Properties_T_NRules_RuleModel_ExpressionCollection.htm">
+      <HelpTOCNode Id="a0c6893e-f7ac-4403-bc8d-d5a0d7032ce0" Title="ExpressionCollection Class" Url="html/T_NRules_RuleModel_ExpressionCollection.htm">
+        <HelpTOCNode Id="2420940b-087e-4d7d-8fbb-a4a32d9d0ba6" Title="ExpressionCollection Properties" Url="html/Properties_T_NRules_RuleModel_ExpressionCollection.htm">
           <HelpTOCNode Title="Count Property " Url="html/P_NRules_RuleModel_ExpressionCollection_Count.htm" />
           <HelpTOCNode Title="Item Property " Url="html/P_NRules_RuleModel_ExpressionCollection_Item.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="52126004-1500-4bc5-ad45-9491d8bf6336" Title="ExpressionCollection Methods" Url="html/Methods_T_NRules_RuleModel_ExpressionCollection.htm">
+        <HelpTOCNode Id="f88b9f9f-b756-4770-a1eb-1bbaad4e872a" Title="ExpressionCollection Methods" Url="html/Methods_T_NRules_RuleModel_ExpressionCollection.htm">
           <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/M_NRules_RuleModel_ExpressionCollection_System_Collections_IEnumerable_GetEnumerator.htm" />
           <HelpTOCNode Title="Find Method " Url="html/M_NRules_RuleModel_ExpressionCollection_Find.htm" />
           <HelpTOCNode Title="FindSingleOrDefault Method " Url="html/M_NRules_RuleModel_ExpressionCollection_FindSingleOrDefault.htm" />
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_NRules_RuleModel_ExpressionCollection_GetEnumerator.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ad94e24a-931a-417a-b158-f87d8a00ca6f" Title="ExpressionElement Class" Url="html/T_NRules_RuleModel_ExpressionElement.htm">
-        <HelpTOCNode Id="b2a84389-6495-4c4f-adf8-5e54f988428e" Title="ExpressionElement Properties" Url="html/Properties_T_NRules_RuleModel_ExpressionElement.htm">
+      <HelpTOCNode Id="efb4b76c-60b6-44f5-a98b-c7a9d41830e3" Title="ExpressionElement Class" Url="html/T_NRules_RuleModel_ExpressionElement.htm">
+        <HelpTOCNode Id="ecc13716-2db0-4226-b24e-e0101c64aec9" Title="ExpressionElement Properties" Url="html/Properties_T_NRules_RuleModel_ExpressionElement.htm">
           <HelpTOCNode Title="Expression Property " Url="html/P_NRules_RuleModel_ExpressionElement_Expression.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ExpressionElement Methods" Url="html/Methods_T_NRules_RuleModel_ExpressionElement.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="FactSourceType Enumeration" Url="html/T_NRules_RuleModel_FactSourceType.htm" />
-      <HelpTOCNode Id="941786e4-dd83-4203-94c3-6e560aa9ab41" Title="FilterElement Class" Url="html/T_NRules_RuleModel_FilterElement.htm">
-        <HelpTOCNode Id="97856b32-db23-41a1-a196-bda91bf67660" Title="FilterElement Properties" Url="html/Properties_T_NRules_RuleModel_FilterElement.htm">
+      <HelpTOCNode Id="c103b827-99cd-4622-9ecb-ba81a73081a1" Title="FilterElement Class" Url="html/T_NRules_RuleModel_FilterElement.htm">
+        <HelpTOCNode Id="e3f6bbb9-ffca-46fd-99c1-a153e8e5357f" Title="FilterElement Properties" Url="html/Properties_T_NRules_RuleModel_FilterElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_FilterElement_ElementType.htm" />
           <HelpTOCNode Title="FilterType Property " Url="html/P_NRules_RuleModel_FilterElement_FilterType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="FilterElement Methods" Url="html/Methods_T_NRules_RuleModel_FilterElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="f1afa150-dedd-4705-b624-8ff98e5a5ab1" Title="FilterGroupElement Class" Url="html/T_NRules_RuleModel_FilterGroupElement.htm">
-        <HelpTOCNode Id="c79aca3d-02f8-41c3-bb6a-5177d9581869" Title="FilterGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_FilterGroupElement.htm">
+      <HelpTOCNode Id="54d897f9-4100-4896-bbcc-45e1ad24f132" Title="FilterGroupElement Class" Url="html/T_NRules_RuleModel_FilterGroupElement.htm">
+        <HelpTOCNode Id="fae48d1b-89d3-4968-b24e-d107456cc89b" Title="FilterGroupElement Properties" Url="html/Properties_T_NRules_RuleModel_FilterGroupElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_FilterGroupElement_ElementType.htm" />
           <HelpTOCNode Title="Filters Property " Url="html/P_NRules_RuleModel_FilterGroupElement_Filters.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="FilterGroupElement Methods" Url="html/Methods_T_NRules_RuleModel_FilterGroupElement.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="FilterType Enumeration" Url="html/T_NRules_RuleModel_FilterType.htm" />
-      <HelpTOCNode Id="b6e96425-8c84-470b-a153-b202c60ceaa3" Title="ForAllElement Class" Url="html/T_NRules_RuleModel_ForAllElement.htm">
-        <HelpTOCNode Id="e68e338b-724d-45cf-b9e4-e1df81f9eb9b" Title="ForAllElement Properties" Url="html/Properties_T_NRules_RuleModel_ForAllElement.htm">
+      <HelpTOCNode Id="18f91090-b55e-4e3d-bd81-e185e62e0bf8" Title="ForAllElement Class" Url="html/T_NRules_RuleModel_ForAllElement.htm">
+        <HelpTOCNode Id="4cbf80df-8c51-4175-a20c-fc6f0a1d792d" Title="ForAllElement Properties" Url="html/Properties_T_NRules_RuleModel_ForAllElement.htm">
           <HelpTOCNode Title="BasePattern Property " Url="html/P_NRules_RuleModel_ForAllElement_BasePattern.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_ForAllElement_ElementType.htm" />
           <HelpTOCNode Title="Patterns Property " Url="html/P_NRules_RuleModel_ForAllElement_Patterns.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ForAllElement Methods" Url="html/Methods_T_NRules_RuleModel_ForAllElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9143f0a8-63ca-42cd-a8fb-aa340edc44c8" Title="GroupElement Class" Url="html/T_NRules_RuleModel_GroupElement.htm">
-        <HelpTOCNode Id="fe5c6192-333b-4186-a475-0de503ae52ff" Title="GroupElement Properties" Url="html/Properties_T_NRules_RuleModel_GroupElement.htm">
+      <HelpTOCNode Id="4a865a8d-e285-42af-9fb4-38aa9b1c9983" Title="GroupElement Class" Url="html/T_NRules_RuleModel_GroupElement.htm">
+        <HelpTOCNode Id="f028ba94-eac5-4b54-ac24-e77d05aa8e19" Title="GroupElement Properties" Url="html/Properties_T_NRules_RuleModel_GroupElement.htm">
           <HelpTOCNode Title="ChildElements Property " Url="html/P_NRules_RuleModel_GroupElement_ChildElements.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GroupElement Methods" Url="html/Methods_T_NRules_RuleModel_GroupElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="134b0c98-82cd-4445-8f97-be60bd35b428" Title="IContext Interface" Url="html/T_NRules_RuleModel_IContext.htm">
-        <HelpTOCNode Id="ee913e1f-e679-447c-a8a1-b66ecfb64cf3" Title="IContext Properties" Url="html/Properties_T_NRules_RuleModel_IContext.htm">
+      <HelpTOCNode Id="5e82aa08-182f-4a35-8009-7b7536af0ed9" Title="IContext Interface" Url="html/T_NRules_RuleModel_IContext.htm">
+        <HelpTOCNode Id="a06a85bc-5ca0-49f8-8834-5853fa5670fa" Title="IContext Properties" Url="html/Properties_T_NRules_RuleModel_IContext.htm">
           <HelpTOCNode Title="CancellationToken Property " Url="html/P_NRules_RuleModel_IContext_CancellationToken.htm" />
           <HelpTOCNode Title="Match Property " Url="html/P_NRules_RuleModel_IContext_Match.htm" />
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_RuleModel_IContext_Rule.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f2a16796-d8c8-4a9e-98c2-412d3d753730" Title="IContext Methods" Url="html/Methods_T_NRules_RuleModel_IContext.htm">
+        <HelpTOCNode Id="a3313106-215c-4975-ba17-24a3bacd2bb0" Title="IContext Methods" Url="html/Methods_T_NRules_RuleModel_IContext.htm">
           <HelpTOCNode Title="GetLinked Method " Url="html/M_NRules_RuleModel_IContext_GetLinked.htm" />
           <HelpTOCNode Title="GetLinkedKeys Method " Url="html/M_NRules_RuleModel_IContext_GetLinkedKeys.htm" />
           <HelpTOCNode Title="Halt Method " Url="html/M_NRules_RuleModel_IContext_Halt.htm" />
@@ -899,33 +941,39 @@
           <HelpTOCNode Title="UpdateLinked Method " Url="html/M_NRules_RuleModel_IContext_UpdateLinked.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="66c1c555-ee37-40b6-8c3a-b84ef8fe7889" Title="IFact Interface" Url="html/T_NRules_RuleModel_IFact.htm">
-        <HelpTOCNode Id="67905d0b-9ca7-4223-a5ff-8e93a08f13d5" Title="IFact Properties" Url="html/Properties_T_NRules_RuleModel_IFact.htm">
+      <HelpTOCNode Id="01dcf2d5-50ce-4025-8078-67d65de96608" Title="IFact Interface" Url="html/T_NRules_RuleModel_IFact.htm">
+        <HelpTOCNode Id="8e1a365c-fd63-408c-99f1-3fac5658c582" Title="IFact Properties" Url="html/Properties_T_NRules_RuleModel_IFact.htm">
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_RuleModel_IFact_Source.htm" />
           <HelpTOCNode Title="Type Property " Url="html/P_NRules_RuleModel_IFact_Type.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_NRules_RuleModel_IFact_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d733e07a-153d-459a-9186-9275cef66c89" Title="IFactMatch Interface" Url="html/T_NRules_RuleModel_IFactMatch.htm">
-        <HelpTOCNode Id="e310c2ec-7d13-4a4d-ac3c-30640814ef71" Title="IFactMatch Properties" Url="html/Properties_T_NRules_RuleModel_IFactMatch.htm">
+      <HelpTOCNode Id="ff42ed18-922c-42f6-94dd-abb8cbd2514d" Title="IFactMatch Interface" Url="html/T_NRules_RuleModel_IFactMatch.htm">
+        <HelpTOCNode Id="2d2985bb-77c7-4f61-a8c3-3d2851d2a217" Title="IFactMatch Properties" Url="html/Properties_T_NRules_RuleModel_IFactMatch.htm">
           <HelpTOCNode Title="Declaration Property " Url="html/P_NRules_RuleModel_IFactMatch_Declaration.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a275eb88-928c-4d94-af84-06bff462fe1f" Title="IFactSource Interface" Url="html/T_NRules_RuleModel_IFactSource.htm">
-        <HelpTOCNode Id="960abab5-f860-4b23-8edc-a13e0833523b" Title="IFactSource Properties" Url="html/Properties_T_NRules_RuleModel_IFactSource.htm">
+      <HelpTOCNode Id="6d0719f2-2d0f-44f5-b187-83da05718557" Title="IFactSource Interface" Url="html/T_NRules_RuleModel_IFactSource.htm">
+        <HelpTOCNode Id="fd47b3b8-54d1-41dd-8ad7-669decfe1e43" Title="IFactSource Properties" Url="html/Properties_T_NRules_RuleModel_IFactSource.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_RuleModel_IFactSource_Facts.htm" />
           <HelpTOCNode Title="SourceType Property " Url="html/P_NRules_RuleModel_IFactSource_SourceType.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7728f514-4a79-4231-83b5-e5d0c8323b0f" Title="IMatch Interface" Url="html/T_NRules_RuleModel_IMatch.htm">
-        <HelpTOCNode Id="a7152476-c328-4c77-b818-170da80e1827" Title="IMatch Properties" Url="html/Properties_T_NRules_RuleModel_IMatch.htm">
+      <HelpTOCNode Id="7fe2ab41-741c-45fc-9e74-8779e4406354" Title="IKeyedLookup(TKey, TElement) Interface" Url="html/T_NRules_RuleModel_IKeyedLookup_2.htm">
+        <HelpTOCNode Id="4515a2bb-859f-4153-aa2d-07c61325f2c6" Title="IKeyedLookup(TKey, TElement) Properties" Url="html/Properties_T_NRules_RuleModel_IKeyedLookup_2.htm">
+          <HelpTOCNode Title="Keys Property " Url="html/P_NRules_RuleModel_IKeyedLookup_2_Keys.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IKeyedLookup(TKey, TElement) Methods" Url="html/Methods_T_NRules_RuleModel_IKeyedLookup_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7eb1f25a-78c9-446f-ab0e-4d1dd9ba3e6c" Title="IMatch Interface" Url="html/T_NRules_RuleModel_IMatch.htm">
+        <HelpTOCNode Id="bccea4e6-9965-4e65-b4aa-9bd38a928842" Title="IMatch Properties" Url="html/Properties_T_NRules_RuleModel_IMatch.htm">
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_RuleModel_IMatch_Facts.htm" />
           <HelpTOCNode Title="Rule Property " Url="html/P_NRules_RuleModel_IMatch_Rule.htm" />
           <HelpTOCNode Title="Trigger Property " Url="html/P_NRules_RuleModel_IMatch_Trigger.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="16b7b824-6655-4a88-b3c2-1698ef43edab" Title="IRuleDefinition Interface" Url="html/T_NRules_RuleModel_IRuleDefinition.htm">
-        <HelpTOCNode Id="0f280503-debc-4a2f-ba32-09bd035ffed9" Title="IRuleDefinition Properties" Url="html/Properties_T_NRules_RuleModel_IRuleDefinition.htm">
+      <HelpTOCNode Id="fde0fadb-a27f-4f8e-888a-e7263ede78ef" Title="IRuleDefinition Interface" Url="html/T_NRules_RuleModel_IRuleDefinition.htm">
+        <HelpTOCNode Id="616847cf-299b-472a-92d0-88026513a0e6" Title="IRuleDefinition Properties" Url="html/Properties_T_NRules_RuleModel_IRuleDefinition.htm">
           <HelpTOCNode Title="DependencyGroup Property " Url="html/P_NRules_RuleModel_IRuleDefinition_DependencyGroup.htm" />
           <HelpTOCNode Title="Description Property " Url="html/P_NRules_RuleModel_IRuleDefinition_Description.htm" />
           <HelpTOCNode Title="FilterGroup Property " Url="html/P_NRules_RuleModel_IRuleDefinition_FilterGroup.htm" />
@@ -938,49 +986,49 @@
           <HelpTOCNode Title="Tags Property " Url="html/P_NRules_RuleModel_IRuleDefinition_Tags.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2127d068-3346-43da-85bb-6bd89249b8bc" Title="IRuleRepository Interface" Url="html/T_NRules_RuleModel_IRuleRepository.htm">
-        <HelpTOCNode Id="186906f7-7bcf-4407-9d5e-38d44d7af16d" Title="IRuleRepository Methods" Url="html/Methods_T_NRules_RuleModel_IRuleRepository.htm">
+      <HelpTOCNode Id="49339f29-2c1c-4f9f-9e77-3411030b41a5" Title="IRuleRepository Interface" Url="html/T_NRules_RuleModel_IRuleRepository.htm">
+        <HelpTOCNode Id="5f9ca744-d341-4aef-979b-4042574b86c0" Title="IRuleRepository Methods" Url="html/Methods_T_NRules_RuleModel_IRuleRepository.htm">
           <HelpTOCNode Title="GetRuleSets Method " Url="html/M_NRules_RuleModel_IRuleRepository_GetRuleSets.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d5e44703-e60b-4e8f-89a7-a7fbf294abaa" Title="IRuleSet Interface" Url="html/T_NRules_RuleModel_IRuleSet.htm">
-        <HelpTOCNode Id="7003a468-24df-4557-8b9d-d49ba2c69d93" Title="IRuleSet Properties" Url="html/Properties_T_NRules_RuleModel_IRuleSet.htm">
+      <HelpTOCNode Id="10fb72cc-b889-4eb3-941c-8d7278d75ef9" Title="IRuleSet Interface" Url="html/T_NRules_RuleModel_IRuleSet.htm">
+        <HelpTOCNode Id="e2302d53-ba6d-47cc-ae6c-8f151917fe93" Title="IRuleSet Properties" Url="html/Properties_T_NRules_RuleModel_IRuleSet.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_RuleModel_IRuleSet_Name.htm" />
           <HelpTOCNode Title="Rules Property " Url="html/P_NRules_RuleModel_IRuleSet_Rules.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7b2b114a-9a14-445e-b895-6453dc67e7c9" Title="IRuleSet Methods" Url="html/Methods_T_NRules_RuleModel_IRuleSet.htm">
+        <HelpTOCNode Id="8d8a2568-1789-47e3-b806-bc9d54241dbf" Title="IRuleSet Methods" Url="html/Methods_T_NRules_RuleModel_IRuleSet.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_NRules_RuleModel_IRuleSet_Add.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="35696a0d-f728-42fa-8305-61ccab686865" Title="ITuple Interface" Url="html/T_NRules_RuleModel_ITuple.htm">
-        <HelpTOCNode Id="0d17463d-db19-4f41-a644-9b2c800c3250" Title="ITuple Properties" Url="html/Properties_T_NRules_RuleModel_ITuple.htm">
+      <HelpTOCNode Id="00b4abcd-7111-4916-a864-335fc9a5808c" Title="ITuple Interface" Url="html/T_NRules_RuleModel_ITuple.htm">
+        <HelpTOCNode Id="a8ef5866-2a2d-4b98-9b68-bde9d490cd4f" Title="ITuple Properties" Url="html/Properties_T_NRules_RuleModel_ITuple.htm">
           <HelpTOCNode Title="Count Property " Url="html/P_NRules_RuleModel_ITuple_Count.htm" />
           <HelpTOCNode Title="Facts Property " Url="html/P_NRules_RuleModel_ITuple_Facts.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="MatchTrigger Enumeration" Url="html/T_NRules_RuleModel_MatchTrigger.htm" />
-      <HelpTOCNode Id="5e5282c8-75a2-4959-b230-1cee8c28db29" Title="NamedExpressionElement Class" Url="html/T_NRules_RuleModel_NamedExpressionElement.htm">
-        <HelpTOCNode Id="185f11dc-8021-4def-940a-f0bb224d073d" Title="NamedExpressionElement Properties" Url="html/Properties_T_NRules_RuleModel_NamedExpressionElement.htm">
+      <HelpTOCNode Id="b9dbf899-041f-4fee-ac73-6364c9e6bb89" Title="NamedExpressionElement Class" Url="html/T_NRules_RuleModel_NamedExpressionElement.htm">
+        <HelpTOCNode Id="fc96b8b2-6539-4cfc-964c-2a63575366b1" Title="NamedExpressionElement Properties" Url="html/Properties_T_NRules_RuleModel_NamedExpressionElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_NamedExpressionElement_ElementType.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_RuleModel_NamedExpressionElement_Name.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="NamedExpressionElement Methods" Url="html/Methods_T_NRules_RuleModel_NamedExpressionElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c0e34a96-b991-4732-8269-fcf0d9f49414" Title="NotElement Class" Url="html/T_NRules_RuleModel_NotElement.htm">
-        <HelpTOCNode Id="f6ecebad-36c8-4ce6-ac83-e64dfa480f9a" Title="NotElement Properties" Url="html/Properties_T_NRules_RuleModel_NotElement.htm">
+      <HelpTOCNode Id="53515dc3-7ddd-4b33-91cf-56dba9048abd" Title="NotElement Class" Url="html/T_NRules_RuleModel_NotElement.htm">
+        <HelpTOCNode Id="0cff45d4-025d-4257-961f-adfff6d43a4f" Title="NotElement Properties" Url="html/Properties_T_NRules_RuleModel_NotElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_NotElement_ElementType.htm" />
           <HelpTOCNode Title="Source Property " Url="html/P_NRules_RuleModel_NotElement_Source.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="NotElement Methods" Url="html/Methods_T_NRules_RuleModel_NotElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="81472e01-a24e-412d-8004-9ab19e3f13f8" Title="OrElement Class" Url="html/T_NRules_RuleModel_OrElement.htm">
-        <HelpTOCNode Id="f6957d4a-9b73-4b2e-9a41-ee3feaa87d8e" Title="OrElement Properties" Url="html/Properties_T_NRules_RuleModel_OrElement.htm">
+      <HelpTOCNode Id="15a2f27d-ab96-401d-934e-36ae8cc40981" Title="OrElement Class" Url="html/T_NRules_RuleModel_OrElement.htm">
+        <HelpTOCNode Id="a15ef325-3a29-4740-8011-f2d37bbab9bb" Title="OrElement Properties" Url="html/Properties_T_NRules_RuleModel_OrElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_OrElement_ElementType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="OrElement Methods" Url="html/Methods_T_NRules_RuleModel_OrElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="56122844-97ae-47c3-9363-4289359b8b00" Title="PatternElement Class" Url="html/T_NRules_RuleModel_PatternElement.htm">
-        <HelpTOCNode Id="7a1c8459-cfe2-47e7-8125-d93530e91119" Title="PatternElement Properties" Url="html/Properties_T_NRules_RuleModel_PatternElement.htm">
+      <HelpTOCNode Id="cbe97c76-4889-453a-ac6e-98faccc20a02" Title="PatternElement Class" Url="html/T_NRules_RuleModel_PatternElement.htm">
+        <HelpTOCNode Id="e74e269d-707f-4a18-99e9-fa0d136a62f4" Title="PatternElement Properties" Url="html/Properties_T_NRules_RuleModel_PatternElement.htm">
           <HelpTOCNode Title="Declaration Property " Url="html/P_NRules_RuleModel_PatternElement_Declaration.htm" />
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_PatternElement_ElementType.htm" />
           <HelpTOCNode Title="Expressions Property " Url="html/P_NRules_RuleModel_PatternElement_Expressions.htm" />
@@ -988,48 +1036,47 @@
           <HelpTOCNode Title="ValueType Property " Url="html/P_NRules_RuleModel_PatternElement_ValueType.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="PatternElement Methods" Url="html/Methods_T_NRules_RuleModel_PatternElement.htm" />
-        <HelpTOCNode Id="a27b849c-7cfd-4b2b-978f-f695c6adfbb8" Title="PatternElement Fields" Url="html/Fields_T_NRules_RuleModel_PatternElement.htm">
+        <HelpTOCNode Id="ed74f3f5-bc4a-4216-ab3e-c33b7dbb7e5d" Title="PatternElement Fields" Url="html/Fields_T_NRules_RuleModel_PatternElement.htm">
           <HelpTOCNode Title="ConditionName Field" Url="html/F_NRules_RuleModel_PatternElement_ConditionName.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1e6e1809-67ac-4d6d-9406-e1debc8879be" Title="PropertyMap Class" Url="html/T_NRules_RuleModel_PropertyMap.htm">
+      <HelpTOCNode Id="e2585c54-3215-4fdd-886c-9f34a7341ef8" Title="PropertyMap Class" Url="html/T_NRules_RuleModel_PropertyMap.htm">
         <HelpTOCNode Title="PropertyMap Constructor " Url="html/M_NRules_RuleModel_PropertyMap__ctor.htm" />
-        <HelpTOCNode Id="d386c12c-0f5b-4d6d-a0cb-e1d4255b2df1" Title="PropertyMap Properties" Url="html/Properties_T_NRules_RuleModel_PropertyMap.htm">
+        <HelpTOCNode Id="80e49623-5564-49a2-a64f-f1d22ab01933" Title="PropertyMap Properties" Url="html/Properties_T_NRules_RuleModel_PropertyMap.htm">
           <HelpTOCNode Title="Count Property " Url="html/P_NRules_RuleModel_PropertyMap_Count.htm" />
           <HelpTOCNode Title="Item Property " Url="html/P_NRules_RuleModel_PropertyMap_Item.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="955ceb04-cd04-4ec4-aa8b-67b9be084160" Title="PropertyMap Methods" Url="html/Methods_T_NRules_RuleModel_PropertyMap.htm">
+        <HelpTOCNode Id="ab0fce09-e87a-4e0b-8897-4e5f8b1a7025" Title="PropertyMap Methods" Url="html/Methods_T_NRules_RuleModel_PropertyMap.htm">
           <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/M_NRules_RuleModel_PropertyMap_System_Collections_IEnumerable_GetEnumerator.htm" />
           <HelpTOCNode Title="GetEnumerator Method " Url="html/M_NRules_RuleModel_PropertyMap_GetEnumerator.htm" />
           <HelpTOCNode Title="TryGetProperty Method " Url="html/M_NRules_RuleModel_PropertyMap_TryGetProperty.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="79c55f3b-219b-49bd-8941-f7d5ea7edcd3" Title="RuleElement Class" Url="html/T_NRules_RuleModel_RuleElement.htm">
-        <HelpTOCNode Id="fbd72eb4-d99a-4e1f-895d-7bde54430454" Title="RuleElement Properties" Url="html/Properties_T_NRules_RuleModel_RuleElement.htm">
+      <HelpTOCNode Id="64fc9fad-5c89-4f69-a01b-45b8de31097f" Title="RuleElement Class" Url="html/T_NRules_RuleModel_RuleElement.htm">
+        <HelpTOCNode Id="e3ecce6a-500c-48f3-adc7-2f40faadc032" Title="RuleElement Properties" Url="html/Properties_T_NRules_RuleModel_RuleElement.htm">
           <HelpTOCNode Title="ElementType Property " Url="html/P_NRules_RuleModel_RuleElement_ElementType.htm" />
           <HelpTOCNode Title="Exports Property " Url="html/P_NRules_RuleModel_RuleElement_Exports.htm" />
           <HelpTOCNode Title="Imports Property " Url="html/P_NRules_RuleModel_RuleElement_Imports.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleElement Methods" Url="html/Methods_T_NRules_RuleModel_RuleElement.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="bd8f50cb-8e99-452c-91ca-09edaba175b2" Title="RuleElementExtensions Class" Url="html/T_NRules_RuleModel_RuleElementExtensions.htm">
-        <HelpTOCNode Id="0706f3de-8ea1-4c95-a317-8aab6e613991" Title="RuleElementExtensions Methods" Url="html/Methods_T_NRules_RuleModel_RuleElementExtensions.htm">
-          <HelpTOCNode Id="f85fe9db-675d-4819-ba80-d2b26affd87c" Title="Match Method " Url="html/Overload_NRules_RuleModel_RuleElementExtensions_Match.htm">
+      <HelpTOCNode Id="2b70aed4-e913-4fd2-9199-b290ec3a799f" Title="RuleElementExtensions Class" Url="html/T_NRules_RuleModel_RuleElementExtensions.htm">
+        <HelpTOCNode Id="c178541b-9b0d-4767-9403-4d7ea9db4b86" Title="RuleElementExtensions Methods" Url="html/Methods_T_NRules_RuleModel_RuleElementExtensions.htm">
+          <HelpTOCNode Id="825c7ab1-5ac9-4a29-b043-67dbbc9e107e" Title="Match Method " Url="html/Overload_NRules_RuleModel_RuleElementExtensions_Match.htm">
             <HelpTOCNode Title="Match Method (GroupElement, Action(AndElement), Action(OrElement))" Url="html/M_NRules_RuleModel_RuleElementExtensions_Match.htm" />
             <HelpTOCNode Title="Match Method (RuleElement, Action(PatternElement), Action(AggregateElement), Action(GroupElement), Action(ExistsElement), Action(NotElement), Action(ForAllElement))" Url="html/M_NRules_RuleModel_RuleElementExtensions_Match_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f9b3b567-5ff0-4455-9dd9-f9e0f4a3d46d" Title="RuleElementVisitor(TContext) Class" Url="html/T_NRules_RuleModel_RuleElementVisitor_1.htm">
+      <HelpTOCNode Id="051ca3c9-cfa4-4177-8446-a7e020eb8723" Title="RuleElementVisitor(TContext) Class" Url="html/T_NRules_RuleModel_RuleElementVisitor_1.htm">
         <HelpTOCNode Title="RuleElementVisitor(TContext) Constructor " Url="html/M_NRules_RuleModel_RuleElementVisitor_1__ctor.htm" />
-        <HelpTOCNode Id="d8a1aa91-1829-41f8-a18c-e6bb8dacc854" Title="RuleElementVisitor(TContext) Methods" Url="html/Methods_T_NRules_RuleModel_RuleElementVisitor_1.htm">
+        <HelpTOCNode Id="6efd02e0-b5c0-416a-98cb-e5df2f2bb76b" Title="RuleElementVisitor(TContext) Methods" Url="html/Methods_T_NRules_RuleModel_RuleElementVisitor_1.htm">
           <HelpTOCNode Title="Visit Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_Visit.htm" />
           <HelpTOCNode Title="VisitAction Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAction.htm" />
           <HelpTOCNode Title="VisitActionGroup Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitActionGroup.htm" />
           <HelpTOCNode Title="VisitAggregate Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAggregate.htm" />
           <HelpTOCNode Title="VisitAnd Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitAnd.htm" />
           <HelpTOCNode Title="VisitBinding Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitBinding.htm" />
-          <HelpTOCNode Title="VisitCondition Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitCondition.htm" />
           <HelpTOCNode Title="VisitDependency Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependency.htm" />
           <HelpTOCNode Title="VisitDependencyGroup Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitDependencyGroup.htm" />
           <HelpTOCNode Title="VisitExists Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitExists.htm" />
@@ -1042,51 +1089,51 @@
           <HelpTOCNode Title="VisitPattern Method " Url="html/M_NRules_RuleModel_RuleElementVisitor_1_VisitPattern.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="66e12727-1ffc-42e8-8bb3-42a0757b2a53" Title="RuleProperty Class" Url="html/T_NRules_RuleModel_RuleProperty.htm">
+      <HelpTOCNode Id="09f906d7-7c11-4eb9-b338-67b07597a983" Title="RuleProperty Class" Url="html/T_NRules_RuleModel_RuleProperty.htm">
         <HelpTOCNode Title="RuleProperty Constructor " Url="html/M_NRules_RuleModel_RuleProperty__ctor.htm" />
-        <HelpTOCNode Id="a2760a8e-3965-4e77-b07b-f01bfaf5c226" Title="RuleProperty Properties" Url="html/Properties_T_NRules_RuleModel_RuleProperty.htm">
+        <HelpTOCNode Id="ed69d701-2f5f-4cdc-96c1-676151a174fb" Title="RuleProperty Properties" Url="html/Properties_T_NRules_RuleModel_RuleProperty.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_RuleModel_RuleProperty_Name.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_NRules_RuleModel_RuleProperty_Value.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RuleProperty Methods" Url="html/Methods_T_NRules_RuleModel_RuleProperty.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RuleRepeatability Enumeration" Url="html/T_NRules_RuleModel_RuleRepeatability.htm" />
-      <HelpTOCNode Id="40dc2bc3-aa34-4eb9-9eb4-b4972afd805e" Title="RuleSet Class" Url="html/T_NRules_RuleModel_RuleSet.htm">
+      <HelpTOCNode Id="0e5cc509-5869-4b6c-ad61-c2065fa9adbb" Title="RuleSet Class" Url="html/T_NRules_RuleModel_RuleSet.htm">
         <HelpTOCNode Title="RuleSet Constructor " Url="html/M_NRules_RuleModel_RuleSet__ctor.htm" />
-        <HelpTOCNode Id="40705d9f-4aa0-41f0-897d-8e3e15d24204" Title="RuleSet Properties" Url="html/Properties_T_NRules_RuleModel_RuleSet.htm">
+        <HelpTOCNode Id="e12d548a-c817-4149-967f-11f512efae4f" Title="RuleSet Properties" Url="html/Properties_T_NRules_RuleModel_RuleSet.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_NRules_RuleModel_RuleSet_Name.htm" />
           <HelpTOCNode Title="Rules Property " Url="html/P_NRules_RuleModel_RuleSet_Rules.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3cb8e97b-b508-4ade-9b03-cd0f9eb7b092" Title="RuleSet Methods" Url="html/Methods_T_NRules_RuleModel_RuleSet.htm">
+        <HelpTOCNode Id="4bbc3b6f-eab7-47a8-bc52-4af76197ac8a" Title="RuleSet Methods" Url="html/Methods_T_NRules_RuleModel_RuleSet.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_NRules_RuleModel_RuleSet_Add.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2a26283d-b79b-4d67-b709-e55f3307901a" Title="RuleSetExtensions Class" Url="html/T_NRules_RuleModel_RuleSetExtensions.htm">
-        <HelpTOCNode Id="edb5ed77-b888-4ea7-a654-7f61c8979080" Title="RuleSetExtensions Methods" Url="html/Methods_T_NRules_RuleModel_RuleSetExtensions.htm">
+      <HelpTOCNode Id="25bf5257-cc85-4d26-b2d3-84c4847d73a4" Title="RuleSetExtensions Class" Url="html/T_NRules_RuleModel_RuleSetExtensions.htm">
+        <HelpTOCNode Id="5e38e05b-e24c-4c67-9efa-4d39d7fd04be" Title="RuleSetExtensions Methods" Url="html/Methods_T_NRules_RuleModel_RuleSetExtensions.htm">
           <HelpTOCNode Title="Add Method " Url="html/M_NRules_RuleModel_RuleSetExtensions_Add.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="SortDirection Enumeration" Url="html/T_NRules_RuleModel_SortDirection.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="577c61ca-e336-4fb4-a9ce-176f8c7432a4" Title="NRules.RuleModel.Builders" Url="html/N_NRules_RuleModel_Builders.htm">
-      <HelpTOCNode Id="23699fa8-cc58-411f-ae68-258a6ae13803" Title="ActionGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_ActionGroupBuilder.htm">
+    <HelpTOCNode Id="63635a1a-1d4c-4a73-87c9-61e44697f40a" Title="NRules.RuleModel.Builders" Url="html/N_NRules_RuleModel_Builders.htm">
+      <HelpTOCNode Id="904317b6-7289-4b55-9188-dcfcb9eab482" Title="ActionGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_ActionGroupBuilder.htm">
         <HelpTOCNode Title="ActionGroupBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_ActionGroupBuilder__ctor.htm" />
-        <HelpTOCNode Id="e715dccb-267a-4e46-9e32-333d0af0a99f" Title="ActionGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ActionGroupBuilder.htm">
-          <HelpTOCNode Id="05148ddc-46ca-42ec-82a5-69c8ca3f250d" Title="Action Method " Url="html/Overload_NRules_RuleModel_Builders_ActionGroupBuilder_Action.htm">
+        <HelpTOCNode Id="39c2c2dc-9e62-4282-9566-a880107037c2" Title="ActionGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ActionGroupBuilder.htm">
+          <HelpTOCNode Id="0412f52a-ee15-4a43-96d7-13118f2565c1" Title="Action Method " Url="html/Overload_NRules_RuleModel_Builders_ActionGroupBuilder_Action.htm">
             <HelpTOCNode Title="Action Method (LambdaExpression)" Url="html/M_NRules_RuleModel_Builders_ActionGroupBuilder_Action.htm" />
             <HelpTOCNode Title="Action Method (LambdaExpression, ActionTrigger)" Url="html/M_NRules_RuleModel_Builders_ActionGroupBuilder_Action_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="83f3190c-d084-4c88-9a84-9c16219ef564" Title="AggregateBuilder Class" Url="html/T_NRules_RuleModel_Builders_AggregateBuilder.htm">
+      <HelpTOCNode Id="51cbf526-4cce-4206-b8c9-dc919bb24420" Title="AggregateBuilder Class" Url="html/T_NRules_RuleModel_Builders_AggregateBuilder.htm">
         <HelpTOCNode Title="AggregateBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder__ctor.htm" />
-        <HelpTOCNode Id="068ee301-e46e-4c1c-b586-43f476f2bc61" Title="AggregateBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_AggregateBuilder.htm">
+        <HelpTOCNode Id="f04fba5b-ef68-488c-8451-98d07c9aa5ae" Title="AggregateBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_AggregateBuilder.htm">
           <HelpTOCNode Title="Aggregator Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Aggregator.htm" />
           <HelpTOCNode Title="Collect Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Collect.htm" />
           <HelpTOCNode Title="Flatten Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Flatten.htm" />
           <HelpTOCNode Title="GroupBy Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_GroupBy.htm" />
           <HelpTOCNode Title="OrderBy Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_OrderBy.htm" />
-          <HelpTOCNode Id="92fbccd1-0723-4a85-bc72-82fb5c642350" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_Pattern.htm">
+          <HelpTOCNode Id="91f9009d-4f1b-40ef-ab01-af603cb4864a" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_AggregateBuilder_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Declaration)" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Pattern_1.htm" />
             <HelpTOCNode Title="Pattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Pattern.htm" />
             <HelpTOCNode Title="Pattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Pattern_2.htm" />
@@ -1094,80 +1141,83 @@
           </HelpTOCNode>
           <HelpTOCNode Title="Project Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_Project.htm" />
           <HelpTOCNode Title="ResultType Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_ResultType.htm" />
+          <HelpTOCNode Title="ToLookup Method " Url="html/M_NRules_RuleModel_Builders_AggregateBuilder_ToLookup.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e07589ac-2d5c-46c5-bf6d-81c1816d140f" Title="BindingBuilder Class" Url="html/T_NRules_RuleModel_Builders_BindingBuilder.htm">
+      <HelpTOCNode Id="607da5d7-bfe9-4b37-8842-d2c981b6d3f0" Title="BindingBuilder Class" Url="html/T_NRules_RuleModel_Builders_BindingBuilder.htm">
         <HelpTOCNode Title="BindingBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_BindingBuilder__ctor.htm" />
-        <HelpTOCNode Id="a60ad84e-7c7b-4c08-ba1a-0c65935bd4aa" Title="BindingBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_BindingBuilder.htm">
+        <HelpTOCNode Id="4b2226a2-3fca-4d05-b895-b2495ca1c572" Title="BindingBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_BindingBuilder.htm">
           <HelpTOCNode Title="BindingExpression Method " Url="html/M_NRules_RuleModel_Builders_BindingBuilder_BindingExpression.htm" />
           <HelpTOCNode Title="ResultType Method " Url="html/M_NRules_RuleModel_Builders_BindingBuilder_ResultType.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="171382a9-85d0-4a38-932f-9098dd5b65f0" Title="DependencyGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_DependencyGroupBuilder.htm">
+      <HelpTOCNode Id="0252db7b-47b8-4ffc-bcbd-6e6bfab99726" Title="DependencyGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_DependencyGroupBuilder.htm">
         <HelpTOCNode Title="DependencyGroupBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_DependencyGroupBuilder__ctor.htm" />
-        <HelpTOCNode Id="902ebf81-e158-4a25-81cd-3b4ee45f27f0" Title="DependencyGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_DependencyGroupBuilder.htm">
-          <HelpTOCNode Id="ac4ceffd-d265-4358-8634-4ff4ba2f9571" Title="Dependency Method " Url="html/Overload_NRules_RuleModel_Builders_DependencyGroupBuilder_Dependency.htm">
+        <HelpTOCNode Id="f4fd7bcf-94b7-48db-86b0-784a9b0de0b8" Title="DependencyGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_DependencyGroupBuilder.htm">
+          <HelpTOCNode Id="4fd5bc9d-1e13-4b72-8739-3285c0bb5f96" Title="Dependency Method " Url="html/Overload_NRules_RuleModel_Builders_DependencyGroupBuilder_Dependency.htm">
             <HelpTOCNode Title="Dependency Method (DependencyElement)" Url="html/M_NRules_RuleModel_Builders_DependencyGroupBuilder_Dependency.htm" />
             <HelpTOCNode Title="Dependency Method (Type, String)" Url="html/M_NRules_RuleModel_Builders_DependencyGroupBuilder_Dependency_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e3b09321-9291-435a-ab45-4073ace3df3e" Title="Element Class" Url="html/T_NRules_RuleModel_Builders_Element.htm">
-        <HelpTOCNode Id="d70ad8d8-832e-4bd7-8995-44fd2208806d" Title="Element Methods" Url="html/Methods_T_NRules_RuleModel_Builders_Element.htm">
-          <HelpTOCNode Id="615b137a-7784-4893-abeb-c89924b73f4b" Title="Action Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Action.htm">
+      <HelpTOCNode Id="15c6d812-9787-4bde-9d32-6b4c7415bff8" Title="Element Class" Url="html/T_NRules_RuleModel_Builders_Element.htm">
+        <HelpTOCNode Id="c6b7bfe2-6267-4014-bef3-2b512ec15e50" Title="Element Methods" Url="html/Methods_T_NRules_RuleModel_Builders_Element.htm">
+          <HelpTOCNode Id="23fdd5ed-2ace-411e-8c55-13d1882c4693" Title="Action Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Action.htm">
             <HelpTOCNode Title="Action Method (LambdaExpression)" Url="html/M_NRules_RuleModel_Builders_Element_Action.htm" />
             <HelpTOCNode Title="Action Method (LambdaExpression, ActionTrigger)" Url="html/M_NRules_RuleModel_Builders_Element_Action_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="7e9d16d7-b0f3-4594-ae12-a29db1d3028c" Title="ActionGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_ActionGroup.htm">
+          <HelpTOCNode Id="e9f3011e-4f70-437b-80b8-c1d50747edae" Title="ActionGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_ActionGroup.htm">
             <HelpTOCNode Title="ActionGroup Method (ActionElement[])" Url="html/M_NRules_RuleModel_Builders_Element_ActionGroup.htm" />
             <HelpTOCNode Title="ActionGroup Method (IEnumerable(ActionElement))" Url="html/M_NRules_RuleModel_Builders_Element_ActionGroup_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="de1d9991-670c-4456-924f-ea48a4fa71de" Title="Aggregate Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Aggregate.htm">
+          <HelpTOCNode Id="8e58d1ba-bd2b-4a16-8570-78a6f356a423" Title="Aggregate Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Aggregate.htm">
             <HelpTOCNode Title="Aggregate Method (Type, String, IEnumerable(NamedExpressionElement), PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Aggregate.htm" />
             <HelpTOCNode Title="Aggregate Method (Type, String, IEnumerable(KeyValuePair(String, LambdaExpression)), PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Aggregate_2.htm" />
             <HelpTOCNode Title="Aggregate Method (Type, String, IEnumerable(NamedExpressionElement), PatternElement, Type)" Url="html/M_NRules_RuleModel_Builders_Element_Aggregate_1.htm" />
             <HelpTOCNode Title="Aggregate Method (Type, String, IEnumerable(KeyValuePair(String, LambdaExpression)), PatternElement, Type)" Url="html/M_NRules_RuleModel_Builders_Element_Aggregate_3.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="8c8822c6-fbc4-4c9e-9cff-db7fc31a7508" Title="AndGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_AndGroup.htm">
+          <HelpTOCNode Id="9ff135f0-32ea-4583-b7c7-df7f7a4567a4" Title="AndGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_AndGroup.htm">
             <HelpTOCNode Title="AndGroup Method (RuleElement[])" Url="html/M_NRules_RuleModel_Builders_Element_AndGroup.htm" />
             <HelpTOCNode Title="AndGroup Method (IEnumerable(RuleElement))" Url="html/M_NRules_RuleModel_Builders_Element_AndGroup_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="998ada77-d223-46be-9d6a-185ba2537dac" Title="Binding Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Binding.htm">
+          <HelpTOCNode Id="eb2cce54-7656-4ef2-a889-4e29476e4701" Title="Binding Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Binding.htm">
             <HelpTOCNode Title="Binding Method (LambdaExpression)" Url="html/M_NRules_RuleModel_Builders_Element_Binding.htm" />
             <HelpTOCNode Title="Binding Method (Type, LambdaExpression)" Url="html/M_NRules_RuleModel_Builders_Element_Binding_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="3d92e75a-f5e0-493e-a585-4a605a598f1e" Title="Collect Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Collect.htm">
+          <HelpTOCNode Id="6e342da5-8f9b-4cef-a9c4-ecec88c3a4cc" Title="Collect Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Collect.htm">
             <HelpTOCNode Title="Collect Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Collect.htm" />
             <HelpTOCNode Title="Collect Method (Type, PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Collect_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Condition Method " Url="html/M_NRules_RuleModel_Builders_Element_Condition.htm" />
-          <HelpTOCNode Id="60d88949-d12f-49af-9d5e-438d504d9aac" Title="Dependency Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Dependency.htm">
+          <HelpTOCNode Title="Declaration Method " Url="html/M_NRules_RuleModel_Builders_Element_Declaration.htm" />
+          <HelpTOCNode Id="0a63bd68-bbc2-46af-a40e-9cf9bec425f3" Title="Dependency Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Dependency.htm">
             <HelpTOCNode Title="Dependency Method (Type, String)" Url="html/M_NRules_RuleModel_Builders_Element_Dependency_1.htm" />
             <HelpTOCNode Title="Dependency Method (Declaration, Type)" Url="html/M_NRules_RuleModel_Builders_Element_Dependency.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="7d35256a-bea7-455a-a543-98f89edcf525" Title="DependencyGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_DependencyGroup.htm">
+          <HelpTOCNode Id="cbf411aa-21a5-4897-b466-59a209ff2012" Title="DependencyGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_DependencyGroup.htm">
             <HelpTOCNode Title="DependencyGroup Method (DependencyElement[])" Url="html/M_NRules_RuleModel_Builders_Element_DependencyGroup.htm" />
             <HelpTOCNode Title="DependencyGroup Method (IEnumerable(DependencyElement))" Url="html/M_NRules_RuleModel_Builders_Element_DependencyGroup_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Exists Method " Url="html/M_NRules_RuleModel_Builders_Element_Exists.htm" />
+          <HelpTOCNode Title="Expression Method " Url="html/M_NRules_RuleModel_Builders_Element_Expression.htm" />
           <HelpTOCNode Title="Filter Method " Url="html/M_NRules_RuleModel_Builders_Element_Filter.htm" />
-          <HelpTOCNode Id="24463e5c-c016-46bd-b031-96d2e839f94b" Title="FilterGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_FilterGroup.htm">
+          <HelpTOCNode Id="74942be7-4bee-4b86-85a5-8cda0c3837c0" Title="FilterGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_FilterGroup.htm">
             <HelpTOCNode Title="FilterGroup Method (FilterElement[])" Url="html/M_NRules_RuleModel_Builders_Element_FilterGroup.htm" />
             <HelpTOCNode Title="FilterGroup Method (IEnumerable(FilterElement))" Url="html/M_NRules_RuleModel_Builders_Element_FilterGroup_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Flatten Method " Url="html/M_NRules_RuleModel_Builders_Element_Flatten.htm" />
           <HelpTOCNode Title="ForAll Method " Url="html/M_NRules_RuleModel_Builders_Element_ForAll.htm" />
           <HelpTOCNode Title="Group Method " Url="html/M_NRules_RuleModel_Builders_Element_Group.htm" />
-          <HelpTOCNode Id="c7ac8a85-0122-4d68-93b2-90602100ab8b" Title="GroupBy Method " Url="html/Overload_NRules_RuleModel_Builders_Element_GroupBy.htm">
+          <HelpTOCNode Id="a7eebe43-2592-4274-8aeb-858dc24e2216" Title="GroupBy Method " Url="html/Overload_NRules_RuleModel_Builders_Element_GroupBy.htm">
             <HelpTOCNode Title="GroupBy Method (LambdaExpression, LambdaExpression, PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_GroupBy.htm" />
             <HelpTOCNode Title="GroupBy Method (Type, LambdaExpression, LambdaExpression, PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_GroupBy_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Not Method " Url="html/M_NRules_RuleModel_Builders_Element_Not.htm" />
-          <HelpTOCNode Id="52f7b4b7-45d9-4573-a2bb-8d0896693cc6" Title="OrGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_OrGroup.htm">
+          <HelpTOCNode Id="c3096c7c-d6b4-4137-8107-e636900bf900" Title="OrGroup Method " Url="html/Overload_NRules_RuleModel_Builders_Element_OrGroup.htm">
             <HelpTOCNode Title="OrGroup Method (RuleElement[])" Url="html/M_NRules_RuleModel_Builders_Element_OrGroup.htm" />
             <HelpTOCNode Title="OrGroup Method (IEnumerable(RuleElement))" Url="html/M_NRules_RuleModel_Builders_Element_OrGroup_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="786e45c5-49cb-4cc7-9f6d-e88b00e56586" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Pattern.htm">
+          <HelpTOCNode Id="e4af3c6b-e0e0-4c68-a59b-26429b03b28a" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Declaration, IEnumerable(KeyValuePair(String, LambdaExpression)))" Url="html/M_NRules_RuleModel_Builders_Element_Pattern_1.htm" />
             <HelpTOCNode Title="Pattern Method (Type, String, IEnumerable(KeyValuePair(String, LambdaExpression)))" Url="html/M_NRules_RuleModel_Builders_Element_Pattern_4.htm" />
             <HelpTOCNode Title="Pattern Method (Declaration, IEnumerable(NamedExpressionElement), RuleElement)" Url="html/M_NRules_RuleModel_Builders_Element_Pattern.htm" />
@@ -1175,26 +1225,26 @@
             <HelpTOCNode Title="Pattern Method (Type, String, IEnumerable(NamedExpressionElement), RuleElement)" Url="html/M_NRules_RuleModel_Builders_Element_Pattern_3.htm" />
             <HelpTOCNode Title="Pattern Method (Type, String, IEnumerable(KeyValuePair(String, LambdaExpression)), RuleElement)" Url="html/M_NRules_RuleModel_Builders_Element_Pattern_5.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="48193c09-5f1d-46c7-bc28-c50495e5a9cc" Title="Project Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Project.htm">
+          <HelpTOCNode Id="9ac620b9-4d76-4809-9614-d12e96191d6e" Title="Project Method " Url="html/Overload_NRules_RuleModel_Builders_Element_Project.htm">
             <HelpTOCNode Title="Project Method (LambdaExpression, PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Project.htm" />
             <HelpTOCNode Title="Project Method (Type, LambdaExpression, PatternElement)" Url="html/M_NRules_RuleModel_Builders_Element_Project_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="870046e4-8010-490b-b9c7-67e9162202cc" Title="RuleDefinition Method " Url="html/Overload_NRules_RuleModel_Builders_Element_RuleDefinition.htm">
+          <HelpTOCNode Id="1676f507-1981-44e5-95ca-756277407e92" Title="RuleDefinition Method " Url="html/Overload_NRules_RuleModel_Builders_Element_RuleDefinition.htm">
             <HelpTOCNode Title="RuleDefinition Method (String, String, Int32, GroupElement, ActionGroupElement)" Url="html/M_NRules_RuleModel_Builders_Element_RuleDefinition.htm" />
             <HelpTOCNode Title="RuleDefinition Method (String, String, Int32, IEnumerable(String), GroupElement, ActionGroupElement)" Url="html/M_NRules_RuleModel_Builders_Element_RuleDefinition_2.htm" />
             <HelpTOCNode Title="RuleDefinition Method (String, String, Int32, RuleRepeatability, IEnumerable(String), IEnumerable(RuleProperty), DependencyGroupElement, GroupElement, FilterGroupElement, ActionGroupElement)" Url="html/M_NRules_RuleModel_Builders_Element_RuleDefinition_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="90c2c333-f48e-4cb9-b2bc-a1cb2c1102b9" Title="ExistsBuilder Class" Url="html/T_NRules_RuleModel_Builders_ExistsBuilder.htm">
+      <HelpTOCNode Id="8f2a1fa1-1ffc-49e0-ade0-009b94e6a687" Title="ExistsBuilder Class" Url="html/T_NRules_RuleModel_Builders_ExistsBuilder.htm">
         <HelpTOCNode Title="ExistsBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_ExistsBuilder__ctor.htm" />
-        <HelpTOCNode Id="1bf6002c-2d04-4aaa-8bda-959c4153f5cd" Title="ExistsBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ExistsBuilder.htm">
-          <HelpTOCNode Id="b4744284-2758-41d0-a196-efa6ecfdf428" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Group.htm">
+        <HelpTOCNode Id="d22f99c1-6de3-4189-b31b-d1308a051133" Title="ExistsBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ExistsBuilder.htm">
+          <HelpTOCNode Id="490bd86e-871c-4621-98b2-d6cd9d1db757" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Group.htm">
             <HelpTOCNode Title="Group Method (GroupBuilder)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Group.htm" />
             <HelpTOCNode Title="Group Method (GroupElement)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Group_2.htm" />
             <HelpTOCNode Title="Group Method (GroupType)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Group_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="ad81b4e4-7fd7-4690-bb0f-be1aad211be4" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Pattern.htm">
+          <HelpTOCNode Id="224b4a3c-174c-4389-8091-8d947e6ee941" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_ExistsBuilder_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Declaration)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Pattern_1.htm" />
             <HelpTOCNode Title="Pattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Pattern.htm" />
             <HelpTOCNode Title="Pattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_ExistsBuilder_Pattern_2.htm" />
@@ -1202,55 +1252,55 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2cc30abf-de1e-42d8-bec7-a149da8c4aae" Title="FilterGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_FilterGroupBuilder.htm">
+      <HelpTOCNode Id="baa4dd44-de77-45da-a682-cf4f0a39024b" Title="FilterGroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_FilterGroupBuilder.htm">
         <HelpTOCNode Title="FilterGroupBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_FilterGroupBuilder__ctor.htm" />
-        <HelpTOCNode Id="b5e7ff6c-a4f6-4704-a895-5ea5b2950995" Title="FilterGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_FilterGroupBuilder.htm">
-          <HelpTOCNode Id="5b598284-3f63-480b-be2b-33207fba8a14" Title="Filter Method " Url="html/Overload_NRules_RuleModel_Builders_FilterGroupBuilder_Filter.htm">
+        <HelpTOCNode Id="47963b34-96b5-45f2-9538-8e23bc5f9fa0" Title="FilterGroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_FilterGroupBuilder.htm">
+          <HelpTOCNode Id="dc8801bf-65b0-4045-8ef2-8e919e523415" Title="Filter Method " Url="html/Overload_NRules_RuleModel_Builders_FilterGroupBuilder_Filter.htm">
             <HelpTOCNode Title="Filter Method (FilterElement)" Url="html/M_NRules_RuleModel_Builders_FilterGroupBuilder_Filter.htm" />
             <HelpTOCNode Title="Filter Method (FilterType, LambdaExpression)" Url="html/M_NRules_RuleModel_Builders_FilterGroupBuilder_Filter_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="efb8c1ff-8900-462f-b84e-92e1e12b584c" Title="ForAllBuilder Class" Url="html/T_NRules_RuleModel_Builders_ForAllBuilder.htm">
+      <HelpTOCNode Id="0a2c7ac0-8ddf-40fe-be99-7d93eb142dcf" Title="ForAllBuilder Class" Url="html/T_NRules_RuleModel_Builders_ForAllBuilder.htm">
         <HelpTOCNode Title="ForAllBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_ForAllBuilder__ctor.htm" />
-        <HelpTOCNode Id="2a677623-d801-4258-ab0c-f6542f6b0234" Title="ForAllBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ForAllBuilder.htm">
-          <HelpTOCNode Id="d439efdf-d8f0-42ef-b855-e41caf3f01ec" Title="BasePattern Method " Url="html/Overload_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm">
+        <HelpTOCNode Id="f4a31104-184a-4f7c-a535-f20528e333b5" Title="ForAllBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_ForAllBuilder.htm">
+          <HelpTOCNode Id="989aa8c7-b604-46e8-b062-654d4a2a553d" Title="BasePattern Method " Url="html/Overload_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm">
             <HelpTOCNode Title="BasePattern Method (Type)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_BasePattern_2.htm" />
             <HelpTOCNode Title="BasePattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_BasePattern.htm" />
             <HelpTOCNode Title="BasePattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_BasePattern_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="4ab2617e-e7bd-4646-a866-a5e7028acaf6" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_ForAllBuilder_Pattern.htm">
+          <HelpTOCNode Id="8b9213e1-d2f9-4560-b21b-89589a169950" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_ForAllBuilder_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Type)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_Pattern_2.htm" />
             <HelpTOCNode Title="Pattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_Pattern.htm" />
             <HelpTOCNode Title="Pattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_ForAllBuilder_Pattern_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b94e5701-8711-4e8b-932f-c4404a9986fa" Title="GroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_GroupBuilder.htm">
+      <HelpTOCNode Id="893a0399-019d-4e0b-9468-cdf076d213fd" Title="GroupBuilder Class" Url="html/T_NRules_RuleModel_Builders_GroupBuilder.htm">
         <HelpTOCNode Title="GroupBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_GroupBuilder__ctor.htm" />
-        <HelpTOCNode Id="366b6fd6-8743-4853-9f66-864579ba6060" Title="GroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_GroupBuilder.htm">
-          <HelpTOCNode Id="36faba8a-bc14-4264-8f7d-72f81cc88b27" Title="Exists Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Exists.htm">
+        <HelpTOCNode Id="36bbfbe6-7327-487d-850a-9f9cf4ca92ab" Title="GroupBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_GroupBuilder.htm">
+          <HelpTOCNode Id="55beb027-ce7c-49d5-ae2c-5ab0c3f1f53d" Title="Exists Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Exists.htm">
             <HelpTOCNode Title="Exists Method " Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Exists.htm" />
             <HelpTOCNode Title="Exists Method (ExistsBuilder)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Exists_1.htm" />
             <HelpTOCNode Title="Exists Method (ExistsElement)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Exists_2.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="0f807419-db6e-4e14-8855-af3c8145a593" Title="ForAll Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_ForAll.htm">
+          <HelpTOCNode Id="a4f77a79-d540-44ad-8450-540676a50482" Title="ForAll Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_ForAll.htm">
             <HelpTOCNode Title="ForAll Method " Url="html/M_NRules_RuleModel_Builders_GroupBuilder_ForAll.htm" />
             <HelpTOCNode Title="ForAll Method (ForAllBuilder)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_ForAll_1.htm" />
             <HelpTOCNode Title="ForAll Method (ForAllElement)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_ForAll_2.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="5f0a4747-7c2c-423a-9c3e-137718f01ba8" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Group.htm">
+          <HelpTOCNode Id="eee945d0-6698-42c8-a91c-697f0ef27195" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Group.htm">
             <HelpTOCNode Title="Group Method (GroupBuilder)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Group.htm" />
             <HelpTOCNode Title="Group Method (GroupElement)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Group_2.htm" />
             <HelpTOCNode Title="Group Method (GroupType)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Group_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="GroupType Method " Url="html/M_NRules_RuleModel_Builders_GroupBuilder_GroupType.htm" />
-          <HelpTOCNode Id="96cfc615-f096-42e3-9b8d-6c82c6c48f24" Title="Not Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Not.htm">
+          <HelpTOCNode Id="6a290eb7-b6c7-4d42-b8ef-6000d480676b" Title="Not Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Not.htm">
             <HelpTOCNode Title="Not Method " Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Not.htm" />
             <HelpTOCNode Title="Not Method (NotBuilder)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Not_1.htm" />
             <HelpTOCNode Title="Not Method (NotElement)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Not_2.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="da8f5346-cd18-4a0e-8446-4f89cc610ec2" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Pattern.htm">
+          <HelpTOCNode Id="320cc35d-c2fa-4f79-ad25-029f1a6c295e" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_GroupBuilder_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Declaration)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Pattern_1.htm" />
             <HelpTOCNode Title="Pattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Pattern.htm" />
             <HelpTOCNode Title="Pattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_GroupBuilder_Pattern_2.htm" />
@@ -1259,15 +1309,15 @@
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="GroupType Enumeration" Url="html/T_NRules_RuleModel_Builders_GroupType.htm" />
-      <HelpTOCNode Id="e70d0bfc-b5a3-46c3-91e3-faabed7b0063" Title="NotBuilder Class" Url="html/T_NRules_RuleModel_Builders_NotBuilder.htm">
+      <HelpTOCNode Id="5abef36a-5640-4e4b-aeff-78bbc90e5b0a" Title="NotBuilder Class" Url="html/T_NRules_RuleModel_Builders_NotBuilder.htm">
         <HelpTOCNode Title="NotBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_NotBuilder__ctor.htm" />
-        <HelpTOCNode Id="5a11ac78-8174-434e-8335-c7a3986a08ff" Title="NotBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_NotBuilder.htm">
-          <HelpTOCNode Id="34dee3f1-1b7d-449d-a347-a41fcfc8ef06" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_NotBuilder_Group.htm">
+        <HelpTOCNode Id="56050dcf-7c30-4618-836e-9684002f15c1" Title="NotBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_NotBuilder.htm">
+          <HelpTOCNode Id="dfc19dac-cc6e-4d30-9d2e-592eb61edbec" Title="Group Method " Url="html/Overload_NRules_RuleModel_Builders_NotBuilder_Group.htm">
             <HelpTOCNode Title="Group Method (GroupBuilder)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Group.htm" />
             <HelpTOCNode Title="Group Method (GroupElement)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Group_2.htm" />
             <HelpTOCNode Title="Group Method (GroupType)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Group_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="c5671beb-b371-46ad-869e-e2fcf0e59668" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_NotBuilder_Pattern.htm">
+          <HelpTOCNode Id="b17cedad-6ece-4911-b95b-cda129a38310" Title="Pattern Method " Url="html/Overload_NRules_RuleModel_Builders_NotBuilder_Pattern.htm">
             <HelpTOCNode Title="Pattern Method (Declaration)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Pattern_1.htm" />
             <HelpTOCNode Title="Pattern Method (PatternBuilder)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Pattern.htm" />
             <HelpTOCNode Title="Pattern Method (PatternElement)" Url="html/M_NRules_RuleModel_Builders_NotBuilder_Pattern_2.htm" />
@@ -1275,21 +1325,21 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ffcf241a-840d-4126-ab55-7b266e72c904" Title="PatternBuilder Class" Url="html/T_NRules_RuleModel_Builders_PatternBuilder.htm">
-        <HelpTOCNode Id="3c0a6a39-032a-4804-8aef-952a6935fbae" Title="PatternBuilder Constructor " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder__ctor.htm">
+      <HelpTOCNode Id="65f28155-09bc-4ca0-8afc-f3869aa681bf" Title="PatternBuilder Class" Url="html/T_NRules_RuleModel_Builders_PatternBuilder.htm">
+        <HelpTOCNode Id="983fb054-a7a2-401b-95eb-11941b6bda2a" Title="PatternBuilder Constructor " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder__ctor.htm">
           <HelpTOCNode Title="PatternBuilder Constructor (Declaration)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder__ctor.htm" />
           <HelpTOCNode Title="PatternBuilder Constructor (Type, String)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d2d3b24a-f8bf-4547-a84d-514f9058ba69" Title="PatternBuilder Properties" Url="html/Properties_T_NRules_RuleModel_Builders_PatternBuilder.htm">
+        <HelpTOCNode Id="18c1cf73-2f49-42e3-8140-a8c9ac055d62" Title="PatternBuilder Properties" Url="html/Properties_T_NRules_RuleModel_Builders_PatternBuilder.htm">
           <HelpTOCNode Title="Declaration Property " Url="html/P_NRules_RuleModel_Builders_PatternBuilder_Declaration.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8fd78916-69ee-4c61-a986-6d8fd0aa21fa" Title="PatternBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_PatternBuilder.htm">
-          <HelpTOCNode Id="5a9c7f90-2555-49c3-98c0-e1b58b3dd1f6" Title="Aggregate Method " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder_Aggregate.htm">
+        <HelpTOCNode Id="9af91f9b-eb46-4c38-a32d-6ce71b6c53c7" Title="PatternBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_PatternBuilder.htm">
+          <HelpTOCNode Id="01c1a434-c212-4f8c-a61d-b78e1b5b42d4" Title="Aggregate Method " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder_Aggregate.htm">
             <HelpTOCNode Title="Aggregate Method " Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Aggregate.htm" />
             <HelpTOCNode Title="Aggregate Method (AggregateBuilder)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Aggregate_2.htm" />
             <HelpTOCNode Title="Aggregate Method (AggregateElement)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Aggregate_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="3d5d0c7d-539e-4ba6-83f7-860ea796a821" Title="Binding Method " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder_Binding.htm">
+          <HelpTOCNode Id="5eba7d51-9d37-402f-a1e3-1f352d11e966" Title="Binding Method " Url="html/Overload_NRules_RuleModel_Builders_PatternBuilder_Binding.htm">
             <HelpTOCNode Title="Binding Method " Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Binding.htm" />
             <HelpTOCNode Title="Binding Method (BindingBuilder)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Binding_2.htm" />
             <HelpTOCNode Title="Binding Method (BindingElement)" Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Binding_1.htm" />
@@ -1297,20 +1347,20 @@
           <HelpTOCNode Title="Condition Method " Url="html/M_NRules_RuleModel_Builders_PatternBuilder_Condition.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="490abf61-498b-49ac-82fd-5b5f523e6622" Title="RuleBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleBuilder.htm">
+      <HelpTOCNode Id="8374ff68-261b-46b5-8429-4bbd81e0a090" Title="RuleBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleBuilder.htm">
         <HelpTOCNode Title="RuleBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_RuleBuilder__ctor.htm" />
-        <HelpTOCNode Id="6108a294-3007-4f59-bf76-a889583c703a" Title="RuleBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleBuilder.htm">
+        <HelpTOCNode Id="c01c6f0e-36ce-4927-b571-e4e951f589d1" Title="RuleBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleBuilder.htm">
           <HelpTOCNode Title="Build Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Build.htm" />
-          <HelpTOCNode Id="f37a8636-0599-49c8-b7f4-dceb7946eb61" Title="Dependencies Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_Dependencies.htm">
+          <HelpTOCNode Id="089c2d31-7d04-4c26-b667-45a9bf96497d" Title="Dependencies Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_Dependencies.htm">
             <HelpTOCNode Title="Dependencies Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Dependencies.htm" />
             <HelpTOCNode Title="Dependencies Method (DependencyGroupBuilder)" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Dependencies_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Description Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Description.htm" />
-          <HelpTOCNode Id="e90c90c6-1aad-4120-90c0-7f256cfa2755" Title="Filters Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_Filters.htm">
+          <HelpTOCNode Id="9e82db42-45c6-4e7a-823c-00ea2805e61f" Title="Filters Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_Filters.htm">
             <HelpTOCNode Title="Filters Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Filters.htm" />
             <HelpTOCNode Title="Filters Method (FilterGroupBuilder)" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Filters_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="af3d6096-bc9b-49bc-8382-c9f1819f4ae9" Title="LeftHandSide Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_LeftHandSide.htm">
+          <HelpTOCNode Id="f078ba1c-69c6-4fd5-be44-27465889d556" Title="LeftHandSide Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_LeftHandSide.htm">
             <HelpTOCNode Title="LeftHandSide Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_LeftHandSide.htm" />
             <HelpTOCNode Title="LeftHandSide Method (GroupBuilder)" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_LeftHandSide_1.htm" />
           </HelpTOCNode>
@@ -1319,7 +1369,7 @@
           <HelpTOCNode Title="Properties Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Properties.htm" />
           <HelpTOCNode Title="Property Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Property.htm" />
           <HelpTOCNode Title="Repeatability Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Repeatability.htm" />
-          <HelpTOCNode Id="d7227924-230c-4963-b614-2004b5f47e2e" Title="RightHandSide Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_RightHandSide.htm">
+          <HelpTOCNode Id="252ed305-7fd9-4f9d-a72a-938acad54bc0" Title="RightHandSide Method " Url="html/Overload_NRules_RuleModel_Builders_RuleBuilder_RightHandSide.htm">
             <HelpTOCNode Title="RightHandSide Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_RightHandSide.htm" />
             <HelpTOCNode Title="RightHandSide Method (ActionGroupBuilder)" Url="html/M_NRules_RuleModel_Builders_RuleBuilder_RightHandSide_1.htm" />
           </HelpTOCNode>
@@ -1327,22 +1377,21 @@
           <HelpTOCNode Title="Tags Method " Url="html/M_NRules_RuleModel_Builders_RuleBuilder_Tags.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6d308548-297e-4f10-a3ff-babf0cbc222d" Title="RuleElementBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleElementBuilder.htm">
+      <HelpTOCNode Id="c0015af9-49b2-4313-a552-21149dac4ed1" Title="RuleElementBuilder Class" Url="html/T_NRules_RuleModel_Builders_RuleElementBuilder.htm">
         <HelpTOCNode Title="RuleElementBuilder Constructor " Url="html/M_NRules_RuleModel_Builders_RuleElementBuilder__ctor.htm" />
-        <HelpTOCNode Id="2d60e11b-4c5f-4a0d-93d7-7b4338e19538" Title="RuleElementBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleElementBuilder.htm">
+        <HelpTOCNode Id="8f6dc86d-347f-43ab-a649-c88bbfa88544" Title="RuleElementBuilder Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleElementBuilder.htm">
           <HelpTOCNode Title="DeclarationName Method " Url="html/M_NRules_RuleModel_Builders_RuleElementBuilder_DeclarationName.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b13483b4-eef3-4f32-8563-f887d4e801bd" Title="RuleTransformation Class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation.htm">
+      <HelpTOCNode Id="e305ccf8-7560-4fe4-a25f-ebbf56b114fc" Title="RuleTransformation Class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation.htm">
         <HelpTOCNode Title="RuleTransformation Constructor " Url="html/M_NRules_RuleModel_Builders_RuleTransformation__ctor.htm" />
-        <HelpTOCNode Id="899d3fe3-7074-4b62-aed7-793280c784fd" Title="RuleTransformation Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleTransformation.htm">
+        <HelpTOCNode Id="0dec1501-8515-4d7f-a68c-6e66ffdab78c" Title="RuleTransformation Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleTransformation.htm">
           <HelpTOCNode Title="Transform Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_Transform.htm" />
           <HelpTOCNode Title="VisitAction Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAction.htm" />
           <HelpTOCNode Title="VisitActionGroup Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitActionGroup.htm" />
           <HelpTOCNode Title="VisitAggregate Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAggregate.htm" />
           <HelpTOCNode Title="VisitAnd Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitAnd.htm" />
           <HelpTOCNode Title="VisitBinding Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitBinding.htm" />
-          <HelpTOCNode Title="VisitCondition Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitCondition.htm" />
           <HelpTOCNode Title="VisitExists Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitExists.htm" />
           <HelpTOCNode Title="VisitForAll Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitForAll.htm" />
           <HelpTOCNode Title="VisitNot Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitNot.htm" />
@@ -1350,7 +1399,7 @@
           <HelpTOCNode Title="VisitPattern Method " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_VisitPattern.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8a6292a8-c80e-4181-ac6a-c73ef8a9131e" Title="RuleTransformation.Context Class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation_Context.htm">
+      <HelpTOCNode Id="0ee9cff2-fe68-4171-adc1-577cd457a4b3" Title="RuleTransformation.Context Class" Url="html/T_NRules_RuleModel_Builders_RuleTransformation_Context.htm">
         <HelpTOCNode Title="RuleTransformation.Context Constructor " Url="html/M_NRules_RuleModel_Builders_RuleTransformation_Context__ctor.htm" />
         <HelpTOCNode Title="Context Methods" Url="html/Methods_T_NRules_RuleModel_Builders_RuleTransformation_Context.htm" />
       </HelpTOCNode>

@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace NRules.Aggregators
+ | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace NRules.Aggregators
+ | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.Aggregators.md/#L2">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NRules.Aggregators">
+
+  <h1 id="NRules_Aggregators" data-uid="NRules.Aggregators" class="text-break">Namespace NRules.Aggregators
+</h1>
+  <div class="markdown level0 summary">
+<p>Contains types that implement aggregation of facts as part of rules engine execution.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.AggregateExpressionExtensions.html">AggregateExpressionExtensions</a></dt>
+      <dd><p>Extension methods used for working with collections of aggregate expressions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.AggregationContext.html">AggregationContext</a></dt>
+      <dd><p>Context associated with the aggregation operation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.AggregationResult.html">AggregationResult</a></dt>
+      <dd><p>Result of the aggregation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.AggregatorRegistry.html">AggregatorRegistry</a></dt>
+      <dd><p>Registry of custom aggregator factories.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.IAggregateExpression.html">IAggregateExpression</a></dt>
+      <dd><p>Expression used by an aggregator, compiled to an executable form.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.IAggregator.html">IAggregator</a></dt>
+      <dd><p>Base interface for fact aggregators.
+An aggregator is a stateful element of the rules engine, that receives matching facts of a particular kind,
+and can combine them into a synthetic fact, that is then used by the downstream logic in the rule.
+Aggregator also receives updates and removals for the matching facts, so that it can keep the corresponding
+aggregate facts in sync.
+An aggregator must be supplemented by a corresponding implementation of <a class="xref" href="NRules.Aggregators.IAggregatorFactory.html">IAggregatorFactory</a> that
+knows how to create new instances of the aggregator.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.IAggregatorFactory.html">IAggregatorFactory</a></dt>
+      <dd><p>Base interface for aggregator factories.
+Aggregator factory constructs new instances of <a class="xref" href="NRules.Aggregators.IAggregator.html">IAggregator</a> of a given type, so that they
+can accumulate aggregation results.
+An <code>IAggregatorFactory</code> type must either be registered in <a class="xref" href="NRules.RuleCompiler.html#NRules_RuleCompiler_AggregatorRegistry">AggregatorRegistry</a>,
+or provided in the canonical rule model via <a class="xref" href="NRules.RuleModel.AggregateElement.html#NRules_RuleModel_AggregateElement_CustomFactoryType">CustomFactoryType</a>. If both are
+provided, the aggregator factory at the <a class="xref" href="NRules.RuleModel.AggregateElement.html">AggregateElement</a> level takes precedence.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Aggregators.AggregationAction.html">AggregationAction</a></dt>
+      <dd><p>Action that aggregation performed on the aggregate, based on added/modified/removed facts.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.Aggregators.md/#L2" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

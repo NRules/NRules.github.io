@@ -1,0 +1,970 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IContext
+ | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IContext
+ | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/new/develop/apiSpec/new?filename=NRules_RuleModel_IContext.md&amp;value=---%0Auid%3A%20NRules.RuleModel.IContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NRules.RuleModel.IContext">
+
+
+
+  <h1 id="NRules_RuleModel_IContext" data-uid="NRules.RuleModel.IContext" class="text-break">
+    Interface IContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NRules.html">NRules</a>.<a class="xref" href="NRules.RuleModel.html">RuleModel</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NRules.RuleModel.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Rules engine execution context.
+Can be used by rules to interact with the rules engine, i.e. insert, update, retract facts.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IContext</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="NRules.Fluent.Dsl.ContextExtensions.html#NRules_Fluent_Dsl_ContextExtensions_Resolve__1_NRules_RuleModel_IContext_">ContextExtensions.Resolve&lt;TService&gt;(IContext)</a>
+  </div>
+  <div>
+      <a class="xref" href="NRules.Fluent.Dsl.ContextExtensions.html#NRules_Fluent_Dsl_ContextExtensions_Update__1_NRules_RuleModel_IContext___0_System_Action___0__">ContextExtensions.Update&lt;T&gt;(IContext, T, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NRules_RuleModel_IContext_CancellationToken_" data-uid="NRules.RuleModel.IContext.CancellationToken*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_CancellationToken" data-uid="NRules.RuleModel.IContext.CancellationToken">
+  CancellationToken
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables cooperative cancellation of the rules execution cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CancellationToken CancellationToken { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Match_" data-uid="NRules.RuleModel.IContext.Match*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Match" data-uid="NRules.RuleModel.IContext.Match">
+  Match
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current rule match.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMatch Match { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.RuleModel.IMatch.html">IMatch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Rule_" data-uid="NRules.RuleModel.IContext.Rule*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Rule" data-uid="NRules.RuleModel.IContext.Rule">
+  Rule
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current rule definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRuleDefinition Rule { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefinition</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NRules_RuleModel_IContext_GetLinked_" data-uid="NRules.RuleModel.IContext.GetLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_GetLinked_System_Object_" data-uid="NRules.RuleModel.IContext.GetLinked(System.Object)">
+  GetLinked(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a fact linked to the current rule activation by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object GetLinked(object key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Key for the linked fact.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Linked fact if it exists, <code>null</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_GetLinkedKeys_" data-uid="NRules.RuleModel.IContext.GetLinkedKeys*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_GetLinkedKeys" data-uid="NRules.RuleModel.IContext.GetLinkedKeys">
+  GetLinkedKeys()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves keys of facts linked to the current rule activation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;object&gt; GetLinkedKeys()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>Keys for linked facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Halt_" data-uid="NRules.RuleModel.IContext.Halt*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Halt" data-uid="NRules.RuleModel.IContext.Halt">
+  Halt()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Halts rules execution. The engine continues execution of the current rule and exits the execution cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Halt()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Insert_" data-uid="NRules.RuleModel.IContext.Insert*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Insert_System_Object_" data-uid="NRules.RuleModel.IContext.Insert(System.Object)">
+  Insert(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts a new fact to the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Insert(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If fact already exists in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_InsertAll_" data-uid="NRules.RuleModel.IContext.InsertAll*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_InsertAll_System_Collections_Generic_IEnumerable_System_Object__" data-uid="NRules.RuleModel.IContext.InsertAll(System.Collections.Generic.IEnumerable{System.Object})">
+  InsertAll(IEnumerable&lt;object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts new facts to the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InsertAll(IEnumerable&lt;object&gt; facts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>facts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>Facts to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If any fact already exists in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_InsertAllLinked_" data-uid="NRules.RuleModel.IContext.InsertAllLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_InsertAllLinked_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Object_System_Object___" data-uid="NRules.RuleModel.IContext.InsertAllLinked(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Object,System.Object}})">
+  InsertAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts new facts and links them to the current rule activation.
+The facts will be automatically retracted if this activation is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InsertAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt; keyedFacts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyedFacts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Keyed facts to insert. Keys must be unique for a given rule.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_InsertLinked_" data-uid="NRules.RuleModel.IContext.InsertLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_InsertLinked_System_Object_System_Object_" data-uid="NRules.RuleModel.IContext.InsertLinked(System.Object,System.Object)">
+  InsertLinked(object, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts a new fact and links it to the current rule activation.
+The fact will be automatically retracted if this activation is removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InsertLinked(object key, object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Key for the linked fact. Must be unique for a given rule.</p>
+</dd>
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to insert.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Resolve_" data-uid="NRules.RuleModel.IContext.Resolve*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Resolve_System_Type_" data-uid="NRules.RuleModel.IContext.Resolve(System.Type)">
+  Resolve(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resolves a registered service (normally via an IoC container).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object Resolve(Type serviceType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Type of service to resolve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Service instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Retract_" data-uid="NRules.RuleModel.IContext.Retract*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Retract_System_Object_" data-uid="NRules.RuleModel.IContext.Retract(System.Object)">
+  Retract(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes existing fact from the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Retract(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to remove.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If fact does not exist in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_RetractAll_" data-uid="NRules.RuleModel.IContext.RetractAll*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_RetractAll_System_Collections_Generic_IEnumerable_System_Object__" data-uid="NRules.RuleModel.IContext.RetractAll(System.Collections.Generic.IEnumerable{System.Object})">
+  RetractAll(IEnumerable&lt;object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes existing facts from the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RetractAll(IEnumerable&lt;object&gt; facts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>facts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>Facts to remove.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If any fact does not exist in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_RetractAllLinked_" data-uid="NRules.RuleModel.IContext.RetractAllLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_RetractAllLinked_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Object_System_Object___" data-uid="NRules.RuleModel.IContext.RetractAllLinked(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Object,System.Object}})">
+  RetractAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retracts existing facts that are linked to the current rule activation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RetractAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt; keyedFacts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyedFacts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Keyed facts to retract. Keys must be unique for a given rule.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="NRules_RuleModel_IContext_RetractAllLinked_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Object_System_Object____remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Linked facts are retracted automatically, when activation is deleted, but
+this method can be used in complex scenarios, when linked facts need to be retracted explicitly,
+prior to activation getting deleted.</p>
+</div>
+
+
+
+
+  <a id="NRules_RuleModel_IContext_RetractLinked_" data-uid="NRules.RuleModel.IContext.RetractLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_RetractLinked_System_Object_System_Object_" data-uid="NRules.RuleModel.IContext.RetractLinked(System.Object,System.Object)">
+  RetractLinked(object, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retracts existing fact that's linked to the current rule activation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RetractLinked(object key, object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Key for the linked fact. Must be unique for a given rule.</p>
+</dd>
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to retract.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="NRules_RuleModel_IContext_RetractLinked_System_Object_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Linked facts are retracted automatically, when activation is deleted, but
+this method can be used in complex scenarios, when linked facts need to be retracted explicitly,
+prior to activation getting deleted.</p>
+</div>
+
+
+
+
+  <a id="NRules_RuleModel_IContext_TryInsert_" data-uid="NRules.RuleModel.IContext.TryInsert*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_TryInsert_System_Object_" data-uid="NRules.RuleModel.IContext.TryInsert(System.Object)">
+  TryInsert(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts a fact to the rules engine memory if the fact does not exist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryInsert(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to add.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the fact was inserted or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_TryRetract_" data-uid="NRules.RuleModel.IContext.TryRetract*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_TryRetract_System_Object_" data-uid="NRules.RuleModel.IContext.TryRetract(System.Object)">
+  TryRetract(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a fact from the rules engine memory if the fact exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryRetract(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to remove.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the fact was retracted or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_TryUpdate_" data-uid="NRules.RuleModel.IContext.TryUpdate*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_TryUpdate_System_Object_" data-uid="NRules.RuleModel.IContext.TryUpdate(System.Object)">
+  TryUpdate(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates a fact in the rules engine memory if the fact exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool TryUpdate(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to update.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the fact was updated or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_Update_" data-uid="NRules.RuleModel.IContext.Update*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_Update_System_Object_" data-uid="NRules.RuleModel.IContext.Update(System.Object)">
+  Update(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates existing fact in the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Update(object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to update.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If fact does not exist in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_UpdateAll_" data-uid="NRules.RuleModel.IContext.UpdateAll*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_UpdateAll_System_Collections_Generic_IEnumerable_System_Object__" data-uid="NRules.RuleModel.IContext.UpdateAll(System.Collections.Generic.IEnumerable{System.Object})">
+  UpdateAll(IEnumerable&lt;object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates existing facts in the rules engine memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateAll(IEnumerable&lt;object&gt; facts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>facts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>Facts to update.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>If any fact does not exist in working memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NRules_RuleModel_IContext_UpdateAllLinked_" data-uid="NRules.RuleModel.IContext.UpdateAllLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_UpdateAllLinked_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Object_System_Object___" data-uid="NRules.RuleModel.IContext.UpdateAllLinked(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Object,System.Object}})">
+  UpdateAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates existing facts that are linked to the current rule activation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateAllLinked(IEnumerable&lt;KeyValuePair&lt;object, object&gt;&gt; keyedFacts)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyedFacts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Keyed facts to update. Keys must be unique for a given rule.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_RuleModel_IContext_UpdateLinked_" data-uid="NRules.RuleModel.IContext.UpdateLinked*"></a>
+
+  <h3 id="NRules_RuleModel_IContext_UpdateLinked_System_Object_System_Object_" data-uid="NRules.RuleModel.IContext.UpdateLinked(System.Object,System.Object)">
+  UpdateLinked(object, object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates existing fact that's linked to the current rule activation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateLinked(object key, object fact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Key for the linked fact. Must be unique for a given rule.</p>
+</dd>
+    <dt><code>fact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Fact to update.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.RuleModel/IContext.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

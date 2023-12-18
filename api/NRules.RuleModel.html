@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace NRules.RuleModel
+ | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace NRules.RuleModel
+ | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.RuleModel.md/#L2">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NRules.RuleModel">
+
+  <h1 id="NRules_RuleModel" data-uid="NRules.RuleModel" class="text-break">Namespace NRules.RuleModel
+</h1>
+  <div class="markdown level0 summary">
+<p>Contains types that represent rules in the canonical model form.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ActionElement.html">ActionElement</a></dt>
+      <dd><p>Action executed by the engine when the rule fires.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ActionGroupElement.html">ActionGroupElement</a></dt>
+      <dd><p>Rule element that groups actions that run when the rule fires.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.AggregateElement.html">AggregateElement</a></dt>
+      <dd><p>Rule element that creates new facts (aggregates) based on matching facts it receives as input.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.AndElement.html">AndElement</a></dt>
+      <dd><p>Grouping element based on the logical AND condition.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.BindingElement.html">BindingElement</a></dt>
+      <dd><p>Rule element that represents results of an expression.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.Declaration.html">Declaration</a></dt>
+      <dd><p>Rule element declaration.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.DeclarationExtensions.html">DeclarationExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.DependencyElement.html">DependencyElement</a></dt>
+      <dd><p>Dependency that the rule uses when its actions run.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.DependencyGroupElement.html">DependencyGroupElement</a></dt>
+      <dd><p>Rule element that groups dependencies that the rule uses when its actions runs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ExistsElement.html">ExistsElement</a></dt>
+      <dd><p>Existential quantifier.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ExpressionCollection.html">ExpressionCollection</a></dt>
+      <dd><p>Ordered readonly collection of named expressions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ExpressionElement.html">ExpressionElement</a></dt>
+      <dd><p>Rule element that defines an expression.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.FilterElement.html">FilterElement</a></dt>
+      <dd><p>Filter that determines which rule matches should trigger rule actions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.FilterGroupElement.html">FilterGroupElement</a></dt>
+      <dd><p>Rule element that groups filters that determine which rule matches should trigger rule actions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ForAllElement.html">ForAllElement</a></dt>
+      <dd><p>Universal quantifier.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.GroupElement.html">GroupElement</a></dt>
+      <dd><p>Grouping element that logically combines the patterns or other grouping elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.NamedExpressionElement.html">NamedExpressionElement</a></dt>
+      <dd><p>Expression with a name used by an aggregator.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.NotElement.html">NotElement</a></dt>
+      <dd><p>Negative existential quantifier.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.OrElement.html">OrElement</a></dt>
+      <dd><p>Grouping element based on the logical OR condition.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.PatternElement.html">PatternElement</a></dt>
+      <dd><p>Rule element that represents a pattern that matches facts.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.PropertyMap.html">PropertyMap</a></dt>
+      <dd><p>Readonly map of rule properties.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleElement.html">RuleElement</a></dt>
+      <dd><p>Base class for rule elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleElementExtensions.html">RuleElementExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleElementVisitor-1.html">RuleElementVisitor&lt;TContext&gt;</a></dt>
+      <dd><p>Visitor to traverse rule definition (or its part).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleProperty.html">RuleProperty</a></dt>
+      <dd><p>Arbitrary value associated with a rule.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleSet.html">RuleSet</a></dt>
+      <dd><p>Default implementation of a rule set.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleSetExtensions.html">RuleSetExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IContext.html">IContext</a></dt>
+      <dd><p>Rules engine execution context.
+Can be used by rules to interact with the rules engine, i.e. insert, update, retract facts.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IFact.html">IFact</a></dt>
+      <dd><p>Fact in the engine's working memory.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IFactMatch.html">IFactMatch</a></dt>
+      <dd><p>Represents a fact matched by a rule.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IFactSource.html">IFactSource</a></dt>
+      <dd><p>Source of the fact, for synthetic facts.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IKeyedLookup-2.html">IKeyedLookup&lt;TKey, TElement&gt;</a></dt>
+      <dd><p>Collection of facts grouped by a key.
+Exposes all keys present in the lookup as a <a class="xref" href="NRules.RuleModel.IKeyedLookup-2.html#NRules_RuleModel_IKeyedLookup_2_Keys">Keys</a> collection.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IMatch.html">IMatch</a></dt>
+      <dd><p>Represents a match of all rule's conditions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefinition</a></dt>
+      <dd><p>Production rule definition in the canonical rule model.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IRuleRepository.html">IRuleRepository</a></dt>
+      <dd><p>In-memory database of production rules arranged into rule sets.
+<a class="xref" href="NRules.RuleModel.IRuleSet.html">IRuleSet</a></p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.IRuleSet.html">IRuleSet</a></dt>
+      <dd><p>Represents a named set of rules.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ITuple.html">ITuple</a></dt>
+      <dd><p>Set of facts matched by the rules engine.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ActionTrigger.html">ActionTrigger</a></dt>
+      <dd><p>Activation events that trigger the actions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.ElementType.html">ElementType</a></dt>
+      <dd><p>Describes the element types for the elements of a rule definition.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.FactSourceType.html">FactSourceType</a></dt>
+      <dd><p>Type of source that produced the fact.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.FilterType.html">FilterType</a></dt>
+      <dd><p>Type of filter applied to rule matches.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.MatchTrigger.html">MatchTrigger</a></dt>
+      <dd><p>Event that triggered the match.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.RuleRepeatability.html">RuleRepeatability</a></dt>
+      <dd><p>Rule repeatability.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.RuleModel.SortDirection.html">SortDirection</a></dt>
+      <dd><p>Order that the sort should be performed in.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.RuleModel.md/#L2" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

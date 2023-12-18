@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Fluent Rules DSL | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Fluent Rules DSL | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/fluent-rules-dsl.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="fluent-rules-dsl">Fluent Rules DSL</h1>
+
+<p>The standard way to define rules in NRules is with the internal DSL using fluent C# API.</p>
+<p>A rule is a .NET class that inherits from <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html">Rule</a>.
+Rule class overrides <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method where the actual conditions (left-hand side, or LHS) and actions (right-hand side, or RHS) parts are specified.
+Within the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method, LHS is specified by fluently chaining conditions to the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When()</a> method; and RHS by fluently chaining actions to <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then()</a> method.</p>
+<blockquote>
+<p>⚠️ Make sure rule classes are public, otherwise the engine won't find them.</p>
+</blockquote>
+<p>See <a href="fluent-rules-loading.html">Fluent Rules Loading</a> on how to load rules defined with the fluent rules DSL.</p>
+<p>Rule class can also optionally be decorated with the following custom attributes to associate additional metadata with the rule.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Allow Multiple?</th>
+<th>Inherited?</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="xref" href="../api/NRules.Fluent.Dsl.NameAttribute.html">Name</a></td>
+<td>No</td>
+<td>No</td>
+<td>Specifies rule name. Default is the fully qualified rule class name.</td>
+</tr>
+<tr>
+<td><a class="xref" href="../api/NRules.Fluent.Dsl.DescriptionAttribute.html">Description</a></td>
+<td>No</td>
+<td>No</td>
+<td>Specifies rule description. Default is an empty string.</td>
+</tr>
+<tr>
+<td><a class="xref" href="../api/NRules.Fluent.Dsl.TagAttribute.html">Tag</a></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Associates arbitrary tag with the rule (can later be used to group or filter rules).</td>
+</tr>
+<tr>
+<td><a class="xref" href="../api/NRules.Fluent.Dsl.PriorityAttribute.html">Priority</a></td>
+<td>No</td>
+<td>Yes</td>
+<td>Sets rule priority. If multiple rules get activated at the same time, rules with higher priority (larger number) get executed first. Priority can be positive or negative. Default is zero.</td>
+</tr>
+<tr>
+<td><a class="xref" href="../api/NRules.Fluent.Dsl.RepeatabilityAttribute.html">Repeatability</a></td>
+<td>No</td>
+<td>No</td>
+<td>Sets rule's repeatability, that is, how it behaves when it is activated with the same set of facts multiple times, which is important for recursion control. Repeatability can be set to repeatable - the rule is activated if any of the matched facts are updated, or non-repeatable - the rule is only activated once for a given set of matched facts (unless the match is retracted, before being re-asserted again). Default is <code>Repeatable</code>.</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-c#">[Name(&quot;MyRule&quot;), Description(&quot;Test rule that demonstrates metadata usage&quot;)]
+[Tag(&quot;Test&quot;), Tag(&quot;Metadata&quot;)]
+[Priority(10)]
+[Repeatability(RuleRepeatability.Repeatable)]
+public class RuleWithMetadata : Rule
+{
+    public override void Define()
+    {
+        When()
+            .Match&lt;Customer&gt;(c =&gt; c.Name == &quot;John Do&quot;);
+        Then()
+            .Do(ctx =&gt; DoSomething());
+    }
+}
+</code></pre>
+<p>While fluent rules DSL uses C#, the rules have to be defined using declarative approach. There should be no imperative C# code used anywhere in the rule definition, except within condition expressions, action expressions and methods called from those expressions.</p>
+<p>If a rule pattern is bound to a variable (see below), that variable should only be used in subsequent condition and action expressions directly. The purpose of the binding variable is to serve as a token (that has a name and a type) that instructs the engine to link corresponding conditions and actions. Don't write any code that manipulates the binding variables outside of the condition/action expressions.</p>
+<h2 id="matching-facts-with-patterns">Matching Facts with Patterns</h2>
+<p>Rule's left hand side is a set of patterns that match facts of a given type. A pattern is defined using a <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Match__1_System_Linq_Expressions_Expression_System_Func___0___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Match</a> method.
+A pattern can have zero, one or many conditions that must all be true in order for the pattern to match a given fact.</p>
+<p>Pattern matching is also polymorphic, which means it matches all facts of a given type and any derived type. Given a class hierarchy of Fruit, Apple and Pear, <code>Match&lt;Fruit&gt;</code> will match both Apples and Pears. Consequently, <code>Match&lt;object&gt;</code> will match all facts in the engine's working memory.</p>
+<p>If a given pattern matches multiple facts in the engine’s working memory, each match will result in a separate firing of the rule.</p>
+<p>Optionally, a pattern can be bound to a variable, in which case that variable can be used in subsequent patterns to specify inter-fact conditions.
+Also, the variable can be used inside actions to update or retract the corresponding fact, or use it in the expression.
+Do not use or otherwise manipulate the binding variable anywhere outside of the condition/action expressions.</p>
+<pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+        Account account = null;
+
+        When()
+            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+            .Match&lt;Account&gt;(() =&gt; account, a =&gt; a.Owner == customer, a =&gt; a.IsActive);
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething());
+    }
+}
+</code></pre>
+<h2 id="existential-rules">Existential Rules</h2>
+<p>Existential rules test for presence of facts that match a particular set of conditions. An existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Exists</a> method.
+An existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+
+        When()
+            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+            .Exists&lt;Account&gt;(a =&gt; a.Owner == customer, a =&gt; a.IsActive);
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething());
+    }
+}
+</code></pre>
+<h2 id="negative-rules">Negative Rules</h2>
+<p>Opposite to existential rules, negative rules test for absence of facts that match a particular set of conditions. A negative existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Not</a> method.
+A negative existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<pre><code class="lang-c#">public class PreferredCustomerNotDelinquentRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+
+        When()
+            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+            .Not&lt;Account&gt;(a =&gt; a.Owner == customer, a =&gt; a.IsDelinquent);
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething());
+    }
+}
+</code></pre>
+<h2 id="universal-quantifier">Universal Quantifier</h2>
+<p>Universal quantifier ensures that all facts that match a particular condition also match all subsequent conditions defined by the quantifier. A universal quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">All</a> method.
+A universal quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<pre><code class="lang-c#">public class PreferredCustomerAllAccountsActiveRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+
+        When()
+            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+            .All&lt;Account&gt;(a =&gt; a.Owner == customer, a =&gt; a.IsActive);
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething());
+    }
+}
+</code></pre>
+<h2 id="grouping-patterns">Grouping Patterns</h2>
+<p>By default all patterns on the left-hand side of the rule are connected using AND operator. This means that all patterns must match for the rule to activate.
+Patterns can also be connected using OR operator, as well as combined into nested groups.</p>
+<pre><code class="lang-c#">public class PreferredCustomerOrHasLargeOrderRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+
+        When()
+            .Or(x =&gt; x
+                .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+                .And(xx =&gt; xx
+                    .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; !c.IsPreferred)
+                    .Exists&lt;Order&gt;(o =&gt; o.Customer == customer, o =&gt; o.Price &gt;= 1000.00)));
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething());
+    }
+}
+</code></pre>
+<h2 id="rules-with-complex-logic">Rules with Complex Logic</h2>
+<p>In complex rules it is usually required to aggregate or project facts, calculate derived values and correlate different matched facts. The rules engine provides several different DSL operators to express such logic.</p>
+<p>Rules can match and transform sets of facts using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1_System_Linq_Expressions_Expression_System_Func___0___System_Func_NRules_Fluent_Dsl_IQuery_NRules_Fluent_Dsl_IQuery___0___">Query</a> syntax, which enables rules authors to apply LINQ operators to matched facts; see [[Reactive LINQ Queries]] for more details.</p>
+<p>A <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Let__1_System_Linq_Expressions_Expression_System_Func___0___System_Linq_Expressions_Expression_System_Func___0___">Let</a> operator binds an expression to a variable, so that the results of intermediate calculations can be used in subsequent rule conditions and actions.</p>
+<p>Also, <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Having_System_Linq_Expressions_Expression_System_Func_System_Boolean_____">Having</a> operator can add new conditions to previously defined patterns, including <code>Let</code> expressions, improving rules expressiveness and composability.</p>
+<pre><code class="lang-c#">public class LargeTotalRule : Rule
+{
+    public override void Define()
+    {
+        Customer customer = null;
+        IEnumerable&lt;Order&gt; orders = null;
+        double total = 0;
+
+        When()
+            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
+            .Query(() =&gt; orders, x =&gt; x
+                .Match&lt;Order&gt;(
+                    o =&gt; o.Customer == customer,
+                    o =&gt; o.IsOpen)
+                .Collect())
+            .Let(() =&gt; total, () =&gt; orders.Sum(x =&gt; x.Amount))
+            .Having(() =&gt; total &gt; 100);
+
+        Then()
+            .Do(ctx =&gt; customer.DoSomething(total));
+    }
+}
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/fluent-rules-dsl.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

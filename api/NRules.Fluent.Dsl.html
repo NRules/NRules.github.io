@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace NRules.Fluent.Dsl
+ | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace NRules.Fluent.Dsl
+ | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.Fluent.Dsl.md/#L2">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NRules.Fluent.Dsl">
+
+  <h1 id="NRules_Fluent_Dsl" data-uid="NRules.Fluent.Dsl" class="text-break">Namespace NRules.Fluent.Dsl
+</h1>
+  <div class="markdown level0 summary">
+<p>Contains types that allow specifying rules using internal DSL in C#.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.ContextExtensions.html">ContextExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.DescriptionAttribute.html">DescriptionAttribute</a></dt>
+      <dd><p>Sets rule's description.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.NameAttribute.html">NameAttribute</a></dt>
+      <dd><p>Sets rule's name.
+Name set via the attribute overrides the default name, which is the fully qualified class name.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.PriorityAttribute.html">PriorityAttribute</a></dt>
+      <dd><p>Sets rule's priority.
+If multiple rules get activated at the same time, rules with higher priority get executed first.
+Priority value can be positive, negative or zero.
+Default priority is zero.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.QueryExpression-1.html">QueryExpression&lt;TSource&gt;</a></dt>
+      <dd><p>Expression builder for queries.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.QueryExtensions.html">QueryExtensions</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.RepeatabilityAttribute.html">RepeatabilityAttribute</a></dt>
+      <dd><p>Sets rule's repeatability, that is, how it behaves when it is activated with the same set of facts multiple times,
+which is important for recursion control. By default rules are <a class="xref" href="NRules.RuleModel.RuleRepeatability.html#NRules_RuleModel_RuleRepeatability_Repeatable">Repeatable</a>,
+which means a rule will fire every time it is activated with the same set of facts.
+If repeatability is set to <a class="xref" href="NRules.RuleModel.RuleRepeatability.html#NRules_RuleModel_RuleRepeatability_NonRepeatable">NonRepeatable</a> then the rule will not fire with the same combination of facts,
+unless that combination was previously deactivated (i.e. through retraction).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.Rule.html">Rule</a></dt>
+      <dd><p>Base class for inline rule definitions.
+To create a rule using internal DSL, create a class that inherits from <code>NRules.Fluent.Dsl.Rule</code>
+and override <a class="xref" href="NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define()</a> method.
+Use <a class="xref" href="NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When()</a> and <a class="xref" href="NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then()</a> methods to define rule's conditions and actions correspondingly.
+A rule can also be decorated with attributes to add relevant metadata:
+<a class="xref" href="NRules.Fluent.Dsl.NameAttribute.html">NameAttribute</a>, <a class="xref" href="NRules.Fluent.Dsl.DescriptionAttribute.html">DescriptionAttribute</a>, <a class="xref" href="NRules.Fluent.Dsl.TagAttribute.html">TagAttribute</a>,
+<a class="xref" href="NRules.Fluent.Dsl.PriorityAttribute.html">PriorityAttribute</a>, <a class="xref" href="NRules.Fluent.Dsl.RepeatabilityAttribute.html">RepeatabilityAttribute</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.TagAttribute.html">TagAttribute</a></dt>
+      <dd><p>Adds a tag to rule's metadata.
+A rule class can have multiple tag attributes, and also inherits tag attributes from its parent classes.
+Tags can be used to filter rules when loading them through fluent load specification.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery&lt;TSource&gt;</a></dt>
+      <dd><p>Intermediate query chain element used for Collect modifiers.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IDependencyExpression.html">IDependencyExpression</a></dt>
+      <dd><p>Rule's dependencies expression builder.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IFilterExpression.html">IFilterExpression</a></dt>
+      <dd><p>Rule's filters expression builder.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.ILeftHandSideExpression.html">ILeftHandSideExpression</a></dt>
+      <dd><p>Rule's left-hand side (conditions) expression builder.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery&lt;TSource&gt;</a></dt>
+      <dd><p>Intermediate query chain element used for OrderBy modifiers.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery.html">IQuery</a></dt>
+      <dd><p>Root of the query method chain.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IQueryBuilder.html">IQueryBuilder</a></dt>
+      <dd><p>Internal builder for queries.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery&lt;TSource&gt;</a></dt>
+      <dd><p>Intermediate query chain element.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NRules.Fluent.Dsl.IRightHandSideExpression.html">IRightHandSideExpression</a></dt>
+      <dd><p>Rule's right-hand side (actions) expression builder.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/apidoc/NRules.Fluent.Dsl.md/#L2" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,941 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class QueryExtensions
+ | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class QueryExtensions
+ | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/new/develop/apiSpec/new?filename=NRules_Fluent_Dsl_QueryExtensions.md&amp;value=---%0Auid%3A%20NRules.Fluent.Dsl.QueryExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NRules.Fluent.Dsl.QueryExtensions">
+
+
+
+  <h1 id="NRules_Fluent_Dsl_QueryExtensions" data-uid="NRules.Fluent.Dsl.QueryExtensions" class="text-break">
+    Class QueryExtensions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NRules.html">NRules</a>.<a class="xref" href="NRules.Fluent.html">Fluent</a>.<a class="xref" href="NRules.Fluent.Dsl.html">Dsl</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NRules.Fluent.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class QueryExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">QueryExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_Collect_" data-uid="NRules.Fluent.Dsl.QueryExtensions.Collect*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_Collect__1_NRules_Fluent_Dsl_IQuery___0__" data-uid="NRules.Fluent.Dsl.QueryExtensions.Collect``1(NRules.Fluent.Dsl.IQuery{``0})">
+  Collect&lt;TSource&gt;(IQuery&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Aggregates matching facts into a collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; Collect&lt;TSource&gt;(this IQuery&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_From_" data-uid="NRules.Fluent.Dsl.QueryExtensions.From*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_From__1_NRules_Fluent_Dsl_IQuery_System_Linq_Expressions_Expression_System_Func___0___" data-uid="NRules.Fluent.Dsl.QueryExtensions.From``1(NRules.Fluent.Dsl.IQuery,System.Linq.Expressions.Expression{System.Func{``0}})">
+  From&lt;TFact&gt;(IQuery, Expression&lt;Func&lt;TFact&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a query from a given expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;TFact&gt; From&lt;TFact&gt;(this IQuery query, Expression&lt;Func&lt;TFact&gt;&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery.html">IQuery</a></dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;TFact&gt;&gt;</dt>
+    <dd><p>Expression that generates source facts.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TFact&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TFact</code></dt>
+    <dd><p>Type of facts to query.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_GroupBy_" data-uid="NRules.Fluent.Dsl.QueryExtensions.GroupBy*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_GroupBy__2_NRules_Fluent_Dsl_IQuery___0__System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.GroupBy``2(NRules.Fluent.Dsl.IQuery{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  GroupBy&lt;TSource, TKey&gt;(IQuery&lt;TSource&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Aggregates source facts into groups based on a grouping key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;IGrouping&lt;TKey, TSource&gt;&gt; GroupBy&lt;TSource, TKey&gt;(this IQuery&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Grouping key selection expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2">IGrouping</a>&lt;TKey, TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of grouping key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_GroupBy_" data-uid="NRules.Fluent.Dsl.QueryExtensions.GroupBy*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_GroupBy__3_NRules_Fluent_Dsl_IQuery___0__System_Linq_Expressions_Expression_System_Func___0___1___System_Linq_Expressions_Expression_System_Func___0___2___" data-uid="NRules.Fluent.Dsl.QueryExtensions.GroupBy``3(NRules.Fluent.Dsl.IQuery{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.Expression{System.Func{``0,``2}})">
+  GroupBy&lt;TSource, TKey, TElement&gt;(IQuery&lt;TSource&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;, Expression&lt;Func&lt;TSource, TElement&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Aggregates source facts into groups based on a grouping key.
+Projects facts as part of grouping based on a value selection expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;IGrouping&lt;TKey, TElement&gt;&gt; GroupBy&lt;TSource, TKey, TElement&gt;(this IQuery&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector, Expression&lt;Func&lt;TSource, TElement&gt;&gt; elementSelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Grouping key selection expression.</p>
+</dd>
+    <dt><code>elementSelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TElement&gt;&gt;</dt>
+    <dd><p>Projected fact selection expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.igrouping-2">IGrouping</a>&lt;TKey, TElement&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of grouping key.</p>
+</dd>
+    <dt><code>TElement</code></dt>
+    <dd><p>Type of projected facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_Match_" data-uid="NRules.Fluent.Dsl.QueryExtensions.Match*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_Match__1_NRules_Fluent_Dsl_IQuery_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.QueryExtensions.Match``1(NRules.Fluent.Dsl.IQuery,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
+  Match&lt;TFact&gt;(IQuery, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a query from matching facts in the engine's working memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;TFact&gt; Match&lt;TFact&gt;(this IQuery query, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery.html">IQuery</a></dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>conditions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TFact, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;[]</dt>
+    <dd><p>Set of conditions the fact must satisfy.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TFact&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TFact</code></dt>
+    <dd><p>Type of facts to query.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_OrderByDescending_" data-uid="NRules.Fluent.Dsl.QueryExtensions.OrderByDescending*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_OrderByDescending__2_NRules_Fluent_Dsl_ICollectQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.OrderByDescending``2(NRules.Fluent.Dsl.ICollectQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  OrderByDescending&lt;TSource, TKey&gt;(ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures collected matching facts to be sorted descending by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; OrderByDescending&lt;TSource, TKey&gt;(this ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Key selection expression used for sorting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of sorting key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_OrderBy_" data-uid="NRules.Fluent.Dsl.QueryExtensions.OrderBy*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_OrderBy__2_NRules_Fluent_Dsl_ICollectQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.OrderBy``2(NRules.Fluent.Dsl.ICollectQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  OrderBy&lt;TSource, TKey&gt;(ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures collected matching facts to be sorted ascending by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; OrderBy&lt;TSource, TKey&gt;(this ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Key selection expression used for sorting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of sorting key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_SelectMany_" data-uid="NRules.Fluent.Dsl.QueryExtensions.SelectMany*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_SelectMany__2_NRules_Fluent_Dsl_IQuery___0__System_Linq_Expressions_Expression_System_Func___0_System_Collections_Generic_IEnumerable___1____" data-uid="NRules.Fluent.Dsl.QueryExtensions.SelectMany``2(NRules.Fluent.Dsl.IQuery{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}})">
+  SelectMany&lt;TSource, TResult&gt;(IQuery&lt;TSource&gt;, Expression&lt;Func&lt;TSource, IEnumerable&lt;TResult&gt;&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flattens source facts using collection selector expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;TResult&gt; SelectMany&lt;TSource, TResult&gt;(this IQuery&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, IEnumerable&lt;TResult&gt;&gt;&gt; selector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TResult&gt;&gt;&gt;</dt>
+    <dd><p>Collection flattening expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TResult&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>Type of flattened facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_Select_" data-uid="NRules.Fluent.Dsl.QueryExtensions.Select*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_Select__2_NRules_Fluent_Dsl_IQuery___0__System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.Select``2(NRules.Fluent.Dsl.IQuery{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  Select&lt;TSource, TResult&gt;(IQuery&lt;TSource&gt;, Expression&lt;Func&lt;TSource, TResult&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Projects source facts using selector expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;TResult&gt; Select&lt;TSource, TResult&gt;(this IQuery&lt;TSource&gt; source, Expression&lt;Func&lt;TSource, TResult&gt;&gt; selector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;&gt;</dt>
+    <dd><p>Projection expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TResult&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TResult</code></dt>
+    <dd><p>Type of projected facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_ThenByDescending_" data-uid="NRules.Fluent.Dsl.QueryExtensions.ThenByDescending*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_ThenByDescending__2_NRules_Fluent_Dsl_IOrderedQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.ThenByDescending``2(NRules.Fluent.Dsl.IOrderedQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  ThenByDescending&lt;TSource, TKey&gt;(IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures sorted matching facts to subsequently be sorted descending by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; ThenByDescending&lt;TSource, TKey&gt;(this IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Key selection expression used for sorting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of sorting key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_ThenBy_" data-uid="NRules.Fluent.Dsl.QueryExtensions.ThenBy*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_ThenBy__2_NRules_Fluent_Dsl_IOrderedQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.ThenBy``2(NRules.Fluent.Dsl.IOrderedQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  ThenBy&lt;TSource, TKey&gt;(IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures sorted matching facts to subsequently be sorted ascending by key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; ThenBy&lt;TSource, TKey&gt;(this IOrderedQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Key selection expression used for sorting.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IOrderedQuery-1.html">IOrderedQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of sorting key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_ToLookup_" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_ToLookup__1_NRules_Fluent_Dsl_ICollectQuery_System_Collections_Generic_IEnumerable___0___" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup``1(NRules.Fluent.Dsl.ICollectQuery{System.Collections.Generic.IEnumerable{``0}})">
+  ToLookup&lt;TSource&gt;(ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures collected matching facts to be arranged into a lookup keyed on the fact itself.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;IKeyedLookup&lt;TSource, TSource&gt;&gt; ToLookup&lt;TSource&gt;(this ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="NRules.RuleModel.IKeyedLookup-2.html">IKeyedLookup</a>&lt;TSource, TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_ToLookup_" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_ToLookup__2_NRules_Fluent_Dsl_ICollectQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup``2(NRules.Fluent.Dsl.ICollectQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+  ToLookup&lt;TSource, TKey&gt;(ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures collected matching facts to be arranged into a lookup based on a grouping key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;IKeyedLookup&lt;TKey, TSource&gt;&gt; ToLookup&lt;TSource, TKey&gt;(this ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Grouping key selection expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="NRules.RuleModel.IKeyedLookup-2.html">IKeyedLookup</a>&lt;TKey, TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of grouping key.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_ToLookup_" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_ToLookup__3_NRules_Fluent_Dsl_ICollectQuery_System_Collections_Generic_IEnumerable___0___System_Linq_Expressions_Expression_System_Func___0___1___System_Linq_Expressions_Expression_System_Func___0___2___" data-uid="NRules.Fluent.Dsl.QueryExtensions.ToLookup``3(NRules.Fluent.Dsl.ICollectQuery{System.Collections.Generic.IEnumerable{``0}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.Expression{System.Func{``0,``2}})">
+  ToLookup&lt;TSource, TKey, TElement&gt;(ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt;, Expression&lt;Func&lt;TSource, TKey&gt;&gt;, Expression&lt;Func&lt;TSource, TElement&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures collected matching facts to be arranged into a lookup based on a grouping key.
+Projects facts collected into a lookup based on a value selection expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;IKeyedLookup&lt;TKey, TElement&gt;&gt; ToLookup&lt;TSource, TKey, TElement&gt;(this ICollectQuery&lt;IEnumerable&lt;TSource&gt;&gt; source, Expression&lt;Func&lt;TSource, TKey&gt;&gt; keySelector, Expression&lt;Func&lt;TSource, TElement&gt;&gt; elementSelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.ICollectQuery-1.html">ICollectQuery</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;&gt;</dt>
+    <dd><p>Grouping key selection expression.</p>
+</dd>
+    <dt><code>elementSelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TElement&gt;&gt;</dt>
+    <dd><p>Projected fact selection expression.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;<a class="xref" href="NRules.RuleModel.IKeyedLookup-2.html">IKeyedLookup</a>&lt;TKey, TElement&gt;&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of source facts.</p>
+</dd>
+    <dt><code>TKey</code></dt>
+    <dd><p>Type of grouping key.</p>
+</dd>
+    <dt><code>TElement</code></dt>
+    <dd><p>Type of projected facts.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Fluent_Dsl_QueryExtensions_Where_" data-uid="NRules.Fluent.Dsl.QueryExtensions.Where*"></a>
+
+  <h3 id="NRules_Fluent_Dsl_QueryExtensions_Where__1_NRules_Fluent_Dsl_IQuery___0__System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.QueryExtensions.Where``1(NRules.Fluent.Dsl.IQuery{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
+  Where&lt;TSource&gt;(IQuery&lt;TSource&gt;, params Expression&lt;Func&lt;TSource, bool&gt;&gt;[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Filters source facts using a set of predicate expressions.
+The facts must match all predicate expressions in order to pass the filter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IQuery&lt;TSource&gt; Where&lt;TSource&gt;(this IQuery&lt;TSource&gt; source, params Expression&lt;Func&lt;TSource, bool&gt;&gt;[] predicates)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+    <dt><code>predicates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;[]</dt>
+    <dd><p>Filter expressions.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NRules.Fluent.Dsl.IQuery-1.html">IQuery</a>&lt;TSource&gt;</dt>
+    <dd><p>Query expression builder.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd><p>Type of facts to filter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/src/NRules/NRules.Fluent/Dsl/QueryExtensions.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

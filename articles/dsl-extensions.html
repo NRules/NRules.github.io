@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>DSL Extensions | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="DSL Extensions | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/dsl-extensions.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="dsl-extensions">DSL Extensions</h1>
+
+<p>When defining rules using internal DSL in C#, the DSL is limited to the verbs provided by the rules engine (see <a href="fluent-rules-dsl.html">Fluent Rules DSL</a>).
+Consider this example:</p>
+<pre><code class="lang-c#">[Name(&quot;Self insured name validation&quot;)]
+public class SelfInsuredNameValidationRule : Rule
+{
+    public override void Define()
+    {
+        Claim claim = null;
+        Patient patient = null;
+
+        When()
+            .Match&lt;Claim&gt;(() =&gt; claim)
+            .Match&lt;Patient&gt;(() =&gt; patient, p =&gt; p == claim.Patient,
+                p =&gt; p.RelationshipToInsured == Relationship.Self)
+            .Match&lt;Insured&gt;(i =&gt; i == claim.Insured,
+                i =&gt; !Equals(patient.Name, i.Name));
+
+        Then()
+            .Do(ctx =&gt; ctx.Warning(claim, &quot;Self insured name does not match&quot;));
+    }
+}
+
+public static class ContextExtensions
+{
+    public static void Warning(this IContext context, Claim claim, string message)
+    {
+        var warning = new ClaimAlert { Severity = 2, Claim = claim, RuleName = context.Rule.Name, Message = message };
+        context.Insert(warning);
+    }        
+}
+</code></pre>
+<p>This rule matches a claim for a self-insured patient, and makes sure that the name of the patient and insured matches.
+And if the names don't match, it creates a warning-level claim alert.</p>
+<p>The rule would look much more readable if we could write it like this:</p>
+<pre><code class="lang-c#">[Name(&quot;Self insured name validation&quot;)]
+public class SelfInsuredNameValidationRule : Rule
+{
+    public override void Define()
+    {
+        Claim claim = null;
+        Patient patient = null;
+
+        When()
+            .Claim(() =&gt; claim)
+            .Patient(() =&gt; patient, p =&gt; p == claim.Patient, 
+                p =&gt; p.RelationshipToInsured == Relationship.Self)
+            .Insured(i =&gt; i == claim.Insured, 
+                i =&gt; !Equals(patient.Name, i.Name));
+
+        Then()
+            .Warning(claim, &quot;Self insured name does not match&quot;);
+    }
+}
+</code></pre>
+<p>And the good news is that this can be done, by defining DSL extension methods like this:</p>
+<pre><code class="lang-c#">public static class DslExtensions
+{
+    public static ILeftHandSideExpression Claim(this ILeftHandSideExpression lhs, Expression&lt;Func&lt;Claim&gt;&gt; alias, params Expression&lt;Func&lt;Claim, bool&gt;&gt;[] conditions)
+    {
+        return lhs.Match(alias, conditions);
+    }
+
+    public static ILeftHandSideExpression Patient(this ILeftHandSideExpression lhs, Expression&lt;Func&lt;Patient&gt;&gt; alias, params Expression&lt;Func&lt;Patient, bool&gt;&gt;[] conditions)
+    {
+        return lhs.Match(alias, conditions);
+    }
+
+    public static ILeftHandSideExpression Insured(this ILeftHandSideExpression lhs, params Expression&lt;Func&lt;Insured, bool&gt;&gt;[] conditions)
+    {
+        return lhs.Match(conditions);
+    }
+
+    public static IRightHandSideExpression Warning(this IRightHandSideExpression rhs, Claim claim, string message)
+    {
+        return rhs.Do(ctx =&gt; ctx.Warning(claim, message));
+    }
+}
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/dsl-extensions.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

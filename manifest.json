@@ -1,0 +1,2121 @@
+{
+  "source_base_path": "/Users/snikolayev/Dev/GitHub/NRules/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Activation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Activation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.AgendaExpressionEvaluationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.AgendaExpressionEvaluationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.AgendaFilters.AgendaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.AgendaFilters.AgendaContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.AgendaFilters.IAgendaFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.AgendaFilters.IAgendaFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.AgendaFilters.IStatefulAgendaFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.AgendaFilters.IStatefulAgendaFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.AgendaFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.AgendaFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.AggregateExpressionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.AggregateExpressionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.AggregationAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.AggregationAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.AggregationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.AggregationContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.AggregationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.AggregationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.AggregatorRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.AggregatorRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.IAggregateExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.IAggregateExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.IAggregator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.IAggregator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.IAggregatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.IAggregatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Aggregators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Aggregators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.BatchOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.BatchOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.AgendaEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.AgendaEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.AgendaExpressionErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.AgendaExpressionErrorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.AgendaExpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.AgendaExpressionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.Dgml.DgmlWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.Dgml.DgmlWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.Dgml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.Dgml.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.ExpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.ExpressionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.IEventProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.IEventProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.IMetricsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.IMetricsProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.INodeMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.INodeMetrics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.IRecoverableError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.IRecoverableError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.ISessionSchemaProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.ISessionSchemaProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.LhsExpressionErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.LhsExpressionErrorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.LhsExpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.LhsExpressionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.NodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.NodeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.ReteGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.ReteGraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.ReteLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.ReteLink.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.ReteNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.ReteNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.RhsExpressionErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.RhsExpressionErrorEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.RhsExpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.RhsExpressionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.WorkingMemoryEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.WorkingMemoryEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Diagnostics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.IActionInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.IActionInterceptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.IActionInvocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.IActionInvocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.IDependencyResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.IDependencyResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.IExpressionCompiler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.IExpressionCompiler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.IResolutionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.IResolutionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Extensibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Extensibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.DefaultRuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.DefaultRuleActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.ContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.ContextExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.DescriptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.DescriptionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.ICollectQuery-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.ICollectQuery-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IDependencyExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IDependencyExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IFilterExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IFilterExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.ILeftHandSideExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.ILeftHandSideExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IOrderedQuery-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IOrderedQuery-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IQuery-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IQuery-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IQueryBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IQueryBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.IRightHandSideExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.IRightHandSideExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.NameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.NameAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.PriorityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.PriorityAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.QueryExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.QueryExpression-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.QueryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.QueryExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.RepeatabilityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.RepeatabilityAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.Rule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.Rule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.TagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.TagAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.Dsl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.Dsl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.IRuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.IRuleActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.IRuleLoadSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.IRuleLoadSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.IRuleMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.IRuleMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.IRuleTypeScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.IRuleTypeScanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleActivationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleActivationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleDefinitionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleDefinitionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleDefinitionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleDefinitionFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleMetadataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleMetadataExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.RuleTypeScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.RuleTypeScanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Fluent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Fluent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.IAgenda.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.IAgenda.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.IFactResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.IFactResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.ILinkedFactSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.ILinkedFactSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.ILinkedFactSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.ILinkedFactSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.ISession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.ISession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.ISessionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.ISessionFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.Autofac.AutofacDependencyResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.Autofac.AutofacDependencyResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.Autofac.AutofacRuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.Autofac.AutofacRuleActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.Autofac.RegistrationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.Autofac.RegistrationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.Autofac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.Autofac.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Json.ITypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Json.ITypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Json.RuleSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Json.RuleSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Json.TypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Json.TypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Json.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.LinkedFactAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.LinkedFactAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleCompilationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleCompilationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleCompiler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleCompiler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleCompilerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleCompilerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleCompilerUnsupportedExpressionsHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleCompilerUnsupportedExpressionsHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleExecutionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleExecutionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleExpressionEvaluationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleExpressionEvaluationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleLhsExpressionEvaluationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleLhsExpressionEvaluationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ActionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ActionElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ActionGroupElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ActionGroupElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ActionTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ActionTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.AggregateElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.AggregateElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.AndElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.AndElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.BindingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.BindingElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.ActionGroupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.ActionGroupBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.AggregateBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.AggregateBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.BindingBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.BindingBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.DependencyGroupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.DependencyGroupBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.Element.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.ExistsBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.ExistsBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.FilterGroupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.FilterGroupBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.ForAllBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.ForAllBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.GroupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.GroupBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.GroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.GroupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.NotBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.NotBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.PatternBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.PatternBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.RuleBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.RuleBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.RuleElementBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.RuleElementBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Builders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Declaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Declaration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.DeclarationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.DeclarationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.DependencyElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.DependencyElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.DependencyGroupElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.DependencyGroupElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ElementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ElementType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ExistsElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ExistsElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ExpressionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ExpressionCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ExpressionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ExpressionElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.FactSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.FactSourceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.FilterElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.FilterElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.FilterGroupElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.FilterGroupElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.FilterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.FilterType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ForAllElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ForAllElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.GroupElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.GroupElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IFact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IFact.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IFactMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IFactMatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IFactSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IFactSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IKeyedLookup-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IKeyedLookup-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IMatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IRuleDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IRuleDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IRuleRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IRuleRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IRuleSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IRuleSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.ITuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.ITuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.MatchTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.MatchTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.NamedExpressionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.NamedExpressionElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.NotElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.NotElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.OrElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.OrElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.PatternElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.PatternElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.PropertyMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.PropertyMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleElementExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleElementVisitor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleElementVisitor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleRepeatability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleRepeatability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.RuleSetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.RuleSetExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.SortDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.SortDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleRepositoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleRepositoryExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleRhsExpressionEvaluationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleRhsExpressionEvaluationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.FactConstraint-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.FactConstraint-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.FactConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.FactConstraint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IQualifiedRuleFiringVerification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IQualifiedRuleFiringVerification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRuleAsserter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRuleAsserter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRuleFiringVerification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRuleFiringVerification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRuleInvocationRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRuleInvocationRecorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRuleSequenceFiringVerification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRuleSequenceFiringVerification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRulesFiringVerification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRulesFiringVerification-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRulesFiringVerification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRulesFiringVerification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRulesTestSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRulesTestSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRulesUnderTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRulesUnderTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.IRulesVerification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.IRulesVerification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.Matched.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.Matched.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RuleAssertResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RuleAssertResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RuleAssertStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RuleAssertStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RuleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RuleInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RulesTestFixture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RulesTestFixture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RulesTestHarness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RulesTestHarness.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.Times.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.Times.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/action-interceptor.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/action-interceptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/expression-compiler.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/expression-compiler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/rule-builder.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/rule-builder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/advanced/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/advanced/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/agenda-filters.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/agenda-filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/diagnostics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/diagnostics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/dsl-extensions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dsl-extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/fluent-rules-dsl.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/fluent-rules-dsl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/fluent-rules-loading.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/fluent-rules-loading.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/forward-chaining.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/forward-chaining.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reactive-linq-queries.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reactive-linq-queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/rule-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/rule-dependencies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/unit-testing-rules.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/unit-testing-rules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Architecture.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Architecture.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Components.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Components.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Diagnostics-Visualizer-Performance-Tooltip.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Diagnostics-Visualizer-Performance-Tooltip.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Diagnostics-Visualizer-Performance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Diagnostics-Visualizer-Performance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Diagnostics-Visualizer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Diagnostics-Visualizer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

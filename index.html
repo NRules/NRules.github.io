@@ -1,87 +1,144 @@
-<!DOCTYPE html>
-<html>
-
+﻿<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="NRules : Business rules engine for .NET, based on the Rete matching algorithm, with internal DSL in C#">
-    <meta name="keywords" content="rules engine,business rules engine,open source,inference,production rules,rules,rete,DSL,.NET,C#" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>NRules - Open Source Rules Engine for .NET</title>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-62768995-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <meta charset="utf-8">
+      <title>Rules Engine for .NET | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Rules Engine for .NET | NRules ">
+      
+      <link rel="icon" href="images/logo.png">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <body>
+  <script type="module" src="./public/docfx.min.js"></script>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/NRules/NRules">View on GitHub</a>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
 
-          <h1 id="project_title">NRules</h1>
-          <h2 id="project_tagline">Open source rules engine for .NET, based on the Rete matching algorithm, with internal DSL in C#</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/NRules/NRules/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/NRules/NRules/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="nrules" class="anchor" href="#nrules"><span class="octicon octicon-link"></span></a>NRules</h1>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
 
-<p>NRules is an open source production rules engine for .NET, based on the <a href="http://en.wikipedia.org/wiki/Rete_algorithm">Rete</a> matching algorithm.
-</br>Rules are authored in C# using internal DSL.</p>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-<h2>
-<a name="installing-nrules" class="anchor" href="#installing-nrules"><span class="octicon octicon-link"></span></a>Installing NRules</h2>
+          <nav id="breadcrumb"></nav>
+        </div>
 
-<p>First, <a href="http://docs.nuget.org/docs/start-here/installing-nuget">install NuGet</a>. 
-Then, install <a href="https://www.nuget.org/packages/NRules">NRules</a> from the Package Manager Console:</p>
+        <article data-uid="">
+<h1 id="rules-engine-for-net">Rules Engine for .NET</h1>
 
-<pre><code>PM&gt; Install-Package NRules</code></pre>
-
-<h2>
-<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
-
-<p>Use the following resources to get up and running with NRules.</p>
-
+<p>NRules is an open source rules engine for .NET that is based on the <a href="http://en.wikipedia.org/wiki/Rete_algorithm">Rete</a> matching algorithm. Rules are authored in C# using internal DSL.</p>
+<p>NRules is also an inference engine, where, unlike with scripting engines, there is no predefined order in which rules are executed.
+Instead, inference engine figures out which rules should be activated based on the facts given to it, and then executes them according to a conflict resolution algorithm. Among other features, NRules supports forward chaining, complex fact queries, negative, existential and universal quantifiers.</p>
+<p>To learn more, go to the corresponding sections of the NRules documentation.</p>
+<h2 id="getting-started-with-nrules">Getting Started with NRules</h2>
+<p>To install NRules, get the package from nuget
+<a href="https://nuget.org/packages/NRules"><img src="https://img.shields.io/nuget/v/NRules.svg" alt="NuGet"></a></p>
+<p>Install the package via the dotnet CLI</p>
+<pre><code class="lang-console">&gt; dotnet add package NRules
+</code></pre>
+<p>Or via the package manager</p>
+<pre><code class="lang-console">&gt; Install-Package NRules
+</code></pre>
+<p>Use the following resources to get up and running with NRules</p>
 <ul>
-<li><a href="https://github.com/NRules/NRules/wiki/Getting-Started">Getting Started Guide</a></li>
-<li><a href="https://github.com/NRules/NRules/wiki">Wiki Documentation</a></li>
+<li><a href="articles/getting-started.html">Getting Started Guide</a></li>
+<li><a href="articles/architecture.html">Documentation</a></li>
 <li><a href="api/index.html">API Documentation</a></li>
+</ul>
+<h2 id="getting-help">Getting Help</h2>
+<p>Use the following discussion and Q&amp;A platforms to get help with NRules</p>
+<ul>
 <li><a href="https://github.com/NRules/NRules/discussions">Discussions</a></li>
 <li><a href="https://stackoverflow.com/questions/tagged/nrules">Stack Overflow</a></li>
 <li><a href="https://gitter.im/NRules/NRules">Gitter Chat</a></li>
 </ul>
+<h2 id="contributing">Contributing</h2>
+<p>Clone NRules on <a href="https://github.com/NRules/NRules">GitHub</a>.</p>
+<p>See <a href="https://github.com/NRules/NRules/blob/main/CONTRIBUTING.md">Contributor Guide</a> for the guidelines on how to contribute to the project.</p>
 
-<h2></h2>
+</article>
 
-<p>Copyright © 2012-2022 <a href="http://sergiynikolayev.com">Sergiy Nikolayev</a> under the <a href="https://github.com/NRules/NRules/blob/master/LICENSE.txt">MIT license</a>.</p>
-      </section>
-    </div>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">NRules maintained by <a href="https://github.com/snikolayev">Sergiy Nikolayev</a></p>
-      </footer>
-    </div>
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

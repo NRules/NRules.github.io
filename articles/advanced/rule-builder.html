@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Creating Rules at Runtime with the RuleBuilder | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Creating Rules at Runtime with the RuleBuilder | NRules ">
+      
+      <link rel="icon" href="../../images/logo.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/advanced/rule-builder.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="creating-rules-at-runtime-with-the-rulebuilder">Creating Rules at Runtime with the RuleBuilder</h1>
+
+<p>As described on the <a href="../architecture.html">Architecture</a> page, rules are represented in NRules in several different forms.
+One of these forms is a canonical model (rule model) that can be compiled into the executable model.</p>
+<p>The standard way to create rules in NRules is with the internal DSL using fluent API, which requires rules to be known at compile time.
+But this is not the only way rules can be created. Rule builder is a component specifically designed to create rules at runtime, and in fact is the underlying mechanism behind fluent API.
+<a class="xref" href="../../api/NRules.RuleModel.Builders.RuleBuilder.html">RuleBuilder</a> class and related classes reside in the <a class="xref" href="../../api/NRules.RuleModel.html">NRules.RuleModel</a> namespace.</p>
+<blockquote>
+<p>⚠️ Unlike fluent API, canonical model and rule builder are not strongly typed, so you will need to ensure type safety and correctness yourself (or face runtime errors if you don't).</p>
+</blockquote>
+<p>When building rules at runtime, you will need a place to store them.
+Such a store is represented by the <a class="xref" href="../../api/NRules.RuleModel.IRuleRepository.html">IRuleRepository</a> interface, so you will need to implement it to load rules from a user-defined source.
+A rule repository is an in-memory database of rule definitions, organized into rule sets (<a class="xref" href="../../api/NRules.RuleModel.IRuleSet.html">IRuleSet</a>), that encapsulates the process of turning rules in whatever form to the canonical model.</p>
+<pre><code class="lang-c#">public class CustomRuleRepository : IRuleRepository
+{
+    private readonly IRuleSet _ruleSet = new RuleSet(&quot;MyRuleSet&quot;);
+
+    public IEnumerable&lt;IRuleSet&gt; GetRuleSets()
+    {
+        return new[] {_ruleSet};
+    }
+
+    public void LoadRules()
+    {
+        //Assuming there is only one rule in this example
+        var rule = BuildRule();
+        _ruleSet.Add(new []{rule});
+    }
+
+    private IRuleDefinition BuildRule()
+    {
+        //...
+    }
+}
+</code></pre>
+<p>We will use a simple contrived domain model for our custom rule.</p>
+<pre><code class="lang-c#">public class Customer
+{
+    public Customer(string name)
+    {
+        Name = name;
+    }
+
+    public string Name { get; private set; }
+}
+
+public class Order
+{
+    public Order(Customer customer, decimal amount)
+    {
+        Customer = customer;
+        Amount = amount;
+    }
+
+    public Customer Customer { get; private set; }
+    public decimal Amount { get; private set; }
+}
+</code></pre>
+<p>Now let's implement that <code>CustomRuleRepository.BuildRule</code> method. We will create the following rule:</p>
+<blockquote>
+<p><strong>Name</strong> TestRule</p>
+<p><strong>When</strong></p>
+<ul>
+<li>Customer name is John Do</li>
+<li>And this customer has an order in the amount &gt; $100</li>
+</ul>
+<p><strong>Then</strong></p>
+<ul>
+<li>Print customer's name and order amount</li>
+</ul>
+</blockquote>
+<p>Here is the code</p>
+<pre><code class="lang-c#">private IRuleDefinition BuildRule()
+{
+    //Create rule builder
+    var builder = new RuleBuilder();
+    builder.Name(&quot;TestRule&quot;);
+
+    //Build conditions
+    PatternBuilder customerPattern = builder.LeftHandSide().Pattern(typeof (Customer), &quot;customer&quot;);
+    Expression&lt;Func&lt;Customer, bool&gt;&gt; customerCondition = 
+        customer =&gt; customer.Name == &quot;John Do&quot;;
+    customerPattern.Condition(customerCondition);
+
+    PatternBuilder orderPattern = builder.LeftHandSide().Pattern(typeof (Order), &quot;order&quot;);
+    Expression&lt;Func&lt;Order, Customer, bool&gt;&gt; orderCondition1 = 
+        (order, customer) =&gt; order.Customer == customer;
+    Expression&lt;Func&lt;Order, bool&gt;&gt; orderCondition2 = 
+        order =&gt; order.Amount &gt; 100.00m;
+    orderPattern.Condition(orderCondition1);
+    orderPattern.Condition(orderCondition2);
+
+    //Build actions
+    Expression&lt;Action&lt;IContext, Customer, Order&gt;&gt; action = 
+        (ctx, customer, order) =&gt; Console.WriteLine(&quot;Customer {0} has an order in amount of ${1}&quot;, customer.Name, order.Amount);
+    builder.RightHandSide().Action(action);
+
+    //Build rule model
+    return builder.Build();
+}
+</code></pre>
+<p>A few notes about rule builder code.</p>
+<ul>
+<li>A condition expression may only reference parameters that correspond to patterns that have been previously defined (using <a class="xref" href="../../api/NRules.RuleModel.Builders.GroupBuilder.html#NRules_RuleModel_Builders_GroupBuilder_Pattern_System_Type_System_String_">Pattern</a> method).</li>
+<li>Names and types of the lambda expression parameters matter and must match the names and types defined in the patterns.</li>
+<li>The first argument of action expression must be of type <a class="xref" href="../../api/NRules.RuleModel.IContext.html">IContext</a>. You can use <a class="xref" href="../../api/NRules.RuleModel.IContext.html">IContext</a> to interact with the engine (i.e. insert new facts).</li>
+<li>Lambda expressions don't have to be defined at compile time. Use various static methods on the BCL's <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression">Expression</a> class to compose expression trees at runtime.</li>
+</ul>
+<p>Putting this all together, here is the test code.</p>
+<pre><code class="lang-c#">var repository = new CustomRuleRepository();
+repository.LoadRules();
+ISessionFactory factory = repository.Compile();
+
+ISession session = factory.CreateSession();
+var customer = new Customer(&quot;John Do&quot;);
+session.Insert(customer);
+session.Insert(new Order(customer, 90.00m));
+session.Insert(new Order(customer, 110.00m));
+
+session.Fire();
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/advanced/rule-builder.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

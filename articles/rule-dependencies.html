@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Rule Dependecies | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Rule Dependecies | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/rule-dependencies.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="rule-dependecies">Rule Dependecies</h1>
+
+<p>In a production rules engine rules consist of conditions that match facts in the rules engine's memory, and actions that insert, update or retract facts.
+In a real software project, however, this is not enough. Rules also need ability to interact with the rest of the application. This can be achieved in several ways.</p>
+<p>Since rules are regular .NET classes, they could just access various singleton and static services. This is obviously less than desirable, since the use of singletons results in tightly-coupled designs and is generally discouraged.</p>
+<p>A much better design is to resolve dependencies via a DI container. And one option here is to resolve rule types via a container and inject dependencies into them (see <a href="fluent-rules-loading.html#rule-activation">Rule Activation</a>).
+This however presents a problem. Rule classes are instantiated only once in the lifetime of the application, and therefore can only be injected with single-instance services. This may be sufficient for some applications, but when it's not enough there is another alternative.</p>
+<p>Rules can declare their dependencies using fluent DSL, and rules engine will dynamically resolve those dependencies at runtime.
+The benefit of this approach is that dependencies are resolved every time the rule fires, which means that the lifetime of the dependencies is now managed by the container.</p>
+<pre><code class="lang-c#">public class DeniedClaimNotificationRule : Rule
+{
+    public override void Define()
+    {
+        INotificationService service = null;
+        Claim claim = null;
+
+        Dependency()
+            .Resolve(() =&gt; service);
+
+        When()
+            .Match(() =&gt; claim, c =&gt; c.Status == ClaimStatus.Denied);
+
+        Then()
+            .Do(_ =&gt; service.ClaimDenied(claim));
+    }
+}
+</code></pre>
+<p>When declaring a dependency using rules DSL, the dependency is bound to a variable in the same exact way the patterns are bound to fact variables.
+The service variable can then be used in rule actions. The rules engine will inject the dependency when the rule fires.</p>
+<blockquote>
+<p>⚠️ Rule dependencies cannot be used in rule conditions.</p>
+</blockquote>
+<p>In order to be able to use rule dependencies, one must implement <a class="xref" href="../api/NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a> interface and set resolver instance either at the <a class="xref" href="../api/NRules.ISession.html">ISession</a> or at the <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a> level.</p>
+<p>NRules ships with the implementation of <a class="xref" href="../api/NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a> as well as <a class="xref" href="../api/NRules.Fluent.IRuleActivator.html">IRuleActivator</a> for Autofac IoC container in a separate integration assembly (see <a class="xref" href="../api/NRules.Integration.Autofac.html">NRules.Integration.Autofac</a>).
+With the integration package, the following fully bootstraps and registers NRules with Autofac container. Registration extensions return registration builders that allow customization of individual registrations.</p>
+<pre><code class="lang-c#">var types = builder.RegisterRules(x =&gt; x.AssemblyOf(typeof(MyRule)));
+builder.RegisterRepository(r =&gt; r.Load(x =&gt; x.From(types)));
+builder.RegisterSessionFactory();
+builder.RegisterSession();
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/rule-dependencies.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

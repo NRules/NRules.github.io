@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Agenda Filters | NRules </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Agenda Filters | NRules ">
+      
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/agenda-filters.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="NRules">
+            NRules
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="agenda-filters">Agenda Filters</h1>
+
+<p>When all rule's conditions are satisfied by a set of facts, the rule is said to be activated by those facts. A rule can be activated by a new set of matching facts, or an updated existing set of matching facts.
+When a rule is activated, the activation (rule, plus the matching set of facts) is placed on the agenda. Once all activations are calculated, the activation with the highest priority is chosen, the rule fires, and all its actions are executed.</p>
+<p>Agenda filters allow applying a set of conditions to activations, before those are placed on the agenda. If an activation passes all the filters, it is placed on the agenda, otherwise it's not. Agenda filters could be a good place to dynamically enable/disable the rules, filter fact updates to activate on a subset of changed values, etc. An already activated rule whose agenda filter evaluates to <code>false</code> will not re-fire, but its activation will not be retracted, as is the case when a condition on the left-hand side of the rule evaluates to <code>false</code>. This makes agenda filters useful for <a href="forward-chaining.html">forward chaining</a> rules, since they allow re-firing logic to be distinct from activation/retraction logic.</p>
+<p>Agenda filters can be registered in two different ways - as global or as rule-specific filters. A global agenda filter is applied to all activations, while a rule-specific filter is only applied to activations of a particular rule.
+Agenda filters only apply to activations that are about to be placed on the agenda, so filters will never remove activations that are already on the agenda.</p>
+<h2 id="fluent-rule-filters">Fluent Rule Filters</h2>
+<p>Rule-specific agenda filters can be added declaratively, using fluent DSL. There are two kinds of filters that can be defined with the fluent DSL - predicate filters that test rule activation against a set of conditions, and change filters that only accept activations where a particular set of keys changed.
+Change filters in particular are extremely useful for rule chaining and recursion control. One rule may change one field in the fact and another rule may change a different field in that same fact. Without a change filter, each rule would chain the other one, causing infinite recursion. With change filters both rules can only accept fact changes they care about, thus improving rules composability and eliminating unwanted recursion.</p>
+<pre><code class="lang-c#">public class OrderAmountCalculationRule : Rule
+{
+    public override void Define()
+    {
+        Order order = null;
+
+        When()
+            .Match(() =&gt; order);
+
+        Filter()
+            .OnChange(() =&gt; order.Quantity, () =&gt; order.UnitPrice, () =&gt; order.PercentDiscount)
+            .Where(() =&gt; order.Quantity &gt; 0);
+
+        Then()
+            .Do(ctx =&gt; ctx.Update(order, CalculateAmount));
+    }
+
+    private static void CalculateAmount(Order order)
+    {
+        order.Amount = order.UnitPrice * order.Quantity * (1.0 - order.PercentDiscount / 100.0);
+    }
+}
+</code></pre>
+<p>This rule will fire the first time a given order is matched, and then subsequently if its Quantity, UnitPrice or PercentDiscount changes (<a class="xref" href="../api/NRules.Fluent.Dsl.IFilterExpression.html#NRules_Fluent_Dsl_IFilterExpression_OnChange_System_Linq_Expressions_Expression_System_Func_System_Object_____">OnChange</a> filter). This rule will never fire on an order whose Quantity is less than or equal to zero (<a class="xref" href="../api/NRules.Fluent.Dsl.IFilterExpression.html#NRules_Fluent_Dsl_IFilterExpression_Where_System_Linq_Expressions_Expression_System_Func_System_Boolean_____">Where</a> filter). The ordering of filter conditions doesn't matter.</p>
+<p>Multiple <code>Where</code> filters are always interpreted to have an <code>AND</code> relationship, whereas <code>OnChange</code> filters have an <code>OR</code>. If both <code>Where</code> and <code>OnChange</code> filters are defined, the relationship is <code>(Where1 AND Where2 AND (OnChange1 OR OnChange2))</code>.</p>
+<h2 id="defining-rule-filters-in-code">Defining Rule Filters in Code</h2>
+<p>An agenda filter can be defined as a class that implements <a class="xref" href="../api/NRules.AgendaFilters.IAgendaFilter.html">IAgendaFilter</a> interface; its <a class="xref" href="../api/NRules.AgendaFilters.IAgendaFilter.html#NRules_AgendaFilters_IAgendaFilter_Accept_NRules_AgendaFilters_AgendaContext_NRules_Activation_">Accept</a> method determines if the activation is to be added to the agenda or not.
+Agenda filters are added to the <a class="xref" href="../api/NRules.ISession.html#NRules_ISession_Agenda">ISession.Agenda</a> using <a class="xref" href="../api/NRules.IAgenda.html#NRules_IAgenda_AddFilter_NRules_AgendaFilters_IAgendaFilter_">AddFilter</a> methods. Depending on the specific overload of the method used, the filter is added either as a global or rule-specific filter.</p>
+<pre><code class="lang-c#">public class DisabledRuleFilter : IAgendaFilter
+{
+    public bool Accept(Activation activation)
+    {
+        if (activation.Rule.Tags.Contains(&quot;Disabled&quot;)) return false;
+        return true;
+    }
+}
+
+//...
+
+var filter = new DisabledRuleFilter();
+var session = factory.CreateSession(x =&gt;
+    x.Agenda.AddFilter(filter));
+</code></pre>
+<h2 id="stateful-agenda-filters">Stateful Agenda Filters</h2>
+<p>In most cases agenda filters are only concerned with the activation that is getting inserted into the agenda, and so are stateless. But there are cases where it's helpful for an agenda filter to store some state about the activation, so that the next time the same activation is inserted into the agenda, the filter can use that state information. In these cases, instead of implementing <a class="xref" href="../api/NRules.AgendaFilters.IAgendaFilter.html">IAgendaFilter</a> interface, implement <a class="xref" href="../api/NRules.AgendaFilters.IStatefulAgendaFilter.html">IStatefulAgendaFilter</a>. This is how <code>OnChange</code> filters are implemented.
+In addition to the <a class="xref" href="../api/NRules.AgendaFilters.IAgendaFilter.html#NRules_AgendaFilters_IAgendaFilter_Accept_NRules_AgendaFilters_AgendaContext_NRules_Activation_">Accept</a> method, stateful agenda filters are also notified by the engine of various activation lifecycle events, so that the filter can update the state, or remove the state associated with the activation.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/agenda-filters.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright &copy; 2012-2023 <a href="https://github.com/snikolayev">Sergiy Nikolayev</a> under the <a href="https://raw.github.com/NRules/NRules/main/LICENSE.txt">MIT license</a>.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

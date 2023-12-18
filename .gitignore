@@ -7,3 +7,6 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+# Mac folder attributes
+.DS_Store

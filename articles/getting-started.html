@@ -88,9 +88,27 @@
 
 <p>This guide shows step by step how to install and use NRules rules engine.</p>
 <h2 id="installing-nrules">Installing NRules</h2>
-<p>Create a new Visual studio Console App project and install NRules package via Package Manager Console</p>
+<p>Create a new Visual studio Console App project and install NRules</p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_cli" role="tab" aria-controls="tabpanel_1_cli" data-tab="cli" tabindex="0" aria-selected="true">CLI</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_pm" role="tab" aria-controls="tabpanel_1_pm" data-tab="pm" tabindex="-1">Package Manager</a>
+</li>
+</ul>
+<section id="tabpanel_1_cli" role="tabpanel" data-tab="cli">
+
+<pre><code class="lang-console">&gt; dotnet add package NRules
+</code></pre>
+</section>
+<section id="tabpanel_1_pm" role="tabpanel" data-tab="pm" aria-hidden="true" hidden="hidden">
+
 <pre><code class="lang-console">&gt; Install-Package NRules
 </code></pre>
+</section>
+</div>
 <h2 id="creating-domain-model">Creating Domain Model</h2>
 <p>NRules is geared towards writing rules against a domain model, so we start by creating a simple one, which describes customers and orders.</p>
 <pre><code class="lang-c#">public class Customer
@@ -206,6 +224,9 @@ session.Insert(order2);
 
 //Start match/resolve/act cycle
 session.Fire();
+</code></pre>
+<p>This prints</p>
+<pre><code class="lang-console">Customer John Doe was notified about a discount
 </code></pre>
 
 </article>

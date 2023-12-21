@@ -89,9 +89,10 @@
 <p>Normally, rules in NRules are written using a DSL in C#. They are then converted into a canonical model (AST), which is then compiled to an executable model (Rete network). However, with the help of <a class="xref" href="../../api/NRules.Json.html">NRules.Json</a> library the canonical rules model can also be serialized into JSON and deserialized from it. This could be useful in scenarios where rules need to be externalized from the application in a textual form.</p>
 <h2 id="serializing-and-deserializing-rules">Serializing and Deserializing Rules</h2>
 <p><a class="xref" href="../../api/NRules.Json.html">NRules.Json</a> uses <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializer">JsonSerializer</a> from <code>System.Text.Json</code> for serialization, so to make it work you need to set up an instance of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions">JsonSerializerOptions</a>, such that it knows how to serialize/deserialize NRules types.</p>
-<blockquote>
-<p>⚠️ Serialization/deserialization of code and CLR types has an associated intrinsic security risk. Care must be taken to not deserialize rules from untrusted sources.</p>
-</blockquote>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Serialization/deserialization of code and CLR types has an associated intrinsic security risk. Care must be taken to not deserialize rules from untrusted sources.</p>
+</div>
 <p>In the simplest form, serialization/deserialization code looks like this:</p>
 <pre><code class="lang-c#">IRuleDefinition rule = BuildRule();
 

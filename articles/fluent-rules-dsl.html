@@ -90,9 +90,10 @@
 <p>A rule is a .NET class that inherits from <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html">Rule</a>.
 Rule class overrides <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method where the actual conditions (left-hand side, or LHS) and actions (right-hand side, or RHS) parts are specified.
 Within the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method, LHS is specified by fluently chaining conditions to the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When()</a> method; and RHS by fluently chaining actions to <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then()</a> method.</p>
-<blockquote>
-<p>⚠️ Make sure rule classes are public, otherwise the engine won't find them.</p>
-</blockquote>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Make sure rule classes are public, otherwise the engine won't find them.</p>
+</div>
 <p>See <a href="fluent-rules-loading.html">Fluent Rules Loading</a> on how to load rules defined with the fluent rules DSL.</p>
 <p>Rule class can also optionally be decorated with the following custom attributes to associate additional metadata with the rule.</p>
 <table>

@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/develop/docs/articles/getting-started.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/blob/main/docs/articles/getting-started.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -109,6 +109,8 @@
 </code></pre>
 </section>
 </div>
+
+<p>If you have rules and rules engine runtime in different projects, then instead of depending on the <code>NRules</code> package (which is a meta-package), you can fine-tune the dependencies. The rules project should depend on the <code>NRules.Fluent</code> package, while the runtime components should depend on <code>NRules.Runtime</code>.</p>
 <h2 id="creating-domain-model">Creating Domain Model</h2>
 <p>NRules is geared towards writing rules against a domain model, so we start by creating a simple one, which describes customers and orders.</p>
 <pre><code class="lang-c#">public class Customer
@@ -232,7 +234,7 @@ session.Fire();
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NRules/NRules/blob/develop/docs/articles/getting-started.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NRules/NRules/blob/main/docs/articles/getting-started.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -93,7 +93,7 @@ NRules does not directly integrate with any of the .NET logging frameworks, so u
 The performance metrics can also be attributed to the individual parts of the rules, by tying those metrics to the structural elements of the Rete network graph and the rule’s AST.</p>
 <p>There is also a Visual Studio debugger visualizer that can render a rules session as a graph representation of the underlying Rete network, which can greatly assist in understanding of what goes on in the rules engine behind the scenes in a concrete scenario.</p>
 <h2 id="execution-event-model">Execution Event Model</h2>
-<p>Rules engine lifecycle events for a given rules session are exposed via an <a class="xref" href="../api/NRules.Diagnostics.IEventProvider.html">IEventProvider</a> accessible v through the <a class="xref" href="../api/NRules.ISession.html#NRules_ISession_Events">Events</a> property on the <a class="xref" href="../api/NRules.ISession.html">ISession</a> interface.
+<p>Rules engine lifecycle events for a given rules session are exposed via an <a class="xref" href="../api/NRules.Diagnostics.IEventProvider.html">IEventProvider</a> accessible through the <a class="xref" href="../api/NRules.ISession.html#NRules_ISession_Events">Events</a> property on the <a class="xref" href="../api/NRules.ISession.html">ISession</a> interface.
 Also, events for all sessions are exposed via the <a class="xref" href="../api/NRules.Diagnostics.IEventProvider.html">IEventProvider</a> accessible through the <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a> interface (sender object for each event references the actual session object that raised the event).</p>
 <p>Event provider exposes the following execution events:</p>
 <table>

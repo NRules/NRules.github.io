@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class ReteGraph
- | NRules </title>
+      <title>Class ReteGraph | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReteGraph
- | NRules ">
+      <meta name="title" content="Class ReteGraph | NRules ">
       
+      <meta name="description" content="Rete network graph that corresponds to the compiled rules.">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="NRules_Diagnostics_ReteGraph" data-uid="NRules.Diagnostics.ReteGraph" class="text-break">
-    Class ReteGraph
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules/Diagnostics/ReteGraph.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class ReteGraph  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules/Diagnostics/ReteGraph.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,7 +118,7 @@
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -207,7 +205,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReteLink[] Links { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ReteLink&gt; Links { get; }</code></pre>
   </div>
 
 
@@ -216,7 +214,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="NRules.Diagnostics.ReteLink.html">ReteLink</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="NRules.Diagnostics.ReteLink.html">ReteLink</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -239,7 +237,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReteNode[] Nodes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ReteNode&gt; Nodes { get; }</code></pre>
   </div>
 
 
@@ -248,7 +246,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="NRules.Diagnostics.ReteNode.html">ReteNode</a>[]</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="NRules.Diagnostics.ReteNode.html">ReteNode</a>&gt;</dt>
     <dd></dd>
   </dl>
 

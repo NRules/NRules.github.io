@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
       <title>Rules Engine for .NET | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Rules Engine for .NET | NRules ">
+      
       
       <link rel="icon" href="images/logo.png">
       <link rel="stylesheet" href="public/docfx.min.css">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -53,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -62,23 +63,9 @@
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
 
           <nav id="breadcrumb"></nav>
         </div>
@@ -90,9 +77,8 @@
 <p>NRules is also an inference engine, where, unlike with scripting engines, there is no predefined order in which rules are executed.
 Instead, inference engine figures out which rules should be activated based on the facts given to it, and then executes them according to a conflict resolution algorithm. Among other features, NRules supports forward chaining, complex fact queries, negative, existential and universal quantifiers.</p>
 <p>To learn more, go to the corresponding sections of the NRules documentation.</p>
-<h2 id="getting-started-with-nrules">Getting Started with NRules</h2>
-<p>To install NRules, get the package from nuget
-<a href="https://nuget.org/packages/NRules"><img src="https://img.shields.io/nuget/v/NRules.svg" alt="NuGet"></a></p>
+<h2 id="getting-started">Getting Started</h2>
+<p>To install NRules, get the package from nuget</p>
 <div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
@@ -125,8 +111,92 @@ Instead, inference engine figures out which rules should be activated based on t
 <ul>
 <li><a href="https://github.com/NRules/NRules/discussions">Discussions</a></li>
 <li><a href="https://stackoverflow.com/questions/tagged/nrules">Stack Overflow</a></li>
-<li><a href="https://gitter.im/NRules/NRules">Gitter Chat</a></li>
 </ul>
+<h2 id="getting-the-right-package">Getting the Right Package</h2>
+<p>Choose the right package from the NRules suite, depending on your needs and the project structure</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Nuget</th>
+<th>Overview</th>
+<th>Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NRules</td>
+<td><a href="https://nuget.org/packages/NRules"><img src="https://img.shields.io/nuget/v/NRules" alt="NuGet"></a></td>
+<td>Meta package that installs the canonical rules model, fluent DSL and the engine runtime. Reference this package from the projects that don't separate rules from the application code.</td>
+<td><a href="articles/getting-started.html">Guide</a></td>
+</tr>
+<tr>
+<td>NRules.Runtime</td>
+<td><a href="https://nuget.org/packages/NRules.Runtime"><img src="https://img.shields.io/nuget/v/NRules.Runtime" alt="NuGet"></a></td>
+<td>Rules engine runtime. Reference this package from the projects that compile and execute rules.</td>
+<td><a class="xref" href="api/NRules.html">API</a></td>
+</tr>
+<tr>
+<td>NRules.Fluent</td>
+<td><a href="https://nuget.org/packages/NRules.Fluent"><img src="https://img.shields.io/nuget/v/NRules.Fluent" alt="NuGet"></a></td>
+<td>Fluent DSL for NRules. Reference this package from the projects that contain rules.</td>
+<td><a class="xref" href="api/NRules.Fluent.html">API</a></td>
+</tr>
+<tr>
+<td>NRules.RuleModel</td>
+<td><a href="https://nuget.org/packages/NRules.RuleModel"><img src="https://img.shields.io/nuget/v/NRules.RuleModel" alt="NuGet"></a></td>
+<td>Canonical rules model. Reference this package from the projects that deal with the intermediate rules representation. This package is transitively referenced by most other NRules packages.</td>
+<td><a class="xref" href="api/NRules.RuleModel.html">API</a></td>
+</tr>
+<tr>
+<td>NRules.Json</td>
+<td><a href="https://nuget.org/packages/NRules.Json"><img src="https://img.shields.io/nuget/v/NRules.Json" alt="NuGet"></a></td>
+<td>Rules serialization to and from JSON. Reference this package from the projects that handle rules serialization.</td>
+<td><a href="articles/advanced/json-serialization.html">Guide</a> <a class="xref" href="api/NRules.Json.html">API</a></td>
+</tr>
+<tr>
+<td>NRules.Testing</td>
+<td><a href="https://nuget.org/packages/NRules.Testing"><img src="https://img.shields.io/nuget/v/NRules.Testing" alt="NuGet"></a></td>
+<td>Rules unit testing and expectations assertion. Reference this package from the projects that implement rules unit tests.</td>
+<td><a href="articles/unit-testing-rules.html">Guide</a> <a class="xref" href="api/NRules.Testing.html">API</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="building-from-source">Building from Source</h2>
+<p>To build NRules from the source code, clone the repo from GitHub, make sure <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell">PowerShell</a> is installed, then run the build script</p>
+<div class="tabGroup" id="tabgroup_2">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2_windows" role="tab" aria-controls="tabpanel_2_windows" data-tab="windows" tabindex="0" aria-selected="true">Windows</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_nix" role="tab" aria-controls="tabpanel_2_nix" data-tab="nix" tabindex="-1">MacOS/Linux</a>
+</li>
+</ul>
+<section id="tabpanel_2_windows" role="tabpanel" data-tab="windows">
+
+<pre><code class="lang-console">&gt; .\build.bat [Target] [Component]
+</code></pre>
+</section>
+<section id="tabpanel_2_nix" role="tabpanel" data-tab="nix" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-console">&gt; ./build.sh [Target] [Component]
+</code></pre>
+</section>
+</div>
+
+<p>Default target is <code>Build</code>.</p>
+<p>Default component is <code>Core</code>. Use the following components to build other parts of the engine</p>
+<ul>
+<li><code>All</code> - build everything</li>
+<li><code>Core</code> - build the rules engine, NRules.Testing and NRules.Json</li>
+<li><code>Visualizer</code> - build debugger visualizer (Windows only)</li>
+<li><code>Integration</code> - build integration libraries</li>
+<li><code>Samples</code> - build samples</li>
+<li><code>Benchmark</code> - build performance benchmarks</li>
+<li><code>Documentation</code> - build documentation</li>
+</ul>
+<p>Built artifacts are found under the <code>build</code> folder.</p>
 <h2 id="contributing">Contributing</h2>
 <p>Clone NRules on <a href="https://github.com/NRules/NRules">GitHub</a>.</p>
 <p>See <a href="https://github.com/NRules/NRules/blob/main/CONTRIBUTING.md">Contributor Guide</a> for the guidelines on how to contribute to the project.</p>

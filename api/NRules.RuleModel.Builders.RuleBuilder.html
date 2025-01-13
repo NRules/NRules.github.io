@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class RuleBuilder
- | NRules </title>
+      <title>Class RuleBuilder | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RuleBuilder
- | NRules ">
+      <meta name="title" content="Class RuleBuilder | NRules ">
       
+      <meta name="description" content="Builder to compose a rule definition. Contains methods to specify rule&#39;s metadata, as well as create child builders for rule&#39;s left-hand side and right-hand side. Creates .">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="NRules_RuleModel_Builders_RuleBuilder" data-uid="NRules.RuleModel.Builders.RuleBuilder" class="text-break">
-    Class RuleBuilder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class RuleBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +120,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -192,7 +190,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_Build" data-uid="NRules.RuleModel.Builders.RuleBuilder.Build">
   Build()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates rule definition using current state of the builder.</p>
@@ -258,7 +256,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_Dependencies_NRules_RuleModel_Builders_DependencyGroupBuilder_" data-uid="NRules.RuleModel.Builders.RuleBuilder.Dependencies(NRules.RuleModel.Builders.DependencyGroupBuilder)">
   Dependencies(DependencyGroupBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets dependencies builder.</p>
@@ -324,7 +322,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_Filters" data-uid="NRules.RuleModel.Builders.RuleBuilder.Filters">
   Filters()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves filters builder.</p>
@@ -357,7 +355,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_Filters_NRules_RuleModel_Builders_FilterGroupBuilder_" data-uid="NRules.RuleModel.Builders.RuleBuilder.Filters(NRules.RuleModel.Builders.FilterGroupBuilder)">
   Filters(FilterGroupBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets filters builder.</p>
@@ -390,7 +388,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_LeftHandSide" data-uid="NRules.RuleModel.Builders.RuleBuilder.LeftHandSide">
   LeftHandSide()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves left-hand side builder (conditions).</p>
@@ -423,7 +421,7 @@ Creates <a class="xref" href="NRules.RuleModel.IRuleDefinition.html">IRuleDefini
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_LeftHandSide_NRules_RuleModel_Builders_GroupBuilder_" data-uid="NRules.RuleModel.Builders.RuleBuilder.LeftHandSide(NRules.RuleModel.Builders.GroupBuilder)">
   LeftHandSide(GroupBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets left-hand side builder (conditions).</p>
@@ -625,7 +623,7 @@ Default repeatability is <a class="xref" href="NRules.RuleModel.RuleRepeatabilit
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_RightHandSide" data-uid="NRules.RuleModel.Builders.RuleBuilder.RightHandSide">
   RightHandSide()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Retrieves right-hand side builder (actions).</p>
@@ -658,7 +656,7 @@ Default repeatability is <a class="xref" href="NRules.RuleModel.RuleRepeatabilit
 
   <h3 id="NRules_RuleModel_Builders_RuleBuilder_RightHandSide_NRules_RuleModel_Builders_ActionGroupBuilder_" data-uid="NRules.RuleModel.Builders.RuleBuilder.RightHandSide(NRules.RuleModel.Builders.ActionGroupBuilder)">
   RightHandSide(ActionGroupBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/RuleBuilder.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets right-hand side builder.</p>

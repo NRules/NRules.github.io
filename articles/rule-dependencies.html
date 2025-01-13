@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
       <title>Rule Dependecies | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Rule Dependecies | NRules ">
+      
       
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -53,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -62,23 +63,9 @@
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
 
           <nav id="breadcrumb"></nav>
         </div>
@@ -113,10 +100,21 @@ The benefit of this approach is that dependencies are resolved every time the ru
 </code></pre>
 <p>When declaring a dependency using rules DSL, the dependency is bound to a variable in the same exact way the patterns are bound to fact variables.
 The service variable can then be used in rule actions. The rules engine will inject the dependency when the rule fires.</p>
-<blockquote>
-<p>⚠️ Rule dependencies cannot be used in rule conditions.</p>
-</blockquote>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Rule dependencies cannot be used in rule conditions.</p>
+</div>
 <p>In order to be able to use rule dependencies, one must implement <a class="xref" href="../api/NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a> interface and set resolver instance either at the <a class="xref" href="../api/NRules.ISession.html">ISession</a> or at the <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a> level.</p>
+<h2 id="net-dependency-injection-integration">.NET Dependency Injection Integration</h2>
+<p>NRules ships with the implementation of <a class="xref" href="../api/NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a> as well as <a class="xref" href="../api/NRules.Fluent.IRuleActivator.html">IRuleActivator</a> for .NET built-in IoC container in a separate integration assembly (see <a class="xref" href="../api/NRules.Integration.DependencyInjection.html">NRules.Integration.DependencyInjection</a>).
+With the integration package, the following fully bootstraps and registers NRules with the .NET service collection.</p>
+<pre><code class="lang-c#">Host.CreateDefaultBuilder(args)  
+    .ConfigureServices((context, services) =&gt;
+    {
+        services.AddRules(x =&gt; x.AssemblyOf(typeof(MyRule)));
+    });
+</code></pre>
+<h2 id="autofac-integration">Autofac Integration</h2>
 <p>NRules ships with the implementation of <a class="xref" href="../api/NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a> as well as <a class="xref" href="../api/NRules.Fluent.IRuleActivator.html">IRuleActivator</a> for Autofac IoC container in a separate integration assembly (see <a class="xref" href="../api/NRules.Integration.Autofac.html">NRules.Integration.Autofac</a>).
 With the integration package, the following fully bootstraps and registers NRules with Autofac container. Registration extensions return registration builders that allow customization of individual registrations.</p>
 <pre><code class="lang-c#">var types = builder.RegisterRules(x =&gt; x.AssemblyOf(typeof(MyRule)));

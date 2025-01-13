@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Interface ILeftHandSideExpression
- | NRules </title>
+      <title>Interface ILeftHandSideExpression | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ILeftHandSideExpression
- | NRules ">
+      <meta name="title" content="Interface ILeftHandSideExpression | NRules ">
       
+      <meta name="description" content="Rule&#39;s left-hand side (conditions) expression builder.">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="NRules_Fluent_Dsl_ILeftHandSideExpression" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression" class="text-break">
-    Interface ILeftHandSideExpression
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Interface ILeftHandSideExpression  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -127,7 +125,7 @@
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.All``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
   All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a pattern that triggers the rule only if all facts of a given type match the condition.</p>
@@ -135,7 +133,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt; condition)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt; condition) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -172,7 +170,7 @@
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.All``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
   All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt;, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a pattern that triggers the rule only if all facts that match the base condition
@@ -181,7 +179,7 @@ also match all the remaining conditions (universal quantifier).</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt; baseCondition, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression All&lt;TFact&gt;(Expression&lt;Func&lt;TFact, bool&gt;&gt; baseCondition, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -221,7 +219,7 @@ also match all the remaining conditions (universal quantifier).</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_And_System_Action_NRules_Fluent_Dsl_ILeftHandSideExpression__" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.And(System.Action{NRules.Fluent.Dsl.ILeftHandSideExpression})">
   And(Action&lt;ILeftHandSideExpression&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a group of patterns joined by an AND operator.
@@ -261,7 +259,7 @@ If all of the patterns in the group match then the whole group matches.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Exists``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
   Exists&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a pattern that triggers the rule only if there is at least one matching fact (existential quantifier).</p>
@@ -269,7 +267,7 @@ If all of the patterns in the group match then the whole group matches.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Exists&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Exists&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -306,7 +304,7 @@ If all of the patterns in the group match then the whole group matches.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Having_System_Linq_Expressions_Expression_System_Func_System_Boolean_____" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Having(System.Linq.Expressions.Expression{System.Func{System.Boolean}}[])">
   Having(params Expression&lt;Func&lt;bool&gt;&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds match conditions to existing rule patterns.</p>
@@ -345,7 +343,7 @@ If all of the patterns in the group match then the whole group matches.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Let__1_System_Linq_Expressions_Expression_System_Func___0___System_Linq_Expressions_Expression_System_Func___0___" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Let``1(System.Linq.Expressions.Expression{System.Func{``0}},System.Linq.Expressions.Expression{System.Func{``0}})">
   Let&lt;TResult&gt;(Expression&lt;Func&lt;TResult&gt;&gt;, Expression&lt;Func&lt;TResult&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Binds expression to a variable. Expression can use previously defined rule patterns.</p>
@@ -393,7 +391,7 @@ If all of the patterns in the group match then the whole group matches.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Match__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Match``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
   Match&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a pattern for facts matching a set of conditions.
@@ -402,7 +400,7 @@ Does not bind matching fact to a variable. Optionally, enables aggregation of ma
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Match&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Match&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -447,7 +445,7 @@ Binds matching fact to a variable.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Match&lt;TFact&gt;(Expression&lt;Func&lt;TFact&gt;&gt; alias, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Match&lt;TFact&gt;(Expression&lt;Func&lt;TFact&gt;&gt; alias, params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -487,7 +485,7 @@ Binds matching fact to a variable.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Not``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
   Not&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a pattern that triggers the rule only if there are no matching facts (negation quantifier).</p>
@@ -495,7 +493,7 @@ Binds matching fact to a variable.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Not&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Not&lt;TFact&gt;(params Expression&lt;Func&lt;TFact, bool&gt;&gt;[] conditions) where TFact : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -532,7 +530,7 @@ Binds matching fact to a variable.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Or_System_Action_NRules_Fluent_Dsl_ILeftHandSideExpression__" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Or(System.Action{NRules.Fluent.Dsl.ILeftHandSideExpression})">
   Or(Action&lt;ILeftHandSideExpression&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Defines a group of patterns joined by an OR operator.
@@ -572,7 +570,7 @@ If either of the patterns in the group matches then the whole group matches.</p>
 
   <h3 id="NRules_Fluent_Dsl_ILeftHandSideExpression_Query__1_System_Linq_Expressions_Expression_System_Func___0___System_Func_NRules_Fluent_Dsl_IQuery_NRules_Fluent_Dsl_IQuery___0___" data-uid="NRules.Fluent.Dsl.ILeftHandSideExpression.Query``1(System.Linq.Expressions.Expression{System.Func{``0}},System.Func{NRules.Fluent.Dsl.IQuery,NRules.Fluent.Dsl.IQuery{``0}})">
   Query&lt;TResult&gt;(Expression&lt;Func&lt;TResult&gt;&gt;, Func&lt;IQuery, IQuery&lt;TResult&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/ILeftHandSideExpression.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Queries rules engine for matching facts.</p>
@@ -580,7 +578,7 @@ If either of the patterns in the group matches then the whole group matches.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Query&lt;TResult&gt;(Expression&lt;Func&lt;TResult&gt;&gt; alias, Func&lt;IQuery, IQuery&lt;TResult&gt;&gt; queryExpression)</code></pre>
+    <pre><code class="lang-csharp hljs">ILeftHandSideExpression Query&lt;TResult&gt;(Expression&lt;Func&lt;TResult&gt;&gt; alias, Func&lt;IQuery, IQuery&lt;TResult&gt;&gt; queryExpression) where TResult : notnull</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

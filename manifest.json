@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/GitHub/NRules/docs",
+  "source_base_path": "/Users/snikolayev/Dev/GitHub/NRules/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -442,6 +442,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NRules.FactIdentityComparerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.FactIdentityComparerRegistry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NRules.Fluent.DefaultRuleActivator.yml",
       "output": {
         ".html": {
@@ -782,6 +792,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NRules.IFactIdentityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.IFactIdentityComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NRules.IFactResult.yml",
       "output": {
         ".html": {
@@ -866,6 +886,46 @@
       "output": {
         ".html": {
           "relative_path": "api/NRules.Integration.Autofac.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.DependencyInjection.DependencyResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.DependencyInjection.DependencyResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.DependencyInjection.RuleActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.DependencyInjection.RuleActivator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.DependencyInjection.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Integration.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Integration.DependencyInjection.html"
         }
       },
       "version": ""
@@ -1192,30 +1252,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.Context.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.Context.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NRules.RuleModel.Builders.RuleTransformation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NRules.RuleModel.Builders.yml",
       "output": {
         ".html": {
           "relative_path": "api/NRules.RuleModel.Builders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.Context.html"
         }
       },
       "version": ""
@@ -1396,6 +1446,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NRules.RuleModel.IFactSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.RuleModel.IIdentityProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.RuleModel.IIdentityProvider.html"
         }
       },
       "version": ""
@@ -1952,6 +2012,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/dsl-extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/fact-equality-and-identity.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/fact-equality-and-identity.html"
         }
       },
       "version": ""

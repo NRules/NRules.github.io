@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class Element
- | NRules </title>
+      <title>Class Element | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Element
- | NRules ">
+      <meta name="title" content="Class Element | NRules ">
       
+      <meta name="description" content="Factory class for rule elements.">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="NRules_RuleModel_Builders_Element" data-uid="NRules.RuleModel.Builders.Element" class="text-break">
-    Class Element
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class Element  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,7 +118,7 @@
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -379,7 +377,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <a id="NRules_RuleModel_Builders_Element_Aggregate_" data-uid="NRules.RuleModel.Builders.Element.Aggregate*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Aggregate_System_Type_System_String_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_PatternElement_System_Type_" data-uid="NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.PatternElement,System.Type)">
-  Aggregate(Type, string, IEnumerable&lt;NamedExpressionElement&gt;, PatternElement, Type)
+  Aggregate(Type, string, IEnumerable&lt;NamedExpressionElement&gt;, PatternElement, Type?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L502"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -388,7 +386,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AggregateElement Aggregate(Type resultType, string name, IEnumerable&lt;NamedExpressionElement&gt; expressions, PatternElement source, Type customFactoryType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AggregateElement Aggregate(Type resultType, string name, IEnumerable&lt;NamedExpressionElement&gt; expressions, PatternElement source, Type? customFactoryType)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -478,7 +476,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <a id="NRules_RuleModel_Builders_Element_Aggregate_" data-uid="NRules.RuleModel.Builders.Element.Aggregate*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Aggregate_System_Type_System_String_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_PatternElement_System_Type_" data-uid="NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.PatternElement,System.Type)">
-  Aggregate(Type, string, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, PatternElement, Type)
+  Aggregate(Type, string, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, PatternElement, Type?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L470"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -487,7 +485,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AggregateElement Aggregate(Type resultType, string name, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, PatternElement source, Type customFactoryType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AggregateElement Aggregate(Type resultType, string name, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, PatternElement source, Type? customFactoryType)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -646,7 +644,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <a id="NRules_RuleModel_Builders_Element_Binding_" data-uid="NRules.RuleModel.Builders.Element.Binding*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Binding_System_Type_System_Linq_Expressions_LambdaExpression_" data-uid="NRules.RuleModel.Builders.Element.Binding(System.Type,System.Linq.Expressions.LambdaExpression)">
-  Binding(Type, LambdaExpression)
+  Binding(Type?, LambdaExpression)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L425"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -655,7 +653,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BindingElement Binding(Type resultType, LambdaExpression expression)</code></pre>
+    <pre><code class="lang-csharp hljs">public static BindingElement Binding(Type? resultType, LambdaExpression expression)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -727,7 +725,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <a id="NRules_RuleModel_Builders_Element_Collect_" data-uid="NRules.RuleModel.Builders.Element.Collect*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Collect_System_Type_NRules_RuleModel_PatternElement_" data-uid="NRules.RuleModel.Builders.Element.Collect(System.Type,NRules.RuleModel.PatternElement)">
-  Collect(Type, PatternElement)
+  Collect(Type?, PatternElement)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L536"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -736,7 +734,7 @@ is <a class="xref" href="NRules.RuleModel.ActionTrigger.html#NRules_RuleModel_Ac
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AggregateElement Collect(Type resultType, PatternElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AggregateElement Collect(Type? resultType, PatternElement source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1412,7 +1410,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_GroupBy_" data-uid="NRules.RuleModel.Builders.Element.GroupBy*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_GroupBy_System_Type_System_Linq_Expressions_LambdaExpression_System_Linq_Expressions_LambdaExpression_NRules_RuleModel_PatternElement_" data-uid="NRules.RuleModel.Builders.Element.GroupBy(System.Type,System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)">
-  GroupBy(Type, LambdaExpression, LambdaExpression, PatternElement)
+  GroupBy(Type?, LambdaExpression, LambdaExpression, PatternElement)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L570"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1421,7 +1419,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AggregateElement GroupBy(Type resultType, LambdaExpression keySelector, LambdaExpression elementSelector, PatternElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AggregateElement GroupBy(Type? resultType, LambdaExpression keySelector, LambdaExpression elementSelector, PatternElement source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1577,7 +1575,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_Pattern_" data-uid="NRules.RuleModel.Builders.Element.Pattern*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Pattern_NRules_RuleModel_Declaration_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_RuleElement_" data-uid="NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)">
-  Pattern(Declaration, IEnumerable&lt;NamedExpressionElement&gt;, RuleElement)
+  Pattern(Declaration, IEnumerable&lt;NamedExpressionElement&gt;, RuleElement?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L355"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1586,7 +1584,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Declaration declaration, IEnumerable&lt;NamedExpressionElement&gt; expressions, RuleElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Declaration declaration, IEnumerable&lt;NamedExpressionElement&gt; expressions, RuleElement? source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1664,7 +1662,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_Pattern_" data-uid="NRules.RuleModel.Builders.Element.Pattern*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Pattern_NRules_RuleModel_Declaration_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_RuleElement_" data-uid="NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)">
-  Pattern(Declaration, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, RuleElement)
+  Pattern(Declaration, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, RuleElement?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1673,7 +1671,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Declaration declaration, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, RuleElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Declaration declaration, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, RuleElement? source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1709,7 +1707,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_Pattern_" data-uid="NRules.RuleModel.Builders.Element.Pattern*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Pattern_System_Type_System_String_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_RuleElement_" data-uid="NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)">
-  Pattern(Type, string, IEnumerable&lt;NamedExpressionElement&gt;, RuleElement)
+  Pattern(Type, string, IEnumerable&lt;NamedExpressionElement&gt;, RuleElement?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L341"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1718,7 +1716,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Type type, string name, IEnumerable&lt;NamedExpressionElement&gt; expressions, RuleElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Type type, string name, IEnumerable&lt;NamedExpressionElement&gt; expressions, RuleElement? source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1802,7 +1800,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_Pattern_" data-uid="NRules.RuleModel.Builders.Element.Pattern*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Pattern_System_Type_System_String_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_RuleElement_" data-uid="NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)">
-  Pattern(Type, string, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, RuleElement)
+  Pattern(Type, string, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt;, RuleElement?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L309"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1811,7 +1809,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Type type, string name, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, RuleElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static PatternElement Pattern(Type type, string name, IEnumerable&lt;KeyValuePair&lt;string, LambdaExpression&gt;&gt; expressions, RuleElement? source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1892,7 +1890,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <a id="NRules_RuleModel_Builders_Element_Project_" data-uid="NRules.RuleModel.Builders.Element.Project*"></a>
 
   <h3 id="NRules_RuleModel_Builders_Element_Project_System_Type_System_Linq_Expressions_LambdaExpression_NRules_RuleModel_PatternElement_" data-uid="NRules.RuleModel.Builders.Element.Project(System.Type,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)">
-  Project(Type, LambdaExpression, PatternElement)
+  Project(Type?, LambdaExpression, PatternElement)
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.RuleModel/Builders/Element.cs/#L611"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1901,7 +1899,7 @@ Facts that match the <code>basePattern</code> must also match all other <code>pa
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AggregateElement Project(Type resultType, LambdaExpression selector, PatternElement source)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AggregateElement Project(Type? resultType, LambdaExpression selector, PatternElement source)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

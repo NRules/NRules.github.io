@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Interface IRulesFiringVerification&lt;TVerification&gt;
- | NRules </title>
+      <title>Interface IRulesFiringVerification&lt;TVerification&gt; | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IRulesFiringVerification&lt;TVerification&gt;
- | NRules ">
+      <meta name="title" content="Interface IRulesFiringVerification&lt;TVerification&gt; | NRules ">
       
+      <meta name="description" content="Fluent interface to build rules firing verification.">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="NRules_Testing_IRulesFiringVerification_1" data-uid="NRules.Testing.IRulesFiringVerification`1" class="text-break">
-    Interface IRulesFiringVerification&lt;TVerification&gt;
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Interface IRulesFiringVerification&lt;TVerification&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>NRules.Testing.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Fluent interface to build rules verification.</p>
+  <div class="markdown summary"><p>Fluent interface to build rules firing verification.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -135,7 +133,7 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Single registered rule under test.</p>
+  <div class="markdown level1 summary"><p>Firing verification for a single registered rule under test.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -147,7 +145,47 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TVerification</span></dt>
-    <dd><p>Specific rule verification builder.</p>
+    <dd><p>Specific rule firing verification builder.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NRules_Testing_IRulesFiringVerification_1_Rule_" data-uid="NRules.Testing.IRulesFiringVerification`1.Rule*"></a>
+
+  <h3 id="NRules_Testing_IRulesFiringVerification_1_Rule_System_String_" data-uid="NRules.Testing.IRulesFiringVerification`1.Rule(System.String)">
+  Rule(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Firing verification for a registered rule under test with the specified name.
+Call this if you have multiple registered rules under test, or want to be specific.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TVerification Rule(string ruleName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ruleName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the rule to verify its firing.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TVerification</span></dt>
+    <dd><p>Specific rule firing verification builder.</p>
 </dd>
   </dl>
 
@@ -168,7 +206,7 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Registered rule under test with the specifies rule type.
+  <div class="markdown level1 summary"><p>Firing verification for a registered rule under test with the specified rule type.
 Call this if you have multiple registered rules under test, or want to be specific.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -180,14 +218,14 @@ Call this if you have multiple registered rules under test, or want to be specif
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>ruleType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> of the rule to look for.</p>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> of the rule to verify its firing.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TVerification</span></dt>
-    <dd><p>Specific rule verification builder.</p>
+    <dd><p>Specific rule firing verification builder.</p>
 </dd>
   </dl>
 
@@ -208,7 +246,7 @@ Call this if you have multiple registered rules under test, or want to be specif
   <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Testing/RulesFiringVerification.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Registered rule under test with the specifies rule type.
+  <div class="markdown level1 summary"><p>Firing verification for a registered rule under test with the specified rule type.
 Call this if you have multiple registered rules under test, or want to be specific.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -221,14 +259,14 @@ Call this if you have multiple registered rules under test, or want to be specif
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TVerification</span></dt>
-    <dd><p>Specific rule verification builder.</p>
+    <dd><p>Specific rule firing verification builder.</p>
 </dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>TRule</code></dt>
-    <dd><p>Type of the rule to look for.</p>
+    <dd><p>Type of the rule to verify its firing.</p>
 </dd>
   </dl>
 

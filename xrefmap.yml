@@ -259,6 +259,19 @@ references:
   commentId: T:NRules.Aggregators.AggregationContext
   fullName: NRules.Aggregators.AggregationContext
   nameWithType: AggregationContext
+- uid: NRules.Aggregators.AggregationContext.FactIdentityComparer
+  name: FactIdentityComparer
+  href: api/NRules.Aggregators.AggregationContext.html#NRules_Aggregators_AggregationContext_FactIdentityComparer
+  commentId: P:NRules.Aggregators.AggregationContext.FactIdentityComparer
+  fullName: NRules.Aggregators.AggregationContext.FactIdentityComparer
+  nameWithType: AggregationContext.FactIdentityComparer
+- uid: NRules.Aggregators.AggregationContext.FactIdentityComparer*
+  name: FactIdentityComparer
+  href: api/NRules.Aggregators.AggregationContext.html#NRules_Aggregators_AggregationContext_FactIdentityComparer_
+  commentId: Overload:NRules.Aggregators.AggregationContext.FactIdentityComparer
+  isSpec: "True"
+  fullName: NRules.Aggregators.AggregationContext.FactIdentityComparer
+  nameWithType: AggregationContext.FactIdentityComparer
 - uid: NRules.Aggregators.AggregationResult
   name: AggregationResult
   href: api/NRules.Aggregators.AggregationResult.html
@@ -447,15 +460,15 @@ references:
   commentId: T:NRules.Aggregators.IAggregator
   fullName: NRules.Aggregators.IAggregator
   nameWithType: IAggregator
-- uid: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name: Add(AggregationContext, ITuple, IEnumerable<IFact>)
-  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Add_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IEnumerable_NRules_RuleModel_IFact__
-  commentId: M:NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name.vb: Add(AggregationContext, ITuple, IEnumerable(Of IFact))
-  fullName: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable<NRules.RuleModel.IFact>)
-  fullName.vb: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.IFact))
-  nameWithType: IAggregator.Add(AggregationContext, ITuple, IEnumerable<IFact>)
-  nameWithType.vb: IAggregator.Add(AggregationContext, ITuple, IEnumerable(Of IFact))
+- uid: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name: Add(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Add_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IReadOnlyCollection_NRules_RuleModel_IFact__
+  commentId: M:NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name.vb: Add(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
+  fullName: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection<NRules.RuleModel.IFact>)
+  fullName.vb: NRules.Aggregators.IAggregator.Add(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection(Of NRules.RuleModel.IFact))
+  nameWithType: IAggregator.Add(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  nameWithType.vb: IAggregator.Add(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
 - uid: NRules.Aggregators.IAggregator.Add*
   name: Add
   href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Add_
@@ -463,15 +476,15 @@ references:
   isSpec: "True"
   fullName: NRules.Aggregators.IAggregator.Add
   nameWithType: IAggregator.Add
-- uid: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name: Modify(AggregationContext, ITuple, IEnumerable<IFact>)
-  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Modify_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IEnumerable_NRules_RuleModel_IFact__
-  commentId: M:NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name.vb: Modify(AggregationContext, ITuple, IEnumerable(Of IFact))
-  fullName: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable<NRules.RuleModel.IFact>)
-  fullName.vb: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.IFact))
-  nameWithType: IAggregator.Modify(AggregationContext, ITuple, IEnumerable<IFact>)
-  nameWithType.vb: IAggregator.Modify(AggregationContext, ITuple, IEnumerable(Of IFact))
+- uid: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name: Modify(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Modify_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IReadOnlyCollection_NRules_RuleModel_IFact__
+  commentId: M:NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name.vb: Modify(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
+  fullName: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection<NRules.RuleModel.IFact>)
+  fullName.vb: NRules.Aggregators.IAggregator.Modify(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection(Of NRules.RuleModel.IFact))
+  nameWithType: IAggregator.Modify(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  nameWithType.vb: IAggregator.Modify(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
 - uid: NRules.Aggregators.IAggregator.Modify*
   name: Modify
   href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Modify_
@@ -479,15 +492,15 @@ references:
   isSpec: "True"
   fullName: NRules.Aggregators.IAggregator.Modify
   nameWithType: IAggregator.Modify
-- uid: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name: Remove(AggregationContext, ITuple, IEnumerable<IFact>)
-  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Remove_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IEnumerable_NRules_RuleModel_IFact__
-  commentId: M:NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IEnumerable{NRules.RuleModel.IFact})
-  name.vb: Remove(AggregationContext, ITuple, IEnumerable(Of IFact))
-  fullName: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable<NRules.RuleModel.IFact>)
-  fullName.vb: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.IFact))
-  nameWithType: IAggregator.Remove(AggregationContext, ITuple, IEnumerable<IFact>)
-  nameWithType.vb: IAggregator.Remove(AggregationContext, ITuple, IEnumerable(Of IFact))
+- uid: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name: Remove(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Remove_NRules_Aggregators_AggregationContext_NRules_RuleModel_ITuple_System_Collections_Generic_IReadOnlyCollection_NRules_RuleModel_IFact__
+  commentId: M:NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext,NRules.RuleModel.ITuple,System.Collections.Generic.IReadOnlyCollection{NRules.RuleModel.IFact})
+  name.vb: Remove(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
+  fullName: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection<NRules.RuleModel.IFact>)
+  fullName.vb: NRules.Aggregators.IAggregator.Remove(NRules.Aggregators.AggregationContext, NRules.RuleModel.ITuple, System.Collections.Generic.IReadOnlyCollection(Of NRules.RuleModel.IFact))
+  nameWithType: IAggregator.Remove(AggregationContext, ITuple, IReadOnlyCollection<IFact>)
+  nameWithType.vb: IAggregator.Remove(AggregationContext, ITuple, IReadOnlyCollection(Of IFact))
 - uid: NRules.Aggregators.IAggregator.Remove*
   name: Remove
   href: api/NRules.Aggregators.IAggregator.html#NRules_Aggregators_IAggregator_Remove_
@@ -501,15 +514,15 @@ references:
   commentId: T:NRules.Aggregators.IAggregatorFactory
   fullName: NRules.Aggregators.IAggregatorFactory
   nameWithType: IAggregatorFactory
-- uid: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement,System.Collections.Generic.IEnumerable{NRules.Aggregators.IAggregateExpression})
-  name: Compile(AggregateElement, IEnumerable<IAggregateExpression>)
-  href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Compile_NRules_RuleModel_AggregateElement_System_Collections_Generic_IEnumerable_NRules_Aggregators_IAggregateExpression__
-  commentId: M:NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement,System.Collections.Generic.IEnumerable{NRules.Aggregators.IAggregateExpression})
-  name.vb: Compile(AggregateElement, IEnumerable(Of IAggregateExpression))
-  fullName: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement, System.Collections.Generic.IEnumerable<NRules.Aggregators.IAggregateExpression>)
-  fullName.vb: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement, System.Collections.Generic.IEnumerable(Of NRules.Aggregators.IAggregateExpression))
-  nameWithType: IAggregatorFactory.Compile(AggregateElement, IEnumerable<IAggregateExpression>)
-  nameWithType.vb: IAggregatorFactory.Compile(AggregateElement, IEnumerable(Of IAggregateExpression))
+- uid: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement,System.Collections.Generic.IReadOnlyCollection{NRules.Aggregators.IAggregateExpression})
+  name: Compile(AggregateElement, IReadOnlyCollection<IAggregateExpression>)
+  href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Compile_NRules_RuleModel_AggregateElement_System_Collections_Generic_IReadOnlyCollection_NRules_Aggregators_IAggregateExpression__
+  commentId: M:NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement,System.Collections.Generic.IReadOnlyCollection{NRules.Aggregators.IAggregateExpression})
+  name.vb: Compile(AggregateElement, IReadOnlyCollection(Of IAggregateExpression))
+  fullName: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement, System.Collections.Generic.IReadOnlyCollection<NRules.Aggregators.IAggregateExpression>)
+  fullName.vb: NRules.Aggregators.IAggregatorFactory.Compile(NRules.RuleModel.AggregateElement, System.Collections.Generic.IReadOnlyCollection(Of NRules.Aggregators.IAggregateExpression))
+  nameWithType: IAggregatorFactory.Compile(AggregateElement, IReadOnlyCollection<IAggregateExpression>)
+  nameWithType.vb: IAggregatorFactory.Compile(AggregateElement, IReadOnlyCollection(Of IAggregateExpression))
 - uid: NRules.Aggregators.IAggregatorFactory.Compile*
   name: Compile
   href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Compile_
@@ -517,12 +530,12 @@ references:
   isSpec: "True"
   fullName: NRules.Aggregators.IAggregatorFactory.Compile
   nameWithType: IAggregatorFactory.Compile
-- uid: NRules.Aggregators.IAggregatorFactory.Create
-  name: Create()
-  href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Create
-  commentId: M:NRules.Aggregators.IAggregatorFactory.Create
-  fullName: NRules.Aggregators.IAggregatorFactory.Create()
-  nameWithType: IAggregatorFactory.Create()
+- uid: NRules.Aggregators.IAggregatorFactory.Create(NRules.Aggregators.AggregationContext)
+  name: Create(AggregationContext)
+  href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Create_NRules_Aggregators_AggregationContext_
+  commentId: M:NRules.Aggregators.IAggregatorFactory.Create(NRules.Aggregators.AggregationContext)
+  fullName: NRules.Aggregators.IAggregatorFactory.Create(NRules.Aggregators.AggregationContext)
+  nameWithType: IAggregatorFactory.Create(AggregationContext)
 - uid: NRules.Aggregators.IAggregatorFactory.Create*
   name: Create
   href: api/NRules.Aggregators.IAggregatorFactory.html#NRules_Aggregators_IAggregatorFactory_Create_
@@ -625,13 +638,13 @@ references:
   fullName: NRules.Diagnostics.AgendaExpressionErrorEventArgs
   nameWithType: AgendaExpressionErrorEventArgs
 - uid: NRules.Diagnostics.AgendaExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
-  name: AgendaExpressionErrorEventArgs(Expression, Exception, object[], IMatch)
+  name: AgendaExpressionErrorEventArgs(Expression, Exception?, object[], IMatch)
   href: api/NRules.Diagnostics.AgendaExpressionErrorEventArgs.html#NRules_Diagnostics_AgendaExpressionErrorEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___NRules_RuleModel_IMatch_
   commentId: M:NRules.Diagnostics.AgendaExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
   name.vb: New(Expression, Exception, Object(), IMatch)
-  fullName: NRules.Diagnostics.AgendaExpressionErrorEventArgs.AgendaExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], NRules.RuleModel.IMatch)
+  fullName: NRules.Diagnostics.AgendaExpressionErrorEventArgs.AgendaExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], NRules.RuleModel.IMatch)
   fullName.vb: NRules.Diagnostics.AgendaExpressionErrorEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), NRules.RuleModel.IMatch)
-  nameWithType: AgendaExpressionErrorEventArgs.AgendaExpressionErrorEventArgs(Expression, Exception, object[], IMatch)
+  nameWithType: AgendaExpressionErrorEventArgs.AgendaExpressionErrorEventArgs(Expression, Exception?, object[], IMatch)
   nameWithType.vb: AgendaExpressionErrorEventArgs.New(Expression, Exception, Object(), IMatch)
 - uid: NRules.Diagnostics.AgendaExpressionErrorEventArgs.#ctor*
   name: AgendaExpressionErrorEventArgs
@@ -663,13 +676,13 @@ references:
   fullName: NRules.Diagnostics.AgendaExpressionEventArgs
   nameWithType: AgendaExpressionEventArgs
 - uid: NRules.Diagnostics.AgendaExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object,NRules.RuleModel.IMatch)
-  name: AgendaExpressionEventArgs(Expression, Exception, object[], object, IMatch)
+  name: AgendaExpressionEventArgs(Expression, Exception?, object[], object?, IMatch)
   href: api/NRules.Diagnostics.AgendaExpressionEventArgs.html#NRules_Diagnostics_AgendaExpressionEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___System_Object_NRules_RuleModel_IMatch_
   commentId: M:NRules.Diagnostics.AgendaExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object,NRules.RuleModel.IMatch)
   name.vb: New(Expression, Exception, Object(), Object, IMatch)
-  fullName: NRules.Diagnostics.AgendaExpressionEventArgs.AgendaExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], object, NRules.RuleModel.IMatch)
+  fullName: NRules.Diagnostics.AgendaExpressionEventArgs.AgendaExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], object?, NRules.RuleModel.IMatch)
   fullName.vb: NRules.Diagnostics.AgendaExpressionEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), Object, NRules.RuleModel.IMatch)
-  nameWithType: AgendaExpressionEventArgs.AgendaExpressionEventArgs(Expression, Exception, object[], object, IMatch)
+  nameWithType: AgendaExpressionEventArgs.AgendaExpressionEventArgs(Expression, Exception?, object[], object?, IMatch)
   nameWithType.vb: AgendaExpressionEventArgs.New(Expression, Exception, Object(), Object, IMatch)
 - uid: NRules.Diagnostics.AgendaExpressionEventArgs.#ctor*
   name: AgendaExpressionEventArgs
@@ -778,13 +791,13 @@ references:
   fullName: NRules.Diagnostics.Dgml.DgmlWriter.SetMetricsProvider
   nameWithType: DgmlWriter.SetMetricsProvider
 - uid: NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter(System.Collections.Generic.IEnumerable{System.String})
-  name: SetRuleFilter(IEnumerable<string>)
+  name: SetRuleFilter(IEnumerable<string>?)
   href: api/NRules.Diagnostics.Dgml.DgmlWriter.html#NRules_Diagnostics_Dgml_DgmlWriter_SetRuleFilter_System_Collections_Generic_IEnumerable_System_String__
   commentId: M:NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter(System.Collections.Generic.IEnumerable{System.String})
   name.vb: SetRuleFilter(IEnumerable(Of String))
-  fullName: NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter(System.Collections.Generic.IEnumerable<string>)
+  fullName: NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter(System.Collections.Generic.IEnumerable<string>?)
   fullName.vb: NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter(System.Collections.Generic.IEnumerable(Of String))
-  nameWithType: DgmlWriter.SetRuleFilter(IEnumerable<string>)
+  nameWithType: DgmlWriter.SetRuleFilter(IEnumerable<string>?)
   nameWithType.vb: DgmlWriter.SetRuleFilter(IEnumerable(Of String))
 - uid: NRules.Diagnostics.Dgml.DgmlWriter.SetRuleFilter*
   name: SetRuleFilter
@@ -829,13 +842,13 @@ references:
   fullName: NRules.Diagnostics.ExpressionEventArgs
   nameWithType: ExpressionEventArgs
 - uid: NRules.Diagnostics.ExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object)
-  name: ExpressionEventArgs(Expression, Exception, object[], object)
+  name: ExpressionEventArgs(Expression, Exception?, object[], object?)
   href: api/NRules.Diagnostics.ExpressionEventArgs.html#NRules_Diagnostics_ExpressionEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___System_Object_
   commentId: M:NRules.Diagnostics.ExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object)
   name.vb: New(Expression, Exception, Object(), Object)
-  fullName: NRules.Diagnostics.ExpressionEventArgs.ExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], object)
+  fullName: NRules.Diagnostics.ExpressionEventArgs.ExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], object?)
   fullName.vb: NRules.Diagnostics.ExpressionEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), Object)
-  nameWithType: ExpressionEventArgs.ExpressionEventArgs(Expression, Exception, object[], object)
+  nameWithType: ExpressionEventArgs.ExpressionEventArgs(Expression, Exception?, object[], object?)
   nameWithType.vb: ExpressionEventArgs.New(Expression, Exception, Object(), Object)
 - uid: NRules.Diagnostics.ExpressionEventArgs.#ctor*
   name: ExpressionEventArgs
@@ -1275,13 +1288,13 @@ references:
   fullName: NRules.Diagnostics.LhsExpressionErrorEventArgs
   nameWithType: LhsExpressionErrorEventArgs
 - uid: NRules.Diagnostics.LhsExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.ITuple,NRules.RuleModel.IFact,System.Collections.Generic.IEnumerable{NRules.RuleModel.IRuleDefinition})
-  name: LhsExpressionErrorEventArgs(Expression, Exception, object[], ITuple, IFact, IEnumerable<IRuleDefinition>)
+  name: LhsExpressionErrorEventArgs(Expression, Exception?, object[], ITuple?, IFact?, IEnumerable<IRuleDefinition>)
   href: api/NRules.Diagnostics.LhsExpressionErrorEventArgs.html#NRules_Diagnostics_LhsExpressionErrorEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___NRules_RuleModel_ITuple_NRules_RuleModel_IFact_System_Collections_Generic_IEnumerable_NRules_RuleModel_IRuleDefinition__
   commentId: M:NRules.Diagnostics.LhsExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.ITuple,NRules.RuleModel.IFact,System.Collections.Generic.IEnumerable{NRules.RuleModel.IRuleDefinition})
   name.vb: New(Expression, Exception, Object(), ITuple, IFact, IEnumerable(Of IRuleDefinition))
-  fullName: NRules.Diagnostics.LhsExpressionErrorEventArgs.LhsExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], NRules.RuleModel.ITuple, NRules.RuleModel.IFact, System.Collections.Generic.IEnumerable<NRules.RuleModel.IRuleDefinition>)
+  fullName: NRules.Diagnostics.LhsExpressionErrorEventArgs.LhsExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], NRules.RuleModel.ITuple?, NRules.RuleModel.IFact?, System.Collections.Generic.IEnumerable<NRules.RuleModel.IRuleDefinition>)
   fullName.vb: NRules.Diagnostics.LhsExpressionErrorEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), NRules.RuleModel.ITuple, NRules.RuleModel.IFact, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.IRuleDefinition))
-  nameWithType: LhsExpressionErrorEventArgs.LhsExpressionErrorEventArgs(Expression, Exception, object[], ITuple, IFact, IEnumerable<IRuleDefinition>)
+  nameWithType: LhsExpressionErrorEventArgs.LhsExpressionErrorEventArgs(Expression, Exception?, object[], ITuple?, IFact?, IEnumerable<IRuleDefinition>)
   nameWithType.vb: LhsExpressionErrorEventArgs.New(Expression, Exception, Object(), ITuple, IFact, IEnumerable(Of IRuleDefinition))
 - uid: NRules.Diagnostics.LhsExpressionErrorEventArgs.#ctor*
   name: LhsExpressionErrorEventArgs
@@ -1313,13 +1326,13 @@ references:
   fullName: NRules.Diagnostics.LhsExpressionEventArgs
   nameWithType: LhsExpressionEventArgs
 - uid: NRules.Diagnostics.LhsExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object,NRules.RuleModel.ITuple,NRules.RuleModel.IFact,System.Collections.Generic.IEnumerable{NRules.RuleModel.IRuleDefinition})
-  name: LhsExpressionEventArgs(Expression, Exception, object[], object, ITuple, IFact, IEnumerable<IRuleDefinition>)
+  name: LhsExpressionEventArgs(Expression, Exception?, object[], object?, ITuple?, IFact?, IEnumerable<IRuleDefinition>)
   href: api/NRules.Diagnostics.LhsExpressionEventArgs.html#NRules_Diagnostics_LhsExpressionEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___System_Object_NRules_RuleModel_ITuple_NRules_RuleModel_IFact_System_Collections_Generic_IEnumerable_NRules_RuleModel_IRuleDefinition__
   commentId: M:NRules.Diagnostics.LhsExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],System.Object,NRules.RuleModel.ITuple,NRules.RuleModel.IFact,System.Collections.Generic.IEnumerable{NRules.RuleModel.IRuleDefinition})
   name.vb: New(Expression, Exception, Object(), Object, ITuple, IFact, IEnumerable(Of IRuleDefinition))
-  fullName: NRules.Diagnostics.LhsExpressionEventArgs.LhsExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], object, NRules.RuleModel.ITuple, NRules.RuleModel.IFact, System.Collections.Generic.IEnumerable<NRules.RuleModel.IRuleDefinition>)
+  fullName: NRules.Diagnostics.LhsExpressionEventArgs.LhsExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], object?, NRules.RuleModel.ITuple?, NRules.RuleModel.IFact?, System.Collections.Generic.IEnumerable<NRules.RuleModel.IRuleDefinition>)
   fullName.vb: NRules.Diagnostics.LhsExpressionEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), Object, NRules.RuleModel.ITuple, NRules.RuleModel.IFact, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.IRuleDefinition))
-  nameWithType: LhsExpressionEventArgs.LhsExpressionEventArgs(Expression, Exception, object[], object, ITuple, IFact, IEnumerable<IRuleDefinition>)
+  nameWithType: LhsExpressionEventArgs.LhsExpressionEventArgs(Expression, Exception?, object[], object?, ITuple?, IFact?, IEnumerable<IRuleDefinition>)
   nameWithType.vb: LhsExpressionEventArgs.New(Expression, Exception, Object(), Object, ITuple, IFact, IEnumerable(Of IRuleDefinition))
 - uid: NRules.Diagnostics.LhsExpressionEventArgs.#ctor*
   name: LhsExpressionEventArgs
@@ -1615,13 +1628,13 @@ references:
   fullName: NRules.Diagnostics.RhsExpressionErrorEventArgs
   nameWithType: RhsExpressionErrorEventArgs
 - uid: NRules.Diagnostics.RhsExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
-  name: RhsExpressionErrorEventArgs(Expression, Exception, object[], IMatch)
+  name: RhsExpressionErrorEventArgs(Expression, Exception?, object[], IMatch)
   href: api/NRules.Diagnostics.RhsExpressionErrorEventArgs.html#NRules_Diagnostics_RhsExpressionErrorEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___NRules_RuleModel_IMatch_
   commentId: M:NRules.Diagnostics.RhsExpressionErrorEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
   name.vb: New(Expression, Exception, Object(), IMatch)
-  fullName: NRules.Diagnostics.RhsExpressionErrorEventArgs.RhsExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], NRules.RuleModel.IMatch)
+  fullName: NRules.Diagnostics.RhsExpressionErrorEventArgs.RhsExpressionErrorEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], NRules.RuleModel.IMatch)
   fullName.vb: NRules.Diagnostics.RhsExpressionErrorEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), NRules.RuleModel.IMatch)
-  nameWithType: RhsExpressionErrorEventArgs.RhsExpressionErrorEventArgs(Expression, Exception, object[], IMatch)
+  nameWithType: RhsExpressionErrorEventArgs.RhsExpressionErrorEventArgs(Expression, Exception?, object[], IMatch)
   nameWithType.vb: RhsExpressionErrorEventArgs.New(Expression, Exception, Object(), IMatch)
 - uid: NRules.Diagnostics.RhsExpressionErrorEventArgs.#ctor*
   name: RhsExpressionErrorEventArgs
@@ -1653,13 +1666,13 @@ references:
   fullName: NRules.Diagnostics.RhsExpressionEventArgs
   nameWithType: RhsExpressionEventArgs
 - uid: NRules.Diagnostics.RhsExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
-  name: RhsExpressionEventArgs(Expression, Exception, object[], IMatch)
+  name: RhsExpressionEventArgs(Expression, Exception?, object[], IMatch)
   href: api/NRules.Diagnostics.RhsExpressionEventArgs.html#NRules_Diagnostics_RhsExpressionEventArgs__ctor_System_Linq_Expressions_Expression_System_Exception_System_Object___NRules_RuleModel_IMatch_
   commentId: M:NRules.Diagnostics.RhsExpressionEventArgs.#ctor(System.Linq.Expressions.Expression,System.Exception,System.Object[],NRules.RuleModel.IMatch)
   name.vb: New(Expression, Exception, Object(), IMatch)
-  fullName: NRules.Diagnostics.RhsExpressionEventArgs.RhsExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception, object[], NRules.RuleModel.IMatch)
+  fullName: NRules.Diagnostics.RhsExpressionEventArgs.RhsExpressionEventArgs(System.Linq.Expressions.Expression, System.Exception?, object[], NRules.RuleModel.IMatch)
   fullName.vb: NRules.Diagnostics.RhsExpressionEventArgs.New(System.Linq.Expressions.Expression, System.Exception, Object(), NRules.RuleModel.IMatch)
-  nameWithType: RhsExpressionEventArgs.RhsExpressionEventArgs(Expression, Exception, object[], IMatch)
+  nameWithType: RhsExpressionEventArgs.RhsExpressionEventArgs(Expression, Exception?, object[], IMatch)
   nameWithType.vb: RhsExpressionEventArgs.New(Expression, Exception, Object(), IMatch)
 - uid: NRules.Diagnostics.RhsExpressionEventArgs.#ctor*
   name: RhsExpressionEventArgs
@@ -1734,15 +1747,15 @@ references:
   commentId: T:NRules.Extensibility.IActionInterceptor
   fullName: NRules.Extensibility.IActionInterceptor
   nameWithType: IActionInterceptor
-- uid: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext,System.Collections.Generic.IEnumerable{NRules.Extensibility.IActionInvocation})
-  name: Intercept(IContext, IEnumerable<IActionInvocation>)
-  href: api/NRules.Extensibility.IActionInterceptor.html#NRules_Extensibility_IActionInterceptor_Intercept_NRules_RuleModel_IContext_System_Collections_Generic_IEnumerable_NRules_Extensibility_IActionInvocation__
-  commentId: M:NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext,System.Collections.Generic.IEnumerable{NRules.Extensibility.IActionInvocation})
-  name.vb: Intercept(IContext, IEnumerable(Of IActionInvocation))
-  fullName: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext, System.Collections.Generic.IEnumerable<NRules.Extensibility.IActionInvocation>)
-  fullName.vb: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext, System.Collections.Generic.IEnumerable(Of NRules.Extensibility.IActionInvocation))
-  nameWithType: IActionInterceptor.Intercept(IContext, IEnumerable<IActionInvocation>)
-  nameWithType.vb: IActionInterceptor.Intercept(IContext, IEnumerable(Of IActionInvocation))
+- uid: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext,System.Collections.Generic.IReadOnlyCollection{NRules.Extensibility.IActionInvocation})
+  name: Intercept(IContext, IReadOnlyCollection<IActionInvocation>)
+  href: api/NRules.Extensibility.IActionInterceptor.html#NRules_Extensibility_IActionInterceptor_Intercept_NRules_RuleModel_IContext_System_Collections_Generic_IReadOnlyCollection_NRules_Extensibility_IActionInvocation__
+  commentId: M:NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext,System.Collections.Generic.IReadOnlyCollection{NRules.Extensibility.IActionInvocation})
+  name.vb: Intercept(IContext, IReadOnlyCollection(Of IActionInvocation))
+  fullName: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext, System.Collections.Generic.IReadOnlyCollection<NRules.Extensibility.IActionInvocation>)
+  fullName.vb: NRules.Extensibility.IActionInterceptor.Intercept(NRules.RuleModel.IContext, System.Collections.Generic.IReadOnlyCollection(Of NRules.Extensibility.IActionInvocation))
+  nameWithType: IActionInterceptor.Intercept(IContext, IReadOnlyCollection<IActionInvocation>)
+  nameWithType.vb: IActionInterceptor.Intercept(IContext, IReadOnlyCollection(Of IActionInvocation))
 - uid: NRules.Extensibility.IActionInterceptor.Intercept*
   name: Intercept
   href: api/NRules.Extensibility.IActionInterceptor.html#NRules_Extensibility_IActionInterceptor_Intercept_
@@ -1868,6 +1881,41 @@ references:
   isSpec: "True"
   fullName: NRules.Extensibility.IResolutionContext.Session
   nameWithType: IResolutionContext.Session
+- uid: NRules.FactIdentityComparerRegistry
+  name: FactIdentityComparerRegistry
+  href: api/NRules.FactIdentityComparerRegistry.html
+  commentId: T:NRules.FactIdentityComparerRegistry
+  fullName: NRules.FactIdentityComparerRegistry
+  nameWithType: FactIdentityComparerRegistry
+- uid: NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer
+  name: DefaultFactIdentityComparer
+  href: api/NRules.FactIdentityComparerRegistry.html#NRules_FactIdentityComparerRegistry_DefaultFactIdentityComparer
+  commentId: P:NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer
+  fullName: NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer
+  nameWithType: FactIdentityComparerRegistry.DefaultFactIdentityComparer
+- uid: NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer*
+  name: DefaultFactIdentityComparer
+  href: api/NRules.FactIdentityComparerRegistry.html#NRules_FactIdentityComparerRegistry_DefaultFactIdentityComparer_
+  commentId: Overload:NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer
+  isSpec: "True"
+  fullName: NRules.FactIdentityComparerRegistry.DefaultFactIdentityComparer
+  nameWithType: FactIdentityComparerRegistry.DefaultFactIdentityComparer
+- uid: NRules.FactIdentityComparerRegistry.RegisterComparer*
+  name: RegisterComparer
+  href: api/NRules.FactIdentityComparerRegistry.html#NRules_FactIdentityComparerRegistry_RegisterComparer_
+  commentId: Overload:NRules.FactIdentityComparerRegistry.RegisterComparer
+  isSpec: "True"
+  fullName: NRules.FactIdentityComparerRegistry.RegisterComparer
+  nameWithType: FactIdentityComparerRegistry.RegisterComparer
+- uid: NRules.FactIdentityComparerRegistry.RegisterComparer``1(System.Collections.Generic.IEqualityComparer{``0})
+  name: RegisterComparer<TFact>(IEqualityComparer<TFact>)
+  href: api/NRules.FactIdentityComparerRegistry.html#NRules_FactIdentityComparerRegistry_RegisterComparer__1_System_Collections_Generic_IEqualityComparer___0__
+  commentId: M:NRules.FactIdentityComparerRegistry.RegisterComparer``1(System.Collections.Generic.IEqualityComparer{``0})
+  name.vb: RegisterComparer(Of TFact)(IEqualityComparer(Of TFact))
+  fullName: NRules.FactIdentityComparerRegistry.RegisterComparer<TFact>(System.Collections.Generic.IEqualityComparer<TFact>)
+  fullName.vb: NRules.FactIdentityComparerRegistry.RegisterComparer(Of TFact)(System.Collections.Generic.IEqualityComparer(Of TFact))
+  nameWithType: FactIdentityComparerRegistry.RegisterComparer<TFact>(IEqualityComparer<TFact>)
+  nameWithType.vb: FactIdentityComparerRegistry.RegisterComparer(Of TFact)(IEqualityComparer(Of TFact))
 - uid: NRules.Fluent
   name: NRules.Fluent
   href: api/NRules.Fluent.html
@@ -3850,6 +3898,28 @@ references:
   isSpec: "True"
   fullName: NRules.IAgenda.Peek
   nameWithType: IAgenda.Peek
+- uid: NRules.IFactIdentityComparer
+  name: IFactIdentityComparer
+  href: api/NRules.IFactIdentityComparer.html
+  commentId: T:NRules.IFactIdentityComparer
+  fullName: NRules.IFactIdentityComparer
+  nameWithType: IFactIdentityComparer
+- uid: NRules.IFactIdentityComparer.GetComparer*
+  name: GetComparer
+  href: api/NRules.IFactIdentityComparer.html#NRules_IFactIdentityComparer_GetComparer_
+  commentId: Overload:NRules.IFactIdentityComparer.GetComparer
+  isSpec: "True"
+  fullName: NRules.IFactIdentityComparer.GetComparer
+  nameWithType: IFactIdentityComparer.GetComparer
+- uid: NRules.IFactIdentityComparer.GetComparer``1
+  name: GetComparer<TFact>()
+  href: api/NRules.IFactIdentityComparer.html#NRules_IFactIdentityComparer_GetComparer__1
+  commentId: M:NRules.IFactIdentityComparer.GetComparer``1
+  name.vb: GetComparer(Of TFact)()
+  fullName: NRules.IFactIdentityComparer.GetComparer<TFact>()
+  fullName.vb: NRules.IFactIdentityComparer.GetComparer(Of TFact)()
+  nameWithType: IFactIdentityComparer.GetComparer<TFact>()
+  nameWithType.vb: IFactIdentityComparer.GetComparer(Of TFact)()
 - uid: NRules.IFactResult
   name: IFactResult
   href: api/NRules.IFactResult.html
@@ -4530,6 +4600,110 @@ references:
   isSpec: "True"
   fullName: NRules.Integration.Autofac.RegistrationExtensions.RegisterSessionFactory
   nameWithType: RegistrationExtensions.RegisterSessionFactory
+- uid: NRules.Integration.DependencyInjection
+  name: NRules.Integration.DependencyInjection
+  href: api/NRules.Integration.DependencyInjection.html
+  commentId: N:NRules.Integration.DependencyInjection
+  fullName: NRules.Integration.DependencyInjection
+  nameWithType: NRules.Integration.DependencyInjection
+- uid: NRules.Integration.DependencyInjection.DependencyResolver
+  name: DependencyResolver
+  href: api/NRules.Integration.DependencyInjection.DependencyResolver.html
+  commentId: T:NRules.Integration.DependencyInjection.DependencyResolver
+  fullName: NRules.Integration.DependencyInjection.DependencyResolver
+  nameWithType: DependencyResolver
+- uid: NRules.Integration.DependencyInjection.DependencyResolver.#ctor(System.IServiceProvider)
+  name: DependencyResolver(IServiceProvider)
+  href: api/NRules.Integration.DependencyInjection.DependencyResolver.html#NRules_Integration_DependencyInjection_DependencyResolver__ctor_System_IServiceProvider_
+  commentId: M:NRules.Integration.DependencyInjection.DependencyResolver.#ctor(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+  fullName: NRules.Integration.DependencyInjection.DependencyResolver.DependencyResolver(System.IServiceProvider)
+  fullName.vb: NRules.Integration.DependencyInjection.DependencyResolver.New(System.IServiceProvider)
+  nameWithType: DependencyResolver.DependencyResolver(IServiceProvider)
+  nameWithType.vb: DependencyResolver.New(IServiceProvider)
+- uid: NRules.Integration.DependencyInjection.DependencyResolver.#ctor*
+  name: DependencyResolver
+  href: api/NRules.Integration.DependencyInjection.DependencyResolver.html#NRules_Integration_DependencyInjection_DependencyResolver__ctor_
+  commentId: Overload:NRules.Integration.DependencyInjection.DependencyResolver.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NRules.Integration.DependencyInjection.DependencyResolver.DependencyResolver
+  fullName.vb: NRules.Integration.DependencyInjection.DependencyResolver.New
+  nameWithType: DependencyResolver.DependencyResolver
+  nameWithType.vb: DependencyResolver.New
+- uid: NRules.Integration.DependencyInjection.DependencyResolver.Resolve(NRules.Extensibility.IResolutionContext,System.Type)
+  name: Resolve(IResolutionContext, Type)
+  href: api/NRules.Integration.DependencyInjection.DependencyResolver.html#NRules_Integration_DependencyInjection_DependencyResolver_Resolve_NRules_Extensibility_IResolutionContext_System_Type_
+  commentId: M:NRules.Integration.DependencyInjection.DependencyResolver.Resolve(NRules.Extensibility.IResolutionContext,System.Type)
+  fullName: NRules.Integration.DependencyInjection.DependencyResolver.Resolve(NRules.Extensibility.IResolutionContext, System.Type)
+  nameWithType: DependencyResolver.Resolve(IResolutionContext, Type)
+- uid: NRules.Integration.DependencyInjection.DependencyResolver.Resolve*
+  name: Resolve
+  href: api/NRules.Integration.DependencyInjection.DependencyResolver.html#NRules_Integration_DependencyInjection_DependencyResolver_Resolve_
+  commentId: Overload:NRules.Integration.DependencyInjection.DependencyResolver.Resolve
+  isSpec: "True"
+  fullName: NRules.Integration.DependencyInjection.DependencyResolver.Resolve
+  nameWithType: DependencyResolver.Resolve
+- uid: NRules.Integration.DependencyInjection.RuleActivator
+  name: RuleActivator
+  href: api/NRules.Integration.DependencyInjection.RuleActivator.html
+  commentId: T:NRules.Integration.DependencyInjection.RuleActivator
+  fullName: NRules.Integration.DependencyInjection.RuleActivator
+  nameWithType: RuleActivator
+- uid: NRules.Integration.DependencyInjection.RuleActivator.#ctor(System.IServiceProvider)
+  name: RuleActivator(IServiceProvider)
+  href: api/NRules.Integration.DependencyInjection.RuleActivator.html#NRules_Integration_DependencyInjection_RuleActivator__ctor_System_IServiceProvider_
+  commentId: M:NRules.Integration.DependencyInjection.RuleActivator.#ctor(System.IServiceProvider)
+  name.vb: New(IServiceProvider)
+  fullName: NRules.Integration.DependencyInjection.RuleActivator.RuleActivator(System.IServiceProvider)
+  fullName.vb: NRules.Integration.DependencyInjection.RuleActivator.New(System.IServiceProvider)
+  nameWithType: RuleActivator.RuleActivator(IServiceProvider)
+  nameWithType.vb: RuleActivator.New(IServiceProvider)
+- uid: NRules.Integration.DependencyInjection.RuleActivator.#ctor*
+  name: RuleActivator
+  href: api/NRules.Integration.DependencyInjection.RuleActivator.html#NRules_Integration_DependencyInjection_RuleActivator__ctor_
+  commentId: Overload:NRules.Integration.DependencyInjection.RuleActivator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NRules.Integration.DependencyInjection.RuleActivator.RuleActivator
+  fullName.vb: NRules.Integration.DependencyInjection.RuleActivator.New
+  nameWithType: RuleActivator.RuleActivator
+  nameWithType.vb: RuleActivator.New
+- uid: NRules.Integration.DependencyInjection.RuleActivator.Activate(System.Type)
+  name: Activate(Type)
+  href: api/NRules.Integration.DependencyInjection.RuleActivator.html#NRules_Integration_DependencyInjection_RuleActivator_Activate_System_Type_
+  commentId: M:NRules.Integration.DependencyInjection.RuleActivator.Activate(System.Type)
+  fullName: NRules.Integration.DependencyInjection.RuleActivator.Activate(System.Type)
+  nameWithType: RuleActivator.Activate(Type)
+- uid: NRules.Integration.DependencyInjection.RuleActivator.Activate*
+  name: Activate
+  href: api/NRules.Integration.DependencyInjection.RuleActivator.html#NRules_Integration_DependencyInjection_RuleActivator_Activate_
+  commentId: Overload:NRules.Integration.DependencyInjection.RuleActivator.Activate
+  isSpec: "True"
+  fullName: NRules.Integration.DependencyInjection.RuleActivator.Activate
+  nameWithType: RuleActivator.Activate
+- uid: NRules.Integration.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/NRules.Integration.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:NRules.Integration.DependencyInjection.ServiceCollectionExtensions
+  fullName: NRules.Integration.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{NRules.Fluent.IRuleTypeScanner})
+  name: AddRules(IServiceCollection, Action<IRuleTypeScanner>)
+  href: api/NRules.Integration.DependencyInjection.ServiceCollectionExtensions.html#NRules_Integration_DependencyInjection_ServiceCollectionExtensions_AddRules_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_NRules_Fluent_IRuleTypeScanner__
+  commentId: M:NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{NRules.Fluent.IRuleTypeScanner})
+  name.vb: AddRules(IServiceCollection, Action(Of IRuleTypeScanner))
+  fullName: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<NRules.Fluent.IRuleTypeScanner>)
+  fullName.vb: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of NRules.Fluent.IRuleTypeScanner))
+  nameWithType: ServiceCollectionExtensions.AddRules(IServiceCollection, Action<IRuleTypeScanner>)
+  nameWithType.vb: ServiceCollectionExtensions.AddRules(IServiceCollection, Action(Of IRuleTypeScanner))
+- uid: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules*
+  name: AddRules
+  href: api/NRules.Integration.DependencyInjection.ServiceCollectionExtensions.html#NRules_Integration_DependencyInjection_ServiceCollectionExtensions_AddRules_
+  commentId: Overload:NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules
+  isSpec: "True"
+  fullName: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules
+  nameWithType: ServiceCollectionExtensions.AddRules
 - uid: NRules.Json
   name: NRules.Json
   href: api/NRules.Json.html
@@ -4870,12 +5044,38 @@ references:
   isSpec: "True"
   fullName: NRules.RuleCompiler.ExpressionCompiler
   nameWithType: RuleCompiler.ExpressionCompiler
+- uid: NRules.RuleCompiler.FactIdentityComparerRegistry
+  name: FactIdentityComparerRegistry
+  href: api/NRules.RuleCompiler.html#NRules_RuleCompiler_FactIdentityComparerRegistry
+  commentId: P:NRules.RuleCompiler.FactIdentityComparerRegistry
+  fullName: NRules.RuleCompiler.FactIdentityComparerRegistry
+  nameWithType: RuleCompiler.FactIdentityComparerRegistry
+- uid: NRules.RuleCompiler.FactIdentityComparerRegistry*
+  name: FactIdentityComparerRegistry
+  href: api/NRules.RuleCompiler.html#NRules_RuleCompiler_FactIdentityComparerRegistry_
+  commentId: Overload:NRules.RuleCompiler.FactIdentityComparerRegistry
+  isSpec: "True"
+  fullName: NRules.RuleCompiler.FactIdentityComparerRegistry
+  nameWithType: RuleCompiler.FactIdentityComparerRegistry
 - uid: NRules.RuleCompilerOptions
   name: RuleCompilerOptions
   href: api/NRules.RuleCompilerOptions.html
   commentId: T:NRules.RuleCompilerOptions
   fullName: NRules.RuleCompilerOptions
   nameWithType: RuleCompilerOptions
+- uid: NRules.RuleCompilerOptions.Default
+  name: Default
+  href: api/NRules.RuleCompilerOptions.html#NRules_RuleCompilerOptions_Default
+  commentId: P:NRules.RuleCompilerOptions.Default
+  fullName: NRules.RuleCompilerOptions.Default
+  nameWithType: RuleCompilerOptions.Default
+- uid: NRules.RuleCompilerOptions.Default*
+  name: Default
+  href: api/NRules.RuleCompilerOptions.html#NRules_RuleCompilerOptions_Default_
+  commentId: Overload:NRules.RuleCompilerOptions.Default
+  isSpec: "True"
+  fullName: NRules.RuleCompilerOptions.Default
+  nameWithType: RuleCompilerOptions.Default
 - uid: NRules.RuleCompilerOptions.UnsupportedExpressionHandling
   name: UnsupportedExpressionHandling
   href: api/NRules.RuleCompilerOptions.html#NRules_RuleCompilerOptions_UnsupportedExpressionHandling
@@ -5392,13 +5592,13 @@ references:
   nameWithType: AggregateBuilder.AggregateBuilder
   nameWithType.vb: AggregateBuilder.New
 - uid: NRules.RuleModel.Builders.AggregateBuilder.Aggregator(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},System.Type)
-  name: Aggregator(string, IEnumerable<KeyValuePair<string, LambdaExpression>>, Type)
+  name: Aggregator(string, IEnumerable<KeyValuePair<string, LambdaExpression>>, Type?)
   href: api/NRules.RuleModel.Builders.AggregateBuilder.html#NRules_RuleModel_Builders_AggregateBuilder_Aggregator_System_String_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___System_Type_
   commentId: M:NRules.RuleModel.Builders.AggregateBuilder.Aggregator(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},System.Type)
   name.vb: Aggregator(String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), Type)
-  fullName: NRules.RuleModel.Builders.AggregateBuilder.Aggregator(string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, System.Type)
+  fullName: NRules.RuleModel.Builders.AggregateBuilder.Aggregator(string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, System.Type?)
   fullName.vb: NRules.RuleModel.Builders.AggregateBuilder.Aggregator(String, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, System.Linq.Expressions.LambdaExpression)), System.Type)
-  nameWithType: AggregateBuilder.Aggregator(string, IEnumerable<KeyValuePair<string, LambdaExpression>>, Type)
+  nameWithType: AggregateBuilder.Aggregator(string, IEnumerable<KeyValuePair<string, LambdaExpression>>, Type?)
   nameWithType.vb: AggregateBuilder.Aggregator(String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), Type)
 - uid: NRules.RuleModel.Builders.AggregateBuilder.Aggregator*
   name: Aggregator
@@ -5478,13 +5678,13 @@ references:
   fullName: NRules.RuleModel.Builders.AggregateBuilder.Pattern(NRules.RuleModel.PatternElement)
   nameWithType: AggregateBuilder.Pattern(PatternElement)
 - uid: NRules.RuleModel.Builders.AggregateBuilder.Pattern(System.Type,System.String)
-  name: Pattern(Type, string)
+  name: Pattern(Type, string?)
   href: api/NRules.RuleModel.Builders.AggregateBuilder.html#NRules_RuleModel_Builders_AggregateBuilder_Pattern_System_Type_System_String_
   commentId: M:NRules.RuleModel.Builders.AggregateBuilder.Pattern(System.Type,System.String)
   name.vb: Pattern(Type, String)
-  fullName: NRules.RuleModel.Builders.AggregateBuilder.Pattern(System.Type, string)
+  fullName: NRules.RuleModel.Builders.AggregateBuilder.Pattern(System.Type, string?)
   fullName.vb: NRules.RuleModel.Builders.AggregateBuilder.Pattern(System.Type, String)
-  nameWithType: AggregateBuilder.Pattern(Type, string)
+  nameWithType: AggregateBuilder.Pattern(Type, string?)
   nameWithType.vb: AggregateBuilder.Pattern(Type, String)
 - uid: NRules.RuleModel.Builders.AggregateBuilder.Pattern*
   name: Pattern
@@ -5690,13 +5890,13 @@ references:
   nameWithType: Element.Aggregate(Type, string, IEnumerable<NamedExpressionElement>, PatternElement)
   nameWithType.vb: Element.Aggregate(Type, String, IEnumerable(Of NamedExpressionElement), PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.PatternElement,System.Type)
-  name: Aggregate(Type, string, IEnumerable<NamedExpressionElement>, PatternElement, Type)
+  name: Aggregate(Type, string, IEnumerable<NamedExpressionElement>, PatternElement, Type?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Aggregate_System_Type_System_String_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_PatternElement_System_Type_
   commentId: M:NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.PatternElement,System.Type)
   name.vb: Aggregate(Type, String, IEnumerable(Of NamedExpressionElement), PatternElement, Type)
-  fullName: NRules.RuleModel.Builders.Element.Aggregate(System.Type, string, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.PatternElement, System.Type)
+  fullName: NRules.RuleModel.Builders.Element.Aggregate(System.Type, string, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.PatternElement, System.Type?)
   fullName.vb: NRules.RuleModel.Builders.Element.Aggregate(System.Type, String, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.NamedExpressionElement), NRules.RuleModel.PatternElement, System.Type)
-  nameWithType: Element.Aggregate(Type, string, IEnumerable<NamedExpressionElement>, PatternElement, Type)
+  nameWithType: Element.Aggregate(Type, string, IEnumerable<NamedExpressionElement>, PatternElement, Type?)
   nameWithType.vb: Element.Aggregate(Type, String, IEnumerable(Of NamedExpressionElement), PatternElement, Type)
 - uid: NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.PatternElement)
   name: Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement)
@@ -5708,13 +5908,13 @@ references:
   nameWithType: Element.Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement)
   nameWithType.vb: Element.Aggregate(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.PatternElement,System.Type)
-  name: Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement, Type)
+  name: Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement, Type?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Aggregate_System_Type_System_String_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_PatternElement_System_Type_
   commentId: M:NRules.RuleModel.Builders.Element.Aggregate(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.PatternElement,System.Type)
   name.vb: Aggregate(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), PatternElement, Type)
-  fullName: NRules.RuleModel.Builders.Element.Aggregate(System.Type, string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.PatternElement, System.Type)
+  fullName: NRules.RuleModel.Builders.Element.Aggregate(System.Type, string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.PatternElement, System.Type?)
   fullName.vb: NRules.RuleModel.Builders.Element.Aggregate(System.Type, String, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, System.Linq.Expressions.LambdaExpression)), NRules.RuleModel.PatternElement, System.Type)
-  nameWithType: Element.Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement, Type)
+  nameWithType: Element.Aggregate(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, PatternElement, Type?)
   nameWithType.vb: Element.Aggregate(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), PatternElement, Type)
 - uid: NRules.RuleModel.Builders.Element.Aggregate*
   name: Aggregate
@@ -5755,11 +5955,14 @@ references:
   fullName: NRules.RuleModel.Builders.Element.Binding(System.Linq.Expressions.LambdaExpression)
   nameWithType: Element.Binding(LambdaExpression)
 - uid: NRules.RuleModel.Builders.Element.Binding(System.Type,System.Linq.Expressions.LambdaExpression)
-  name: Binding(Type, LambdaExpression)
+  name: Binding(Type?, LambdaExpression)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Binding_System_Type_System_Linq_Expressions_LambdaExpression_
   commentId: M:NRules.RuleModel.Builders.Element.Binding(System.Type,System.Linq.Expressions.LambdaExpression)
-  fullName: NRules.RuleModel.Builders.Element.Binding(System.Type, System.Linq.Expressions.LambdaExpression)
-  nameWithType: Element.Binding(Type, LambdaExpression)
+  name.vb: Binding(Type, LambdaExpression)
+  fullName: NRules.RuleModel.Builders.Element.Binding(System.Type?, System.Linq.Expressions.LambdaExpression)
+  fullName.vb: NRules.RuleModel.Builders.Element.Binding(System.Type, System.Linq.Expressions.LambdaExpression)
+  nameWithType: Element.Binding(Type?, LambdaExpression)
+  nameWithType.vb: Element.Binding(Type, LambdaExpression)
 - uid: NRules.RuleModel.Builders.Element.Binding*
   name: Binding
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Binding_
@@ -5774,11 +5977,14 @@ references:
   fullName: NRules.RuleModel.Builders.Element.Collect(NRules.RuleModel.PatternElement)
   nameWithType: Element.Collect(PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Collect(System.Type,NRules.RuleModel.PatternElement)
-  name: Collect(Type, PatternElement)
+  name: Collect(Type?, PatternElement)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Collect_System_Type_NRules_RuleModel_PatternElement_
   commentId: M:NRules.RuleModel.Builders.Element.Collect(System.Type,NRules.RuleModel.PatternElement)
-  fullName: NRules.RuleModel.Builders.Element.Collect(System.Type, NRules.RuleModel.PatternElement)
-  nameWithType: Element.Collect(Type, PatternElement)
+  name.vb: Collect(Type, PatternElement)
+  fullName: NRules.RuleModel.Builders.Element.Collect(System.Type?, NRules.RuleModel.PatternElement)
+  fullName.vb: NRules.RuleModel.Builders.Element.Collect(System.Type, NRules.RuleModel.PatternElement)
+  nameWithType: Element.Collect(Type?, PatternElement)
+  nameWithType.vb: Element.Collect(Type, PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Collect*
   name: Collect
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Collect_
@@ -5981,11 +6187,14 @@ references:
   fullName: NRules.RuleModel.Builders.Element.GroupBy(System.Linq.Expressions.LambdaExpression, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
   nameWithType: Element.GroupBy(LambdaExpression, LambdaExpression, PatternElement)
 - uid: NRules.RuleModel.Builders.Element.GroupBy(System.Type,System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)
-  name: GroupBy(Type, LambdaExpression, LambdaExpression, PatternElement)
+  name: GroupBy(Type?, LambdaExpression, LambdaExpression, PatternElement)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_GroupBy_System_Type_System_Linq_Expressions_LambdaExpression_System_Linq_Expressions_LambdaExpression_NRules_RuleModel_PatternElement_
   commentId: M:NRules.RuleModel.Builders.Element.GroupBy(System.Type,System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)
-  fullName: NRules.RuleModel.Builders.Element.GroupBy(System.Type, System.Linq.Expressions.LambdaExpression, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
-  nameWithType: Element.GroupBy(Type, LambdaExpression, LambdaExpression, PatternElement)
+  name.vb: GroupBy(Type, LambdaExpression, LambdaExpression, PatternElement)
+  fullName: NRules.RuleModel.Builders.Element.GroupBy(System.Type?, System.Linq.Expressions.LambdaExpression, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
+  fullName.vb: NRules.RuleModel.Builders.Element.GroupBy(System.Type, System.Linq.Expressions.LambdaExpression, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
+  nameWithType: Element.GroupBy(Type?, LambdaExpression, LambdaExpression, PatternElement)
+  nameWithType.vb: Element.GroupBy(Type, LambdaExpression, LambdaExpression, PatternElement)
 - uid: NRules.RuleModel.Builders.Element.GroupBy*
   name: GroupBy
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_GroupBy_
@@ -6032,13 +6241,13 @@ references:
   fullName: NRules.RuleModel.Builders.Element.OrGroup
   nameWithType: Element.OrGroup
 - uid: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)
-  name: Pattern(Declaration, IEnumerable<NamedExpressionElement>, RuleElement)
+  name: Pattern(Declaration, IEnumerable<NamedExpressionElement>, RuleElement?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Pattern_NRules_RuleModel_Declaration_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_RuleElement_
   commentId: M:NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)
   name.vb: Pattern(Declaration, IEnumerable(Of NamedExpressionElement), RuleElement)
-  fullName: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.RuleElement)
+  fullName: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.RuleElement?)
   fullName.vb: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.NamedExpressionElement), NRules.RuleModel.RuleElement)
-  nameWithType: Element.Pattern(Declaration, IEnumerable<NamedExpressionElement>, RuleElement)
+  nameWithType: Element.Pattern(Declaration, IEnumerable<NamedExpressionElement>, RuleElement?)
   nameWithType.vb: Element.Pattern(Declaration, IEnumerable(Of NamedExpressionElement), RuleElement)
 - uid: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}})
   name: Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>)
@@ -6050,22 +6259,22 @@ references:
   nameWithType: Element.Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>)
   nameWithType.vb: Element.Pattern(Declaration, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)))
 - uid: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)
-  name: Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement)
+  name: Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Pattern_NRules_RuleModel_Declaration_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_RuleElement_
   commentId: M:NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)
   name.vb: Pattern(Declaration, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), RuleElement)
-  fullName: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.RuleElement)
+  fullName: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.RuleElement?)
   fullName.vb: NRules.RuleModel.Builders.Element.Pattern(NRules.RuleModel.Declaration, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, System.Linq.Expressions.LambdaExpression)), NRules.RuleModel.RuleElement)
-  nameWithType: Element.Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement)
+  nameWithType: Element.Pattern(Declaration, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement?)
   nameWithType.vb: Element.Pattern(Declaration, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), RuleElement)
 - uid: NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)
-  name: Pattern(Type, string, IEnumerable<NamedExpressionElement>, RuleElement)
+  name: Pattern(Type, string, IEnumerable<NamedExpressionElement>, RuleElement?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Pattern_System_Type_System_String_System_Collections_Generic_IEnumerable_NRules_RuleModel_NamedExpressionElement__NRules_RuleModel_RuleElement_
   commentId: M:NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{NRules.RuleModel.NamedExpressionElement},NRules.RuleModel.RuleElement)
   name.vb: Pattern(Type, String, IEnumerable(Of NamedExpressionElement), RuleElement)
-  fullName: NRules.RuleModel.Builders.Element.Pattern(System.Type, string, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.RuleElement)
+  fullName: NRules.RuleModel.Builders.Element.Pattern(System.Type, string, System.Collections.Generic.IEnumerable<NRules.RuleModel.NamedExpressionElement>, NRules.RuleModel.RuleElement?)
   fullName.vb: NRules.RuleModel.Builders.Element.Pattern(System.Type, String, System.Collections.Generic.IEnumerable(Of NRules.RuleModel.NamedExpressionElement), NRules.RuleModel.RuleElement)
-  nameWithType: Element.Pattern(Type, string, IEnumerable<NamedExpressionElement>, RuleElement)
+  nameWithType: Element.Pattern(Type, string, IEnumerable<NamedExpressionElement>, RuleElement?)
   nameWithType.vb: Element.Pattern(Type, String, IEnumerable(Of NamedExpressionElement), RuleElement)
 - uid: NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}})
   name: Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>)
@@ -6077,13 +6286,13 @@ references:
   nameWithType: Element.Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>)
   nameWithType.vb: Element.Pattern(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)))
 - uid: NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)
-  name: Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement)
+  name: Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement?)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Pattern_System_Type_System_String_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Linq_Expressions_LambdaExpression___NRules_RuleModel_RuleElement_
   commentId: M:NRules.RuleModel.Builders.Element.Pattern(System.Type,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Linq.Expressions.LambdaExpression}},NRules.RuleModel.RuleElement)
   name.vb: Pattern(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), RuleElement)
-  fullName: NRules.RuleModel.Builders.Element.Pattern(System.Type, string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.RuleElement)
+  fullName: NRules.RuleModel.Builders.Element.Pattern(System.Type, string, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Linq.Expressions.LambdaExpression>>, NRules.RuleModel.RuleElement?)
   fullName.vb: NRules.RuleModel.Builders.Element.Pattern(System.Type, String, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, System.Linq.Expressions.LambdaExpression)), NRules.RuleModel.RuleElement)
-  nameWithType: Element.Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement)
+  nameWithType: Element.Pattern(Type, string, IEnumerable<KeyValuePair<string, LambdaExpression>>, RuleElement?)
   nameWithType.vb: Element.Pattern(Type, String, IEnumerable(Of KeyValuePair(Of String, LambdaExpression)), RuleElement)
 - uid: NRules.RuleModel.Builders.Element.Pattern*
   name: Pattern
@@ -6099,11 +6308,14 @@ references:
   fullName: NRules.RuleModel.Builders.Element.Project(System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
   nameWithType: Element.Project(LambdaExpression, PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Project(System.Type,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)
-  name: Project(Type, LambdaExpression, PatternElement)
+  name: Project(Type?, LambdaExpression, PatternElement)
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Project_System_Type_System_Linq_Expressions_LambdaExpression_NRules_RuleModel_PatternElement_
   commentId: M:NRules.RuleModel.Builders.Element.Project(System.Type,System.Linq.Expressions.LambdaExpression,NRules.RuleModel.PatternElement)
-  fullName: NRules.RuleModel.Builders.Element.Project(System.Type, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
-  nameWithType: Element.Project(Type, LambdaExpression, PatternElement)
+  name.vb: Project(Type, LambdaExpression, PatternElement)
+  fullName: NRules.RuleModel.Builders.Element.Project(System.Type?, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
+  fullName.vb: NRules.RuleModel.Builders.Element.Project(System.Type, System.Linq.Expressions.LambdaExpression, NRules.RuleModel.PatternElement)
+  nameWithType: Element.Project(Type?, LambdaExpression, PatternElement)
+  nameWithType.vb: Element.Project(Type, LambdaExpression, PatternElement)
 - uid: NRules.RuleModel.Builders.Element.Project*
   name: Project
   href: api/NRules.RuleModel.Builders.Element.html#NRules_RuleModel_Builders_Element_Project_
@@ -6214,13 +6426,13 @@ references:
   fullName: NRules.RuleModel.Builders.ExistsBuilder.Pattern(NRules.RuleModel.PatternElement)
   nameWithType: ExistsBuilder.Pattern(PatternElement)
 - uid: NRules.RuleModel.Builders.ExistsBuilder.Pattern(System.Type,System.String)
-  name: Pattern(Type, string)
+  name: Pattern(Type, string?)
   href: api/NRules.RuleModel.Builders.ExistsBuilder.html#NRules_RuleModel_Builders_ExistsBuilder_Pattern_System_Type_System_String_
   commentId: M:NRules.RuleModel.Builders.ExistsBuilder.Pattern(System.Type,System.String)
   name.vb: Pattern(Type, String)
-  fullName: NRules.RuleModel.Builders.ExistsBuilder.Pattern(System.Type, string)
+  fullName: NRules.RuleModel.Builders.ExistsBuilder.Pattern(System.Type, string?)
   fullName.vb: NRules.RuleModel.Builders.ExistsBuilder.Pattern(System.Type, String)
-  nameWithType: ExistsBuilder.Pattern(Type, string)
+  nameWithType: ExistsBuilder.Pattern(Type, string?)
   nameWithType.vb: ExistsBuilder.Pattern(Type, String)
 - uid: NRules.RuleModel.Builders.ExistsBuilder.Pattern*
   name: Pattern
@@ -6505,13 +6717,13 @@ references:
   fullName: NRules.RuleModel.Builders.GroupBuilder.Pattern(NRules.RuleModel.PatternElement)
   nameWithType: GroupBuilder.Pattern(PatternElement)
 - uid: NRules.RuleModel.Builders.GroupBuilder.Pattern(System.Type,System.String)
-  name: Pattern(Type, string)
+  name: Pattern(Type, string?)
   href: api/NRules.RuleModel.Builders.GroupBuilder.html#NRules_RuleModel_Builders_GroupBuilder_Pattern_System_Type_System_String_
   commentId: M:NRules.RuleModel.Builders.GroupBuilder.Pattern(System.Type,System.String)
   name.vb: Pattern(Type, String)
-  fullName: NRules.RuleModel.Builders.GroupBuilder.Pattern(System.Type, string)
+  fullName: NRules.RuleModel.Builders.GroupBuilder.Pattern(System.Type, string?)
   fullName.vb: NRules.RuleModel.Builders.GroupBuilder.Pattern(System.Type, String)
-  nameWithType: GroupBuilder.Pattern(Type, string)
+  nameWithType: GroupBuilder.Pattern(Type, string?)
   nameWithType.vb: GroupBuilder.Pattern(Type, String)
 - uid: NRules.RuleModel.Builders.GroupBuilder.Pattern*
   name: Pattern
@@ -6607,13 +6819,13 @@ references:
   fullName: NRules.RuleModel.Builders.NotBuilder.Pattern(NRules.RuleModel.PatternElement)
   nameWithType: NotBuilder.Pattern(PatternElement)
 - uid: NRules.RuleModel.Builders.NotBuilder.Pattern(System.Type,System.String)
-  name: Pattern(Type, string)
+  name: Pattern(Type, string?)
   href: api/NRules.RuleModel.Builders.NotBuilder.html#NRules_RuleModel_Builders_NotBuilder_Pattern_System_Type_System_String_
   commentId: M:NRules.RuleModel.Builders.NotBuilder.Pattern(System.Type,System.String)
   name.vb: Pattern(Type, String)
-  fullName: NRules.RuleModel.Builders.NotBuilder.Pattern(System.Type, string)
+  fullName: NRules.RuleModel.Builders.NotBuilder.Pattern(System.Type, string?)
   fullName.vb: NRules.RuleModel.Builders.NotBuilder.Pattern(System.Type, String)
-  nameWithType: NotBuilder.Pattern(Type, string)
+  nameWithType: NotBuilder.Pattern(Type, string?)
   nameWithType.vb: NotBuilder.Pattern(Type, String)
 - uid: NRules.RuleModel.Builders.NotBuilder.Pattern*
   name: Pattern
@@ -6638,13 +6850,13 @@ references:
   nameWithType: PatternBuilder.PatternBuilder(Declaration)
   nameWithType.vb: PatternBuilder.New(Declaration)
 - uid: NRules.RuleModel.Builders.PatternBuilder.#ctor(System.Type,System.String)
-  name: PatternBuilder(Type, string)
+  name: PatternBuilder(Type, string?)
   href: api/NRules.RuleModel.Builders.PatternBuilder.html#NRules_RuleModel_Builders_PatternBuilder__ctor_System_Type_System_String_
   commentId: M:NRules.RuleModel.Builders.PatternBuilder.#ctor(System.Type,System.String)
   name.vb: New(Type, String)
-  fullName: NRules.RuleModel.Builders.PatternBuilder.PatternBuilder(System.Type, string)
+  fullName: NRules.RuleModel.Builders.PatternBuilder.PatternBuilder(System.Type, string?)
   fullName.vb: NRules.RuleModel.Builders.PatternBuilder.New(System.Type, String)
-  nameWithType: PatternBuilder.PatternBuilder(Type, string)
+  nameWithType: PatternBuilder.PatternBuilder(Type, string?)
   nameWithType.vb: PatternBuilder.New(Type, String)
 - uid: NRules.RuleModel.Builders.PatternBuilder.#ctor*
   name: PatternBuilder
@@ -6978,13 +7190,13 @@ references:
   fullName: NRules.RuleModel.Builders.RuleElementBuilder
   nameWithType: RuleElementBuilder
 - uid: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName(System.String)
-  name: DeclarationName(string)
+  name: DeclarationName(string?)
   href: api/NRules.RuleModel.Builders.RuleElementBuilder.html#NRules_RuleModel_Builders_RuleElementBuilder_DeclarationName_System_String_
   commentId: M:NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName(System.String)
   name.vb: DeclarationName(String)
-  fullName: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName(string)
+  fullName: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName(string?)
   fullName.vb: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName(String)
-  nameWithType: RuleElementBuilder.DeclarationName(string)
+  nameWithType: RuleElementBuilder.DeclarationName(string?)
   nameWithType.vb: RuleElementBuilder.DeclarationName(String)
 - uid: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName*
   name: DeclarationName
@@ -6993,161 +7205,25 @@ references:
   isSpec: "True"
   fullName: NRules.RuleModel.Builders.RuleElementBuilder.DeclarationName
   nameWithType: RuleElementBuilder.DeclarationName
-- uid: NRules.RuleModel.Builders.RuleTransformation
-  name: RuleTransformation
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html
-  commentId: T:NRules.RuleModel.Builders.RuleTransformation
-  fullName: NRules.RuleModel.Builders.RuleTransformation
-  nameWithType: RuleTransformation
-- uid: NRules.RuleModel.Builders.RuleTransformation.Context
-  name: RuleTransformation.Context
-  href: api/NRules.RuleModel.Builders.RuleTransformation.Context.html
-  commentId: T:NRules.RuleModel.Builders.RuleTransformation.Context
-  fullName: NRules.RuleModel.Builders.RuleTransformation.Context
-  nameWithType: RuleTransformation.Context
-- uid: NRules.RuleModel.Builders.RuleTransformation.Transform(NRules.RuleModel.IRuleDefinition)
-  name: Transform(IRuleDefinition)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_Transform_NRules_RuleModel_IRuleDefinition_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.Transform(NRules.RuleModel.IRuleDefinition)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.Transform(NRules.RuleModel.IRuleDefinition)
-  nameWithType: RuleTransformation.Transform(IRuleDefinition)
-- uid: NRules.RuleModel.Builders.RuleTransformation.Transform*
-  name: Transform
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_Transform_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.Transform
+- uid: NRules.RuleModel.Context
+  name: Context
+  href: api/NRules.RuleModel.Context.html
+  commentId: T:NRules.RuleModel.Context
+  fullName: NRules.RuleModel.Context
+  nameWithType: Context
+- uid: NRules.RuleModel.Context.Empty
+  name: Empty
+  href: api/NRules.RuleModel.Context.html#NRules_RuleModel_Context_Empty
+  commentId: P:NRules.RuleModel.Context.Empty
+  fullName: NRules.RuleModel.Context.Empty
+  nameWithType: Context.Empty
+- uid: NRules.RuleModel.Context.Empty*
+  name: Empty
+  href: api/NRules.RuleModel.Context.html#NRules_RuleModel_Context_Empty_
+  commentId: Overload:NRules.RuleModel.Context.Empty
   isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.Transform
-  nameWithType: RuleTransformation.Transform
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAction(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ActionElement)
-  name: VisitAction(Context, ActionElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAction_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_ActionElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitAction(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ActionElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAction(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.ActionElement)
-  nameWithType: RuleTransformation.VisitAction(RuleTransformation.Context, ActionElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAction*
-  name: VisitAction
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAction_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitAction
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAction
-  nameWithType: RuleTransformation.VisitAction
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ActionGroupElement)
-  name: VisitActionGroup(Context, ActionGroupElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitActionGroup_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_ActionGroupElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ActionGroupElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.ActionGroupElement)
-  nameWithType: RuleTransformation.VisitActionGroup(RuleTransformation.Context, ActionGroupElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup*
-  name: VisitActionGroup
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitActionGroup_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitActionGroup
-  nameWithType: RuleTransformation.VisitActionGroup
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAggregate(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.AggregateElement)
-  name: VisitAggregate(Context, AggregateElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAggregate_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_AggregateElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitAggregate(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.AggregateElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAggregate(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.AggregateElement)
-  nameWithType: RuleTransformation.VisitAggregate(RuleTransformation.Context, AggregateElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAggregate*
-  name: VisitAggregate
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAggregate_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitAggregate
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAggregate
-  nameWithType: RuleTransformation.VisitAggregate
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAnd(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.AndElement)
-  name: VisitAnd(Context, AndElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAnd_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_AndElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitAnd(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.AndElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAnd(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.AndElement)
-  nameWithType: RuleTransformation.VisitAnd(RuleTransformation.Context, AndElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitAnd*
-  name: VisitAnd
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitAnd_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitAnd
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitAnd
-  nameWithType: RuleTransformation.VisitAnd
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitBinding(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.BindingElement)
-  name: VisitBinding(Context, BindingElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitBinding_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_BindingElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitBinding(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.BindingElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitBinding(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.BindingElement)
-  nameWithType: RuleTransformation.VisitBinding(RuleTransformation.Context, BindingElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitBinding*
-  name: VisitBinding
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitBinding_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitBinding
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitBinding
-  nameWithType: RuleTransformation.VisitBinding
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitExists(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ExistsElement)
-  name: VisitExists(Context, ExistsElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitExists_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_ExistsElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitExists(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ExistsElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitExists(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.ExistsElement)
-  nameWithType: RuleTransformation.VisitExists(RuleTransformation.Context, ExistsElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitExists*
-  name: VisitExists
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitExists_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitExists
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitExists
-  nameWithType: RuleTransformation.VisitExists
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitForAll(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ForAllElement)
-  name: VisitForAll(Context, ForAllElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitForAll_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_ForAllElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitForAll(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.ForAllElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitForAll(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.ForAllElement)
-  nameWithType: RuleTransformation.VisitForAll(RuleTransformation.Context, ForAllElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitForAll*
-  name: VisitForAll
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitForAll_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitForAll
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitForAll
-  nameWithType: RuleTransformation.VisitForAll
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitNot(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.NotElement)
-  name: VisitNot(Context, NotElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitNot_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_NotElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitNot(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.NotElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitNot(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.NotElement)
-  nameWithType: RuleTransformation.VisitNot(RuleTransformation.Context, NotElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitNot*
-  name: VisitNot
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitNot_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitNot
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitNot
-  nameWithType: RuleTransformation.VisitNot
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitOr(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.OrElement)
-  name: VisitOr(Context, OrElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitOr_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_OrElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitOr(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.OrElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitOr(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.OrElement)
-  nameWithType: RuleTransformation.VisitOr(RuleTransformation.Context, OrElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitOr*
-  name: VisitOr
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitOr_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitOr
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitOr
-  nameWithType: RuleTransformation.VisitOr
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitPattern(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.PatternElement)
-  name: VisitPattern(Context, PatternElement)
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitPattern_NRules_RuleModel_Builders_RuleTransformation_Context_NRules_RuleModel_PatternElement_
-  commentId: M:NRules.RuleModel.Builders.RuleTransformation.VisitPattern(NRules.RuleModel.Builders.RuleTransformation.Context,NRules.RuleModel.PatternElement)
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitPattern(NRules.RuleModel.Builders.RuleTransformation.Context, NRules.RuleModel.PatternElement)
-  nameWithType: RuleTransformation.VisitPattern(RuleTransformation.Context, PatternElement)
-- uid: NRules.RuleModel.Builders.RuleTransformation.VisitPattern*
-  name: VisitPattern
-  href: api/NRules.RuleModel.Builders.RuleTransformation.html#NRules_RuleModel_Builders_RuleTransformation_VisitPattern_
-  commentId: Overload:NRules.RuleModel.Builders.RuleTransformation.VisitPattern
-  isSpec: "True"
-  fullName: NRules.RuleModel.Builders.RuleTransformation.VisitPattern
-  nameWithType: RuleTransformation.VisitPattern
+  fullName: NRules.RuleModel.Context.Empty
+  nameWithType: Context.Empty
 - uid: NRules.RuleModel.Declaration
   name: Declaration
   href: api/NRules.RuleModel.Declaration.html
@@ -7529,6 +7605,15 @@ references:
   isSpec: "True"
   fullName: NRules.RuleModel.ExpressionCollection.GetEnumerator
   nameWithType: ExpressionCollection.GetEnumerator
+- uid: NRules.RuleModel.ExpressionCollection.Item(System.Int32)
+  name: this[int]
+  href: api/NRules.RuleModel.ExpressionCollection.html#NRules_RuleModel_ExpressionCollection_Item_System_Int32_
+  commentId: P:NRules.RuleModel.ExpressionCollection.Item(System.Int32)
+  name.vb: this[](Integer)
+  fullName: NRules.RuleModel.ExpressionCollection.this[int]
+  fullName.vb: NRules.RuleModel.ExpressionCollection.this[](Integer)
+  nameWithType: ExpressionCollection.this[int]
+  nameWithType.vb: ExpressionCollection.this[](Integer)
 - uid: NRules.RuleModel.ExpressionCollection.Item(System.String)
   name: this[string]
   href: api/NRules.RuleModel.ExpressionCollection.html#NRules_RuleModel_ExpressionCollection_Item_System_String_
@@ -7548,6 +7633,22 @@ references:
   fullName.vb: NRules.RuleModel.ExpressionCollection.this[]
   nameWithType: ExpressionCollection.this
   nameWithType.vb: ExpressionCollection.this[]
+- uid: NRules.RuleModel.ExpressionCollection.Update(System.Collections.Generic.IReadOnlyList{NRules.RuleModel.NamedExpressionElement})
+  name: Update(IReadOnlyList<NamedExpressionElement>)
+  href: api/NRules.RuleModel.ExpressionCollection.html#NRules_RuleModel_ExpressionCollection_Update_System_Collections_Generic_IReadOnlyList_NRules_RuleModel_NamedExpressionElement__
+  commentId: M:NRules.RuleModel.ExpressionCollection.Update(System.Collections.Generic.IReadOnlyList{NRules.RuleModel.NamedExpressionElement})
+  name.vb: Update(IReadOnlyList(Of NamedExpressionElement))
+  fullName: NRules.RuleModel.ExpressionCollection.Update(System.Collections.Generic.IReadOnlyList<NRules.RuleModel.NamedExpressionElement>)
+  fullName.vb: NRules.RuleModel.ExpressionCollection.Update(System.Collections.Generic.IReadOnlyList(Of NRules.RuleModel.NamedExpressionElement))
+  nameWithType: ExpressionCollection.Update(IReadOnlyList<NamedExpressionElement>)
+  nameWithType.vb: ExpressionCollection.Update(IReadOnlyList(Of NamedExpressionElement))
+- uid: NRules.RuleModel.ExpressionCollection.Update*
+  name: Update
+  href: api/NRules.RuleModel.ExpressionCollection.html#NRules_RuleModel_ExpressionCollection_Update_
+  commentId: Overload:NRules.RuleModel.ExpressionCollection.Update
+  isSpec: "True"
+  fullName: NRules.RuleModel.ExpressionCollection.Update
+  nameWithType: ExpressionCollection.Update
 - uid: NRules.RuleModel.ExpressionElement
   name: ExpressionElement
   href: api/NRules.RuleModel.ExpressionElement.html
@@ -8167,6 +8268,25 @@ references:
   isSpec: "True"
   fullName: NRules.RuleModel.IFactSource.SourceType
   nameWithType: IFactSource.SourceType
+- uid: NRules.RuleModel.IIdentityProvider
+  name: IIdentityProvider
+  href: api/NRules.RuleModel.IIdentityProvider.html
+  commentId: T:NRules.RuleModel.IIdentityProvider
+  fullName: NRules.RuleModel.IIdentityProvider
+  nameWithType: IIdentityProvider
+- uid: NRules.RuleModel.IIdentityProvider.GetIdentity
+  name: GetIdentity()
+  href: api/NRules.RuleModel.IIdentityProvider.html#NRules_RuleModel_IIdentityProvider_GetIdentity
+  commentId: M:NRules.RuleModel.IIdentityProvider.GetIdentity
+  fullName: NRules.RuleModel.IIdentityProvider.GetIdentity()
+  nameWithType: IIdentityProvider.GetIdentity()
+- uid: NRules.RuleModel.IIdentityProvider.GetIdentity*
+  name: GetIdentity
+  href: api/NRules.RuleModel.IIdentityProvider.html#NRules_RuleModel_IIdentityProvider_GetIdentity_
+  commentId: Overload:NRules.RuleModel.IIdentityProvider.GetIdentity
+  isSpec: "True"
+  fullName: NRules.RuleModel.IIdentityProvider.GetIdentity
+  nameWithType: IIdentityProvider.GetIdentity
 - uid: NRules.RuleModel.IKeyedLookup`2
   name: IKeyedLookup<TKey, TElement>
   href: api/NRules.RuleModel.IKeyedLookup-2.html
@@ -8834,13 +8954,22 @@ references:
   fullName.vb: NRules.RuleModel.RuleElementVisitor(Of TContext)
   nameWithType: RuleElementVisitor<TContext>
   nameWithType.vb: RuleElementVisitor(Of TContext)
+- uid: NRules.RuleModel.RuleElementVisitor`1.Visit(`0,NRules.RuleModel.IRuleDefinition)
+  name: Visit(TContext, IRuleDefinition)
+  href: api/NRules.RuleModel.RuleElementVisitor-1.html#NRules_RuleModel_RuleElementVisitor_1_Visit__0_NRules_RuleModel_IRuleDefinition_
+  commentId: M:NRules.RuleModel.RuleElementVisitor`1.Visit(`0,NRules.RuleModel.IRuleDefinition)
+  fullName: NRules.RuleModel.RuleElementVisitor<TContext>.Visit(TContext, NRules.RuleModel.IRuleDefinition)
+  fullName.vb: NRules.RuleModel.RuleElementVisitor(Of TContext).Visit(TContext, NRules.RuleModel.IRuleDefinition)
+  nameWithType: RuleElementVisitor<TContext>.Visit(TContext, IRuleDefinition)
+  nameWithType.vb: RuleElementVisitor(Of TContext).Visit(TContext, IRuleDefinition)
 - uid: NRules.RuleModel.RuleElementVisitor`1.Visit(`0,NRules.RuleModel.RuleElement)
-  name: Visit(TContext, RuleElement)
+  name: Visit(TContext, RuleElement?)
   href: api/NRules.RuleModel.RuleElementVisitor-1.html#NRules_RuleModel_RuleElementVisitor_1_Visit__0_NRules_RuleModel_RuleElement_
   commentId: M:NRules.RuleModel.RuleElementVisitor`1.Visit(`0,NRules.RuleModel.RuleElement)
-  fullName: NRules.RuleModel.RuleElementVisitor<TContext>.Visit(TContext, NRules.RuleModel.RuleElement)
+  name.vb: Visit(TContext, RuleElement)
+  fullName: NRules.RuleModel.RuleElementVisitor<TContext>.Visit(TContext, NRules.RuleModel.RuleElement?)
   fullName.vb: NRules.RuleModel.RuleElementVisitor(Of TContext).Visit(TContext, NRules.RuleModel.RuleElement)
-  nameWithType: RuleElementVisitor<TContext>.Visit(TContext, RuleElement)
+  nameWithType: RuleElementVisitor<TContext>.Visit(TContext, RuleElement?)
   nameWithType.vb: RuleElementVisitor(Of TContext).Visit(TContext, RuleElement)
 - uid: NRules.RuleModel.RuleElementVisitor`1.Visit*
   name: Visit
@@ -9106,6 +9235,15 @@ references:
   fullName.vb: NRules.RuleModel.RuleElementVisitor(Of TContext).VisitPattern
   nameWithType: RuleElementVisitor<TContext>.VisitPattern
   nameWithType.vb: RuleElementVisitor(Of TContext).VisitPattern
+- uid: NRules.RuleModel.RuleElementVisitor`1.Visit``1(`0,System.Collections.Generic.IReadOnlyList{``0},System.Func{`0,``0,``0})
+  name: Visit<T>(TContext, IReadOnlyList<T>, Func<TContext, T, T>)
+  href: api/NRules.RuleModel.RuleElementVisitor-1.html#NRules_RuleModel_RuleElementVisitor_1_Visit__1__0_System_Collections_Generic_IReadOnlyList___0__System_Func__0___0___0__
+  commentId: M:NRules.RuleModel.RuleElementVisitor`1.Visit``1(`0,System.Collections.Generic.IReadOnlyList{``0},System.Func{`0,``0,``0})
+  name.vb: Visit(Of T)(TContext, IReadOnlyList(Of T), Func(Of TContext, T, T))
+  fullName: NRules.RuleModel.RuleElementVisitor<TContext>.Visit<T>(TContext, System.Collections.Generic.IReadOnlyList<T>, System.Func<TContext, T, T>)
+  fullName.vb: NRules.RuleModel.RuleElementVisitor(Of TContext).Visit(Of T)(TContext, System.Collections.Generic.IReadOnlyList(Of T), System.Func(Of TContext, T, T))
+  nameWithType: RuleElementVisitor<TContext>.Visit<T>(TContext, IReadOnlyList<T>, Func<TContext, T, T>)
+  nameWithType.vb: RuleElementVisitor(Of TContext).Visit(Of T)(TContext, IReadOnlyList(Of T), Func(Of TContext, T, T))
 - uid: NRules.RuleModel.RuleProperty
   name: RuleProperty
   href: api/NRules.RuleModel.RuleProperty.html
@@ -9570,6 +9708,15 @@ references:
   fullName.vb: NRules.Testing.IRulesFiringVerification(Of TVerification).Rule()
   nameWithType: IRulesFiringVerification<TVerification>.Rule()
   nameWithType.vb: IRulesFiringVerification(Of TVerification).Rule()
+- uid: NRules.Testing.IRulesFiringVerification`1.Rule(System.String)
+  name: Rule(string)
+  href: api/NRules.Testing.IRulesFiringVerification-1.html#NRules_Testing_IRulesFiringVerification_1_Rule_System_String_
+  commentId: M:NRules.Testing.IRulesFiringVerification`1.Rule(System.String)
+  name.vb: Rule(String)
+  fullName: NRules.Testing.IRulesFiringVerification<TVerification>.Rule(string)
+  fullName.vb: NRules.Testing.IRulesFiringVerification(Of TVerification).Rule(String)
+  nameWithType: IRulesFiringVerification<TVerification>.Rule(string)
+  nameWithType.vb: IRulesFiringVerification(Of TVerification).Rule(String)
 - uid: NRules.Testing.IRulesFiringVerification`1.Rule(System.Type)
   name: Rule(Type)
   href: api/NRules.Testing.IRulesFiringVerification-1.html#NRules_Testing_IRulesFiringVerification_1_Rule_System_Type_
@@ -9621,6 +9768,12 @@ references:
   commentId: M:NRules.Testing.IRulesTestSetup.Rule(NRules.Fluent.Dsl.Rule)
   fullName: NRules.Testing.IRulesTestSetup.Rule(NRules.Fluent.Dsl.Rule)
   nameWithType: IRulesTestSetup.Rule(Rule)
+- uid: NRules.Testing.IRulesTestSetup.Rule(NRules.RuleModel.IRuleDefinition)
+  name: Rule(IRuleDefinition)
+  href: api/NRules.Testing.IRulesTestSetup.html#NRules_Testing_IRulesTestSetup_Rule_NRules_RuleModel_IRuleDefinition_
+  commentId: M:NRules.Testing.IRulesTestSetup.Rule(NRules.RuleModel.IRuleDefinition)
+  fullName: NRules.Testing.IRulesTestSetup.Rule(NRules.RuleModel.IRuleDefinition)
+  nameWithType: IRulesTestSetup.Rule(IRuleDefinition)
 - uid: NRules.Testing.IRulesTestSetup.Rule(System.Type)
   name: Rule(Type)
   href: api/NRules.Testing.IRulesTestSetup.html#NRules_Testing_IRulesTestSetup_Rule_System_Type_
@@ -9662,6 +9815,15 @@ references:
   commentId: T:NRules.Testing.IRulesUnderTest
   fullName: NRules.Testing.IRulesUnderTest
   nameWithType: IRulesUnderTest
+- uid: NRules.Testing.IRulesUnderTest.GetRuleInfo(System.String)
+  name: GetRuleInfo(string)
+  href: api/NRules.Testing.IRulesUnderTest.html#NRules_Testing_IRulesUnderTest_GetRuleInfo_System_String_
+  commentId: M:NRules.Testing.IRulesUnderTest.GetRuleInfo(System.String)
+  name.vb: GetRuleInfo(String)
+  fullName: NRules.Testing.IRulesUnderTest.GetRuleInfo(string)
+  fullName.vb: NRules.Testing.IRulesUnderTest.GetRuleInfo(String)
+  nameWithType: IRulesUnderTest.GetRuleInfo(string)
+  nameWithType.vb: IRulesUnderTest.GetRuleInfo(String)
 - uid: NRules.Testing.IRulesUnderTest.GetRuleInfo(System.Type)
   name: GetRuleInfo(Type)
   href: api/NRules.Testing.IRulesUnderTest.html#NRules_Testing_IRulesUnderTest_GetRuleInfo_System_Type_
@@ -9786,13 +9948,13 @@ references:
   fullName: NRules.Testing.RuleAssertResult
   nameWithType: RuleAssertResult
 - uid: NRules.Testing.RuleAssertResult.#ctor(System.String,NRules.Testing.RuleAssertStatus,System.String,System.Object,System.Object)
-  name: RuleAssertResult(string, RuleAssertStatus, string, object, object)
+  name: RuleAssertResult(string?, RuleAssertStatus, string, object, object)
   href: api/NRules.Testing.RuleAssertResult.html#NRules_Testing_RuleAssertResult__ctor_System_String_NRules_Testing_RuleAssertStatus_System_String_System_Object_System_Object_
   commentId: M:NRules.Testing.RuleAssertResult.#ctor(System.String,NRules.Testing.RuleAssertStatus,System.String,System.Object,System.Object)
   name.vb: New(String, RuleAssertStatus, String, Object, Object)
-  fullName: NRules.Testing.RuleAssertResult.RuleAssertResult(string, NRules.Testing.RuleAssertStatus, string, object, object)
+  fullName: NRules.Testing.RuleAssertResult.RuleAssertResult(string?, NRules.Testing.RuleAssertStatus, string, object, object)
   fullName.vb: NRules.Testing.RuleAssertResult.New(String, NRules.Testing.RuleAssertStatus, String, Object, Object)
-  nameWithType: RuleAssertResult.RuleAssertResult(string, RuleAssertStatus, string, object, object)
+  nameWithType: RuleAssertResult.RuleAssertResult(string?, RuleAssertStatus, string, object, object)
   nameWithType.vb: RuleAssertResult.New(String, RuleAssertStatus, String, Object, Object)
 - uid: NRules.Testing.RuleAssertResult.#ctor*
   name: RuleAssertResult
@@ -9906,6 +10068,15 @@ references:
   commentId: T:NRules.Testing.RuleInfo
   fullName: NRules.Testing.RuleInfo
   nameWithType: RuleInfo
+- uid: NRules.Testing.RuleInfo.#ctor(NRules.RuleModel.IRuleDefinition)
+  name: RuleInfo(IRuleDefinition)
+  href: api/NRules.Testing.RuleInfo.html#NRules_Testing_RuleInfo__ctor_NRules_RuleModel_IRuleDefinition_
+  commentId: M:NRules.Testing.RuleInfo.#ctor(NRules.RuleModel.IRuleDefinition)
+  name.vb: New(IRuleDefinition)
+  fullName: NRules.Testing.RuleInfo.RuleInfo(NRules.RuleModel.IRuleDefinition)
+  fullName.vb: NRules.Testing.RuleInfo.New(NRules.RuleModel.IRuleDefinition)
+  nameWithType: RuleInfo.RuleInfo(IRuleDefinition)
+  nameWithType.vb: RuleInfo.New(IRuleDefinition)
 - uid: NRules.Testing.RuleInfo.#ctor(System.Type,System.Object,NRules.RuleModel.IRuleDefinition)
   name: RuleInfo(Type, object, IRuleDefinition)
   href: api/NRules.Testing.RuleInfo.html#NRules_Testing_RuleInfo__ctor_System_Type_System_Object_NRules_RuleModel_IRuleDefinition_

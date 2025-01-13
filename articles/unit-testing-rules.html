@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
       <title>Unit Testing Rules | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Unit Testing Rules | NRules ">
+      
       
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -28,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -53,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -62,23 +63,9 @@
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
 
           <nav id="breadcrumb"></nav>
         </div>
@@ -89,35 +76,9 @@
 <p>NRules is a production rules engine, which means rules are defined in a form of <code>When &lt;conditions&gt; Then &lt;actions&gt;</code>. This makes the rules easy to unit test, by creating an isolated rules session with a single rule in it (or a small number of coupled rules), supplying test inputs by inserting facts into the session, calling the <a class="xref" href="../api/NRules.ISession.html#NRules_ISession_Fire">Fire</a> method and asserting that the rule fired or didn't fire given those inputs.</p>
 <p>While it's possible to create your own test fixture to set up the rules engine session and assert rule firings, the <a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library provides a set of tools to help set up the rules under test, compile them into a rules session, record rule firings, as well as configure and verify rule firing expectations.</p>
 <h2 id="setting-up-a-test-fixture">Setting Up a Test Fixture</h2>
-<p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library does not depend on any specific unit testing or assertion framework, so by default it just throws an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a> when any assertion fails. To better tailor assertions to the specific unit testing framework, implement an <a class="xref" href="../api/NRules.Testing.IRuleAsserter.html">asserter</a> that uses the specific assertion mechanism.</p>
+<p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library defines a <a class="xref" href="../api/NRules.Testing.RulesTestFixture.html">RulesTestFixture</a> that can be used to create test fixtures to house rules tests.</p>
 <p>The following code uses <a href="https://xunit.net/">xUnit</a> to unit test the rules.</p>
-<pre><code class="lang-c#">using NRules.Testing;
-using Xunit.Sdk;
-
-public class XUnitRuleAsserter : IRuleAsserter
-{
-    public void Assert(RuleAssertResult result)
-    {
-        if (result.Status == RuleAssertStatus.Failed)
-        {
-            throw new XunitException(result.GetMessage());
-        }
-    }
-}
-</code></pre>
-<p>With the <code>XUnitRuleAsserter</code> we can use the <a class="xref" href="../api/NRules.Testing.RulesTestFixture.html">RulesTestFixture</a> to create a base test fixture for all our rule tests.</p>
-<pre><code class="lang-c#">using NRules.Testing;
-
-public abstract class BaseRulesTestFixture : RulesTestFixture
-{
-    protected MyRulesTestFixture()
-    {
-        Asserter = new XUnitRuleAsserter();
-    }
-}
-</code></pre>
-<p>With the above base test fixture, a rule can be tested in the following way:</p>
-<pre><code class="lang-c#">public class MyRuleTest : BaseRulesTestFixture
+<pre><code class="lang-c#">public class MyRuleTest : RulesTestFixture
 {
     public class MyFact { }
 
@@ -174,7 +135,7 @@ public abstract class BaseRulesTestFixture : RulesTestFixture
 </code></pre>
 <h2 id="testing-cooperations-of-multiple-rules">Testing Cooperations of Multiple Rules</h2>
 <p>To test multiple rules together in the same test fixture, more than one rule can be registered during the fixture setup. The rule firing expectations with multiple rules can be set by specifying the actual rule type for which the expectations are verified.</p>
-<pre><code class="lang-c#">public class MyRuleTest : BaseRulesTestFixture
+<pre><code class="lang-c#">public class MyRuleTest : RulesTestFixture
 {
     public MyRuleTest()
     {
@@ -206,6 +167,34 @@ public abstract class BaseRulesTestFixture : RulesTestFixture
 <pre><code class="lang-c#">var serviceMock = new Mock&lt;IMyService&gt;();
 var rule = new MyRule(serviceMock.Object);
 Setup.Rule(rule);
+</code></pre>
+<h2 id="creating-a-custom-asserter">Creating a Custom Asserter</h2>
+<p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library does not depend on any specific unit testing or assertion framework, so by default it just throws an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a> when any assertion fails. To better tailor assertions to the specific unit testing framework, implement an <a class="xref" href="../api/NRules.Testing.IRuleAsserter.html">asserter</a> that uses the specific assertion mechanism.</p>
+<p>Below we are defining a custom asserter for the <a href="https://xunit.net/">xUnit</a> framework.</p>
+<pre><code class="lang-c#">using NRules.Testing;
+using Xunit.Sdk;
+
+public class XUnitRuleAsserter : IRuleAsserter
+{
+    public void Assert(RuleAssertResult result)
+    {
+        if (result.Status == RuleAssertStatus.Failed)
+        {
+            throw new XunitException(result.GetMessage());
+        }
+    }
+}
+</code></pre>
+<p>We can set the asserter as part of a base test fixture and use it for all our rule tests.</p>
+<pre><code class="lang-c#">using NRules.Testing;
+
+public abstract class BaseRulesTestFixture : RulesTestFixture
+{
+    protected BaseRulesTestFixture()
+    {
+        Asserter = new XUnitRuleAsserter();
+    }
+}
 </code></pre>
 <p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> is a very capable library; see NRules integration tests on GitHub for a wide range of examples.</p>
 

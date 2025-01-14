@@ -93,8 +93,8 @@ public class PreferredCustomerDiscountRule : Rule
 {
     public override void Define()
     {
-        Customer customer = null;
-        IEnumerable&lt;Order&gt; orders = null;
+        Customer customer = default!;
+        IEnumerable&lt;Order&gt; orders = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)

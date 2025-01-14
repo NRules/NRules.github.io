@@ -85,7 +85,7 @@ Change filters in particular are extremely useful for rule chaining and recursio
 {
     public override void Define()
     {
-        Order order = null;
+        Order order = default!;
 
         When()
             .Match(() =&gt; order);

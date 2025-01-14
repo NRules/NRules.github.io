@@ -154,8 +154,8 @@ Do not use or otherwise manipulate the binding variable anywhere outside of the 
 {
     public override void Define()
     {
-        Customer customer = null;
-        Account account = null;
+        Customer customer = default!;
+        Account account = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
@@ -173,7 +173,7 @@ An existential quantifier cannot be bound to a variable, since it does not match
 {
     public override void Define()
     {
-        Customer customer = null;
+        Customer customer = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
@@ -191,7 +191,7 @@ A negative existential quantifier cannot be bound to a variable, since it does n
 {
     public override void Define()
     {
-        Customer customer = null;
+        Customer customer = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
@@ -209,7 +209,7 @@ A universal quantifier cannot be bound to a variable, since it does not match an
 {
     public override void Define()
     {
-        Customer customer = null;
+        Customer customer = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
@@ -227,7 +227,7 @@ Patterns can also be connected using OR operator, as well as combined into neste
 {
     public override void Define()
     {
-        Customer customer = null;
+        Customer customer = default!;
 
         When()
             .Or(x =&gt; x
@@ -250,8 +250,8 @@ Patterns can also be connected using OR operator, as well as combined into neste
 {
     public override void Define()
     {
-        Customer customer = null;
-        IEnumerable&lt;Order&gt; orders = null;
+        Customer customer = default!;
+        IEnumerable&lt;Order&gt; orders = default!;
         double total = 0;
 
         When()

@@ -142,8 +142,8 @@ Each pattern in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRu
 {
     public override void Define()
     {
-        Customer customer = default;
-        IEnumerable&lt;Order&gt; orders = default;
+        Customer customer = default!;
+        IEnumerable&lt;Order&gt; orders = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
@@ -174,7 +174,7 @@ Each pattern in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRu
 {
     public override void Define()
     {
-        Customer customer = default;
+        Customer customer = default!;
 
         When()
             .Match&lt;Customer&gt;(() =&gt; customer)

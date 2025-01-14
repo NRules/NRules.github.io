@@ -89,8 +89,8 @@ There are two overloads of the <code>Yield</code> method - one with the same cal
 {
     public override void Define()
     {
-        Customer customer = null;
-        IEnumerable&lt;Order&gt; orders = null;
+        Customer customer = default!;
+        IEnumerable&lt;Order&gt; orders = default!;
         Double total = Double.NaN;
 
         When()
@@ -112,7 +112,7 @@ public class PrintInstantDiscountRule : Rule
 {
     public override void Define()
     {
-        InstantDiscount discount = null;
+        InstantDiscount discount = default!;
 
         When()
             .Match(() =&gt; discount);

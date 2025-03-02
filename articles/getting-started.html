@@ -73,150 +73,298 @@
         <article data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
-<p>This guide shows step by step how to install and use NRules rules engine.</p>
-<h2 id="installing-nrules">Installing NRules</h2>
-<p>Create a new Visual studio Console App project and install NRules</p>
+<p>This guide shows step by step how to install and use <code>NRules</code> rules engine to create an auto insurance quote calculator that has its logic encoded as standalone rules, separated from the application logic.</p>
+<p>You can also find this complete example under the <code>samples</code> folder.</p>
+<p>This guide shows how to use <code>NRules</code> with the fluent DSL in C#. To see how to use <code>NRules</code> with externalized rules, written in R# rules language, see <a href="https://github.com/NRules/NRules.Language">NRules.Languange</a>.</p>
+<h2 id="creating-project-structure">Creating Project Structure</h2>
+<p>Use .NET CLI in a terminal to create a new Visual Studio solution and project structure.</p>
 <div class="tabGroup" id="tabgroup_1">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_1_cli" role="tab" aria-controls="tabpanel_1_cli" data-tab="cli" tabindex="0" aria-selected="true">CLI</a>
+<a href="#tabpanel_1_windows" role="tab" aria-controls="tabpanel_1_windows" data-tab="windows" tabindex="0" aria-selected="true">Windows</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_1_pm" role="tab" aria-controls="tabpanel_1_pm" data-tab="pm" tabindex="-1">Package Manager</a>
+<a href="#tabpanel_1_nix" role="tab" aria-controls="tabpanel_1_nix" data-tab="nix" tabindex="-1">MacOS/Linux</a>
 </li>
 </ul>
-<section id="tabpanel_1_cli" role="tabpanel" data-tab="cli">
+<section id="tabpanel_1_windows" role="tabpanel" data-tab="windows">
 
-<pre><code class="lang-console">&gt; dotnet add package NRules
+<pre><code class="lang-console">dotnet new sln -o GettingStarted
+cd GettingStarted
+
+dotnet new console -o App
+dotnet sln GettingStarted.sln add App\App.csproj
+
+dotnet new classlib -o Domain
+dotnet sln GettingStarted.sln add Domain\Domain.csproj
+
+dotnet new classlib -o Rules
+dotnet sln GettingStarted.sln add Rules\Rules.csproj
+
+dotnet add App\App.csproj reference Rules\Rules.csproj
+dotnet add App\App.csproj reference Domain\Domain.csproj
+dotnet add Rules\Rules.csproj reference Domain\Domain.csproj
 </code></pre>
 </section>
-<section id="tabpanel_1_pm" role="tabpanel" data-tab="pm" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_1_nix" role="tabpanel" data-tab="nix" aria-hidden="true" hidden="hidden">
 
-<pre><code class="lang-console">&gt; Install-Package NRules
+<pre><code class="lang-console">dotnet new sln -o GettingStarted
+cd GettingStarted
+
+dotnet new console -o App
+dotnet sln GettingStarted.sln add App/App.csproj
+
+dotnet new classlib -o Domain
+dotnet sln GettingStarted.sln add Domain/Domain.csproj
+
+dotnet new classlib -o Rules
+dotnet sln GettingStarted.sln add Rules/Rules.csproj
+
+dotnet add App/App.csproj reference Rules/Rules.csproj
+dotnet add App/App.csproj reference Domain/Domain.csproj
+dotnet add Rules/Rules.csproj reference Domain/Domain.csproj
+</code></pre>
+</section>
+</div>
+<h2 id="installing-nrules">Installing NRules</h2>
+<p>Add NRules package references to the corresponding projects. In this sample application, we are keeping rules in a separate project, so this project only needs to reference the <code>NRules.Fluent</code> package. The domain model project will contain plain c# objects (POCO), so no additional references are necessary. Finally, the application project will need to use rules engine runtime, as well as load rules from the rules assembly, so it's best to reference the meta package <code>NRules</code> that brings all the necessary components.</p>
+<p>In the terminal, run the following commands.</p>
+<div class="tabGroup" id="tabgroup_2">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2_windows" role="tab" aria-controls="tabpanel_2_windows" data-tab="windows" tabindex="0" aria-selected="true">Windows</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2_nix" role="tab" aria-controls="tabpanel_2_nix" data-tab="nix" tabindex="-1">MacOS/Linux</a>
+</li>
+</ul>
+<section id="tabpanel_2_windows" role="tabpanel" data-tab="windows">
+
+<pre><code class="lang-console">dotnet add App\App.csproj package NRules
+dotnet add Rules\Rules.csproj package NRules.Fluent
+</code></pre>
+</section>
+<section id="tabpanel_2_nix" role="tabpanel" data-tab="nix" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-console">dotnet add App/App.csproj package NRules
+dotnet add Rules/Rules.csproj package NRules.Fluent
 </code></pre>
 </section>
 </div>
 
-<p>If you have rules and rules engine runtime in different projects, then instead of depending on the <code>NRules</code> meta-package, you can fine-tune the dependencies. The rules project should depend on the <code>NRules.Fluent</code> package, while the runtime components should depend on <code>NRules.Runtime</code>.</p>
+<p>Open the resulting solution in an IDE to continue creating the application.</p>
 <h2 id="creating-domain-model">Creating Domain Model</h2>
-<p>NRules is geared towards writing rules against a domain model, so we start by creating a simple one, which describes customers and orders.</p>
-<pre><code class="lang-c#">public class Customer
+<p>NRules is designed to author rules in terms of a domain model, so we start by creating a simple one, which describes auto-insurance domain. Add the following domain model classes to the <code>Domain</code> project.</p>
+<pre><code class="lang-c#">public class Driver(string name, int age, int yearsOfExperience)
 {
-    public string Name { get; }
-    public bool IsPreferred { get; set; }
-
-    public Customer(string name)
-    {
-        Name = name;
-    }
-
-    public void NotifyAboutDiscount()
-    {
-        Console.WriteLine($&quot;Customer {Name} was notified about a discount&quot;);
-    }
+    public string Name { get; } = name;
+    public int Age { get; } = age;
+    public int YearsOfExperience { get; } = yearsOfExperience;
 }
 
-public class Order
+public class InsuranceQuote(Driver driver, decimal basePremium)
 {
-    public int Id { get; }
-    public Customer Customer { get; }
-    public int Quantity { get; }
-    public double UnitPrice { get; }
-    public double PercentDiscount { get; set; }
-    public bool IsOpen { get; set; } = true;
+    public Driver Driver { get; } = driver;
+    public decimal BasePremium { get; } = basePremium;
+    public decimal FinalPremium { get; private set; } = basePremium;
 
-    public Order(int id, Customer customer, int quantity, double unitPrice)
-    {
-        Id = id;
-        Customer = customer;
-        Quantity = quantity;
-        UnitPrice = unitPrice;
-    }
+    public void ApplySurcharge(decimal amount) =&gt; FinalPremium += amount;
+    public void ApplyDiscount(decimal amount) =&gt; FinalPremium -= amount;
+}
+
+public class TrafficViolation(Driver driver, DateTime date, string violationType)
+{
+    public Driver Driver { get; } = driver;
+    public DateTime Date { get; } = date;
+    public string ViolationType { get; } = violationType;
 }
 </code></pre>
 <h2 id="creating-rules">Creating Rules</h2>
-<p>When using NRules internal DSL, a rule is a class that inherits from <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html">Rule</a>. A rule consists of a set of conditions (patterns that match facts in the rules engine's memory) and a set of actions executed by the engine should the rule fire.</p>
-<p>Let's look at the first rule. We want to find all preferred customers, and for every matching customer we want to collect all orders and apply a discount of 10%.
-Each pattern in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When</a> part of the rule is bound to a variable via an expression, and then can be used in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then</a> part of the rule. Also note that if there is more than one pattern in the rule, the patterns must be joined to avoid a Cartesian Product between the matching facts. In this example the orders are joined with the customer.</p>
-<pre><code class="lang-c#">public class PreferredCustomerDiscountRule : Rule
+<p>When using NRules fluent DSL, a rule is a class that inherits from <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html">Rule</a>. A rule consists of a set of conditions (patterns that match facts in the rules engine's memory) and a set of actions executed by the engine should the rule fire.</p>
+<p>Add the rule classes mentioned below to the <code>Rules</code> project.</p>
+<p>Let's look at a couple of simple rules. We want to match an <code>InsuranceQuote</code>, and, depending on driver's age and years of experience, apply a discount or a surcharge.
+Each pattern in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When</a> part of the rule is bound to a variable via an expression, and then can be used in the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then</a> part of the rule.</p>
+<pre><code class="lang-c#">public class YoungDriverSurchargeRule : Rule
 {
     public override void Define()
     {
-        Customer customer = default!;
-        IEnumerable&lt;Order&gt; orders = default!;
+        InsuranceQuote quote = default!;
 
         When()
-            .Match&lt;Customer&gt;(() =&gt; customer, c =&gt; c.IsPreferred)
-            .Query(() =&gt; orders, x =&gt; x
-                .Match&lt;Order&gt;(
-                    o =&gt; o.Customer == customer,
-                    o =&gt; o.IsOpen,
-                    o =&gt; o.PercentDiscount == 0.0)
-                .Collect()
-                .Where(c =&gt; c.Any()));
+            .Match(() =&gt; quote, q =&gt; q.Driver.Age &lt; 25);
 
         Then()
-            .Do(ctx =&gt; ApplyDiscount(orders, 10.0))
-            .Do(ctx =&gt; ctx.UpdateAll(orders));
+            .Do(ctx =&gt; quote.ApplySurcharge(100));
     }
+}
 
-    private static void ApplyDiscount(IEnumerable&lt;Order&gt; orders, double discount)
+public class ExperiencedDriverDiscountRule : Rule
+{
+    public override void Define()
     {
-        foreach (var order in orders)
-        {
-            order.PercentDiscount = discount;
-        }
+        InsuranceQuote quote = default!;
+
+        When()
+            .Match(() =&gt; quote, q =&gt; q.Driver.YearsOfExperience &gt;= 5);
+
+        Then()
+            .Do(ctx =&gt; quote.ApplyDiscount(50));
     }
 }
 </code></pre>
-<p>The second rule will find all customers that have orders with discounts and will notify them of the discount. It's interesting that this rule relies on the first rule to have fired. In other words, the first rule fires and updates the rules engine's memory, triggering the second rule. This is forward chaining in action.</p>
-<pre><code class="lang-c#">public class DiscountNotificationRule : Rule
+<p>A more complicated rule below matches multiple different facts. Note that if there is more than one pattern in the rule, the patterns must be joined to avoid a Cartesian Product between the matching facts. In this example, the <code>TrafficViolation</code> facts are joined with the driver from the <code>InsuranceQuote</code> fact, so that the rule only considers vilations pertaining to the matched quote.</p>
+<p>This rule adds a surcharge for any recent traffic violation, except those related to parking, provided there is more than one such violation. This rule also demonstrates a mechanism for calculating intermediate values, which can later be used in the downstream patterns and in the rule's actions.</p>
+<pre><code class="lang-c#">public class TrafficViolationSurchargeRule : Rule
 {
     public override void Define()
     {
-        Customer customer = default!;
+        InsuranceQuote quote = default!;
+        IEnumerable&lt;TrafficViolation&gt; violations = default!;
+        int totalViolations = 0;
 
         When()
-            .Match&lt;Customer&gt;(() =&gt; customer)
-            .Exists&lt;Order&gt;(o =&gt; o.Customer == customer, o =&gt; o.PercentDiscount &gt; 0.0);
-
+            .Match(() =&gt; quote)
+            .Query(() =&gt; violations, q =&gt; q
+                .Match&lt;TrafficViolation&gt;()
+                .Where(v =&gt; v.Driver == quote.Driver,
+                    v =&gt; v.ViolationType != &quot;Parking&quot;,
+                    v =&gt; v.Date &gt;= DateTime.Now.AddYears(-2))
+                .Collect())
+            .Let(() =&gt; totalViolations, () =&gt; violations.Count())
+            .Having(() =&gt; totalViolations &gt; 1);
+        
         Then()
-            .Do(_ =&gt; customer.NotifyAboutDiscount());
+            .Do(ctx =&gt; quote.ApplySurcharge(20 * totalViolations));
     }
 }
 </code></pre>
 <h2 id="running-rules">Running Rules</h2>
-<p>NRules is an inference engine. It means there is no predefined order in which rules are executed, and it runs a match/resolve/act cycle to figure it out. It first matches facts (instances of domain entities) with the rules and determines which rules can fire. The rules that matched facts are said to be activated. It then resolves the conflict by choosing a single rule that will actually fire. And, finally, it fires the chosen rule by executing its actions. The cycle is repeated until there are no more rules to fire.
-We need to do several things for the engine to enter the match/resolve/act cycle.
-First, we need to load the rules and compile them into an internal structure (Rete network), so that the engine knows what the rules are and can efficiently match facts. We do this by creating a rule repository and letting it scan an assembly to find the rule classes. Then we compile the rules into a session factory.
-Next we need to create a working session with the engine and insert facts into the engine's memory.
-Finally we tell the engine to start the match/resolve/act cycle.</p>
+<p>NRules is an inference engine. It means there is no predefined order in which rules are executed, and it runs a match/resolve/act cycle to figure it out. It first matches facts (instances of domain entities) with the rules and determines which rules can fire. The rules that matched facts are said to be activated. It then resolves the conflict by choosing a single rule that will actually fire. And, finally, it fires the chosen rule by executing its actions. The cycle is repeated until there are no more rules to fire.</p>
+<p>We need to do several things for the engine to enter the match/resolve/act cycle.</p>
+<p>First, we need to load the rules and translate them into an intermediate rules model. We do this by creating a <a class="xref" href="../api/NRules.Fluent.RuleRepository.html">RuleRepository</a> and letting it scan an assembly to find and instantitate the rule classes.</p>
+<p>Then we need to compile the rules into an execution model (Rete network), so that the engine can efficiently match facts. This is achieved by compiling the rules into an <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a> - this should only be done once per the application lifetime.</p>
+<p>Next, we need to create a working session with the engine (<a class="xref" href="../api/NRules.ISession.html">ISession</a>) and insert facts into it - this can be done multipel times, e.g. per request or per workflow.
+Finally we tell the engine to start the match/resolve/act cycle and fire matching rules.</p>
 <pre><code class="lang-c#">//Load rules
 var repository = new RuleRepository();
-repository.Load(x =&gt; x.From(typeof(PreferredCustomerDiscountRule).Assembly));
+repository.Load(x =&gt; x.From(typeof(YoungDriverSurchargeRule).Assembly));
 
 //Compile rules
 var factory = repository.Compile();
 
-//Create a working session
+//Create rules session
 var session = factory.CreateSession();
 
+//Setup an event handler that prints the name of the fired rule
+session.Events.RuleFiredEvent += (_, args) 
+    =&gt; Console.WriteLine($&quot;Fired rule: {args.Rule.Name}&quot;);
+
 //Load domain model
-var customer = new Customer(&quot;John Doe&quot;) {IsPreferred = true};
-var order1 = new Order(123456, customer, 2, 25.0);
-var order2 = new Order(123457, customer, 1, 100.0);
+var driver = new Driver(name: &quot;John Doe&quot;, age: 24, yearsOfExperience: 1);
+var quote = new InsuranceQuote(driver, basePremium: 1000);
+TrafficViolation[] violations =
+[
+    new(driver, DateTime.Now.AddMonths(-1), &quot;Speeding&quot;),
+    new(driver, DateTime.Now.AddMonths(-2), &quot;Parking&quot;),
+    new(driver, DateTime.Now.AddYears(-1), &quot;Red Light&quot;),
+    new(driver, DateTime.Now.AddYears(-3), &quot;Speeding&quot;)
+];
 
 //Insert facts into rules engine's memory
-session.Insert(customer);
-session.Insert(order1);
-session.Insert(order2);
+session.Insert(quote);
+session.InsertAll(violations);
 
 //Start match/resolve/act cycle
 session.Fire();
+
+//Print results
+Console.WriteLine($&quot;Base premium for {driver.Name}: {quote.BasePremium}&quot;);
+Console.WriteLine($&quot;Final premium for {driver.Name}: {quote.FinalPremium}&quot;);
 </code></pre>
 <p>This prints</p>
-<pre><code class="lang-console">Customer John Doe was notified about a discount
+<pre><code class="lang-console">Fired rule: Rules.YoungDriverSurchargeRule
+Fired rule: Rules.TrafficViolationSurchargeRule
+Base premium for John Doe: 1000
+Final premium for John Doe: 1140
 </code></pre>
+<h2 id="testing-rules">Testing Rules</h2>
+<p>To unit test rules we can use <code>NRules.Testing</code> package. It provides the mechanism for bootstrapping a test instance of the rules engine, loading specified rules into it, and asserting rules firing with the provided facts. See <a href="unit-testing-rules.html">Unit Testing Rules</a> for more details.</p>
+<p>In the terminal, run the following commands to add the unit tests project to the solution.</p>
+<div class="tabGroup" id="tabgroup_3">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_3_windows" role="tab" aria-controls="tabpanel_3_windows" data-tab="windows" tabindex="0" aria-selected="true">Windows</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_3_nix" role="tab" aria-controls="tabpanel_3_nix" data-tab="nix" tabindex="-1">MacOS/Linux</a>
+</li>
+</ul>
+<section id="tabpanel_3_windows" role="tabpanel" data-tab="windows">
+
+<pre><code class="lang-console">dotnet new classlib -o Rules.Tests
+dotnet sln GettingStarted.sln add Rules.Tests\Rules.Tests.csproj
+dotnet add Rules.Tests\Rules.Tests.csproj reference Rules\Rules.csproj
+dotnet add Rules.Tests\Rules.Tests.csproj package Microsoft.NET.Test.Sdk
+dotnet add Rules.Tests\Rules.Tests.csproj package NRules.Testing
+dotnet add Rules.Tests\Rules.Tests.csproj package xunit
+dotnet add Rules.Tests\Rules.Tests.csproj package xunit.runner.visualstudio
+</code></pre>
+</section>
+<section id="tabpanel_3_nix" role="tabpanel" data-tab="nix" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-console">dotnet new classlib -o Rules.Tests
+dotnet sln GettingStarted.sln add Rules.Tests/Rules.Tests.csproj
+dotnet add Rules.Tests/Rules.Tests.csproj reference Rules/Rules.csproj
+dotnet add Rules.Tests/Rules.Tests.csproj package Microsoft.NET.Test.Sdk
+dotnet add Rules.Tests/Rules.Tests.csproj package NRules.Testing
+dotnet add Rules.Tests/Rules.Tests.csproj package xunit
+dotnet add Rules.Tests/Rules.Tests.csproj package xunit.runner.visualstudio
+</code></pre>
+</section>
+</div>
+
+<p>A test fixture for rules unit tests inherits from <a class="xref" href="../api/NRules.Testing.RulesTestFixture.html">RulesTestFixture</a>, and uses the <code>Setup</code> object to add rules under test. Each test method in the fixture can follow the AAA pattern (Arrange, Act, Assert) of setting up facts under test, inserting them into session, calling <code>Fire</code> method, and asserting the rules firing expectations.</p>
+<p>In the IDE, add the following test class to the <code>Rules.Tests</code> project.</p>
+<pre><code class="lang-c#">public class YoungDriverSurchargeRuleTest : RulesTestFixture
+{
+    [Fact]
+    public void Fire_QuoteWithDriverAt25_DoesNotFire()
+    {
+        // Arrange
+        var driver = new Driver(&quot;John Do&quot;, 25, 6);
+        var quote = new InsuranceQuote(driver, 1000);
+
+        // Act
+        Session.Insert(quote);
+        Session.Fire();
+
+        // Assert
+        Verify(x =&gt; x.Rule().Fired(Times.Never));
+    }
+    
+    [Fact]
+    public void Fire_QuoteWithDriverUnder25_Fires()
+    {
+        // Arrange
+        var driver = new Driver(&quot;John Do&quot;, 24, 6);
+        var quote = new InsuranceQuote(driver, 1000);
+
+        // Act
+        Session.Insert(quote);
+        Session.Fire();
+
+        // Assert
+        Verify(x =&gt; x.Rule().Fired(Matched.Fact(quote)));
+        Assert.Equal(1100, quote.FinalPremium);
+    }
+    
+    public YoungDriverSurchargeRuleTest()
+    {
+        Setup.Rule&lt;YoungDriverSurchargeRule&gt;();
+    }
+}
+</code></pre>
+<p>Please read NRules documentation to learn more about various features and capabilities of the engine.</p>
 
 </article>
 

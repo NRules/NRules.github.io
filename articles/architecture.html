@@ -78,20 +78,18 @@
 <p>The central part of any rules engine is rules, and they can exist in many different forms.
 First, rules exist in a form in which they are written, which in case of NRules is internal DSL that uses fluent API.
 One of the design goals behind NRules is to support more than one rules language, and so internal DSL is translated into a canonical form.
-In the future other languages can be translated to the same canonical form.</p>
+Other languages can be translated to the same canonical form, e.g. <a href="https://github.com/NRules/NRules.Language">NRules.RuleSharp</a> can translate rules written in a business rules language R#.</p>
 <p>The canonical rules model is akin to an abstract syntax tree (AST) in the world of compilers/DSL design.
 In this form rules are represented as data that can be analysed, viewed, reported on and, most importantly, compiled to an executable form.</p>
 <p>Executable rules model is a run-time representation of rules that can efficiently interact with the rest of the application.
 NRules is a production rules engine and its executable form is a <a href="http://en.wikipedia.org/wiki/Rete_algorithm">rete network</a>, that can very efficiently find matches between facts and rules.</p>
 <p><img src="../images/NRules-Architecture.png" alt="NRules Architecture"></p>
-<p><a class="xref" href="../api/NRules.Fluent.html">NRules.Fluent</a> namespace contains classes that enable declaratively authoring rules using internal DSL, which is a fluent C# API.
-A <a class="xref" href="../api/NRules.Fluent.RuleRepository.html">RuleRepository</a> is then used to scan assemblies to discover rules and interact with <a class="xref" href="../api/NRules.RuleModel.Builders.RuleBuilder.html">RuleBuilder</a> to translate them into their canonical form.</p>
+<p><a class="xref" href="../api/NRules.Fluent.html">NRules.Fluent</a> namespace contains classes that enable declaratively authoring rules using internal DSL, which is a fluent C# API. A <a class="xref" href="../api/NRules.Fluent.RuleRepository.html">RuleRepository</a> is then used to scan assemblies to discover rules and interact with <a class="xref" href="../api/NRules.RuleModel.Builders.RuleBuilder.html">RuleBuilder</a> to translate them into their canonical form.</p>
 <p><a class="xref" href="../api/NRules.RuleModel.html">NRules.RuleModel</a> namespace contains classes that represent rules as a canonical model. At this level rules are a collection of rule sets, each containing rule definitions.</p>
 <p><a class="xref" href="../api/NRules.html">NRules</a> namespace contains classes that implement the run-time side of the rules engine.
 <a class="xref" href="../api/NRules.RuleCompiler.html">RuleCompiler</a> converts rules from the canonical form to a rete network, which is contained within an <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a>.
 The session factory is then used to create instances of an <a class="xref" href="../api/NRules.ISession.html">ISession</a>, which contains the facts that the engine will use for inference (aka working memory).
-There may be multiple concurrent sessions created off of the same session factory; they will all share the same rete network (which means they will use the same set of rules),
-but they will use different sets of facts and, from the client's perspective, are completely independent.</p>
+There may be multiple concurrent sessions created off of the same session factory; they will all share the same rete network (which means they will use the same set of rules), but they will use different sets of facts and, from the client's perspective, are completely independent.</p>
 
 </article>
 

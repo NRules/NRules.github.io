@@ -74,8 +74,7 @@
 <h1 id="rules-engine-for-net">Rules Engine for .NET</h1>
 
 <p>NRules is an open source rules engine for .NET that is based on the <a href="http://en.wikipedia.org/wiki/Rete_algorithm">Rete</a> matching algorithm. Rules are authored in C# using internal DSL.</p>
-<p>NRules is also an inference engine, where, unlike with scripting engines, there is no predefined order in which rules are executed.
-Instead, inference engine figures out which rules should be activated based on the facts given to it, and then executes them according to a conflict resolution algorithm. Among other features, NRules supports forward chaining, complex fact queries, negative, existential and universal quantifiers.</p>
+<p>NRules is also an inference engine, where, unlike with scripting engines, there is no predefined order in which rules are executed. Instead, inference engine figures out which rules should be activated based on the facts given to it, and then executes them according to a conflict resolution algorithm. Among other features, NRules supports forward chaining, complex fact queries, negative, existential and universal quantifiers.</p>
 <p>To learn more, go to the corresponding sections of the NRules documentation.</p>
 <h2 id="getting-started">Getting Started</h2>
 <p>To install NRules, get the package from nuget</p>
@@ -160,6 +159,12 @@ Instead, inference engine figures out which rules should be activated based on t
 <td>Rules unit testing and expectations assertion. Reference this package from the projects that implement rules unit tests.</td>
 <td><a href="articles/unit-testing-rules.html">Guide</a> <a class="xref" href="api/NRules.Testing.html">API</a></td>
 </tr>
+<tr>
+<td>NRules.RuleSharp</td>
+<td><a href="https://nuget.org/packages/NRules.RuleSharp"><img src="https://img.shields.io/nuget/v/NRules.RuleSharp" alt="NuGet"></a></td>
+<td>Business rules language for NRules - R#.</td>
+<td><a href="https://github.com/NRules/NRules.Language">Repo</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="building-from-source">Building from Source</h2>
@@ -189,7 +194,7 @@ Instead, inference engine figures out which rules should be activated based on t
 <p>Default component is <code>Core</code>. Use the following components to build other parts of the engine</p>
 <ul>
 <li><code>All</code> - build everything</li>
-<li><code>Core</code> - build the rules engine, NRules.Testing and NRules.Json</li>
+<li><code>Core</code> - build the rules engine, NRules.Testing and NRules.Json (must build Core first, in order to build anything else)</li>
 <li><code>Visualizer</code> - build debugger visualizer (Windows only)</li>
 <li><code>Integration</code> - build integration libraries</li>
 <li><code>Samples</code> - build samples</li>

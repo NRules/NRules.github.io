@@ -169,7 +169,7 @@ var rule = new MyRule(serviceMock.Object);
 Setup.Rule(rule);
 </code></pre>
 <h2 id="creating-a-custom-asserter">Creating a Custom Asserter</h2>
-<p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library does not depend on any specific unit testing or assertion framework, so by default it just throws an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a> when any assertion fails. To better tailor assertions to the specific unit testing framework, implement an <a class="xref" href="../api/NRules.Testing.IRuleAsserter.html">asserter</a> that uses the specific assertion mechanism.</p>
+<p><a class="xref" href="../api/NRules.Testing.html">NRules.Testing</a> library does not depend on any specific unit testing or assertion framework, so by default it just throws a <a class="xref" href="../api/NRules.Testing.RuleAssertionException.html">RuleAssertionException</a> when any assertion fails. To better tailor assertions to the specific unit testing framework, implement an <a class="xref" href="../api/NRules.Testing.IRuleAsserter.html">asserter</a> that uses the specific assertion mechanism.</p>
 <p>Below we are defining a custom asserter for the <a href="https://xunit.net/">xUnit</a> framework.</p>
 <pre><code class="lang-c#">using NRules.Testing;
 using Xunit.Sdk;

@@ -1460,25 +1460,6 @@ references:
   commentId: T:NRules.Diagnostics.ReteGraph
   fullName: NRules.Diagnostics.ReteGraph
   nameWithType: ReteGraph
-- uid: NRules.Diagnostics.ReteGraph.#ctor(System.Collections.Generic.IEnumerable{NRules.Diagnostics.ReteNode},System.Collections.Generic.IEnumerable{NRules.Diagnostics.ReteLink})
-  name: ReteGraph(IEnumerable<ReteNode>, IEnumerable<ReteLink>)
-  href: api/NRules.Diagnostics.ReteGraph.html#NRules_Diagnostics_ReteGraph__ctor_System_Collections_Generic_IEnumerable_NRules_Diagnostics_ReteNode__System_Collections_Generic_IEnumerable_NRules_Diagnostics_ReteLink__
-  commentId: M:NRules.Diagnostics.ReteGraph.#ctor(System.Collections.Generic.IEnumerable{NRules.Diagnostics.ReteNode},System.Collections.Generic.IEnumerable{NRules.Diagnostics.ReteLink})
-  name.vb: New(IEnumerable(Of ReteNode), IEnumerable(Of ReteLink))
-  fullName: NRules.Diagnostics.ReteGraph.ReteGraph(System.Collections.Generic.IEnumerable<NRules.Diagnostics.ReteNode>, System.Collections.Generic.IEnumerable<NRules.Diagnostics.ReteLink>)
-  fullName.vb: NRules.Diagnostics.ReteGraph.New(System.Collections.Generic.IEnumerable(Of NRules.Diagnostics.ReteNode), System.Collections.Generic.IEnumerable(Of NRules.Diagnostics.ReteLink))
-  nameWithType: ReteGraph.ReteGraph(IEnumerable<ReteNode>, IEnumerable<ReteLink>)
-  nameWithType.vb: ReteGraph.New(IEnumerable(Of ReteNode), IEnumerable(Of ReteLink))
-- uid: NRules.Diagnostics.ReteGraph.#ctor*
-  name: ReteGraph
-  href: api/NRules.Diagnostics.ReteGraph.html#NRules_Diagnostics_ReteGraph__ctor_
-  commentId: Overload:NRules.Diagnostics.ReteGraph.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NRules.Diagnostics.ReteGraph.ReteGraph
-  fullName.vb: NRules.Diagnostics.ReteGraph.New
-  nameWithType: ReteGraph.ReteGraph
-  nameWithType.vb: ReteGraph.New
 - uid: NRules.Diagnostics.ReteGraph.Links
   name: Links
   href: api/NRules.Diagnostics.ReteGraph.html#NRules_Diagnostics_ReteGraph_Links
@@ -2876,25 +2857,6 @@ references:
   commentId: T:NRules.Fluent.Dsl.Rule
   fullName: NRules.Fluent.Dsl.Rule
   nameWithType: Rule
-- uid: NRules.Fluent.Dsl.Rule.#ctor
-  name: Rule()
-  href: api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule__ctor
-  commentId: M:NRules.Fluent.Dsl.Rule.#ctor
-  name.vb: New()
-  fullName: NRules.Fluent.Dsl.Rule.Rule()
-  fullName.vb: NRules.Fluent.Dsl.Rule.New()
-  nameWithType: Rule.Rule()
-  nameWithType.vb: Rule.New()
-- uid: NRules.Fluent.Dsl.Rule.#ctor*
-  name: Rule
-  href: api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule__ctor_
-  commentId: Overload:NRules.Fluent.Dsl.Rule.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: NRules.Fluent.Dsl.Rule.Rule
-  fullName.vb: NRules.Fluent.Dsl.Rule.New
-  nameWithType: Rule.Rule
-  nameWithType.vb: Rule.New
 - uid: NRules.Fluent.Dsl.Rule.Define
   name: Define()
   href: api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define
@@ -7237,13 +7199,13 @@ references:
   fullName: NRules.RuleModel.Declaration.Equals(NRules.RuleModel.Declaration)
   nameWithType: Declaration.Equals(Declaration)
 - uid: NRules.RuleModel.Declaration.Equals(System.Object)
-  name: Equals(object)
+  name: Equals(object?)
   href: api/NRules.RuleModel.Declaration.html#NRules_RuleModel_Declaration_Equals_System_Object_
   commentId: M:NRules.RuleModel.Declaration.Equals(System.Object)
   name.vb: Equals(Object)
-  fullName: NRules.RuleModel.Declaration.Equals(object)
+  fullName: NRules.RuleModel.Declaration.Equals(object?)
   fullName.vb: NRules.RuleModel.Declaration.Equals(Object)
-  nameWithType: Declaration.Equals(object)
+  nameWithType: Declaration.Equals(object?)
   nameWithType.vb: Declaration.Equals(Object)
 - uid: NRules.RuleModel.Declaration.Equals*
   name: Equals
@@ -9948,13 +9910,13 @@ references:
   fullName: NRules.Testing.RuleAssertResult
   nameWithType: RuleAssertResult
 - uid: NRules.Testing.RuleAssertResult.#ctor(System.String,NRules.Testing.RuleAssertStatus,System.String,System.Object,System.Object)
-  name: RuleAssertResult(string?, RuleAssertStatus, string, object, object)
+  name: RuleAssertResult(string?, RuleAssertStatus, string, object?, object?)
   href: api/NRules.Testing.RuleAssertResult.html#NRules_Testing_RuleAssertResult__ctor_System_String_NRules_Testing_RuleAssertStatus_System_String_System_Object_System_Object_
   commentId: M:NRules.Testing.RuleAssertResult.#ctor(System.String,NRules.Testing.RuleAssertStatus,System.String,System.Object,System.Object)
   name.vb: New(String, RuleAssertStatus, String, Object, Object)
-  fullName: NRules.Testing.RuleAssertResult.RuleAssertResult(string?, NRules.Testing.RuleAssertStatus, string, object, object)
+  fullName: NRules.Testing.RuleAssertResult.RuleAssertResult(string?, NRules.Testing.RuleAssertStatus, string, object?, object?)
   fullName.vb: NRules.Testing.RuleAssertResult.New(String, NRules.Testing.RuleAssertStatus, String, Object, Object)
-  nameWithType: RuleAssertResult.RuleAssertResult(string?, RuleAssertStatus, string, object, object)
+  nameWithType: RuleAssertResult.RuleAssertResult(string?, RuleAssertStatus, string, object?, object?)
   nameWithType.vb: RuleAssertResult.New(String, RuleAssertStatus, String, Object, Object)
 - uid: NRules.Testing.RuleAssertResult.#ctor*
   name: RuleAssertResult
@@ -10062,6 +10024,49 @@ references:
   commentId: F:NRules.Testing.RuleAssertStatus.Passed
   fullName: NRules.Testing.RuleAssertStatus.Passed
   nameWithType: RuleAssertStatus.Passed
+- uid: NRules.Testing.RuleAssertionException
+  name: RuleAssertionException
+  href: api/NRules.Testing.RuleAssertionException.html
+  commentId: T:NRules.Testing.RuleAssertionException
+  fullName: NRules.Testing.RuleAssertionException
+  nameWithType: RuleAssertionException
+- uid: NRules.Testing.RuleAssertionException.#ctor
+  name: RuleAssertionException()
+  href: api/NRules.Testing.RuleAssertionException.html#NRules_Testing_RuleAssertionException__ctor
+  commentId: M:NRules.Testing.RuleAssertionException.#ctor
+  name.vb: New()
+  fullName: NRules.Testing.RuleAssertionException.RuleAssertionException()
+  fullName.vb: NRules.Testing.RuleAssertionException.New()
+  nameWithType: RuleAssertionException.RuleAssertionException()
+  nameWithType.vb: RuleAssertionException.New()
+- uid: NRules.Testing.RuleAssertionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: RuleAssertionException(SerializationInfo, StreamingContext)
+  href: api/NRules.Testing.RuleAssertionException.html#NRules_Testing_RuleAssertionException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:NRules.Testing.RuleAssertionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: NRules.Testing.RuleAssertionException.RuleAssertionException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: NRules.Testing.RuleAssertionException.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RuleAssertionException.RuleAssertionException(SerializationInfo, StreamingContext)
+  nameWithType.vb: RuleAssertionException.New(SerializationInfo, StreamingContext)
+- uid: NRules.Testing.RuleAssertionException.#ctor(System.String)
+  name: RuleAssertionException(string)
+  href: api/NRules.Testing.RuleAssertionException.html#NRules_Testing_RuleAssertionException__ctor_System_String_
+  commentId: M:NRules.Testing.RuleAssertionException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: NRules.Testing.RuleAssertionException.RuleAssertionException(string)
+  fullName.vb: NRules.Testing.RuleAssertionException.New(String)
+  nameWithType: RuleAssertionException.RuleAssertionException(string)
+  nameWithType.vb: RuleAssertionException.New(String)
+- uid: NRules.Testing.RuleAssertionException.#ctor*
+  name: RuleAssertionException
+  href: api/NRules.Testing.RuleAssertionException.html#NRules_Testing_RuleAssertionException__ctor_
+  commentId: Overload:NRules.Testing.RuleAssertionException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NRules.Testing.RuleAssertionException.RuleAssertionException
+  fullName.vb: NRules.Testing.RuleAssertionException.New
+  nameWithType: RuleAssertionException.RuleAssertionException
+  nameWithType.vb: RuleAssertionException.New
 - uid: NRules.Testing.RuleInfo
   name: RuleInfo
   href: api/NRules.Testing.RuleInfo.html

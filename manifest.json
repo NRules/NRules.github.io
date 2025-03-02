@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/GitHub/NRules/docs",
+  "source_base_path": "/Users/snikolayev/Dev/GitHub/NRules/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1836,6 +1836,16 @@
       "output": {
         ".html": {
           "relative_path": "api/NRules.Testing.RuleAssertStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NRules.Testing.RuleAssertionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NRules.Testing.RuleAssertionException.html"
         }
       },
       "version": ""

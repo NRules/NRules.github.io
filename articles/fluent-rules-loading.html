@@ -75,7 +75,7 @@
 
 <p>NRules fluent API not only provides a mechanism to define rules using internal DSL,
 but also to discover, instantiate and load these rules into a rule repository, so that they can be compiled into an executable form.</p>
-<p>See <a href="fluent-rules-dsl.html">Fluent Rules DSL</a> for an overview of the fluent rules DSL.</p>
+<p>See <a href="fluent-rules-dsl.html">Fluent Rules DSL</a> for an overview of authoring rules using the fluent DSL.</p>
 <h2 id="loading-rules-with-fluent-specification">Loading Rules with Fluent Specification</h2>
 <p>With the fluent rules DSL, each rule is a class, and <a class="xref" href="../api/NRules.Fluent.RuleRepository.html">RuleRepository</a> provides a mechanism to discover and load rules classes at runtime using a fluent load specification.
 Method <a class="xref" href="../api/NRules.Fluent.RuleRepository.html#NRules_Fluent_RuleRepository_Load_System_Action_NRules_Fluent_IRuleLoadSpec__">Load</a> accepts an action delegate that instructs the repository which assemblies and/or types to scan to load the rules.
@@ -130,6 +130,7 @@ ruleRepository.Load(r =&gt; r.From(Assembly.GetExecutingAssembly()));
 // Compile rules
 var factory = ruleRepository.Compile();
 </code></pre>
+<p>See <a href="rule-dependencies.html">Rule Dependencies</a> for more details.</p>
 
 </article>
 

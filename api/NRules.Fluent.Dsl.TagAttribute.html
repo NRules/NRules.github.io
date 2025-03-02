@@ -269,10 +269,13 @@ public class TagAttribute : Attribute</code></pre>
 
   <h3 id="NRules_Fluent_Dsl_TagAttribute__ctor_System_String_" data-uid="NRules.Fluent.Dsl.TagAttribute.#ctor(System.String)">
   TagAttribute(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/TagAttribute.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/TagAttribute.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds a tag to rule's metadata.
+A rule class can have multiple tag attributes, and also inherits tag attributes from its parent classes.
+Tags can be used to filter rules when loading them through fluent load specification.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -292,6 +295,9 @@ public class TagAttribute : Attribute</code></pre>
 
 
 
+  <h4 class="section" id="NRules_Fluent_Dsl_TagAttribute__ctor_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A custom tag attribute class could be inherited from the <a class="xref" href="NRules.Fluent.Dsl.TagAttribute.html">TagAttribute</a> to provide strongly-typed version of a tag.</p>
+</div>
 
 
 

@@ -75,8 +75,8 @@
 
 <p>The standard way to define rules in NRules is with the internal DSL using fluent C# API.</p>
 <p>A rule is a .NET class that inherits from <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html">Rule</a>.
-Rule class overrides <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method where the actual conditions (left-hand side, or LHS) and actions (right-hand side, or RHS) parts are specified.
-Within the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method, LHS is specified by fluently chaining conditions to the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When()</a> method; and RHS by fluently chaining actions to <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then()</a> method.</p>
+Rule class overrides <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method where the actual conditions (left-hand side, or LHS) and actions (right-hand side, or RHS) parts are specified.</p>
+<p>Within the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Define">Define</a> method, LHS is specified by fluently chaining conditions to the <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_When">When()</a> method; and RHS by fluently chaining actions to <a class="xref" href="../api/NRules.Fluent.Dsl.Rule.html#NRules_Fluent_Dsl_Rule_Then">Then()</a> method.</p>
 <div class="WARNING">
 <h5>Warning</h5>
 <p>Make sure rule classes are public, otherwise the engine won't find them.</p>
@@ -147,9 +147,7 @@ public class RuleWithMetadata : Rule
 A pattern can have zero, one or many conditions that must all be true in order for the pattern to match a given fact.</p>
 <p>Pattern matching is also polymorphic, which means it matches all facts of a given type and any derived type. Given a class hierarchy of Fruit, Apple and Pear, <code>Match&lt;Fruit&gt;</code> will match both Apples and Pears. Consequently, <code>Match&lt;object&gt;</code> will match all facts in the engine's working memory.</p>
 <p>If a given pattern matches multiple facts in the engine’s working memory, each match will result in a separate firing of the rule.</p>
-<p>Optionally, a pattern can be bound to a variable, in which case that variable can be used in subsequent patterns to specify inter-fact conditions.
-Also, the variable can be used inside actions to update or retract the corresponding fact, or use it in the expression.
-Do not use or otherwise manipulate the binding variable anywhere outside of the condition/action expressions.</p>
+<p>Optionally, a pattern can be bound to a variable, in which case that variable can be used in subsequent patterns to specify inter-fact conditions. Also, the variable can be used inside actions to update or retract the corresponding fact, or use it in the expression. Do not use or otherwise manipulate the binding variable anywhere outside of the condition/action expressions.</p>
 <pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
 {
     public override void Define()
@@ -167,8 +165,8 @@ Do not use or otherwise manipulate the binding variable anywhere outside of the 
 }
 </code></pre>
 <h2 id="existential-rules">Existential Rules</h2>
-<p>Existential rules test for presence of facts that match a particular set of conditions. An existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Exists</a> method.
-An existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>Existential rules test for presence of facts that match a particular set of conditions. An existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Exists</a> method.</p>
+<p>An existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
 <pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
 {
     public override void Define()
@@ -185,8 +183,8 @@ An existential quantifier cannot be bound to a variable, since it does not match
 }
 </code></pre>
 <h2 id="negative-rules">Negative Rules</h2>
-<p>Opposite to existential rules, negative rules test for absence of facts that match a particular set of conditions. A negative existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Not</a> method.
-A negative existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>Opposite to existential rules, negative rules test for absence of facts that match a particular set of conditions. A negative existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Not</a> method.</p>
+<p>A negative existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
 <pre><code class="lang-c#">public class PreferredCustomerNotDelinquentRule : Rule
 {
     public override void Define()
@@ -203,8 +201,8 @@ A negative existential quantifier cannot be bound to a variable, since it does n
 }
 </code></pre>
 <h2 id="universal-quantifier">Universal Quantifier</h2>
-<p>Universal quantifier ensures that all facts that match a particular condition also match all subsequent conditions defined by the quantifier. A universal quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">All</a> method.
-A universal quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>Universal quantifier ensures that all facts that match a particular condition also match all subsequent conditions defined by the quantifier. A universal quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">All</a> method.</p>
+<p>A universal quantifier cannot be bound to a variable, since it does not match any single fact.</p>
 <pre><code class="lang-c#">public class PreferredCustomerAllAccountsActiveRule : Rule
 {
     public override void Define()
@@ -221,8 +219,8 @@ A universal quantifier cannot be bound to a variable, since it does not match an
 }
 </code></pre>
 <h2 id="grouping-patterns">Grouping Patterns</h2>
-<p>By default all patterns on the left-hand side of the rule are connected using AND operator. This means that all patterns must match for the rule to activate.
-Patterns can also be connected using OR operator, as well as combined into nested groups.</p>
+<p>By default all patterns on the left-hand side of the rule are connected using AND operator. This means that all patterns must match for the rule to activate.</p>
+<p>Patterns can also be connected using OR operator, as well as combined into nested groups.</p>
 <pre><code class="lang-c#">public class PreferredCustomerOrHasLargeOrderRule : Rule
 {
     public override void Define()

@@ -265,10 +265,15 @@ public sealed class RepeatabilityAttribute : Attribute</code></pre>
 
   <h3 id="NRules_Fluent_Dsl_RepeatabilityAttribute__ctor_NRules_RuleModel_RuleRepeatability_" data-uid="NRules.Fluent.Dsl.RepeatabilityAttribute.#ctor(NRules.RuleModel.RuleRepeatability)">
   RepeatabilityAttribute(RuleRepeatability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/RepeatabilityAttribute.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/RepeatabilityAttribute.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets rule's repeatability, that is, how it behaves when it is activated with the same set of facts multiple times,
+which is important for recursion control. By default rules are <a class="xref" href="NRules.RuleModel.RuleRepeatability.html#NRules_RuleModel_RuleRepeatability_Repeatable">Repeatable</a>,
+which means a rule will fire every time it is activated with the same set of facts.
+If repeatability is set to <a class="xref" href="NRules.RuleModel.RuleRepeatability.html#NRules_RuleModel_RuleRepeatability_NonRepeatable">NonRepeatable</a> then the rule will not fire with the same combination of facts,
+unless that combination was previously deactivated (i.e. through retraction).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

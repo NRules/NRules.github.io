@@ -264,10 +264,14 @@ public sealed class PriorityAttribute : Attribute</code></pre>
 
   <h3 id="NRules_Fluent_Dsl_PriorityAttribute__ctor_System_Int32_" data-uid="NRules.Fluent.Dsl.PriorityAttribute.#ctor(System.Int32)">
   PriorityAttribute(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/PriorityAttribute.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules/NRules.Fluent/Dsl/PriorityAttribute.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets rule's priority.
+If multiple rules get activated at the same time, rules with higher priority get executed first.
+Priority value can be positive, negative or zero.
+Default priority is zero.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class AutofacDependencyResolver | NRules </title>
+      <title>Class SimpleInjectorRuleActivator | NRules </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AutofacDependencyResolver | NRules ">
+      <meta name="title" content="Class SimpleInjectorRuleActivator | NRules ">
       
-      <meta name="description" content="Dependency resolver that uses Autofac DI container.">
+      <meta name="description" content="Rule activator that uses SimpleInjector DI container.">
       <link rel="icon" href="../images/logo.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/new/main/apiSpec/new?filename=NRules_Integration_Autofac_AutofacDependencyResolver.md&amp;value=---%0Auid%3A%20NRules.Integration.Autofac.AutofacDependencyResolver%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/NRules/NRules/new/main/apiSpec/new?filename=NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator.md&amp;value=---%0Auid%3A%20NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="NRules.Integration.Autofac.AutofacDependencyResolver">
+        <article data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator">
 
 
 
-  <h1 id="NRules_Integration_Autofac_AutofacDependencyResolver" data-uid="NRules.Integration.Autofac.AutofacDependencyResolver" class="text-break">
-Class AutofacDependencyResolver  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.Autofac/NRules.Integration.Autofac/AutofacDependencyResolver.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator" data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator" class="text-break">
+Class SimpleInjectorRuleActivator  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.SimpleInjector/NRules.Integration.SimpleInjector/SimpleInjectorRuleActivator.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="NRules.html">NRules</a>.<a class="xref" href="NRules.Integration.html">Integration</a>.<a class="xref" href="NRules.Integration.Autofac.html">Autofac</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>NRules.Integration.Autofac.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NRules.html">NRules</a>.<a class="xref" href="NRules.Integration.html">Integration</a>.<a class="xref" href="NRules.Integration.SimpleInjector.html">SimpleInjector</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NRules.Integration.SimpleInjector.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Dependency resolver that uses Autofac DI container.</p>
+  <div class="markdown summary"><p>Rule activator that uses SimpleInjector DI container.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AutofacDependencyResolver : IDependencyResolver</code></pre>
+    <pre><code class="lang-csharp hljs">public class SimpleInjectorRuleActivator : IRuleActivator</code></pre>
   </div>
 
 
@@ -112,14 +112,14 @@ Class AutofacDependencyResolver  <a class="header-action link-secondary" title="
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">AutofacDependencyResolver</span></div>
+      <div><span class="xref">SimpleInjectorRuleActivator</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="NRules.Extensibility.IDependencyResolver.html">IDependencyResolver</a></div>
+      <div><a class="xref" href="NRules.Fluent.IRuleActivator.html">IRuleActivator</a></div>
     </dd>
   </dl>
 
@@ -159,25 +159,25 @@ Class AutofacDependencyResolver  <a class="header-action link-secondary" title="
 </h2>
 
 
-  <a id="NRules_Integration_Autofac_AutofacDependencyResolver__ctor_" data-uid="NRules.Integration.Autofac.AutofacDependencyResolver.#ctor*"></a>
+  <a id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator__ctor_" data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor*"></a>
 
-  <h3 id="NRules_Integration_Autofac_AutofacDependencyResolver__ctor_Autofac_ILifetimeScope_" data-uid="NRules.Integration.Autofac.AutofacDependencyResolver.#ctor(Autofac.ILifetimeScope)">
-  AutofacDependencyResolver(ILifetimeScope)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.Autofac/NRules.Integration.Autofac/AutofacDependencyResolver.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator__ctor_SimpleInjector_Container_" data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor(SimpleInjector.Container)">
+  SimpleInjectorRuleActivator(Container)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.SimpleInjector/NRules.Integration.SimpleInjector/SimpleInjectorRuleActivator.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a dependency resolver that uses the specified container.</p>
+  <div class="markdown level1 summary"><p>Creates the SimpleInjector specific RuleActivator instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AutofacDependencyResolver(ILifetimeScope container)</code></pre>
+    <pre><code class="lang-csharp hljs">public SimpleInjectorRuleActivator(Container container)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>container</code> <span class="xref">ILifetimeScope</span></dt>
-    <dd><p>Container to use to resolve dependencies.</p>
+    <dt><code>container</code> <span class="xref">Container</span></dt>
+    <dd><p>The SimpleInjector container.</p>
 </dd>
   </dl>
 
@@ -196,35 +196,32 @@ Class AutofacDependencyResolver  <a class="header-action link-secondary" title="
 </h2>
 
 
-  <a id="NRules_Integration_Autofac_AutofacDependencyResolver_Resolve_" data-uid="NRules.Integration.Autofac.AutofacDependencyResolver.Resolve*"></a>
+  <a id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator_Activate_" data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate*"></a>
 
-  <h3 id="NRules_Integration_Autofac_AutofacDependencyResolver_Resolve_NRules_Extensibility_IResolutionContext_System_Type_" data-uid="NRules.Integration.Autofac.AutofacDependencyResolver.Resolve(NRules.Extensibility.IResolutionContext,System.Type)">
-  Resolve(IResolutionContext, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.Autofac/NRules.Integration.Autofac/AutofacDependencyResolver.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <h3 id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator_Activate_System_Type_" data-uid="NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate(System.Type)">
+  Activate(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.SimpleInjector/NRules.Integration.SimpleInjector/SimpleInjectorRuleActivator.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Resolves a registered service (normally via an IoC container).</p>
+  <div class="markdown level1 summary"><p>Creates rule's instances from a CLR type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Resolve(IResolutionContext context, Type serviceType)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Rule&gt; Activate(Type type)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="NRules.Extensibility.IResolutionContext.html">IResolutionContext</a></dt>
-    <dd><p>Information about the context at which the resolution call is made.</p>
-</dd>
-    <dt><code>serviceType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd><p>The type of requested service.</p>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Rule CLR type.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>Requested service.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="NRules.Fluent.Dsl.Rule.html">Rule</a>&gt;</dt>
+    <dd><p>Rule instances.</p>
 </dd>
   </dl>
 
@@ -234,6 +231,10 @@ Class AutofacDependencyResolver  <a class="header-action link-secondary" title="
 
 
 
+  <h4 class="section" id="NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator_Activate_System_Type__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The same rule type may be instantiated multiple times with different parameters.
+Each instance is considered a separate rule, and should have a unique name.</p>
+</div>
 
 
 
@@ -242,7 +243,7 @@ Class AutofacDependencyResolver  <a class="header-action link-secondary" title="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.Autofac/NRules.Integration.Autofac/AutofacDependencyResolver.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/NRules/NRules/blob/main/src/NRules.Integration/NRules.Integration.SimpleInjector/NRules.Integration.SimpleInjector/SimpleInjectorRuleActivator.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

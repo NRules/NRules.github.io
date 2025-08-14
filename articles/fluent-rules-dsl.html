@@ -148,6 +148,7 @@ A pattern can have zero, one or many conditions that must all be true in order f
 <p>Pattern matching is also polymorphic, which means it matches all facts of a given type and any derived type. Given a class hierarchy of Fruit, Apple and Pear, <code>Match&lt;Fruit&gt;</code> will match both Apples and Pears. Consequently, <code>Match&lt;object&gt;</code> will match all facts in the engine's working memory.</p>
 <p>If a given pattern matches multiple facts in the engine’s working memory, each match will result in a separate firing of the rule.</p>
 <p>Optionally, a pattern can be bound to a variable, in which case that variable can be used in subsequent patterns to specify inter-fact conditions. Also, the variable can be used inside actions to update or retract the corresponding fact, or use it in the expression. Do not use or otherwise manipulate the binding variable anywhere outside of the condition/action expressions.</p>
+<p>In the example below, the rule will match once for every combination of Customer and Account that match the conditions. If a customer has multiple active accounts, the rule will fire once for each such account.</p>
 <pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
 {
     public override void Define()
@@ -167,6 +168,7 @@ A pattern can have zero, one or many conditions that must all be true in order f
 <h2 id="existential-rules">Existential Rules</h2>
 <p>Existential rules test for presence of facts that match a particular set of conditions. An existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Exists__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Exists</a> method.</p>
 <p>An existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>In the example below, the rule will match at most once for a given customer, even if they have multiple accounts.</p>
 <pre><code class="lang-c#">public class PreferredCustomerActiveAccountsRule : Rule
 {
     public override void Define()
@@ -185,6 +187,7 @@ A pattern can have zero, one or many conditions that must all be true in order f
 <h2 id="negative-rules">Negative Rules</h2>
 <p>Opposite to existential rules, negative rules test for absence of facts that match a particular set of conditions. A negative existential quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_Not__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">Not</a> method.</p>
 <p>A negative existential quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>In the example below, the rule will match at most once for a given customer.</p>
 <pre><code class="lang-c#">public class PreferredCustomerNotDelinquentRule : Rule
 {
     public override void Define()
@@ -203,6 +206,7 @@ A pattern can have zero, one or many conditions that must all be true in order f
 <h2 id="universal-quantifier">Universal Quantifier</h2>
 <p>Universal quantifier ensures that all facts that match a particular condition also match all subsequent conditions defined by the quantifier. A universal quantifier is defined using <a class="xref" href="../api/NRules.Fluent.Dsl.ILeftHandSideExpression.html#NRules_Fluent_Dsl_ILeftHandSideExpression_All__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean_____">All</a> method.</p>
 <p>A universal quantifier cannot be bound to a variable, since it does not match any single fact.</p>
+<p>In the example below, the rule will match at most once for a given customer, even if they have multiple accounts that satisfy the universal quantifier conditions.</p>
 <pre><code class="lang-c#">public class PreferredCustomerAllAccountsActiveRule : Rule
 {
     public override void Define()

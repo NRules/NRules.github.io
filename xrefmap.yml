@@ -3270,6 +3270,22 @@ references:
   isSpec: "True"
   fullName: NRules.Fluent.IRuleTypeScanner.Type
   nameWithType: IRuleTypeScanner.Type
+- uid: NRules.Fluent.IRuleTypeScanner.Where(System.Func{System.Type,System.Boolean})
+  name: Where(Func<Type, bool>)
+  href: api/NRules.Fluent.IRuleTypeScanner.html#NRules_Fluent_IRuleTypeScanner_Where_System_Func_System_Type_System_Boolean__
+  commentId: M:NRules.Fluent.IRuleTypeScanner.Where(System.Func{System.Type,System.Boolean})
+  name.vb: Where(Func(Of Type, Boolean))
+  fullName: NRules.Fluent.IRuleTypeScanner.Where(System.Func<System.Type, bool>)
+  fullName.vb: NRules.Fluent.IRuleTypeScanner.Where(System.Func(Of System.Type, Boolean))
+  nameWithType: IRuleTypeScanner.Where(Func<Type, bool>)
+  nameWithType.vb: IRuleTypeScanner.Where(Func(Of Type, Boolean))
+- uid: NRules.Fluent.IRuleTypeScanner.Where*
+  name: Where
+  href: api/NRules.Fluent.IRuleTypeScanner.html#NRules_Fluent_IRuleTypeScanner_Where_
+  commentId: Overload:NRules.Fluent.IRuleTypeScanner.Where
+  isSpec: "True"
+  fullName: NRules.Fluent.IRuleTypeScanner.Where
+  nameWithType: IRuleTypeScanner.Where
 - uid: NRules.Fluent.RuleActivationException
   name: RuleActivationException
   href: api/NRules.Fluent.RuleActivationException.html
@@ -3796,6 +3812,22 @@ references:
   isSpec: "True"
   fullName: NRules.Fluent.RuleTypeScanner.Type
   nameWithType: RuleTypeScanner.Type
+- uid: NRules.Fluent.RuleTypeScanner.Where(System.Func{System.Type,System.Boolean})
+  name: Where(Func<Type, bool>)
+  href: api/NRules.Fluent.RuleTypeScanner.html#NRules_Fluent_RuleTypeScanner_Where_System_Func_System_Type_System_Boolean__
+  commentId: M:NRules.Fluent.RuleTypeScanner.Where(System.Func{System.Type,System.Boolean})
+  name.vb: Where(Func(Of Type, Boolean))
+  fullName: NRules.Fluent.RuleTypeScanner.Where(System.Func<System.Type, bool>)
+  fullName.vb: NRules.Fluent.RuleTypeScanner.Where(System.Func(Of System.Type, Boolean))
+  nameWithType: RuleTypeScanner.Where(Func<Type, bool>)
+  nameWithType.vb: RuleTypeScanner.Where(Func(Of Type, Boolean))
+- uid: NRules.Fluent.RuleTypeScanner.Where*
+  name: Where
+  href: api/NRules.Fluent.RuleTypeScanner.html#NRules_Fluent_RuleTypeScanner_Where_
+  commentId: Overload:NRules.Fluent.RuleTypeScanner.Where
+  isSpec: "True"
+  fullName: NRules.Fluent.RuleTypeScanner.Where
+  nameWithType: RuleTypeScanner.Where
 - uid: NRules.IAgenda
   name: IAgenda
   href: api/NRules.IAgenda.html
@@ -4666,6 +4698,174 @@ references:
   isSpec: "True"
   fullName: NRules.Integration.DependencyInjection.ServiceCollectionExtensions.AddRules
   nameWithType: ServiceCollectionExtensions.AddRules
+- uid: NRules.Integration.SimpleInjector
+  name: NRules.Integration.SimpleInjector
+  href: api/NRules.Integration.SimpleInjector.html
+  commentId: N:NRules.Integration.SimpleInjector
+  fullName: NRules.Integration.SimpleInjector
+  nameWithType: NRules.Integration.SimpleInjector
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions
+  name: RegistrationExtensions
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html
+  commentId: T:NRules.Integration.SimpleInjector.RegistrationExtensions
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions
+  nameWithType: RegistrationExtensions
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name: RegisterDependencyResolver(Container, Lifestyle?)
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterDependencyResolver_SimpleInjector_Container_SimpleInjector_Lifestyle_
+  commentId: M:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name.vb: RegisterDependencyResolver(Container, Lifestyle)
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver(SimpleInjector.Container, SimpleInjector.Lifestyle?)
+  fullName.vb: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver(SimpleInjector.Container, SimpleInjector.Lifestyle)
+  nameWithType: RegistrationExtensions.RegisterDependencyResolver(Container, Lifestyle?)
+  nameWithType.vb: RegistrationExtensions.RegisterDependencyResolver(Container, Lifestyle)
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver*
+  name: RegisterDependencyResolver
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterDependencyResolver_
+  commentId: Overload:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterDependencyResolver
+  nameWithType: RegistrationExtensions.RegisterDependencyResolver
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name: RegisterRuleActivator(Container, Lifestyle?)
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterRuleActivator_SimpleInjector_Container_SimpleInjector_Lifestyle_
+  commentId: M:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name.vb: RegisterRuleActivator(Container, Lifestyle)
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator(SimpleInjector.Container, SimpleInjector.Lifestyle?)
+  fullName.vb: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator(SimpleInjector.Container, SimpleInjector.Lifestyle)
+  nameWithType: RegistrationExtensions.RegisterRuleActivator(Container, Lifestyle?)
+  nameWithType.vb: RegistrationExtensions.RegisterRuleActivator(Container, Lifestyle)
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator*
+  name: RegisterRuleActivator
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterRuleActivator_
+  commentId: Overload:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleActivator
+  nameWithType: RegistrationExtensions.RegisterRuleActivator
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository(SimpleInjector.Container,System.Action{NRules.Fluent.IRuleTypeScanner},SimpleInjector.Lifestyle)
+  name: RegisterRuleRepository(Container, Action<IRuleTypeScanner>, Lifestyle?)
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterRuleRepository_SimpleInjector_Container_System_Action_NRules_Fluent_IRuleTypeScanner__SimpleInjector_Lifestyle_
+  commentId: M:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository(SimpleInjector.Container,System.Action{NRules.Fluent.IRuleTypeScanner},SimpleInjector.Lifestyle)
+  name.vb: RegisterRuleRepository(Container, Action(Of IRuleTypeScanner), Lifestyle)
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository(SimpleInjector.Container, System.Action<NRules.Fluent.IRuleTypeScanner>, SimpleInjector.Lifestyle?)
+  fullName.vb: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository(SimpleInjector.Container, System.Action(Of NRules.Fluent.IRuleTypeScanner), SimpleInjector.Lifestyle)
+  nameWithType: RegistrationExtensions.RegisterRuleRepository(Container, Action<IRuleTypeScanner>, Lifestyle?)
+  nameWithType.vb: RegistrationExtensions.RegisterRuleRepository(Container, Action(Of IRuleTypeScanner), Lifestyle)
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository*
+  name: RegisterRuleRepository
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterRuleRepository_
+  commentId: Overload:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterRuleRepository
+  nameWithType: RegistrationExtensions.RegisterRuleRepository
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name: RegisterSession(Container, Lifestyle?)
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterSession_SimpleInjector_Container_SimpleInjector_Lifestyle_
+  commentId: M:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name.vb: RegisterSession(Container, Lifestyle)
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession(SimpleInjector.Container, SimpleInjector.Lifestyle?)
+  fullName.vb: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession(SimpleInjector.Container, SimpleInjector.Lifestyle)
+  nameWithType: RegistrationExtensions.RegisterSession(Container, Lifestyle?)
+  nameWithType.vb: RegistrationExtensions.RegisterSession(Container, Lifestyle)
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession*
+  name: RegisterSession
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterSession_
+  commentId: Overload:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSession
+  nameWithType: RegistrationExtensions.RegisterSession
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name: RegisterSessionFactory(Container, Lifestyle?)
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterSessionFactory_SimpleInjector_Container_SimpleInjector_Lifestyle_
+  commentId: M:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory(SimpleInjector.Container,SimpleInjector.Lifestyle)
+  name.vb: RegisterSessionFactory(Container, Lifestyle)
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory(SimpleInjector.Container, SimpleInjector.Lifestyle?)
+  fullName.vb: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory(SimpleInjector.Container, SimpleInjector.Lifestyle)
+  nameWithType: RegistrationExtensions.RegisterSessionFactory(Container, Lifestyle?)
+  nameWithType.vb: RegistrationExtensions.RegisterSessionFactory(Container, Lifestyle)
+- uid: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory*
+  name: RegisterSessionFactory
+  href: api/NRules.Integration.SimpleInjector.RegistrationExtensions.html#NRules_Integration_SimpleInjector_RegistrationExtensions_RegisterSessionFactory_
+  commentId: Overload:NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.RegistrationExtensions.RegisterSessionFactory
+  nameWithType: RegistrationExtensions.RegisterSessionFactory
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver
+  name: SimpleInjectorDependencyResolver
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.html
+  commentId: T:NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver
+  nameWithType: SimpleInjectorDependencyResolver
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.#ctor(SimpleInjector.Container)
+  name: SimpleInjectorDependencyResolver(Container)
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.html#NRules_Integration_SimpleInjector_SimpleInjectorDependencyResolver__ctor_SimpleInjector_Container_
+  commentId: M:NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.#ctor(SimpleInjector.Container)
+  name.vb: New(Container)
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.SimpleInjectorDependencyResolver(SimpleInjector.Container)
+  fullName.vb: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.New(SimpleInjector.Container)
+  nameWithType: SimpleInjectorDependencyResolver.SimpleInjectorDependencyResolver(Container)
+  nameWithType.vb: SimpleInjectorDependencyResolver.New(Container)
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.#ctor*
+  name: SimpleInjectorDependencyResolver
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.html#NRules_Integration_SimpleInjector_SimpleInjectorDependencyResolver__ctor_
+  commentId: Overload:NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.SimpleInjectorDependencyResolver
+  fullName.vb: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.New
+  nameWithType: SimpleInjectorDependencyResolver.SimpleInjectorDependencyResolver
+  nameWithType.vb: SimpleInjectorDependencyResolver.New
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve(NRules.Extensibility.IResolutionContext,System.Type)
+  name: Resolve(IResolutionContext, Type)
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.html#NRules_Integration_SimpleInjector_SimpleInjectorDependencyResolver_Resolve_NRules_Extensibility_IResolutionContext_System_Type_
+  commentId: M:NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve(NRules.Extensibility.IResolutionContext,System.Type)
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve(NRules.Extensibility.IResolutionContext, System.Type)
+  nameWithType: SimpleInjectorDependencyResolver.Resolve(IResolutionContext, Type)
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve*
+  name: Resolve
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.html#NRules_Integration_SimpleInjector_SimpleInjectorDependencyResolver_Resolve_
+  commentId: Overload:NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorDependencyResolver.Resolve
+  nameWithType: SimpleInjectorDependencyResolver.Resolve
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator
+  name: SimpleInjectorRuleActivator
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.html
+  commentId: T:NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator
+  nameWithType: SimpleInjectorRuleActivator
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor(SimpleInjector.Container)
+  name: SimpleInjectorRuleActivator(Container)
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.html#NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator__ctor_SimpleInjector_Container_
+  commentId: M:NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor(SimpleInjector.Container)
+  name.vb: New(Container)
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.SimpleInjectorRuleActivator(SimpleInjector.Container)
+  fullName.vb: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.New(SimpleInjector.Container)
+  nameWithType: SimpleInjectorRuleActivator.SimpleInjectorRuleActivator(Container)
+  nameWithType.vb: SimpleInjectorRuleActivator.New(Container)
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor*
+  name: SimpleInjectorRuleActivator
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.html#NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator__ctor_
+  commentId: Overload:NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.SimpleInjectorRuleActivator
+  fullName.vb: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.New
+  nameWithType: SimpleInjectorRuleActivator.SimpleInjectorRuleActivator
+  nameWithType.vb: SimpleInjectorRuleActivator.New
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate(System.Type)
+  name: Activate(Type)
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.html#NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator_Activate_System_Type_
+  commentId: M:NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate(System.Type)
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate(System.Type)
+  nameWithType: SimpleInjectorRuleActivator.Activate(Type)
+- uid: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate*
+  name: Activate
+  href: api/NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.html#NRules_Integration_SimpleInjector_SimpleInjectorRuleActivator_Activate_
+  commentId: Overload:NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate
+  isSpec: "True"
+  fullName: NRules.Integration.SimpleInjector.SimpleInjectorRuleActivator.Activate
+  nameWithType: SimpleInjectorRuleActivator.Activate
 - uid: NRules.Json
   name: NRules.Json
   href: api/NRules.Json.html

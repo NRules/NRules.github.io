@@ -9076,37 +9076,6 @@ references:
   isSpec: "True"
   fullName: NRules.RuleModel.RuleElement.Imports
   nameWithType: RuleElement.Imports
-- uid: NRules.RuleModel.RuleElementExtensions
-  name: RuleElementExtensions
-  href: api/NRules.RuleModel.RuleElementExtensions.html
-  commentId: T:NRules.RuleModel.RuleElementExtensions
-  fullName: NRules.RuleModel.RuleElementExtensions
-  nameWithType: RuleElementExtensions
-- uid: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.GroupElement,System.Action{NRules.RuleModel.AndElement},System.Action{NRules.RuleModel.OrElement})
-  name: Match(GroupElement, Action<AndElement>, Action<OrElement>)
-  href: api/NRules.RuleModel.RuleElementExtensions.html#NRules_RuleModel_RuleElementExtensions_Match_NRules_RuleModel_GroupElement_System_Action_NRules_RuleModel_AndElement__System_Action_NRules_RuleModel_OrElement__
-  commentId: M:NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.GroupElement,System.Action{NRules.RuleModel.AndElement},System.Action{NRules.RuleModel.OrElement})
-  name.vb: Match(GroupElement, Action(Of AndElement), Action(Of OrElement))
-  fullName: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.GroupElement, System.Action<NRules.RuleModel.AndElement>, System.Action<NRules.RuleModel.OrElement>)
-  fullName.vb: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.GroupElement, System.Action(Of NRules.RuleModel.AndElement), System.Action(Of NRules.RuleModel.OrElement))
-  nameWithType: RuleElementExtensions.Match(GroupElement, Action<AndElement>, Action<OrElement>)
-  nameWithType.vb: RuleElementExtensions.Match(GroupElement, Action(Of AndElement), Action(Of OrElement))
-- uid: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.RuleElement,System.Action{NRules.RuleModel.PatternElement},System.Action{NRules.RuleModel.AggregateElement},System.Action{NRules.RuleModel.GroupElement},System.Action{NRules.RuleModel.ExistsElement},System.Action{NRules.RuleModel.NotElement},System.Action{NRules.RuleModel.ForAllElement})
-  name: Match(RuleElement, Action<PatternElement>, Action<AggregateElement>, Action<GroupElement>, Action<ExistsElement>, Action<NotElement>, Action<ForAllElement>)
-  href: api/NRules.RuleModel.RuleElementExtensions.html#NRules_RuleModel_RuleElementExtensions_Match_NRules_RuleModel_RuleElement_System_Action_NRules_RuleModel_PatternElement__System_Action_NRules_RuleModel_AggregateElement__System_Action_NRules_RuleModel_GroupElement__System_Action_NRules_RuleModel_ExistsElement__System_Action_NRules_RuleModel_NotElement__System_Action_NRules_RuleModel_ForAllElement__
-  commentId: M:NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.RuleElement,System.Action{NRules.RuleModel.PatternElement},System.Action{NRules.RuleModel.AggregateElement},System.Action{NRules.RuleModel.GroupElement},System.Action{NRules.RuleModel.ExistsElement},System.Action{NRules.RuleModel.NotElement},System.Action{NRules.RuleModel.ForAllElement})
-  name.vb: Match(RuleElement, Action(Of PatternElement), Action(Of AggregateElement), Action(Of GroupElement), Action(Of ExistsElement), Action(Of NotElement), Action(Of ForAllElement))
-  fullName: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.RuleElement, System.Action<NRules.RuleModel.PatternElement>, System.Action<NRules.RuleModel.AggregateElement>, System.Action<NRules.RuleModel.GroupElement>, System.Action<NRules.RuleModel.ExistsElement>, System.Action<NRules.RuleModel.NotElement>, System.Action<NRules.RuleModel.ForAllElement>)
-  fullName.vb: NRules.RuleModel.RuleElementExtensions.Match(NRules.RuleModel.RuleElement, System.Action(Of NRules.RuleModel.PatternElement), System.Action(Of NRules.RuleModel.AggregateElement), System.Action(Of NRules.RuleModel.GroupElement), System.Action(Of NRules.RuleModel.ExistsElement), System.Action(Of NRules.RuleModel.NotElement), System.Action(Of NRules.RuleModel.ForAllElement))
-  nameWithType: RuleElementExtensions.Match(RuleElement, Action<PatternElement>, Action<AggregateElement>, Action<GroupElement>, Action<ExistsElement>, Action<NotElement>, Action<ForAllElement>)
-  nameWithType.vb: RuleElementExtensions.Match(RuleElement, Action(Of PatternElement), Action(Of AggregateElement), Action(Of GroupElement), Action(Of ExistsElement), Action(Of NotElement), Action(Of ForAllElement))
-- uid: NRules.RuleModel.RuleElementExtensions.Match*
-  name: Match
-  href: api/NRules.RuleModel.RuleElementExtensions.html#NRules_RuleModel_RuleElementExtensions_Match_
-  commentId: Overload:NRules.RuleModel.RuleElementExtensions.Match
-  isSpec: "True"
-  fullName: NRules.RuleModel.RuleElementExtensions.Match
-  nameWithType: RuleElementExtensions.Match
 - uid: NRules.RuleModel.RuleElementVisitor`1
   name: RuleElementVisitor<TContext>
   href: api/NRules.RuleModel.RuleElementVisitor-1.html

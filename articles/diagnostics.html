@@ -204,10 +204,28 @@ Console.WriteLine($&quot;Node {node.Id}:{node.NodeType}. ElementCount={nodeMetri
 <p>There are two types of node metrics: those that reflect the current state of the node (e.g. <a class="xref" href="../api/NRules.Diagnostics.INodeMetrics.html#NRules_Diagnostics_INodeMetrics_ElementCount">ElementCount</a> that corresponds to the number of elements present in a memory node), and cumulative metrics that are accumulated as facts pass through the nodes. The cumulative metrics for a given node or the whole session can be reset to zero using the <a class="xref" href="../api/NRules.Diagnostics.IMetricsProvider.html#NRules_Diagnostics_IMetricsProvider_Reset">Reset()</a> method.</p>
 <pre><code class="lang-c#">session.Metrics.Reset();
 </code></pre>
-<h2 id="debugger-visualizer">Debugger Visualizer</h2>
+<h2 id="debugger-visualizer-for-vs-code">Debugger Visualizer for VS Code</h2>
+<p>Debugger visualizer is a Visual Studio Code extension that visualizes the NRules Rete network as an interactive graph during debugging. It retrieves DGML graph data from the NRules runtime via the Debug Adapter Protocol (DAP) and renders it using Cytoscape.js with automatic hierarchical layout.</p>
+<p>The extension is available at the VS Code marketplace: <a href="https://marketplace.visualstudio.com/items?itemName=nrules.vscode-nrules-visualizer">NRules Visualizer</a>. Sources are located at <a href="https://github.com/NRules/NRules.VSCode">NRules.VSCode</a>.</p>
+<p>To use debugger vsualizer, after installing the extension:</p>
+<ol>
+<li>Start a debug session for your .NET application that uses NRules.</li>
+<li>Set a breakpoint where an NRules.ISession variable is in scope.</li>
+<li>When the debugger pauses, open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P) and run one of:</li>
+</ol>
+<ul>
+<li>NRules Visualizer — to view the Rete network schema</li>
+<li>NRules Performance Visualizer — to view the Rete network with performance metrics</li>
+</ul>
+<ol start="4">
+<li>The extension automatically finds the NRules session variable in the current stack frame, extracts the DGML graph, and renders it in a webview panel.</li>
+</ol>
+<p><img src="../images/NRules-Diagnostics-VSCodeVisualizer-Schema.png" alt="Rete Graph"></p>
+<p><img src="../images/NRules-Diagnostics-VSCodeVisualizer-Tooltip.png" alt="Rete Graph"></p>
+<h2 id="debugger-visualizer-for-visual-studio">Debugger Visualizer for Visual Studio</h2>
 <p>Debugger visualiser is an add-on component for Visual Studio that adds visualization capabilities for certain .NET types.
 Debugger visualizer that comes with NRules adds such visualization capability for <a class="xref" href="../api/NRules.ISession.html">ISession</a> and <a class="xref" href="../api/NRules.ISessionFactory.html">ISessionFactory</a> types. It also requires a '<a href="http://en.wikipedia.org/wiki/DGML">DGML</a> editor' feature, which must be enabled when installing Visual Studio. Ensure <code>.dgml</code> files are properly associated with Visual Studio, so that the generated Rete graph opens correctly.</p>
-<p>NRules debugger visualiser is supported for Visual Studio 2022.</p>
+<p>NRules debugger visualiser is supported for Visual Studio 2022 and therefore is Windows only.</p>
 <p>NRules debugger visualizer is not packaged, so you need to clone NRules git repository from GitHub and build it yourself. Make sure to clone exactly the same version of the repo as the version of NRules library you are using in your project.
 To build NRules debugger visualizer, first build NRules:</p>
 <pre><code class="lang-console">build.bat

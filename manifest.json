@@ -2171,6 +2171,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/NRules-Diagnostics-VSCodeVisualizer-Schema.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Diagnostics-VSCodeVisualizer-Schema.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NRules-Diagnostics-VSCodeVisualizer-Tooltip.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NRules-Diagnostics-VSCodeVisualizer-Tooltip.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/NRules-Diagnostics-Visualizer-Performance-Tooltip.png",
       "output": {
         "resource": {
